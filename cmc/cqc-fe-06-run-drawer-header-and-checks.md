@@ -1,0 +1,72 @@
+---
+id: cqc-fe-06-run-drawer-header-and-checks
+type: feat
+status: queued
+priority: 1
+created: 2026-09-26
+model: gpt-5.6-sol
+caps: {minutes: 240, turns: 800, stallMinutes: 25}
+depends: [cqc-fe-01-drawer-keeps-keyboard-focus, cqc-fe-03-list-of-checked-los]
+attempts: []
+---
+# Clicking a row opens a run drawer that explains the verdict check by check
+
+The core of the run drawer (spec `docs/cqc/spec-cqc-fe-release-1.md`, user
+stories 28, 30–33, 35–38 and 57; "Drawer layout (drawer 1)", "Data fetching",
+"Domain rules: default focused check"). The visual reference was the (unshipped) prototype's drawer 1; the spec describes it fully.
+
+## What to build
+
+- **Service:** `GET /cqc/checks/{run_id}` (returns `run`, `metadata`, `report`
+  (playability report V1) and artefact names) and `GET /cqc/content/{lo}/runs`.
+- **URL-driven drawer.** A `lo` URL param opens the latest run of that LO in
+  the CMC `Drawer` at size md, using the focus behaviour from cqc-fe-01. The
+  list stays visible behind it and the open row is highlighted. Esc, the close
+  button or a backdrop click close it and return focus to the row button.
+- **Stale-response protection.** Detail and history are fetched together and
+  committed only if they still match the current selection.
+- **Sticky header:**
+  - "LO <id>" plus the Go1 title (`N/A` when unknown);
+  - the verdict pill;
+  - the claim strength with an explanation per level;
+  - the context line: checked date · revision · launch mode with tracking · runner;
+  - the checker summary, labelled as such, clamped to two lines with "More";
+  - the case line: open/resolved, days open, first detected, run count, partner.
+- **Check strip:** the six checks in journey order. Clicking a step scrolls
+  that check to the top, expands it with its evidence inline, and collapses the
+  others. It exposes current/pressed/expanded state.
+- **Checks tab** (the default tab, in a properly marked-up tablist):
+  - the limitations ("what the run could not observe") first, word for word and ungrouped;
+  - then each check in journey order: its reasons word for word, severity,
+    whether it counts toward the verdict, and declared vs observed values on demand.
+- **Default focused check:** the first Fail-block, else the first non-Pass.
+- The domain rule for the default focused check goes in the feature's pure
+  domain module, with a direct test.
+
+## Acceptance criteria
+
+- [ ] Clicking a row button opens the drawer, sets `lo` in the URL, and puts focus on the drawer heading.
+- [ ] Esc closes the drawer, clears the URL param and returns focus to that row button.
+- [ ] Opening a run with a Fail-block check expands that check by default; with none, the first non-Pass check.
+- [ ] Clicking a strip step expands that check with inline evidence and collapses the others, and its current state is exposed.
+- [ ] Limitations render word for word above the checks.
+- [ ] Stale-response test: open LO A, then LO B, resolve B then A. Only B renders.
+- [ ] The summary clamps with "More" and expands on click.
+- [ ] Domain test for the default focused check.
+
+## Constraints
+
+- Tests and the build run only in the factory gates (Docker, Node 14). The host has Node 25 and the sandbox has no network, so do not run `npm test`, `npm run build` or `pnpm` locally. Do not edit `package.json`, the lockfile, or the jest, webpack or tsconfig configuration.
+- Read `AGENTS.md`, `references/data-and-state.md`, the modal/information-display recipes and `references/testing.md`.
+- TypeScript 3.5 and React 16.8: no `?.`, no `??`, no `Array.flat`/`flatMap`, no `Promise.allSettled`.
+- Go1d: verify components against the installed version (see cqc-fe-03 for the stated-exception path).
+- No invented data: absent fields show `N/A`.
+
+## Verify
+
+The factory gates run tslint, jest and `npm run build` (which type-checks) in Docker `node:14.21.3`.
+
+## Blocked by
+
+- cqc-fe-01-drawer-keeps-keyboard-focus
+- cqc-fe-03-list-of-checked-los
