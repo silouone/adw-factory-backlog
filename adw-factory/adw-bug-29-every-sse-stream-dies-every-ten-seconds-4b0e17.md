@@ -6,7 +6,7 @@ priority: 1
 created: 2026-09-28
 caps: {minutes: 90, turns: 300, stallMinutes: 25}
 depends: []
-attempts: []
+attempts: [{"runId":"adw-bug-29-every-sse-stream-dies-every-ten-seconds-4b0e17-1790549494017","branch":"adw/adw-bug-29-every-sse-stream-dies-every-ten-seconds-4b0e17","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-bug-29-every-sse-stream-dies-every-ten-seconds-4b0e17-1790549494017/workspace","outcome":"in-review","pr":"https://github.com/silouone/adw-factory/pull/139","provider":"claude","model":"sonnet"}]
 ---
 # "⚠ connection lost" every 15 seconds, on every screen, forever
 
