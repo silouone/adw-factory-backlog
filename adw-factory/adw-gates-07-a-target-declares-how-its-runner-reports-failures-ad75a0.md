@@ -7,7 +7,7 @@ created: 2026-09-27
 review: false
 caps: {minutes: 150, turns: 600, stallMinutes: 25}
 depends: []
-attempts: []
+attempts: [{"runId":"adw-gates-07-a-target-declares-how-its-runner-reports-failures-ad75a0-1790545950932","branch":"adw/adw-gates-07-a-target-declares-how-its-runner-reports-failures-ad75a0","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-gates-07-a-target-declares-how-its-runner-reports-failures-ad75a0-1790545950932/workspace","outcome":"in-review","pr":"https://github.com/silouone/adw-factory/pull/138","provider":"claude","model":"sonnet"}]
 ---
 # A target declares where its runner writes a machine-readable report, so the factory stops scraping reporter prose
 
