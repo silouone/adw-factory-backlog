@@ -7,3 +7,4 @@ ticket status transitions here, so a client repository is never written to by a 
 
 - `cmc/`: Go1 Content Management Console (CQC frontend release 1)
 - `sabado/`: Sabado (`~/personal_project/SABADO/sabado`), moved from the repo's `tickets/` on 2026-09-27
+- `clens/`: cLens (`~/agent-observability-project`), moved from the repo's `tickets/` on 2026-09-27
