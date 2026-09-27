@@ -1,7 +1,7 @@
 ---
 id: sabado-25-the-built-front-boots-in-a-browser-before-it-ships
 type: feat
-status: queued
+status: in-progress
 priority: 1
 created: 2026-09-20
 caps: {minutes: 180, turns: 600, stallMinutes: 25}
