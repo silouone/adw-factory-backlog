@@ -1,12 +1,12 @@
 ---
 id: adw-bug-28-a-hopped-node-blanks-the-run-screen-7c31a9
 type: bug
-status: in-progress
+status: blocked
 priority: 1
 created: 2026-09-27
 caps: {minutes: 90, turns: 300, stallMinutes: 25}
 depends: []
-attempts: []
+attempts: [{"runId":"adw-bug-28-a-hopped-node-blanks-the-run-screen-7c31a9-1790529209718","branch":"adw/adw-bug-28-a-hopped-node-blanks-the-run-screen-7c31a9","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-bug-28-a-hopped-node-blanks-the-run-screen-7c31a9-1790529209718/workspace","outcome":"blocked","provider":"claude","model":"sonnet"}]
 ---
 # A hopped node's run screen renders nothing at all
 
