@@ -1,13 +1,13 @@
 ---
 id: adw-gates-05-jest-failures-are-named-181b39
 type: bug
-status: in-progress
+status: blocked
 priority: 1
 created: 2026-09-27
 review: false
 caps: {minutes: 90, turns: 400, stallMinutes: 25}
 depends: []
-attempts: []
+attempts: [{"runId":"adw-gates-05-jest-failures-are-named-181b39-1790529943367","branch":"adw/adw-gates-05-jest-failures-are-named-181b39","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-gates-05-jest-failures-are-named-181b39-1790529943367/workspace","outcome":"blocked","provider":"claude","model":"sonnet"}]
 ---
 # A jest gate that fails names no failing test, so the livelock check stops a converging repair loop after two rounds
 
