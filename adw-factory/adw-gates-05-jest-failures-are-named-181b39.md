@@ -55,7 +55,7 @@ Both yield `[]`. Two consequences:
       compile error still names something.
 - [ ] **R2** `parseFailingTests(stdout)` = bun ∪ pytest ∪ jest, order
       preserved; no behaviour change for bun or pytest output.
-- [ ] **R3** The livelock check must never fire on an EMPTY failing-test list
+- [ ] ~~**R3**~~ → moved to `adw-gates-06-an-unparsed-runner-cannot-trip-the-livelock-check-2c9572` on 2026-09-27 (the run declined it under Art. I; engine change, own red tests). The livelock check must never fire on an EMPTY failing-test list
       when the gate's stdout is non-empty: `gateFingerprint` includes a stable
       hash of the test gate's failure tail when `failingTests` is `[]`, so an
       unparsed runner still distinguishes "same failure" from "different
