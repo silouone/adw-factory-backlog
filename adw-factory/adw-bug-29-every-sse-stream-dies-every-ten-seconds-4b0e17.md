@@ -1,7 +1,7 @@
 ---
 id: adw-bug-29-every-sse-stream-dies-every-ten-seconds-4b0e17
 type: bug
-status: in-review
+status: done
 priority: 1
 created: 2026-09-28
 caps: {minutes: 90, turns: 300, stallMinutes: 25}
