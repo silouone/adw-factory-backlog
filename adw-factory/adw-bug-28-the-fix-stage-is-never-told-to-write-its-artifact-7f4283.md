@@ -1,7 +1,7 @@
 ---
 id: adw-bug-28-the-fix-stage-is-never-told-to-write-its-artifact-7f4283
 type: bug
-status: in-progress
+status: in-review
 priority: 1
 created: 2026-09-27
 review: false
@@ -44,5 +44,5 @@ pinned the instruction for `bug-build-test.md` only.
 
 - [x] `bun test test/pipeline/templates.test.ts` red before, green after.
 - [x] `test/pipeline/nodes/assemble-prompt.test.ts` and `test/pipeline/lanes` green.
-- [ ] `bun run lint && bunx tsc --noEmit && just test-fast` green (running).
+- [x] `bun run lint && bunx tsc --noEmit && just test-fast` green (2245 tests, 0 fail). **PR #133.**
 - [ ] The next bug-lane run's `build-fix` writes `build-fix.md` and reaches gates.
