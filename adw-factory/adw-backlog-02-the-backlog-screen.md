@@ -7,7 +7,7 @@ created: 2026-09-19
 review: true
 caps: {minutes: 150, turns: 700}
 depends: [adw-backlog-01-the-backlog-projection, adw-render-01-foundation]
-attempts: []
+attempts: [{"runId":"adw-backlog-02-the-backlog-screen-1790524715037","branch":"adw/adw-backlog-02-the-backlog-screen","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-backlog-02-the-backlog-screen-1790524715037/workspace","outcome":"in-review","pr":"https://github.com/silouone/adw-factory/pull/131","provider":"claude","model":"sonnet"}]
 ---
 # The backlog screen — a third tab, born as components
 
