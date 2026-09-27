@@ -1,7 +1,7 @@
 ---
 id: adw-backlog-02-the-backlog-screen
 type: feat
-status: in-progress
+status: in-review
 priority: 1
 created: 2026-09-19
 review: true
