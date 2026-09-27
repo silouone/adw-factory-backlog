@@ -17,6 +17,9 @@ attempts: []
 > `gateFingerprint` produced the identical string `lint:pass|test:fail[]` and
 > the engine blocked the run with *"gate outcome repeated across rounds, not
 > converging"* — without knowing whether the set of failing tests had changed.
+> **It had:** re-running the gate in the kept workspace gives round 3 = 6 failed /
+> 583 passed with a different set of names than round 2's 9 failed. The loop was
+> converging and was stopped one round early by the empty signature.
 > The repair prompt itself carried the full jest output (9 failed / 580 passed,
 > five distinct `●` names), so the agent was not blind; the **factory** was.
 > Same defect class as adw-gates-03 (pytest), one runner later. `review: false`:
