@@ -1,7 +1,7 @@
 ---
 id: adw-usage-06-a-codex-run-is-journaled-as-claude-128a3d
 type: bug
-status: queued
+status: in-progress
 priority: 1
 created: 2026-09-28
 caps: {minutes: 60, turns: 200, stallMinutes: 20}
