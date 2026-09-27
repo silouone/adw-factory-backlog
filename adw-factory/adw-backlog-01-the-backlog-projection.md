@@ -1,7 +1,7 @@
 ---
 id: adw-backlog-01-the-backlog-projection
 type: feat
-status: blocked
+status: done
 priority: 1
 created: 2026-09-19
 review: false
