@@ -1,7 +1,7 @@
 ---
 id: adw-skills-01-a-target-loads-its-own-skills-eca3a0
 type: feat
-status: in-review
+status: done
 priority: 2
 created: 2026-09-27
 caps: {minutes: 180, turns: 700, stallMinutes: 20}
