@@ -1,7 +1,7 @@
 ---
 id: adw-gates-05-jest-failures-are-named-181b39
 type: bug
-status: in-review
+status: done
 priority: 1
 created: 2026-09-27
 review: false
