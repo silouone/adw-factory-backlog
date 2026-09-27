@@ -1,7 +1,7 @@
 ---
 id: adw-store-02-migrate-the-backlog
 type: manual
-status: in-progress
+status: done
 priority: 1
 created: 2026-09-21
 depends: [adw-store-01-tickets-dir]
@@ -11,8 +11,7 @@ attempts: []
 
 > **Executed 2026-09-27 by hand** (the runbook below): sabado 16 → `sabado/`, clens 13 → `clens/`,
 > adw-factory 202 → `adw-factory/`; all three targets carry `ticketsDir`. claude-home has no
-> tickets dir. Left: `adw-skills-01-…-eca3a0.md` stays in the code repo until its live run
-> ends, then moves; this ticket flips to `done` at that moment. `type` restored to `manual`
+> tickets dir. The last file, `adw-skills-01-…-eca3a0.md`, moved after its run went green (17:10Z). `type` restored to `manual`
 > (a wip commit had set `chore`; the "Why this is not a factory run" section still holds).
 
 > **`type: manual` — operator-executed.** `RESERVED_OPERATOR_TYPES = ["manual"]`
