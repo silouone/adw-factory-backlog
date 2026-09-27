@@ -1,13 +1,13 @@
 ---
 id: cqc-fe-01-drawer-keeps-keyboard-focus
 type: feat
-status: in-progress
+status: blocked
 priority: 1
 created: 2026-09-26
 model: gpt-5.6-sol
 caps: {minutes: 180, turns: 600, stallMinutes: 25}
 depends: []
-attempts: []
+attempts: [{"runId":"cqc-fe-01-drawer-keeps-keyboard-focus-1790532937437","branch":"adw/cqc-fe-01-drawer-keeps-keyboard-focus-2","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-01-drawer-keeps-keyboard-focus-1790532937437/workspace","outcome":"blocked","provider":"codex","model":"gpt-5.6-sol"}]
 ---
 # The CMC Drawer keeps keyboard focus where a keyboard user expects it
 
