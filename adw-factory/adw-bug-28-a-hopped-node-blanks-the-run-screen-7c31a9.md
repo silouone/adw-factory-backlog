@@ -1,7 +1,7 @@
 ---
 id: adw-bug-28-a-hopped-node-blanks-the-run-screen-7c31a9
 type: bug
-status: queued
+status: in-progress
 priority: 1
 created: 2026-09-27
 caps: {minutes: 90, turns: 300, stallMinutes: 25}
