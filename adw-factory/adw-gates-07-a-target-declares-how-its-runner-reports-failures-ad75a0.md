@@ -1,7 +1,7 @@
 ---
 id: adw-gates-07-a-target-declares-how-its-runner-reports-failures-ad75a0
 type: feat
-status: in-review
+status: done
 priority: 2
 created: 2026-09-27
 review: false
