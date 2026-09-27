@@ -7,7 +7,7 @@ created: 2026-09-27
 review: false
 caps: {minutes: 90, turns: 400, stallMinutes: 25}
 depends: [adw-gates-05-jest-failures-are-named-181b39]
-attempts: []
+attempts: [{"runId":"adw-gates-06-an-unparsed-runner-cannot-trip-the-livelock-check-2c9572-1790538681667","branch":"adw/adw-gates-06-an-unparsed-runner-cannot-trip-the-livelock-check-2c9572","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-gates-06-an-unparsed-runner-cannot-trip-the-livelock-check-2c9572-1790538681667/workspace","outcome":"in-review","pr":"https://github.com/silouone/adw-factory/pull/136","provider":"claude","model":"sonnet"}]
 ---
 # An unparsed test runner must not be able to trip the repair loop's livelock check
 
