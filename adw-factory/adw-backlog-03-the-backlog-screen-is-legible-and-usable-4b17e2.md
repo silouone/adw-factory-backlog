@@ -1,7 +1,7 @@
 ---
 id: adw-backlog-03-the-backlog-screen-is-legible-and-usable-4b17e2
 type: feat
-status: in-review
+status: in-progress
 priority: 1
 created: 2026-09-27
 review: true
@@ -85,6 +85,14 @@ attempts: []
 - [ ] **R9** Keyboard: j/k move, Enter opens, Esc closes, focus returns to the row.
 - [ ] **R10** Tests assert **visible output** (text, and a CSS rule exists for every
       class rendered), not only class names (the backlog-02 audit lesson).
+- [ ] **R11** (operator, 2026-09-27, after reviewing PR #135): **one unified
+      header**. The Board and Backlog tabs always sit in the same place, on
+      every screen (the run screen included, as plain links). Switching tabs
+      happens client-side: the header element persists, and only its context
+      area and the screen below it change. Each route keeps its own query
+      (Backlog filters, Board `days`), Back/Forward switch tabs, and exactly
+      one data stream is live (the active route's). `/` and `/backlog` serve
+      one stylesheet, with backlog rules scoped so they never restyle the board.
 
 ### Refinement notes (variant A specifics)
 - **Layout A:** state-major sections (blocked, waiting, ready, running,
