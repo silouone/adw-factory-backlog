@@ -1,7 +1,7 @@
 ---
 id: adw-backlog-03-the-backlog-screen-is-legible-and-usable-4b17e2
 type: feat
-status: queued
+status: in-progress
 priority: 1
 created: 2026-09-27
 review: true
@@ -11,10 +11,12 @@ attempts: []
 ---
 # The backlog screen is legible and usable: a design pass on a raw first cut
 
-> **Refine at pickup.** A design direction must be prototyped and approved by the
-> operator before this goes `in-progress` (tickets/README.md step 3). Suggested:
-> one throwaway prototype on the real `<Backlog/>` with real `/backlog.json`
-> data (the `.proto/lazy/` pattern), 2–3 layout variants, operator picks one.
+> **Refined 2026-09-27: the operator picked variant A ("ledger").** Three
+> variants were prototyped on real `/backlog.json` data in
+> `.proto/backlog/` (A ledger table · B cards · C master/detail triage), plus
+> `?v=0` showing today's screen. Operator: "let's go for A, this is good
+> enough, build it right there". Built in-session, not dispatched.
+> The prototype is the visual reference for the verify step.
 
 > **Evidence, operator screenshot 2026-09-27 20:12** (post-#131 + audit fixes
 > PR): "backlog is VERY RAW, UI is very bad and then UX as well". adw-v1.14
@@ -58,7 +60,7 @@ attempts: []
 12. **No keyboard navigation** (j/k, Enter to open, Esc to close), no focus
     management in the panel.
 
-## Requirements (to be finalised at refinement)
+## Requirements (finalised 2026-09-27, variant A)
 
 - [ ] **R1** The approved design direction is implemented in `src/web/ui/` with
       the board's shared theme and components (styled buttons, chips, badges,
@@ -82,6 +84,28 @@ attempts: []
 - [ ] **R9** Keyboard: j/k move, Enter opens, Esc closes, focus returns to the row.
 - [ ] **R10** Tests assert **visible output** (text, and a CSS rule exists for every
       class rendered), not only class names (the backlog-02 audit lesson).
+
+### Refinement notes (variant A specifics)
+- **Layout A:** state-major sections (blocked, waiting, ready, running,
+  in-flight, other, closed) in the board's `.grp` language with a count badge;
+  a sticky column header; one grid row per ticket; the row panel slides in
+  from the right. Drift rows stay in their own state section, flagged `⚠`.
+- **R6 data:** `RunView.reason` (the verbatim `run-end.reason`) is joined onto
+  the row by `lastRunId` in `loadBacklog`. If the run was pruned or never
+  ended, the row shows an honest "no run-end reason recorded".
+  `waitsOn` is `deps.filter(!met)`, taken in `backlog-groups.ts`.
+- **R7 data:** `drift` is derived in `loadBacklog`. It is time-free, so an
+  idle backlog still pushes 0 bytes (v1.14 §8.4).
+  `BacklogProject.provider` feeds the dispatch line: `just run-codex` for
+  codex targets.
+- **URL state** merges into the existing query and never drops `token`.
+  Keyboard handlers are mounted only by `<Backlog/>` (the bundle is shared
+  across screens) and ignore meta, ctrl and alt.
+- **Markdown (R8)** fixes go in the shared `mdToHtml`. Every new class also
+  gets a `runCss()` rule.
+- **Spec:** v1.14 gets a change-log amendment covering the new §4 fields,
+  D1 "by default" (filters are opt-in), and §8.1 (the store-less line moves
+  behind the R3 toggle; the projection still yields one per target).
 
 ## Verify
 - `bun run lint && bunx tsc --noEmit && bun run test`.
