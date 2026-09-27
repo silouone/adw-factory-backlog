@@ -1,7 +1,7 @@
 ---
 id: adw-gates-06-an-unparsed-runner-cannot-trip-the-livelock-check-2c9572
 type: bug
-status: in-progress
+status: in-review
 priority: 2
 created: 2026-09-27
 review: false
