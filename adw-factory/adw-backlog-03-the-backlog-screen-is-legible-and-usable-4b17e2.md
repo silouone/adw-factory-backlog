@@ -1,7 +1,7 @@
 ---
 id: adw-backlog-03-the-backlog-screen-is-legible-and-usable-4b17e2
 type: feat
-status: in-progress
+status: in-review
 priority: 1
 created: 2026-09-27
 review: true
@@ -17,7 +17,7 @@ attempts: []
 > `?v=0` showing today's screen. Operator: "let's go for A, this is good
 > enough, build it right there". Built in-session, not dispatched.
 > The prototype is the visual reference for the verify step.
-> **Built 2026-09-27 → PR #135** (hand-built, so `attempts:` stays empty).
+> **Built 2026-09-27 → PR #135 (merged); R11 → PR #137** (hand-built, so `attempts:` stays empty).
 
 > **Evidence, operator screenshot 2026-09-27 20:12** (post-#131 + audit fixes
 > PR): "backlog is VERY RAW, UI is very bad and then UX as well". adw-v1.14
