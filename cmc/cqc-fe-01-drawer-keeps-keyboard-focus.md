@@ -1,7 +1,7 @@
 ---
 id: cqc-fe-01-drawer-keeps-keyboard-focus
 type: feat
-status: blocked
+status: queued
 priority: 1
 created: 2026-09-26
 model: gpt-5.6-sol
@@ -52,6 +52,16 @@ behaviour and their tests stay green.
   `references/testing.md`, `verification.md`).
 - TypeScript 3.5 and React 16.8: no `?.`, no `??`, no `Array.flat`/`flatMap`, no `Promise.allSettled`.
 - No new dependency.
+- **TS 3.5 has no `keyCode` on `KeyboardEventInit`.** Measured on attempt 2
+  (`…-1790532937437`), where the suite never ran at all.
+  `fireEvent.keyDown(el, { key: "Tab", keyCode: 9 })` fails
+  to compile with `TS2345: 'keyCode' does not exist in type
+  'KeyboardEventInit'`, and a suite that does not compile reports **no** failing
+  test names. The `Drawer` handler reads `event.key === "Tab" || event.keyCode
+  === 9`, so **`{ key: "Tab" }` alone is sufficient** — omit `keyCode` from
+  every `fireEvent` init object rather than casting.
+- tslint enforces `prefer-for-of`: no indexed `for` loop over a simple
+  iteration (attempt 1 round 1 failed on exactly this in `Drawer/index.tsx`).
 
 ## Verify
 
