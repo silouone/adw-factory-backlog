@@ -1,7 +1,7 @@
 ---
 id: adw-gates-05-jest-failures-are-named-181b39
 type: bug
-status: blocked
+status: in-review
 priority: 1
 created: 2026-09-27
 review: false
@@ -71,6 +71,8 @@ Both yield `[]`. Two consequences:
       tails → different fingerprints; identical tails → identical.
 - [ ] Existing gates/baseline/red-check/engine suites green unmodified.
 - [ ] `bun run lint && bunx tsc --noEmit && bun test` — green.
+
+> **In review as PR #132** (salvaged by hand from the blocked run's workspace; R1/R2 only, R3 → adw-gates-06).
 
 ## After it lands
 
