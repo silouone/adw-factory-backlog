@@ -1,13 +1,13 @@
 ---
 id: cqc-fe-10-trigger-checks
 type: feat
-status: in-progress
+status: blocked
 priority: 2
 created: 2026-09-26
 model: gpt-5.6-sol
 caps: {minutes: 240, turns: 800, stallMinutes: 25}
 depends: [cqc-fe-04-row-facts, cqc-fe-06-run-drawer-header-and-checks]
-attempts: [{"runId":"cqc-fe-10-trigger-checks-1790612910173","branch":"adw/cqc-fe-10-trigger-checks","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-10-trigger-checks-1790612910173/workspace","outcome":"blocked","provider":"codex","model":"gpt-5.6-sol"}]
+attempts: [{"runId":"cqc-fe-10-trigger-checks-1790612910173","branch":"adw/cqc-fe-10-trigger-checks","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-10-trigger-checks-1790612910173/workspace","outcome":"blocked","provider":"codex","model":"gpt-5.6-sol"},{"runId":"cqc-fe-10-trigger-checks-1790621407480","branch":"adw/cqc-fe-10-trigger-checks-2","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-10-trigger-checks-1790621407480/workspace","outcome":"blocked","provider":"codex","model":"gpt-5.6-sol"}]
 ---
 # Staff paste LO ids from Slack to trigger checks, and re-run a check from a row or the drawer
 
