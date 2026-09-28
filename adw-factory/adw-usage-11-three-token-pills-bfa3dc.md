@@ -1,7 +1,7 @@
 ---
 id: adw-usage-11-three-token-pills-bfa3dc
 type: bug
-status: queued
+status: in-progress
 priority: 1
 created: 2026-09-28
 caps: {minutes: 90, turns: 300, stallMinutes: 20}
