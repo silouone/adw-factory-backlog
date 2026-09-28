@@ -1,7 +1,7 @@
 ---
 id: sabado-27-the-built-front-can-talk-to-a-real-backend-acabfa
 type: chore
-status: queued
+status: in-progress
 priority: 1
 created: 2026-09-28
 caps: {minutes: 120, turns: 400, stallMinutes: 25}
