@@ -1,7 +1,7 @@
 ---
 id: sabado-29-every-pr-walks-a-real-browser-through-a-real-backend-a98ee9
 type: feat
-status: queued
+status: in-progress
 priority: 1
 created: 2026-09-28
 caps: {minutes: 240, turns: 1000, stallMinutes: 25}
