@@ -7,7 +7,7 @@ created: 2026-09-26
 model: gpt-5.6-sol
 caps: {minutes: 180, turns: 600, stallMinutes: 25}
 depends: [cqc-fe-03-list-of-checked-los]
-attempts: []
+attempts: [{"runId":"cqc-fe-04-row-facts-1790603188103","branch":"adw/cqc-fe-04-row-facts","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-04-row-facts-1790603188103/workspace","outcome":"in-review","pr":"https://github.com/go1com/domain-content-content-management-console/pull/139","provider":"codex","model":"gpt-5.6-sol"}]
 ---
 # Each Content quality row tells staff how old, how stale and how connected the problem is
 
