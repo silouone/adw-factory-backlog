@@ -1,7 +1,7 @@
 ---
 id: cqc-be-07-backfill-a-legacy-run-import-run-4fba2f
 type: feat
-status: queued
+status: in-progress
 priority: 1
 created: 2026-09-28
 model: gpt-5.6-sol
