@@ -1,7 +1,7 @@
 ---
 id: adw-graph-02-the-dependency-model-in-the-projection-e146f2
 type: feat
-status: queued
+status: in-progress
 priority: 1
 created: 2026-09-28
 review: false
