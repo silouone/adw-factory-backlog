@@ -1,7 +1,7 @@
 ---
 id: cqc-be-04-list-checked-los-get-content-961b88
 type: feat
-status: in-review
+status: done
 priority: 1
 created: 2026-09-28
 model: gpt-5.6-sol
