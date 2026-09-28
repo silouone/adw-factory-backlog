@@ -1,7 +1,7 @@
 ---
 id: adw-card-01-the-token-pills-collapse-to-one-b1b3c9
 type: chore
-status: in-progress
+status: in-review
 priority: 1
 created: 2026-09-28
 caps: {minutes: 60, turns: 200, stallMinutes: 15}
