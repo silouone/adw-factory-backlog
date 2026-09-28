@@ -6,7 +6,7 @@ priority: 1
 created: 2026-09-28
 caps: {minutes: 60, turns: 200, stallMinutes: 15}
 depends: []
-attempts: []
+attempts: [{"runId":"adw-card-01-the-token-pills-collapse-to-one-b1b3c9-1790609130207","branch":"adw/adw-card-01-the-token-pills-collapse-to-one-b1b3c9","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-card-01-the-token-pills-collapse-to-one-b1b3c9-1790609130207/workspace","outcome":"in-review","pr":"https://github.com/silouone/adw-factory/pull/148","provider":"claude","model":"sonnet"}]
 ---
 # The board card's token row reads as noise — collapse three pills into one
 
