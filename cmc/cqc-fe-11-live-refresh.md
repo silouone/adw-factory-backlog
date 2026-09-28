@@ -7,7 +7,7 @@ created: 2026-09-26
 model: gpt-5.6-sol
 caps: {minutes: 180, turns: 600, stallMinutes: 25}
 depends: [cqc-fe-04-row-facts, cqc-fe-06-run-drawer-header-and-checks]
-attempts: [{"runId":"cqc-fe-11-live-refresh-1790612922802","branch":"adw/cqc-fe-11-live-refresh","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-11-live-refresh-1790612922802/workspace","outcome":"blocked","provider":"codex","model":"gpt-5.6-sol"}]
+attempts: [{"runId":"cqc-fe-11-live-refresh-1790612922802","branch":"adw/cqc-fe-11-live-refresh","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-11-live-refresh-1790612922802/workspace","outcome":"blocked","provider":"codex","model":"gpt-5.6-sol"},{"runId":"cqc-fe-11-live-refresh-1790632196966","branch":"adw/cqc-fe-11-live-refresh-2","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-11-live-refresh-1790632196966/workspace","outcome":"in-review","pr":"https://github.com/go1com/domain-content-content-management-console/pull/145","provider":"codex","model":"gpt-5.6-sol"}]
 ---
 # The list and the open drawer refresh themselves while a check is running
 
