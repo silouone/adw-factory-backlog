@@ -1,4 +1,5 @@
 ---
+attempts: [{"runId":"adw-usage-06-a-codex-run-is-journaled-as-claude-128a3d-1790553521322","branch":"adw/adw-usage-06-a-codex-run-is-journaled-as-claude-128a3d","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-usage-06-a-codex-run-is-journaled-as-claude-128a3d-1790553521322/workspace","outcome":"in-review","pr":"https://github.com/silouone/adw-factory/pull/140","provider":"claude","model":"sonnet"}]
 id: adw-usage-06-a-codex-run-is-journaled-as-claude-128a3d
 type: bug
 status: in-progress
