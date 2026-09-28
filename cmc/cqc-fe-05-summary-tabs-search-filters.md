@@ -1,7 +1,7 @@
 ---
 id: cqc-fe-05-summary-tabs-search-filters
 type: feat
-status: queued
+status: in-progress
 priority: 2
 created: 2026-09-26
 model: gpt-5.6-sol
