@@ -1,7 +1,7 @@
 ---
 id: adw-board-04-filter-the-board-down-to-what-is-running-5c7ad0
 type: feat
-status: queued
+status: in-progress
 priority: 1
 created: 2026-09-28
 caps: {minutes: 90, turns: 400, stallMinutes: 20}
