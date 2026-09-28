@@ -6,7 +6,7 @@ priority: 1
 created: 2026-09-20
 caps: {minutes: 180, turns: 600, stallMinutes: 25}
 depends: []
-attempts: []
+attempts: [{"runId":"sabado-25-the-built-front-boots-in-a-browser-before-it-ships-1790550894588","branch":"adw/sabado-25-the-built-front-boots-in-a-browser-before-it-ships-2","workspace":"/Users/silouane/personal_project/adw-factory/runs/sabado-25-the-built-front-boots-in-a-browser-before-it-ships-1790550894588/workspace","outcome":"in-review","pr":"https://github.com/App-sabado/sabado/pull/1310","provider":"claude","model":"sonnet"}]
 ---
 # test(front): the built bundle boots in a real browser, in CI and as a factory gate, so a blank page never reaches staging again
 
