@@ -1,7 +1,7 @@
 ---
 id: adw-pr-02-one-github-read-per-target
 type: feat
-status: blocked
+status: queued
 priority: 2
 created: 2026-09-17
 caps: {minutes: 150, turns: 800}
