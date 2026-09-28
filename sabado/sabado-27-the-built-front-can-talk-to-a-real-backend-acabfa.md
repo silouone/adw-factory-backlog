@@ -6,7 +6,7 @@ priority: 1
 created: 2026-09-28
 caps: {minutes: 120, turns: 400, stallMinutes: 25}
 depends: []
-attempts: []
+attempts: [{"runId":"sabado-27-the-built-front-can-talk-to-a-real-backend-acabfa-1790593594157","branch":"adw/sabado-27-the-built-front-can-talk-to-a-real-backend-acabfa","workspace":"/Users/silouane/personal_project/adw-factory/runs/sabado-27-the-built-front-can-talk-to-a-real-backend-acabfa-1790593594157/workspace","outcome":"in-review","pr":"https://github.com/App-sabado/sabado/pull/1311","provider":"claude","model":"sonnet"}]
 ---
 # test(e2e): the built front can talk to a real backend, so a journey can be written at all
 
