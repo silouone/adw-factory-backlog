@@ -1,4 +1,5 @@
 ---
+attempts: [{"runId":"adw-usage-10-split-input-output-tokens-560d93-1790580470326","branch":"adw/adw-usage-10-split-input-output-tokens-560d93","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-usage-10-split-input-output-tokens-560d93-1790580470326/workspace","outcome":"in-review","pr":"https://github.com/silouone/adw-factory/pull/141","provider":"claude","model":"sonnet"}]
 id: adw-usage-10-split-input-output-tokens-560d93
 type: feat
 status: in-progress
