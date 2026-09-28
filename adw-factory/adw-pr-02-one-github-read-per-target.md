@@ -163,3 +163,16 @@ Bank a real `gh pr list` payload from this repo as the fixture.
 All rendering — Stage 3 (`adw-pr-03`). Per-PR `gh pr view` for review
 *feedback text* (deferred in the spec). Journaling the PR URL on `open-pr`
 (worth its own ticket; the branch join makes it unnecessary here).
+
+## ⚠️ Operator note, 2026-09-28: the in-flight attempt drains the GitHub quota
+
+The attempt `…-1790621530922` adds `defaultPrIndexGh` (a real
+`Bun.spawn(["gh", …])`) as the `startWebServer` default. The existing
+`test/web/server.test.ts` calls don't inject `prIndexGh`, so every
+`bun test` hits live GitHub for every target.
+
+- It drove GraphQL to 0/5000 and blocked two other runs at `open-pr`.
+- **Review gate for its PR:** every `startWebServer` call in tests must
+  inject `prIndexGh`.
+- The suite-level guard is `adw-gh-01-the-suite-never-reaches-real-github`.
+

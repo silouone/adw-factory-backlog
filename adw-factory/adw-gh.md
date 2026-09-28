@@ -30,6 +30,13 @@ $29, thrown into `blocked` by a quota that reset about an hour later. The
 operator salvaged both by hand (PRs #153, cmc#144).
 
 **Who burned the quota:** the in-flight `adw-pr-02` run's own test suite.
+Evidence strength:
+
+- **Observed at 20:46Z:** `gh` processes whose parent was that worktree's
+  `bun test`.
+- **Inferred for the two failure windows (20:11–20:13Z, 20:33–20:36Z):**
+  the run was in `build` (19:51–20:49Z), where the agent runs `bun test`.
+- `main` has no PR-index poller, so the `adw web` boards are ruled out.
 Its new PR-index wiring defaults to a real `gh` spawn
 (`defaultPrIndexGh`, `src/web/server.ts:469` in that run's worktree), and
 the existing `startWebServer(...)` tests don't inject `prIndexGh`. So every
