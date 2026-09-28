@@ -1,7 +1,7 @@
 ---
 id: adw-learn-01-bank-the-native-transcript-42ef45
 type: feat
-status: queued
+status: in-progress
 priority: 2
 created: 2026-09-28
 review: false
