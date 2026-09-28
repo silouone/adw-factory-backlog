@@ -7,7 +7,7 @@ created: 2026-09-28
 review: true
 caps: {minutes: 180, turns: 700, stallMinutes: 25}
 depends: [adw-graph-02-the-dependency-model-in-the-projection-e146f2]
-attempts: []
+attempts: [{"runId":"adw-graph-03-the-layered-graph-component-aae152-1790632621941","branch":"adw/adw-graph-03-the-layered-graph-component-aae152","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-graph-03-the-layered-graph-component-aae152-1790632621941/workspace","outcome":"in-review","pr":"https://github.com/silouone/adw-factory/pull/155","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # `<DepGraph/>`: the project's waves as columns, edges that never cross a card
 
