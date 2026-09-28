@@ -1,7 +1,7 @@
 ---
 id: adw-usage-09-spend-by-provider-bc23c8
 type: feat
-status: queued
+status: in-progress
 priority: 2
 created: 2026-09-28
 caps: {minutes: 120, turns: 400, stallMinutes: 25}
