@@ -38,14 +38,21 @@ hides runnable work behind an edge that is already satisfied — the same damage
 
 **Measured target set, 2026-09-28** (resolved `ticketsDir`, existence checked):
 
-| target | tickets dir | tickets | in-review |
+| target | tickets dir | tickets | in-review (of which carry a recorded PR) |
 |---|---|---|---|
-| adw-factory | `~/adw/backlog/adw-factory` | 223 | 2 |
-| clens | `~/adw/backlog/clens` | 14 | 2 |
+| adw-factory | `~/adw/backlog/adw-factory` | 223 | 2 (0) |
+| clens | `~/adw/backlog/clens` | 14 | 2 (0) |
 | cmc | `~/adw/backlog/cmc` | 13 | 0 |
 | content-quality-checker | `~/adw/backlog/cqc` | 13 | 0 |
 | sabado | `~/adw/backlog/sabado` | 22 | 0 |
 | api-content, bricklane-persona-hooks, claude-home, coorpacademy, coorpacademy-lambda, coorpacademy-oplog, serverless-plugins, translated-language-service | `<repo>/tickets` | — | **dir does not exist** |
+
+Read the last column carefully: **this sweep would close zero tickets today.**
+All four currently-`in-review` tickets were opened outside a factory run, so
+`recordedPr` (`attempts[].pr`) finds nothing and `syncPrState` skips them — see
+Out of scope. That is a *separate* gap, and it does not weaken this ticket: a
+PR opened by a lane always records its number, and those are exactly the PRs
+the operator merges and then watches go stale.
 
 **5 of 13** target configs resolve to a ticket store that exists. The other 8
 fall back to `<repo>/tickets` and have none. A naive loop over `targets/*.json`
@@ -82,11 +89,16 @@ Two facts checked so they do not become surprises during the build:
       continues. This is a deliberate narrowing of `adw-sync-01`'s
       "propagate, don't catch" contract, and applies **only** to the
       `--all-targets` path — `adw sync --target X` keeps propagating exactly
-      as it does today.
+      as it does today. **Operator-approval gate (CLAUDE.md amendment rule):**
+      this narrowing must be blessed before the ticket goes `in-progress`, or
+      the builder is obliged to stop and propose the amendment instead of
+      building. Stamp it here when granted.
 - [ ] Exit code: `EXIT_GREEN` (0) when every eligible target completed —
       skips alone never make it non-zero; `EXIT_BLOCKED` (1) when at least one
       eligible target failed. A launchd/cron job reads this, so it is part of
-      the contract, not an implementation detail.
+      the contract, not an implementation detail. (`EXIT_BLOCKED` is being
+      *repurposed* here — it means "the run ended blocked" everywhere else.
+      Proposed, not settled; overrule with a dedicated code if preferred.)
 - [ ] `--dry-run` composes with `--all-targets` and stays total: no commit on
       any target, MERGED/CLOSED outcomes still carry `dryRun: true`.
 - [ ] The report stays the one `makeSyncReport`/`syncLine` already render
