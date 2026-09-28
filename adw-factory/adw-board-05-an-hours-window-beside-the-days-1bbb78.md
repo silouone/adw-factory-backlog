@@ -1,12 +1,12 @@
 ---
 id: adw-board-05-an-hours-window-beside-the-days-1bbb78
 type: feat
-status: in-progress
+status: blocked
 priority: 2
 created: 2026-09-28
 caps: {minutes: 120, turns: 500, stallMinutes: 20}
 depends: []
-attempts: []
+attempts: [{"runId":"adw-board-05-an-hours-window-beside-the-days-1bbb78-1790610062532","branch":"adw/adw-board-05-an-hours-window-beside-the-days-1bbb78","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-board-05-an-hours-window-beside-the-days-1bbb78-1790610062532/workspace","outcome":"blocked","provider":"claude","model":"sonnet"}]
 ---
 # The narrowest board window is a whole day — too wide for one working session
 
