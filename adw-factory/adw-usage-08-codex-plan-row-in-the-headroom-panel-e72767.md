@@ -1,4 +1,5 @@
 ---
+attempts: [{"runId":"adw-usage-08-codex-plan-row-in-the-headroom-panel-e72767-1790589259037","branch":"adw/adw-usage-08-codex-plan-row-in-the-headroom-panel-e72767","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-usage-08-codex-plan-row-in-the-headroom-panel-e72767-1790589259037/workspace","outcome":"in-review","pr":"https://github.com/silouone/adw-factory/pull/144","provider":"claude","model":"sonnet"}]
 id: adw-usage-08-codex-plan-row-in-the-headroom-panel-e72767
 type: feat
 status: in-progress
