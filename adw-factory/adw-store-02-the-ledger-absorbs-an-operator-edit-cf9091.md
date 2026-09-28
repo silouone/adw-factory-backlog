@@ -1,13 +1,13 @@
 ---
 id: adw-store-02-the-ledger-absorbs-an-operator-edit-cf9091
 type: feat
-status: in-progress
+status: blocked
 priority: 2
 created: 2026-09-28
 review: false
 caps: {minutes: 90, turns: 400, stallMinutes: 25}
 depends: []
-attempts: []
+attempts: [{"runId":"adw-store-02-the-ledger-absorbs-an-operator-edit-cf9091-1790621998954","branch":"adw/adw-store-02-the-ledger-absorbs-an-operator-edit-cf9091","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-store-02-the-ledger-absorbs-an-operator-edit-cf9091-1790621998954/workspace","outcome":"blocked","provider":"claude","model":"sonnet"}]
 ---
 # A hand-edited ticket does not need a manual commit before it can be dispatched
 
