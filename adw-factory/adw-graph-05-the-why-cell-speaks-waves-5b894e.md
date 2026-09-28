@@ -5,7 +5,7 @@ status: queued
 priority: 1
 created: 2026-09-28
 review: true
-caps: {minutes: 90, turns: 350, stallMinutes: 20}
+caps: {minutes: 180, turns: 350, stallMinutes: 20}
 depends: [adw-graph-02-the-dependency-model-in-the-projection-e146f2, adw-graph-04-the-graph-drawer-661279]
 attempts: []
 ---

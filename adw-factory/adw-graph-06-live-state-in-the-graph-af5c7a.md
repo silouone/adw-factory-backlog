@@ -5,7 +5,7 @@ status: queued
 priority: 2
 created: 2026-09-28
 review: true
-caps: {minutes: 120, turns: 450, stallMinutes: 20}
+caps: {minutes: 180, turns: 450, stallMinutes: 20}
 depends: [adw-graph-03-the-layered-graph-component-aae152]
 attempts: []
 ---

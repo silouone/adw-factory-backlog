@@ -5,7 +5,7 @@ type: feat
 status: blocked
 priority: 2
 created: 2026-09-28
-caps: {minutes: 120, turns: 400, stallMinutes: 25}
+caps: {minutes: 180, turns: 400, stallMinutes: 25}
 depends: [adw-usage-06-a-codex-run-is-journaled-as-claude-128a3d, adw-usage-07-price-codex-runs-and-journal-the-rate-713388, adw-usage-08-codex-plan-row-in-the-headroom-panel-e72767]
 ---
 # Spend by provider: Claude vs Codex, 24h and 7d

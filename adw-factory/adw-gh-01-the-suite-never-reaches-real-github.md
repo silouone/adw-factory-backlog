@@ -4,7 +4,7 @@ type: bug
 status: queued
 priority: 1
 created: 2026-09-28
-caps: {minutes: 120, turns: 400, stallMinutes: 25}
+caps: {minutes: 180, turns: 400, stallMinutes: 25}
 depends: []
 attempts: []
 ---

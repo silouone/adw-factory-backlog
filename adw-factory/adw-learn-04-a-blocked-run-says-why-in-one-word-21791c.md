@@ -5,7 +5,7 @@ status: blocked
 priority: 2
 created: 2026-09-28
 review: false
-caps: {minutes: 120, turns: 500, stallMinutes: 25}
+caps: {minutes: 180, turns: 500, stallMinutes: 25}
 depends: []
 attempts: [{"runId":"adw-learn-04-a-blocked-run-says-why-in-one-word-21791c-1790621544351","branch":"adw/adw-learn-04-a-blocked-run-says-why-in-one-word-21791c","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-learn-04-a-blocked-run-says-why-in-one-word-21791c-1790621544351/workspace","outcome":"blocked","provider":"claude","model":"sonnet"}]
 ---

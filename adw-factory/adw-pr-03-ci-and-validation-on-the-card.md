@@ -4,7 +4,7 @@ type: feat
 status: queued
 priority: 2
 created: 2026-09-17
-caps: {minutes: 120, turns: 600}
+caps: {minutes: 180, turns: 600}
 depends: [adw-pr-02-one-github-read-per-target]
 attempts: []
 ---

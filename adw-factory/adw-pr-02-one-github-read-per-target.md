@@ -4,7 +4,7 @@ type: feat
 status: blocked
 priority: 2
 created: 2026-09-17
-caps: {minutes: 150, turns: 800}
+caps: {minutes: 180, turns: 800}
 depends: [adw-pr-01-resolve-a-card-to-its-pull-request]
 attempts: [{"runId":"adw-pr-02-one-github-read-per-target-1789738866494","branch":"adw/adw-pr-02-one-github-read-per-target","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-pr-02-one-github-read-per-target-1789738866494/workspace","outcome":"blocked","provider":"claude","model":"sonnet"},{"runId":"adw-pr-02-one-github-read-per-target-1790610114317","branch":"adw/adw-pr-02-one-github-read-per-target","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-pr-02-one-github-read-per-target-1790610114317/workspace","outcome":"blocked","provider":"claude","model":"sonnet"},{"runId":"adw-pr-02-one-github-read-per-target-1790621530922","branch":"adw/adw-pr-02-one-github-read-per-target-2","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-pr-02-one-github-read-per-target-1790621530922/workspace","outcome":"blocked","provider":"claude","model":"sonnet"}]
 ---
