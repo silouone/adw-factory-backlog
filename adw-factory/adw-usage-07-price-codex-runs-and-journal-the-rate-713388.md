@@ -1,7 +1,7 @@
 ---
 id: adw-usage-07-price-codex-runs-and-journal-the-rate-713388
 type: feat
-status: queued
+status: in-progress
 priority: 1
 created: 2026-09-28
 caps: {minutes: 150, turns: 500, stallMinutes: 25}
