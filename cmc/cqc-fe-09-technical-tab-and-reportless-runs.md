@@ -1,7 +1,7 @@
 ---
 id: cqc-fe-09-technical-tab-and-reportless-runs
 type: feat
-status: queued
+status: in-progress
 priority: 3
 created: 2026-09-26
 model: gpt-5.6-sol
