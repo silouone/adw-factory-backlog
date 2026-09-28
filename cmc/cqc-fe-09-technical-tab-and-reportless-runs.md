@@ -7,7 +7,7 @@ created: 2026-09-26
 model: gpt-5.6-sol
 caps: {minutes: 180, turns: 600, stallMinutes: 25}
 depends: [cqc-fe-07-drawer-navigation-runs-sharing]
-attempts: []
+attempts: [{"runId":"cqc-fe-09-technical-tab-and-reportless-runs-1790621422976","branch":"adw/cqc-fe-09-technical-tab-and-reportless-runs","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-09-technical-tab-and-reportless-runs-1790621422976/workspace","outcome":"in-review","pr":"https://github.com/go1com/domain-content-content-management-console/pull/143","provider":"codex","model":"gpt-5.6-sol"}]
 ---
 # Engineers debug a run from its Technical tab, even when the run produced no report
 
