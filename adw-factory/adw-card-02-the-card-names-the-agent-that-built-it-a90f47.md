@@ -1,7 +1,7 @@
 ---
 id: adw-card-02-the-card-names-the-agent-that-built-it-a90f47
 type: feat
-status: blocked
+status: in-review
 priority: 1
 created: 2026-09-28
 caps: {minutes: 90, turns: 300, stallMinutes: 20}
