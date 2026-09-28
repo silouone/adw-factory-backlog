@@ -4,6 +4,7 @@ type: feat
 status: queued
 priority: 2
 created: 2026-09-28
+model: gpt-5.6-sol
 caps: {minutes: 120, turns: 500, stallMinutes: 25}
 depends: [cqc-be-03-published-run-becomes-a-row-projector-125f20]
 attempts: []

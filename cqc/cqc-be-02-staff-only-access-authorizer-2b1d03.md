@@ -4,6 +4,7 @@ type: feat
 status: queued
 priority: 1
 created: 2026-09-28
+model: gpt-5.6-sol
 caps: {minutes: 120, turns: 500, stallMinutes: 25}
 depends: [cqc-be-01-backend-skeleton-and-config-endpoint-199374]
 attempts: []

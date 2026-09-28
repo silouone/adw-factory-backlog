@@ -4,6 +4,7 @@ type: chore
 status: in-progress
 priority: 1
 created: 2026-09-28
+model: gpt-5.6-sol
 review: false
 caps: {minutes: 120, turns: 500, stallMinutes: 25}
 depends: []

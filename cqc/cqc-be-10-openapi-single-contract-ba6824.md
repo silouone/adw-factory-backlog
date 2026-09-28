@@ -4,6 +4,7 @@ type: chore
 status: queued
 priority: 3
 created: 2026-09-28
+model: gpt-5.6-sol
 review: false
 caps: {minutes: 120, turns: 500, stallMinutes: 25}
 depends: [cqc-be-04-list-checked-los-get-content-961b88, cqc-be-05-lo-history-and-run-report-e7a7ca, cqc-be-06-open-an-artefact-presigned-url-5ab9db]
