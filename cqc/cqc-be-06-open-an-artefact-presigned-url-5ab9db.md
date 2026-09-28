@@ -7,7 +7,7 @@ created: 2026-09-28
 model: gpt-5.6-sol
 caps: {minutes: 120, turns: 500, stallMinutes: 25}
 depends: [cqc-be-05-lo-history-and-run-report-e7a7ca]
-attempts: []
+attempts: [{"runId":"cqc-be-06-open-an-artefact-presigned-url-5ab9db-1790637164433","branch":"adw/cqc-be-06-open-an-artefact-presigned-url-5ab9db","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-be-06-open-an-artefact-presigned-url-5ab9db-1790637164433/workspace","outcome":"in-review","pr":"https://github.com/CoorpAcademy/content-quality-checker/pull/20","provider":"codex","model":"gpt-5.6-sol"}]
 ---
 # Staff open a run's artefact through a short-lived link
 
