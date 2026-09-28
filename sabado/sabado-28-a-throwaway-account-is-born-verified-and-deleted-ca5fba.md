@@ -1,7 +1,7 @@
 ---
 id: sabado-28-a-throwaway-account-is-born-verified-and-deleted-ca5fba
 type: feat
-status: queued
+status: in-progress
 priority: 1
 created: 2026-09-28
 caps: {minutes: 150, turns: 500, stallMinutes: 25}
