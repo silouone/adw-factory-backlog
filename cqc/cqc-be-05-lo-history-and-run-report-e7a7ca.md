@@ -1,7 +1,7 @@
 ---
 id: cqc-be-05-lo-history-and-run-report-e7a7ca
 type: feat
-status: in-review
+status: done
 priority: 1
 created: 2026-09-28
 model: gpt-5.6-sol
