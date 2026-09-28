@@ -1,12 +1,12 @@
 ---
 id: adw-card-02-the-card-names-the-agent-that-built-it-a90f47
 type: feat
-status: in-progress
+status: blocked
 priority: 1
 created: 2026-09-28
 caps: {minutes: 90, turns: 300, stallMinutes: 20}
 depends: []
-attempts: []
+attempts: [{"runId":"adw-card-02-the-card-names-the-agent-that-built-it-a90f47-1790609830123","branch":"adw/adw-card-02-the-card-names-the-agent-that-built-it-a90f47","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-card-02-the-card-names-the-agent-that-built-it-a90f47-1790609830123/workspace","outcome":"blocked","provider":"claude","model":"sonnet"}]
 ---
 # A board card never says whether Claude or Codex built it
 
