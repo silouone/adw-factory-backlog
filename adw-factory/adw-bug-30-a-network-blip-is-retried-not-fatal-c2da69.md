@@ -24,8 +24,9 @@ attempts: []
 > | 18:45:39 | `adw-card-02-…-1790609830123` | claude | review-standards | `API Error: Unable to connect to API (UNKNOWN_CERTIFICATE_VERIFICATION_ERROR)` |
 > | 18:49:21 | `adw-graph-02-…-1790611118960` | claude | plan | `API Error: Connection closed mid-response. …` |
 >
-> Seven of the ten had to be salvaged by hand (~5,000 lines of work in their
-> workspaces). The other three had only a plan and are being restarted.
+> Six of the ten were salvaged by hand into PRs (~4,900 lines of work in their
+> workspaces). The other four are being restarted: three had only a plan, and
+> `adw-pr-02` died in `build` with only two red test files.
 
 ## Two defects, both needed for this to happen
 

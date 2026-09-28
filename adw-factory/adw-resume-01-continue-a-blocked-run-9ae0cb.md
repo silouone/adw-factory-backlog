@@ -30,7 +30,7 @@ the run's workspace:
 | `cqc-be-02-…-1790611568176` | review-fix | +386, gates passed |
 | `adw-card-02-…-1790609830123` | review-standards | +219, gates passed |
 
-All seven were salvaged by hand: one session, six parallel agents, each
+All six were salvaged by hand: one session, six parallel agents, each
 re-deriving the lane's position from `journal.jsonl` and `artifacts/`. That
 is the job this command does.
 
