@@ -43,6 +43,12 @@ stories 28, 30–33, 35–38 and 57; "Drawer layout (drawer 1)", "Data fetching"
   description; do not search the web or the disk for the Go1d repository.
 - **Drawer focus is built in (cqc-fe-01):** `Drawer` takes `headingId?: string` and `contentKey?: string | number`. Pass the id of the drawer's own heading element as `headingId` to get focus-on-open, the Tab trap, focus return to the opener, Escape/close/backdrop closing, and `role="dialog"` named by `aria-labelledby`. Pass the run id (or LO id) as `contentKey` so focus returns to the heading when the drawer switches to another item. Do not re-implement any of this.
 
+- **From cqc-fe-03 (#137), reuse, don't duplicate:**
+  - Service `src/services/ContentQuality.service.ts`: `new ContentQualityApi(apiBaseUrl, jwt)`, `listContent(params)`, typed DTOs (`RunSummary`, `ContentRow`, `ContentSummary`, `ContentFacets`, `ContentListResponse`, `ContentListParams`) and `ContentQualityServiceError`. Add new endpoints as methods here.
+  - Pure domain `src/components/ContentQuality/domain.ts`: `JOURNEY_ORDER`, `sortChecksByJourney`, `getCheckLabel`, `getStatusLabel`, `getContentUrgency`, `sortContentRows`. Extend it for new domain rules; test it directly (`domain.test.ts`).
+  - List `src/components/ContentQuality/CheckedContentList/` (table, `columns.tsx`, `PAGE_LIMIT = 20`) and `common/formatMissing.ts` (the `N/A` rule).
+  - URL state `CheckedContentList/useCheckedContentListParams.ts` reads `offset` and `lo`. ⚠️ Today `onPageChange` pushes `{ offset }` and `onOpen` pushes `{ lo }`, each **replacing the whole query**. Any ticket that adds URL state (filters, `run`, drawer params) must first make these pushes **merge** into the current query, with a test that paging keeps the filters and opening a row keeps the page.
+
 ## What to build
 
 - **Service:** `GET /cqc/checks/{run_id}` (returns `run`, `metadata`, `report`
