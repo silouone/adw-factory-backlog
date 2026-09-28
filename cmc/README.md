@@ -29,8 +29,8 @@ Frontier at start: 01 and 02.
 1. Land `docs/cqc/` (without `docs/cqc/prototype/`), `.agents/skills/cqc-frontend/`,
    `.agents/design-system/` and the `AGENTS.md` change on `master`. The factory
    cuts every worktree from `origin/master`, so the agent cannot see untracked files.
-2. Add the Statsig legacy JS SDK to `package.json` and `pnpm-lock.yaml` (pnpm 7,
-   Node 14) before `cqc-fe-02`. The Codex sandbox cannot install packages.
+2. ~~Add the Statsig legacy JS SDK before `cqc-fe-02`.~~ Dropped 2026-09-28: the
+   CMC ships internal features without a Statsig gate (spec D-1 amended).
 3. `adw-store-01-tickets-dir` must be merged in adw-factory, and `targets/cmc.json`
    must set `"ticketsDir": "~/adw/backlog/cmc"`. Until then the factory reads
    `<repo>/tickets` only.
