@@ -1,4 +1,5 @@
 ---
+attempts: [{"runId":"adw-usage-11-three-token-pills-bfa3dc-1790593179391","branch":"adw/adw-usage-11-three-token-pills-bfa3dc","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-usage-11-three-token-pills-bfa3dc-1790593179391/workspace","outcome":"in-review","pr":"https://github.com/silouone/adw-factory/pull/145","provider":"claude","model":"sonnet"}]
 id: adw-usage-11-three-token-pills-bfa3dc
 type: bug
 status: in-progress
