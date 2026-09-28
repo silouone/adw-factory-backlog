@@ -1,7 +1,7 @@
 ---
 id: adw-sync-02-all-targets-af846a
 type: feat
-status: in-review
+status: done
 priority: 2
 created: 2026-09-28
 depends: []
