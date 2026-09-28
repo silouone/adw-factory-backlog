@@ -1,12 +1,12 @@
 ---
 id: adw-bug-30-a-network-blip-is-retried-not-fatal-c2da69
 type: bug
-status: in-progress
+status: blocked
 priority: 1
 created: 2026-09-28
 caps: {minutes: 90, turns: 300, stallMinutes: 25}
 depends: []
-attempts: []
+attempts: [{"runId":"adw-bug-30-a-network-blip-is-retried-not-fatal-c2da69-1790621511343","branch":"adw/adw-bug-30-a-network-blip-is-retried-not-fatal-c2da69","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-bug-30-a-network-blip-is-retried-not-fatal-c2da69-1790621511343/workspace","outcome":"blocked","provider":"claude","model":"sonnet"}]
 ---
 # A 13-minute network blip blocked 10 of 11 in-flight runs; the transient retry recognised none of the errors
 
