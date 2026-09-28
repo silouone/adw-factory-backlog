@@ -7,7 +7,7 @@ created: 2026-09-28
 review: false
 caps: {minutes: 120, turns: 500, stallMinutes: 25}
 depends: []
-attempts: []
+attempts: [{"runId":"adw-learn-01-bank-the-native-transcript-42ef45-1790578742189","branch":"adw/adw-learn-01-bank-the-native-transcript-42ef45","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-learn-01-bank-the-native-transcript-42ef45-1790578742189/workspace","outcome":"in-review","pr":"https://github.com/silouone/adw-factory/pull/143","provider":"claude","model":"sonnet"}]
 ---
 # Bank every agent session's native transcript under the run directory
 
