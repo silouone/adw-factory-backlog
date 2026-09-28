@@ -1,7 +1,7 @@
 ---
 id: cqc-be-02-staff-only-access-authorizer-2b1d03
 type: feat
-status: queued
+status: in-progress
 priority: 1
 created: 2026-09-28
 model: gpt-5.6-sol
