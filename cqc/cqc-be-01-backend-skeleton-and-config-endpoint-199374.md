@@ -1,7 +1,7 @@
 ---
 id: cqc-be-01-backend-skeleton-and-config-endpoint-199374
 type: feat
-status: in-review
+status: done
 priority: 1
 created: 2026-09-28
 model: gpt-5.6-sol
