@@ -1,7 +1,7 @@
 ---
 id: cqc-fe-11-live-refresh
 type: feat
-status: in-progress
+status: in-review
 priority: 2
 created: 2026-09-26
 model: gpt-5.6-sol
