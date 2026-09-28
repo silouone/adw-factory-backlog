@@ -8,7 +8,7 @@ model: gpt-5.6-sol
 review: false
 caps: {minutes: 120, turns: 500, stallMinutes: 25}
 depends: []
-attempts: [{"runId":"cqc-be-00-redaction-scan-without-side-effects-4de841-1790593164393","branch":"adw/cqc-be-00-redaction-scan-without-side-effects-4de841","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-be-00-redaction-scan-without-side-effects-4de841-1790593164393/workspace","outcome":"blocked"}]
+attempts: [{"runId":"cqc-be-00-redaction-scan-without-side-effects-4de841-1790593164393","branch":"adw/cqc-be-00-redaction-scan-without-side-effects-4de841","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-be-00-redaction-scan-without-side-effects-4de841-1790593164393/workspace","outcome":"blocked"},{"runId":"cqc-be-00-redaction-scan-without-side-effects-4de841-1790593467338","branch":"adw/cqc-be-00-redaction-scan-without-side-effects-4de841","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-be-00-redaction-scan-without-side-effects-4de841-1790593467338/workspace","outcome":"in-review","pr":"https://github.com/CoorpAcademy/content-quality-checker/pull/12","provider":"codex","model":"gpt-5.6-sol"}]
 ---
 # The redaction scan can be imported without running the publisher
 
