@@ -1,13 +1,13 @@
 ---
 id: cqc-fe-07-drawer-navigation-runs-sharing
 type: feat
-status: in-progress
+status: blocked
 priority: 2
 created: 2026-09-26
 model: gpt-5.6-sol
 caps: {minutes: 240, turns: 800, stallMinutes: 25}
 depends: [cqc-fe-06-run-drawer-header-and-checks]
-attempts: []
+attempts: [{"runId":"cqc-fe-07-drawer-navigation-runs-sharing-1790611419784","branch":"adw/cqc-fe-07-drawer-navigation-runs-sharing","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-07-drawer-navigation-runs-sharing-1790611419784/workspace","outcome":"blocked","provider":"codex","model":"gpt-5.6-sol"}]
 ---
 # Staff step through LOs, compare runs and share a stable link from the drawer
 
