@@ -1,7 +1,7 @@
 ---
 id: sabado-31-calendar-biens-and-foyer-are-walked-end-to-end-83f54a
 type: feat
-status: queued
+status: in-progress
 priority: 1
 created: 2026-09-28
 caps: {minutes: 240, turns: 700, stallMinutes: 25}
