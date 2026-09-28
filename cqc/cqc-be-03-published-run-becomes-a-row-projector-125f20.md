@@ -7,7 +7,7 @@ created: 2026-09-28
 model: gpt-5.6-sol
 caps: {minutes: 120, turns: 500, stallMinutes: 25}
 depends: [cqc-be-01-backend-skeleton-and-config-endpoint-199374]
-attempts: [{"runId":"cqc-be-03-published-run-becomes-a-row-projector-125f20-1790611581162","branch":"adw/cqc-be-03-published-run-becomes-a-row-projector-125f20","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-be-03-published-run-becomes-a-row-projector-125f20-1790611581162/workspace","outcome":"blocked","provider":"codex","model":"gpt-5.6-sol"}]
+attempts: [{"runId":"cqc-be-03-published-run-becomes-a-row-projector-125f20-1790611581162","branch":"adw/cqc-be-03-published-run-becomes-a-row-projector-125f20","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-be-03-published-run-becomes-a-row-projector-125f20-1790611581162/workspace","outcome":"in-review","provider":"codex","model":"gpt-5.6-sol","pr":"https://github.com/CoorpAcademy/content-quality-checker/pull/15"}]
 ---
 # A published run becomes a Run row and updates its LO row (projector)
 
