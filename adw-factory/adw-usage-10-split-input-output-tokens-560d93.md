@@ -1,7 +1,7 @@
 ---
 id: adw-usage-10-split-input-output-tokens-560d93
 type: feat
-status: queued
+status: in-progress
 priority: 2
 created: 2026-09-28
 caps: {minutes: 90, turns: 300, stallMinutes: 20}
