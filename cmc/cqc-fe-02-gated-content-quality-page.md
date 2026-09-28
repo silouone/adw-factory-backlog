@@ -1,13 +1,13 @@
 ---
 id: cqc-fe-02-gated-content-quality-page
 type: feat
-status: in-progress
+status: blocked
 priority: 1
 created: 2026-09-26
 model: gpt-5.6-sol
 caps: {minutes: 180, turns: 600, stallMinutes: 25}
 depends: []
-attempts: []
+attempts: [{"runId":"cqc-fe-02-gated-content-quality-page-1790563990079","branch":"adw/cqc-fe-02-gated-content-quality-page","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-02-gated-content-quality-page-1790563990079/workspace","outcome":"blocked","provider":"codex","model":"gpt-5.6-sol"}]
 ---
 # A gated, empty Content quality page is reachable from the CMC menu
 
