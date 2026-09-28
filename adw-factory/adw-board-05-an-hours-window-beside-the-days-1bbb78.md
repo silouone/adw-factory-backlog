@@ -1,7 +1,7 @@
 ---
 id: adw-board-05-an-hours-window-beside-the-days-1bbb78
 type: feat
-status: in-review
+status: done
 priority: 2
 created: 2026-09-28
 caps: {minutes: 120, turns: 500, stallMinutes: 20}
