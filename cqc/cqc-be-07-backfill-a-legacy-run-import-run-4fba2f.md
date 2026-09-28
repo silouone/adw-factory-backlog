@@ -7,7 +7,7 @@ created: 2026-09-28
 model: gpt-5.6-sol
 caps: {minutes: 120, turns: 500, stallMinutes: 25}
 depends: [cqc-be-00-redaction-scan-without-side-effects-4de841, cqc-be-03-published-run-becomes-a-row-projector-125f20]
-attempts: []
+attempts: [{"runId":"cqc-be-07-backfill-a-legacy-run-import-run-4fba2f-1790634981713","branch":"adw/cqc-be-07-backfill-a-legacy-run-import-run-4fba2f","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-be-07-backfill-a-legacy-run-import-run-4fba2f-1790634981713/workspace","outcome":"in-review","pr":"https://github.com/CoorpAcademy/content-quality-checker/pull/19","provider":"codex","model":"gpt-5.6-sol"}]
 ---
 # An engineer backfills a legacy run into a stage (import-run)
 
