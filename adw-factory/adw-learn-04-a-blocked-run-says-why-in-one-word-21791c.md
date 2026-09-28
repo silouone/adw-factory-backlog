@@ -1,7 +1,7 @@
 ---
 id: adw-learn-04-a-blocked-run-says-why-in-one-word-21791c
 type: feat
-status: queued
+status: in-progress
 priority: 2
 created: 2026-09-28
 review: false
