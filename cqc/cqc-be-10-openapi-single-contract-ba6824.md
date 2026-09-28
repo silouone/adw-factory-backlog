@@ -14,6 +14,18 @@ attempts: []
 
 Sources: `docs/backend/spec-cqc-backend-release-1.md` (canonical until this lands); BE-29; `docs/backend/todo.md` "First build steps".
 
+## Working in `backend/` (read first)
+
+- The scaffold (PR #13) already holds every release-1 dependency and the lockfile: io-ts, fp-ts,
+  AWS SDK v3 (DynamoDB, lib-dynamodb, S3, s3-request-presigner, SSM), Vitest + coverage, Biome,
+  Serverless 3 + serverless-esbuild, aws-sdk-client-mock, tsx. **Do not add, remove or upgrade a
+  dependency and do not run `npm install`**: the sandbox has no network. If something is truly
+  missing, stop and say so in your final message.
+- Reuse what cqc-be-01 built: `src/common/{errors,decoders,resource-names}.ts`, `utils/logger.ts`,
+  the shared error shape, the `createPorts` pattern, and the `serverless.yml` conventions.
+- Gates (in `backend/`): `typecheck`, `lint`, `test` with a **100% coverage threshold**, `config:check`.
+  Follow `.agents/skills/cqc-guideline/` (`SKILL.md`, `references/typescript.md`).
+
 ## What to build
 
 An OpenAPI document describing the release-1 endpoints **as built**, including the error shape
