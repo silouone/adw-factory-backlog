@@ -2,7 +2,7 @@
 attempts: [{"runId":"adw-usage-07-price-codex-runs-and-journal-the-rate-713388-1790578758323","branch":"adw/adw-usage-07-price-codex-runs-and-journal-the-rate-713388","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-usage-07-price-codex-runs-and-journal-the-rate-713388-1790578758323/workspace","outcome":"in-review","pr":"https://github.com/silouone/adw-factory/pull/142","provider":"claude","model":"sonnet"}]
 id: adw-usage-07-price-codex-runs-and-journal-the-rate-713388
 type: feat
-status: in-review
+status: done
 priority: 1
 created: 2026-09-28
 caps: {minutes: 150, turns: 500, stallMinutes: 25}
