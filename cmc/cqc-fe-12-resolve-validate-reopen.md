@@ -1,7 +1,7 @@
 ---
 id: cqc-fe-12-resolve-validate-reopen
 type: feat
-status: blocked
+status: queued
 priority: 3
 created: 2026-09-26
 model: gpt-5.6-sol
