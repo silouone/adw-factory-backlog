@@ -1,7 +1,7 @@
 ---
 id: adw-graph-03-the-layered-graph-component-aae152
 type: feat
-status: queued
+status: in-progress
 priority: 1
 created: 2026-09-28
 review: true
