@@ -7,7 +7,7 @@ created: 2026-09-26
 model: gpt-5.6-sol
 caps: {minutes: 240, turns: 800, stallMinutes: 25}
 depends: [cqc-fe-02-gated-content-quality-page]
-attempts: []
+attempts: [{"runId":"cqc-fe-03-list-of-checked-los-1790594348448","branch":"adw/cqc-fe-03-list-of-checked-los","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-03-list-of-checked-los-1790594348448/workspace","outcome":"in-review","pr":"https://github.com/go1com/domain-content-content-management-console/pull/137","provider":"codex","model":"gpt-5.6-sol"}]
 ---
 # Staff see every checked LO with its latest verdict and check mini-strip
 
