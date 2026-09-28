@@ -90,9 +90,17 @@ registry (`profiles.ts`), so the port is new, injected the way `query` and
       R5, **only when** `TYPESAFE_API_KEY` is set, and leaves `decide`
       undefined otherwise. With the variable unset every node, prompt and
       journal line is byte-identical to today (pin with a test).
+<<<<<<< HEAD
 - [ ] **R7** `TYPESAFE_API_KEY` is added to the credential list
       `sanitizeAgentEnv` strips (`test/live-query.test.ts` names the
       contract), so the key never reaches an agent child process.
+=======
+- [ ] **R7** `TYPESAFE_API_KEY` never reaches an agent child process.
+      `SENSITIVE_ENV_KEY` (`src/env-policy.ts:12`) already strips any
+      `_KEY`-suffixed name, so this is a pinning test on `sanitizeAgentEnv`
+      naming that variable, not a list edit; the CLI reads the key at its own
+      edge (R6) and hands the adapter a closure, never the env.
+>>>>>>> 48f68a0 (operator: mint adw-jev-00 (decision-oracle seam, phase 0 of the Jev plan))
 - [ ] **R8** No node reads `deps.decide` in this ticket. A test asserts that
       a full fake lane run with `decide` set makes zero calls on the fake.
 
