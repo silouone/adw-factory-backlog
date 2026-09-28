@@ -1,7 +1,7 @@
 ---
 id: cqc-be-03-published-run-becomes-a-row-projector-125f20
 type: feat
-status: in-review
+status: done
 priority: 1
 created: 2026-09-28
 model: gpt-5.6-sol
