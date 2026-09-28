@@ -1,7 +1,7 @@
 ---
 id: cqc-be-06-open-an-artefact-presigned-url-5ab9db
 type: feat
-status: queued
+status: in-progress
 priority: 2
 created: 2026-09-28
 model: gpt-5.6-sol
