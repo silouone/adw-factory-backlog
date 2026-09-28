@@ -11,9 +11,10 @@ attempts: [{"runId":"cqc-be-01-backend-skeleton-and-config-endpoint-199374-17906
 ---
 # The backend serves GET /cqc/config (tracer bullet on the scaffold)
 
-**Do not dispatch before PR #13 (`backend/` scaffold, cqc-be-01a) is merged into `main`.**
-That PR, built by hand, holds every release-1 dependency and the lockfile, because the agent
-sandbox has no network. This ticket only writes code and tests on top of it.
+**The `backend/` scaffold (PR #13, cqc-be-01a) is merged on `main`** and the factory's setup runs
+`npm --prefix backend ci`, so `node_modules` is installed in your workspace. That PR holds every
+release-1 dependency and the lockfile, because the agent sandbox has no network. This ticket only
+writes code and tests on top of it. (Attempt 1 stopped correctly because #13 was not merged yet.)
 
 Sources: `docs/backend/spec-cqc-backend-release-1.md` "Resources per stage", "Endpoints"
 (`GET /cqc/config`); BE-7, BE-9, BE-13, BE-18, BE-24, BE-25; rules in `.agents/skills/cqc-guideline/`
@@ -61,4 +62,4 @@ The factory gates run the two repo selftests and, in `backend/`: `typecheck`, `l
 ## Blocked by
 
 - cqc-be-00-redaction-scan-without-side-effects-4de841 (done)
-- PR #13 merged (not a ticket; operator)
+- PR #13 merged (done)
