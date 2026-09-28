@@ -1,7 +1,7 @@
 ---
 id: cqc-be-00-redaction-scan-without-side-effects-4de841
 type: chore
-status: in-progress
+status: in-review
 priority: 1
 created: 2026-09-28
 model: gpt-5.6-sol
