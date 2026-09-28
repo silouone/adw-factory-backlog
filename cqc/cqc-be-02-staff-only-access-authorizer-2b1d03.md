@@ -1,13 +1,13 @@
 ---
 id: cqc-be-02-staff-only-access-authorizer-2b1d03
 type: feat
-status: in-progress
+status: blocked
 priority: 1
 created: 2026-09-28
 model: gpt-5.6-sol
 caps: {minutes: 120, turns: 500, stallMinutes: 25}
 depends: [cqc-be-01-backend-skeleton-and-config-endpoint-199374]
-attempts: []
+attempts: [{"runId":"cqc-be-02-staff-only-access-authorizer-2b1d03-1790611568176","branch":"adw/cqc-be-02-staff-only-access-authorizer-2b1d03","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-be-02-staff-only-access-authorizer-2b1d03-1790611568176/workspace","outcome":"blocked","provider":"codex","model":"gpt-5.6-sol"}]
 ---
 # Only Go1 staff can call the CQC API
 
