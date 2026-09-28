@@ -1,7 +1,7 @@
 ---
 id: adw-learn-03-the-run-record-knows-its-pull-request-6ab34c
 type: feat
-status: blocked
+status: queued
 priority: 2
 created: 2026-09-28
 review: false

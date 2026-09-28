@@ -2,7 +2,7 @@
 attempts: [{"runId":"adw-usage-09-spend-by-provider-bc23c8-1790611089112","branch":"adw/adw-usage-09-spend-by-provider-bc23c8","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-usage-09-spend-by-provider-bc23c8-1790611089112/workspace","outcome":"blocked","provider":"claude","model":"sonnet"}]
 id: adw-usage-09-spend-by-provider-bc23c8
 type: feat
-status: blocked
+status: queued
 priority: 2
 created: 2026-09-28
 caps: {minutes: 180, turns: 400, stallMinutes: 25}

@@ -1,7 +1,7 @@
 ---
 id: adw-bug-30-a-network-blip-is-retried-not-fatal-c2da69
 type: bug
-status: blocked
+status: queued
 priority: 1
 created: 2026-09-28
 caps: {minutes: 180, turns: 300, stallMinutes: 25}

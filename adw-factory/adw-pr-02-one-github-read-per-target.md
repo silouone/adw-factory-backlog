@@ -1,11 +1,11 @@
 ---
 id: adw-pr-02-one-github-read-per-target
 type: feat
-status: blocked
+status: queued
 priority: 2
 created: 2026-09-17
 caps: {minutes: 180, turns: 800}
-depends: [adw-pr-01-resolve-a-card-to-its-pull-request]
+depends: [adw-pr-01-resolve-a-card-to-its-pull-request, adw-gh-01-the-suite-never-reaches-real-github]
 attempts: [{"runId":"adw-pr-02-one-github-read-per-target-1789738866494","branch":"adw/adw-pr-02-one-github-read-per-target","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-pr-02-one-github-read-per-target-1789738866494/workspace","outcome":"blocked","provider":"claude","model":"sonnet"},{"runId":"adw-pr-02-one-github-read-per-target-1790610114317","branch":"adw/adw-pr-02-one-github-read-per-target","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-pr-02-one-github-read-per-target-1790610114317/workspace","outcome":"blocked","provider":"claude","model":"sonnet"},{"runId":"adw-pr-02-one-github-read-per-target-1790621530922","branch":"adw/adw-pr-02-one-github-read-per-target-2","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-pr-02-one-github-read-per-target-1790621530922/workspace","outcome":"blocked","provider":"claude","model":"sonnet"}]
 ---
 # One GitHub read per target, behind a TTL — and a web server that knows its targets

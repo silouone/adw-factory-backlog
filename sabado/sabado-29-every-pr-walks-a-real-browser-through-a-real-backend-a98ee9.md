@@ -1,10 +1,10 @@
 ---
 id: sabado-29-every-pr-walks-a-real-browser-through-a-real-backend-a98ee9
 type: feat
-status: blocked
+status: queued
 priority: 1
 created: 2026-09-28
-caps: {minutes: 240, turns: 700, stallMinutes: 25}
+caps: {minutes: 240, turns: 1000, stallMinutes: 25}
 depends: [sabado-27-the-built-front-can-talk-to-a-real-backend-acabfa, sabado-28-a-throwaway-account-is-born-verified-and-deleted-ca5fba]
 attempts: [{"runId":"sabado-29-every-pr-walks-a-real-browser-through-a-real-backend-a98ee9-1790603494568","branch":"adw/sabado-29-every-pr-walks-a-real-browser-through-a-real-backend-a98ee9","workspace":"/Users/silouane/personal_project/adw-factory/runs/sabado-29-every-pr-walks-a-real-browser-through-a-real-backend-a98ee9-1790603494568/workspace","outcome":"blocked","provider":"claude","model":"sonnet"}]
 ---
