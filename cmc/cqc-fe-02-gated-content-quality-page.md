@@ -1,7 +1,7 @@
 ---
 id: cqc-fe-02-gated-content-quality-page
 type: feat
-status: queued
+status: in-progress
 priority: 1
 created: 2026-09-26
 model: gpt-5.6-sol
