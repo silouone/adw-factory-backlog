@@ -15,7 +15,7 @@ Dependency graph (`depends:` is enforced; a blocker must be `done`, that is merg
 
 ```
 00 redaction-scan (chore) ─────────────────────────┐
-01 skeleton + /config (MANUAL) ─┬─ 02 authorizer ──┼─┬─ 04 list ─────────┐
+01 GET /cqc/config (feat) ─────┬─ 02 authorizer ──┼─┬─ 04 list ─────────┐
                                 │                  │ └─ 05 history+report ── 06 artefact ─┴─ 10 openapi (chore)
                                 └─ 03 projector ───┼─── 07 import-run (also 00)
                                                    ├─── 08 go1 enrichment
@@ -23,7 +23,8 @@ Dependency graph (`depends:` is enforced; a blocker must be `done`, that is merg
 11 deploy dev + verify (MANUAL) waits on 02, 04–09
 ```
 
-Frontier at start: 00 (factory) and 01 (built by hand in session).
+01a (hand-built scaffold, PR #13: dependencies + lockfile + tooling) gates 01. Agents have no
+network, so every dependency lives in that lockfile; tickets must not `npm install`.
 
 ## Before the first dispatch (operator)
 
