@@ -1,13 +1,13 @@
 ---
 id: adw-graph-02-the-dependency-model-in-the-projection-e146f2
 type: feat
-status: in-progress
+status: blocked
 priority: 1
 created: 2026-09-28
 review: false
 caps: {minutes: 150, turns: 600, stallMinutes: 25}
 depends: [adw-graph-01-manual-tickets-keep-their-deps-c6db32]
-attempts: [{"runId":"adw-graph-02-the-dependency-model-in-the-projection-e146f2-1790611118960","branch":"adw/adw-graph-02-the-dependency-model-in-the-projection-e146f2","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-graph-02-the-dependency-model-in-the-projection-e146f2-1790611118960/workspace","outcome":"blocked","provider":"claude","model":"sonnet"}]
+attempts: [{"runId":"adw-graph-02-the-dependency-model-in-the-projection-e146f2-1790611118960","branch":"adw/adw-graph-02-the-dependency-model-in-the-projection-e146f2","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-graph-02-the-dependency-model-in-the-projection-e146f2-1790611118960/workspace","outcome":"blocked","provider":"claude","model":"sonnet"},{"runId":"adw-graph-02-the-dependency-model-in-the-projection-e146f2-1790621518941","branch":"adw/adw-graph-02-the-dependency-model-in-the-projection-e146f2-2","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-graph-02-the-dependency-model-in-the-projection-e146f2-1790621518941/workspace","outcome":"blocked","provider":"claude","model":"sonnet"}]
 ---
 # The backlog projection carries each project's dependency graph: waves, critical path, held-by
 
