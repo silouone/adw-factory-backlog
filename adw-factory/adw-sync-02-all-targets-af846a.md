@@ -5,7 +5,7 @@ status: in-progress
 priority: 2
 created: 2026-09-28
 depends: []
-attempts: []
+attempts: [{"runId":"adw-sync-02-all-targets-af846a-1790604925657","branch":"adw/adw-sync-02-all-targets-af846a","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-sync-02-all-targets-af846a-1790604925657/workspace","outcome":"in-review","pr":"https://github.com/silouone/adw-factory/pull/146","provider":"claude","model":"sonnet"}]
 ---
 # Reconciling every target still takes one invocation per target
 
