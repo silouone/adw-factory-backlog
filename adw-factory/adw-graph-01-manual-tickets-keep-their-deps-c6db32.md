@@ -6,7 +6,7 @@ priority: 1
 created: 2026-09-28
 caps: {minutes: 60, turns: 250, stallMinutes: 20}
 depends: []
-attempts: []
+attempts: [{"runId":"adw-graph-01-manual-tickets-keep-their-deps-c6db32-1790608754560","branch":"adw/adw-graph-01-manual-tickets-keep-their-deps-c6db32","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-graph-01-manual-tickets-keep-their-deps-c6db32-1790608754560/workspace","outcome":"in-review","pr":"https://github.com/silouone/adw-factory/pull/147","provider":"claude","model":"sonnet"}]
 ---
 # The backlog projection drops a manual ticket's `depends:`
 
