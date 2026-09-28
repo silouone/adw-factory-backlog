@@ -1,7 +1,7 @@
 ---
 id: adw-graph-01-manual-tickets-keep-their-deps-c6db32
 type: bug
-status: in-review
+status: done
 priority: 1
 created: 2026-09-28
 caps: {minutes: 60, turns: 250, stallMinutes: 20}
