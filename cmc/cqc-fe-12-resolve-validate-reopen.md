@@ -1,13 +1,13 @@
 ---
 id: cqc-fe-12-resolve-validate-reopen
 type: feat
-status: blocked
+status: in-review
 priority: 3
 created: 2026-09-26
 model: gpt-5.6-sol
 caps: {minutes: 240, turns: 800, stallMinutes: 25}
 depends: [cqc-fe-05-summary-tabs-search-filters, cqc-fe-06-run-drawer-header-and-checks]
-attempts: [{"runId":"cqc-fe-12-resolve-validate-reopen-1790612934319","branch":"adw/cqc-fe-12-resolve-validate-reopen","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-12-resolve-validate-reopen-1790612934319/workspace","outcome":"blocked","provider":"codex","model":"gpt-5.6-sol"},{"runId":"cqc-fe-12-resolve-validate-reopen-1790621441878","branch":"adw/cqc-fe-12-resolve-validate-reopen-2","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-12-resolve-validate-reopen-1790621441878/workspace","outcome":"blocked","provider":"codex","model":"gpt-5.6-sol"}]
+attempts: [{"runId":"cqc-fe-12-resolve-validate-reopen-1790612934319","branch":"adw/cqc-fe-12-resolve-validate-reopen","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-12-resolve-validate-reopen-1790612934319/workspace","outcome":"blocked","provider":"codex","model":"gpt-5.6-sol"},{"runId":"cqc-fe-12-resolve-validate-reopen-1790621441878","branch":"adw/cqc-fe-12-resolve-validate-reopen-2","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-12-resolve-validate-reopen-1790621441878/workspace","outcome":"in-review","provider":"codex","model":"gpt-5.6-sol","pr":"https://github.com/go1com/domain-content-content-management-console/pull/144"}]
 ---
 # Content ops resolve, validate and reopen an LO with an outcome and a note
 
