@@ -7,7 +7,7 @@ created: 2026-09-26
 model: gpt-5.6-sol
 caps: {minutes: 240, turns: 800, stallMinutes: 25}
 depends: [cqc-fe-01-drawer-keeps-keyboard-focus, cqc-fe-03-list-of-checked-los]
-attempts: []
+attempts: [{"runId":"cqc-fe-06-run-drawer-header-and-checks-1790603212292","branch":"adw/cqc-fe-06-run-drawer-header-and-checks","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-06-run-drawer-header-and-checks-1790603212292/workspace","outcome":"in-review","pr":"https://github.com/go1com/domain-content-content-management-console/pull/140","provider":"codex","model":"gpt-5.6-sol"}]
 ---
 # Clicking a row opens a run drawer that explains the verdict check by check
 
