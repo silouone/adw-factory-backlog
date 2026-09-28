@@ -1,7 +1,7 @@
 ---
 id: adw-usage-08-codex-plan-row-in-the-headroom-panel-e72767
 type: feat
-status: queued
+status: in-progress
 priority: 2
 created: 2026-09-28
 caps: {minutes: 120, turns: 400, stallMinutes: 25}
