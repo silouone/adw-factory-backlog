@@ -1,13 +1,13 @@
 ---
 id: adw-learn-02-a-run-names-the-factory-that-produced-it-3ceb3e
 type: feat
-status: blocked
+status: in-review
 priority: 2
 created: 2026-09-28
 review: false
-caps: {minutes: 90, turns: 300, stallMinutes: 25}
+caps: {minutes: 120, turns: 600, stallMinutes: 25}
 depends: []
-attempts: [{"runId":"adw-learn-02-a-run-names-the-factory-that-produced-it-3ceb3e-1790578748243","branch":"adw/adw-learn-02-a-run-names-the-factory-that-produced-it-3ceb3e","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-learn-02-a-run-names-the-factory-that-produced-it-3ceb3e-1790578748243/workspace","outcome":"blocked","provider":"claude","model":"sonnet"}]
+attempts: [{"runId":"adw-learn-02-a-run-names-the-factory-that-produced-it-3ceb3e-1790578748243","branch":"adw/adw-learn-02-a-run-names-the-factory-that-produced-it-3ceb3e","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-learn-02-a-run-names-the-factory-that-produced-it-3ceb3e-1790578748243/workspace","outcome":"in-review","provider":"claude","model":"sonnet","pr":"https://github.com/silouone/adw-factory/pull/149"}]
 ---
 # A run names the factory version and the prompt templates that produced it
 
