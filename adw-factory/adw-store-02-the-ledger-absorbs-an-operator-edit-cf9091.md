@@ -1,7 +1,7 @@
 ---
 id: adw-store-02-the-ledger-absorbs-an-operator-edit-cf9091
 type: feat
-status: in-review
+status: done
 priority: 2
 created: 2026-09-28
 review: false
