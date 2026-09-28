@@ -7,7 +7,7 @@ created: 2026-09-28
 model: gpt-5.6-sol
 caps: {minutes: 120, turns: 500, stallMinutes: 25}
 depends: [cqc-be-02-staff-only-access-authorizer-2b1d03, cqc-be-03-published-run-becomes-a-row-projector-125f20]
-attempts: []
+attempts: [{"runId":"cqc-be-05-lo-history-and-run-report-e7a7ca-1790632342636","branch":"adw/cqc-be-05-lo-history-and-run-report-e7a7ca","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-be-05-lo-history-and-run-report-e7a7ca-1790632342636/workspace","outcome":"in-review","pr":"https://github.com/CoorpAcademy/content-quality-checker/pull/17","provider":"codex","model":"gpt-5.6-sol"}]
 ---
 # Staff open one LO's run history and one run's full report
 
