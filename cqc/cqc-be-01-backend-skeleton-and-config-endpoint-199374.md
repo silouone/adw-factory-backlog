@@ -1,13 +1,13 @@
 ---
 id: cqc-be-01-backend-skeleton-and-config-endpoint-199374
 type: feat
-status: in-progress
+status: blocked
 priority: 1
 created: 2026-09-28
 model: gpt-5.6-sol
 caps: {minutes: 120, turns: 500, stallMinutes: 25}
 depends: [cqc-be-00-redaction-scan-without-side-effects-4de841]
-attempts: []
+attempts: [{"runId":"cqc-be-01-backend-skeleton-and-config-endpoint-199374-1790604997436","branch":"adw/cqc-be-01-backend-skeleton-and-config-endpoint-199374","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-be-01-backend-skeleton-and-config-endpoint-199374-1790604997436/workspace","outcome":"blocked","provider":"codex","model":"gpt-5.6-sol"}]
 ---
 # The backend serves GET /cqc/config (tracer bullet on the scaffold)
 
