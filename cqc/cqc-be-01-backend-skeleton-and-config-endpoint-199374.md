@@ -7,7 +7,7 @@ created: 2026-09-28
 model: gpt-5.6-sol
 caps: {minutes: 120, turns: 500, stallMinutes: 25}
 depends: [cqc-be-00-redaction-scan-without-side-effects-4de841]
-attempts: [{"runId":"cqc-be-01-backend-skeleton-and-config-endpoint-199374-1790604997436","branch":"adw/cqc-be-01-backend-skeleton-and-config-endpoint-199374","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-be-01-backend-skeleton-and-config-endpoint-199374-1790604997436/workspace","outcome":"blocked","provider":"codex","model":"gpt-5.6-sol"}]
+attempts: [{"runId":"cqc-be-01-backend-skeleton-and-config-endpoint-199374-1790604997436","branch":"adw/cqc-be-01-backend-skeleton-and-config-endpoint-199374","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-be-01-backend-skeleton-and-config-endpoint-199374-1790604997436/workspace","outcome":"blocked","provider":"codex","model":"gpt-5.6-sol"},{"runId":"cqc-be-01-backend-skeleton-and-config-endpoint-199374-1790609073950","branch":"adw/cqc-be-01-backend-skeleton-and-config-endpoint-199374","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-be-01-backend-skeleton-and-config-endpoint-199374-1790609073950/workspace","outcome":"in-review","pr":"https://github.com/CoorpAcademy/content-quality-checker/pull/14","provider":"codex","model":"gpt-5.6-sol"}]
 ---
 # The backend serves GET /cqc/config (tracer bullet on the scaffold)
 
