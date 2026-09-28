@@ -1,7 +1,7 @@
 ---
 id: adw-learn-02-a-run-names-the-factory-that-produced-it-3ceb3e
 type: feat
-status: queued
+status: in-progress
 priority: 2
 created: 2026-09-28
 review: false
