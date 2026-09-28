@@ -6,7 +6,7 @@ priority: 1
 created: 2026-09-28
 caps: {minutes: 90, turns: 400, stallMinutes: 20}
 depends: []
-attempts: []
+attempts: [{"runId":"adw-board-04-filter-the-board-down-to-what-is-running-5c7ad0-1790610034294","branch":"adw/adw-board-04-filter-the-board-down-to-what-is-running-5c7ad0","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-board-04-filter-the-board-down-to-what-is-running-5c7ad0-1790610034294/workspace","outcome":"in-review","pr":"https://github.com/silouone/adw-factory/pull/150","provider":"claude","model":"sonnet"}]
 ---
 # The board cannot be filtered down to the runs that are live right now
 
