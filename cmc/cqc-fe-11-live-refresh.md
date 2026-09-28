@@ -1,13 +1,13 @@
 ---
 id: cqc-fe-11-live-refresh
 type: feat
-status: in-progress
+status: blocked
 priority: 2
 created: 2026-09-26
 model: gpt-5.6-sol
 caps: {minutes: 180, turns: 600, stallMinutes: 25}
 depends: [cqc-fe-04-row-facts, cqc-fe-06-run-drawer-header-and-checks]
-attempts: []
+attempts: [{"runId":"cqc-fe-11-live-refresh-1790612922802","branch":"adw/cqc-fe-11-live-refresh","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-11-live-refresh-1790612922802/workspace","outcome":"blocked","provider":"codex","model":"gpt-5.6-sol"}]
 ---
 # The list and the open drawer refresh themselves while a check is running
 
