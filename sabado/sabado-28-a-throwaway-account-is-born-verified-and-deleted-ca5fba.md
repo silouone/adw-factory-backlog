@@ -6,7 +6,7 @@ priority: 1
 created: 2026-09-28
 caps: {minutes: 150, turns: 500, stallMinutes: 25}
 depends: []
-attempts: []
+attempts: [{"runId":"sabado-28-a-throwaway-account-is-born-verified-and-deleted-ca5fba-1790594011185","branch":"adw/sabado-28-a-throwaway-account-is-born-verified-and-deleted-ca5fba","workspace":"/Users/silouane/personal_project/adw-factory/runs/sabado-28-a-throwaway-account-is-born-verified-and-deleted-ca5fba-1790594011185/workspace","outcome":"in-review","pr":"https://github.com/App-sabado/sabado/pull/1312","provider":"claude","model":"sonnet"}]
 ---
 # feat(admin): a throwaway account can be minted a verification code and deleted, so an e2e suite owns its own user
 
