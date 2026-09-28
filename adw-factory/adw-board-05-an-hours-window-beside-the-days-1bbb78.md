@@ -6,7 +6,7 @@ priority: 2
 created: 2026-09-28
 caps: {minutes: 120, turns: 500, stallMinutes: 20}
 depends: []
-attempts: [{"runId":"adw-board-05-an-hours-window-beside-the-days-1bbb78-1790610062532","branch":"adw/adw-board-05-an-hours-window-beside-the-days-1bbb78","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-board-05-an-hours-window-beside-the-days-1bbb78-1790610062532/workspace","outcome":"blocked","provider":"claude","model":"sonnet"}]
+attempts: [{"runId":"adw-board-05-an-hours-window-beside-the-days-1bbb78-1790610062532","branch":"adw/adw-board-05-an-hours-window-beside-the-days-1bbb78","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-board-05-an-hours-window-beside-the-days-1bbb78-1790610062532/workspace","outcome":"in-review","provider":"claude","model":"sonnet","pr":"https://github.com/silouone/adw-factory/pull/152"}]
 ---
 # The narrowest board window is a whole day — too wide for one working session
 
