@@ -7,7 +7,7 @@ created: 2026-09-26
 model: gpt-5.6-sol
 caps: {minutes: 180, turns: 600, stallMinutes: 25}
 depends: []
-attempts: [{"runId":"cqc-fe-02-gated-content-quality-page-1790563990079","branch":"adw/cqc-fe-02-gated-content-quality-page","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-02-gated-content-quality-page-1790563990079/workspace","outcome":"blocked","provider":"codex","model":"gpt-5.6-sol"},{"runId":"manual-salvage-2026-09-28","branch":"adw/cqc-fe-02-gated-content-quality-page","outcome":"in-review","provider":"manual","pr":"https://github.com/go1com/domain-content-content-management-console/pull/136"}]
+attempts: [{"runId":"cqc-fe-02-gated-content-quality-page-1790563990079","branch":"adw/cqc-fe-02-gated-content-quality-page","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-02-gated-content-quality-page-1790563990079/workspace","outcome":"blocked","provider":"codex","model":"gpt-5.6-sol"},{"runId":"manual-salvage-2026-09-28","branch":"adw/cqc-fe-02-gated-content-quality-page","outcome":"in-review","provider":"manual","pr":"https://github.com/go1com/domain-content-content-management-console/pull/136","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-02-gated-content-quality-page-1790563990079/workspace"}]
 ---
 # An internal Content quality page is reachable from the CMC menu
 
