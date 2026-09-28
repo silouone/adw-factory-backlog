@@ -17,6 +17,34 @@ user stories 3, 4, 6–9 and 22; sections "Service boundary", "API consumed",
 contract in `docs/cqc/backend-contract.md`, and there is no live backend yet,
 so everything is tested against a mocked service.
 
+## Base and what already exists (read first)
+
+- **Base branch: `cqc/release-1`**, not `master`. Your work branches from it and your PR
+  targets it; the operator merges there. The whole page reaches `master` later in one PR for
+  the CLB team. Never target `master`.
+- **Already on `cqc/release-1`** (from cqc-fe-01 #135 and cqc-fe-02 #136):
+  - Route **`/quality`** in `src/app/index.tsx` (production URL `/content/quality`). It is
+    deliberately not `/content-quality`: the menu marks items active by path prefix, so that
+    path would also light up the "Content" item. The "Content quality" left-menu item links to it.
+  - Feature root **`src/components/ContentQuality/index.tsx`**:
+    `ContentQuality({ apiBaseUrl?: string })` renders the page header "Content quality" and,
+    when `apiBaseUrl` is missing, "Content Quality Checker API is not configured". The route
+    passes it `CQC_API_URL`. Extend this root; do not create a second one or a second header.
+  - Runtime config **`CQC_API_URL`** in `src/config.ts` (container `APP_CQC_API_URL` → nginx SSI
+    → `window.GO1.CQC_API_URL`), normalised by `runtimeValue()`: `undefined` means not configured.
+  - **No feature gate.** Statsig was dropped (spec D-1 amended 2026-09-28): the page is visible to
+    every CMC user. Do not add any gating.
+- **No live backend yet.** Test against a mocked CQC service. The API shape is
+  `docs/cqc/backend-contract.md`; the backend's canonical spec (same paths and types) lives in
+  the content-quality-checker repo and becomes `backend/openapi.yaml` later.
+- **Tests in this repo** (`.agents/overlay/TESTING-NOTES.md`): passive effects do not flush after
+  RTL `render`/`fireEvent`; use the `ReactDOM.render` flush wrapper it documents. TS 3.5 has no
+  `keyCode` in `fireEvent` init objects (use `{ key: "..." }`). tslint enforces `prefer-for-of`.
+- **Go1d offline:** the sandbox cannot reach the Go1d source. Verify components and props against
+  the installed `@go1d/go1d` type definitions and state the CMC-RX-13 exception in the PR
+  description; do not search the web or the disk for the Go1d repository.
+- **This ticket adds the first real content under the root:** the CQC service reads its base URL from the root's `apiBaseUrl` prop (never from `window.GO1` directly). When `apiBaseUrl` is missing the root already shows the not-configured message, so do not fetch at all in that case; the service's own not-configured error covers a runtime misconfiguration.
+
 ## What to build
 
 - **A plain typed CQC service** with its own axios instance on the CQC base

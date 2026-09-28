@@ -7,6 +7,13 @@ in the Go1 repository. It rewrites `status:` and
 
 ## Content quality page, release 1 (`cqc-fe-*`)
 
+**Base branch: `cqc/release-1`** (operator decision 2026-09-28). The CLB team owns the CMC and
+reviews from another timezone, so the page is built on a feature branch: `targets/cmc.json`
+has `"base": "cqc/release-1"`, every factory PR targets it, and the operator merges there
+(the branch has no protection or ruleset). The finished page goes to `master` as one PR for CLB.
+Keep the branch current with `master` before that PR. 01 (#135) and 02 (#136) are merged
+there; the combined branch was verified green (lint, 601 tests, build) on 2026-09-28.
+
 Source spec: `docs/cqc/spec-cqc-fe-release-1.md`. The API contract is in
 `docs/cqc/backend-contract.md` and the decisions in `docs/cqc/decisions-2026-09-26.md`.
 
