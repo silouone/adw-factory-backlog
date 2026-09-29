@@ -2,7 +2,7 @@
 attempts: [{"runId":"adw-usage-09-spend-by-provider-bc23c8-1790611089112","branch":"adw/adw-usage-09-spend-by-provider-bc23c8","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-usage-09-spend-by-provider-bc23c8-1790611089112/workspace","outcome":"blocked","provider":"claude","model":"sonnet"},{"runId":"adw-usage-09-spend-by-provider-bc23c8-1790637151989","branch":"adw/adw-usage-09-spend-by-provider-bc23c8-2","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-usage-09-spend-by-provider-bc23c8-1790637151989/workspace","outcome":"in-review","pr":"https://github.com/silouone/adw-factory/pull/156","provider":"claude","model":"claude-sonnet-5-5"}]
 id: adw-usage-09-spend-by-provider-bc23c8
 type: feat
-status: in-review
+status: done
 priority: 2
 created: 2026-09-28
 caps: {minutes: 180, turns: 400, stallMinutes: 25}
