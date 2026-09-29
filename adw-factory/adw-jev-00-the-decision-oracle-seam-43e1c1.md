@@ -1,7 +1,7 @@
 ---
 id: adw-jev-00-the-decision-oracle-seam-43e1c1
 type: feat
-status: in-progress
+status: in-review
 priority: 2
 created: 2026-09-28
 caps: {minutes: 180, turns: 500, stallMinutes: 25}
