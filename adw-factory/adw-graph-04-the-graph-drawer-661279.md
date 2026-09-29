@@ -7,7 +7,7 @@ created: 2026-09-28
 review: true
 caps: {minutes: 180, turns: 700, stallMinutes: 25}
 depends: [adw-graph-03-the-layered-graph-component-aae152]
-attempts: []
+attempts: [{"runId":"adw-graph-04-the-graph-drawer-661279-1790636751031","branch":"adw/adw-graph-04-the-graph-drawer-661279","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-graph-04-the-graph-drawer-661279-1790636751031/workspace","outcome":"in-review","pr":"https://github.com/silouone/adw-factory/pull/157","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # The backlog screen's graph drawer: docked, zoomable, one click from any dependency
 
