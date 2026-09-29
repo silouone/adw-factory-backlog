@@ -1,7 +1,7 @@
 ---
 id: cqc-be-15-the-go1-asset-bucket-is-in-sydney-a71d3c
 type: bug
-status: in-progress
+status: in-review
 priority: 1
 created: 2026-09-29
 model: gpt-5.6-sol
