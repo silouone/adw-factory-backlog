@@ -1,7 +1,7 @@
 ---
 id: adw-graph-06-live-state-in-the-graph-af5c7a
 type: feat
-status: in-review
+status: done
 priority: 2
 created: 2026-09-28
 review: true
