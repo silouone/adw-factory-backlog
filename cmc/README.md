@@ -29,7 +29,24 @@ Dependency graph (`depends:` is enforced; a blocker must be `done`, that is merg
                                   05 filters ────────────────── 12 resolve-validate (also needs 06)
 ```
 
-Frontier at start: 01 and 02.
+Frontier at start: 01 and 02. **01-12 are all merged into `cqc/release-1`** as of 2026-09-29.
+
+## After the first browser, 2026-09-29
+
+The page was mounted locally against the deployed CQC dev API for the first time.
+Evidence: adw-factory `ai_docs/2026-09-29-cqc-dev-integration-findings.md`.
+
+```
+13 dev-server-type-error         (bug,   done)  PR #147 - npm start did not compile
+15 the-page-runs-locally-...     (chore, queued) the same gap, closed properly + 2 more
+14 one-contract-types-from-openapi (feat, queued) BLOCKED on cqc-be-14 (other repo)
+```
+
+`15` is independent and can run now. **`14` must not be dispatched until `cqc-be-14` is
+merged** - it rewrites `backend/openapi.yaml` under amendment BE-38, and generating against
+today's file would bake in the shape being replaced. That blocker is *not* enforceable in
+`depends:`: the guard only resolves ids inside this target's own backlog and silently treats
+a cross-target id as met. The ticket's own heading and the operator are the guard.
 
 ## Before the first dispatch (operator)
 
