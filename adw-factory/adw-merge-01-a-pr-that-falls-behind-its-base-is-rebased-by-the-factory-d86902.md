@@ -1,7 +1,7 @@
 ---
 id: adw-merge-01-a-pr-that-falls-behind-its-base-is-rebased-by-the-factory-d86902
 type: feat
-status: in-review
+status: done
 priority: 1
 created: 2026-09-29
 caps: {minutes: 180, turns: 300, stallMinutes: 25}
