@@ -1,13 +1,13 @@
 ---
 id: cqc-fe-14-one-contract-types-generated-from-openapi-9d0a63
 type: feat
-status: in-progress
+status: blocked
 priority: 1
 created: 2026-09-29
 model: gpt-5.6-sol
 caps: {minutes: 240, turns: 800, stallMinutes: 25}
 depends: []
-attempts: []
+attempts: [{"runId":"cqc-fe-14-one-contract-types-generated-from-openapi-9d0a63-1790689265727","branch":"adw/cqc-fe-14-one-contract-types-generated-from-openapi-9d0a63","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-14-one-contract-types-generated-from-openapi-9d0a63-1790689265727/workspace","outcome":"blocked","provider":"codex","model":"gpt-6-sol"}]
 ---
 # The CMC's CQC types are generated from the backend's OpenAPI, not hand-written from a prose doc
 
