@@ -1,7 +1,7 @@
 ---
 id: cqc-fe-10-trigger-checks
 type: feat
-status: in-review
+status: done
 priority: 2
 created: 2026-09-26
 model: gpt-5.6-sol
