@@ -1,7 +1,7 @@
 ---
 id: cqc-be-18-observer-channels-make-fail-block-reachable-6ae7d9
 type: feat
-status: in-review
+status: done
 priority: 1
 created: 2026-09-29
 model: gpt-5.6-sol
