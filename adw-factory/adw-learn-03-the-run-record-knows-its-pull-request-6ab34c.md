@@ -1,13 +1,13 @@
 ---
 id: adw-learn-03-the-run-record-knows-its-pull-request-6ab34c
 type: feat
-status: in-progress
+status: blocked
 priority: 2
 created: 2026-09-28
 review: false
 caps: {minutes: 180, turns: 500, stallMinutes: 25}
 depends: []
-attempts: [{"runId":"adw-learn-03-the-run-record-knows-its-pull-request-6ab34c-1790589231282","branch":"adw/adw-learn-03-the-run-record-knows-its-pull-request-6ab34c","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-learn-03-the-run-record-knows-its-pull-request-6ab34c-1790589231282/workspace","outcome":"blocked","provider":"claude","model":"sonnet"}]
+attempts: [{"runId":"adw-learn-03-the-run-record-knows-its-pull-request-6ab34c-1790589231282","branch":"adw/adw-learn-03-the-run-record-knows-its-pull-request-6ab34c","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-learn-03-the-run-record-knows-its-pull-request-6ab34c-1790589231282/workspace","outcome":"blocked","provider":"claude","model":"sonnet"},{"runId":"adw-learn-03-the-run-record-knows-its-pull-request-6ab34c-1790643461457","branch":"adw/adw-learn-03-the-run-record-knows-its-pull-request-6ab34c-2","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-learn-03-the-run-record-knows-its-pull-request-6ab34c-1790643461457/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # The run record knows its pull request, and learns what the human did to it
 
