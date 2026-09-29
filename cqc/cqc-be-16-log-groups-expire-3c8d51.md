@@ -1,7 +1,7 @@
 ---
 id: cqc-be-16-log-groups-expire-3c8d51
 type: chore
-status: queued
+status: in-progress
 priority: 3
 created: 2026-09-29
 model: gpt-5.6-sol
