@@ -6,7 +6,7 @@ priority: 2
 created: 2026-09-28
 caps: {minutes: 240, turns: 800, stallMinutes: 25}
 depends: [sabado-29-every-pr-walks-a-real-browser-through-a-real-backend-a98ee9]
-attempts: []
+attempts: [{"runId":"sabado-30-the-remaining-six-journeys-run-on-every-pr-d8bac6-1790678790207","branch":"adw/sabado-30-the-remaining-six-journeys-run-on-every-pr-d8bac6","workspace":"/Users/silouane/personal_project/adw-factory/runs/sabado-30-the-remaining-six-journeys-run-on-every-pr-d8bac6-1790678790207/workspace","outcome":"in-review","pr":"https://github.com/App-sabado/sabado/pull/1318","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # test(e2e): the remaining six journeys of the 2026-09-19 audit run on every PR
 
