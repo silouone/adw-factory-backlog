@@ -34,6 +34,32 @@ All three are independent of each other and of 00-10, so they can run in paralle
 `14` changes `spec-cqc-backend-release-1.md`, `decisions-2026-09-26.md` and
 `openapi.yaml` alongside the code - that is deliberate, per the amendment rule.
 
+## Release 2 — trigger (2026-09-29, from `docs/backend/todo.md`)
+
+```
+16 log-groups-expire              (chore) independent, not release 2
+17 provider-id == asset-portal?   (chore) SPIKE — answer before 22 is designed (BE-33)
+18 observer-channels ─────────── 19 runner-container ── 20 batch+fargate ──┐
+21 run-lifecycle-before-publish ───────────────────────────────────────────┴─ 22 POST checks+batches
+                                                                              ├─ 23 GET batches/{id}
+                                                                              └─ 24 batch-state → lifecycle
+25 deploy dev + verify release 2 (MANUAL) waits on 17-24
+```
+
+Runnable now: **16, 17, 18, 21**. The rest chain.
+
+`18` is the one that decides whether release 2 is worth shipping: BE-9 says that without the
+observer channels `Fail-block` is unreachable and every run is `Needs-review`. Triggering more
+runs without it just produces more `Needs-review`.
+
+`22`'s frontend already exists — `cqc-fe-10` shipped the paste bar and the Check button on
+`cqc/release-1`, and they call `POST /cqc/checks` and `POST /cqc/batches` today, getting a raw
+API Gateway 403. Match `src/services/ContentQuality.service.ts`, do not redesign it.
+
+Release 2 is also where the first compute appears: ECR, an AWS Batch queue, a Fargate compute
+environment and `content-quality-checker--role-runner-{stage}` (whose name was fixed in BE-36
+so the Go1 grant could be requested up front). Release 1 created none of that.
+
 01a (hand-built scaffold, PR #13: dependencies + lockfile + tooling) gates 01. Agents have no
 network, so every dependency lives in that lockfile; tickets must not `npm install`.
 

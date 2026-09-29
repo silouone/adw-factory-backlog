@@ -42,6 +42,14 @@ Evidence: adw-factory `ai_docs/2026-09-29-cqc-dev-integration-findings.md`.
 14 one-contract-types-from-openapi (feat, queued) BLOCKED on cqc-be-14 (other repo)
 ```
 
+`16` (manual) opens the single PR to `master` for CLB — and carries the decision that has to
+be made first: `cqc-fe-10` and `cqc-fe-12` shipped Check, Run-again, Resolve, Validate and
+Reopen against endpoints that land in backend release 2 and 3. All four return a raw API
+Gateway 403 today. Ship read-only behind a config flag, or hold the PR. Product call.
+
+**There is no other CMC release-2 work.** The trigger UI, the polling and the in-progress
+strip are already built and waiting on the backend.
+
 `15` is independent and can run now. **`14` must not be dispatched until `cqc-be-14` is
 merged** - it rewrites `backend/openapi.yaml` under amendment BE-38, and generating against
 today's file would bake in the shape being replaced. That blocker is *not* enforceable in
