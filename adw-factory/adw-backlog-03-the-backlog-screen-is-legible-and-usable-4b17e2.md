@@ -1,7 +1,7 @@
 ---
 id: adw-backlog-03-the-backlog-screen-is-legible-and-usable-4b17e2
 type: feat
-status: in-review
+status: done
 priority: 1
 created: 2026-09-27
 review: true

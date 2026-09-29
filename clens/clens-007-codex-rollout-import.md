@@ -1,7 +1,7 @@
 ---
 id: clens-007-codex-rollout-import
 type: feat
-status: in-review
+status: done
 priority: 1
 created: 2026-07-20
 caps: { minutes: 90, turns: 400 }

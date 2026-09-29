@@ -1,7 +1,7 @@
 ---
 id: adw-bug-28-the-fix-stage-is-never-told-to-write-its-artifact-7f4283
 type: bug
-status: in-review
+status: done
 priority: 1
 created: 2026-09-27
 review: false

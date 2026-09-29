@@ -1,7 +1,7 @@
 ---
 id: clens-008-openai-pricing
 type: feat
-status: in-review
+status: done
 priority: 2
 created: 2026-07-20
 caps: { minutes: 30, turns: 150 }
