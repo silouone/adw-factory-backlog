@@ -8,7 +8,7 @@ model: gpt-5.6-sol
 review: false
 caps: {minutes: 120, turns: 500, stallMinutes: 25}
 depends: [cqc-be-04-list-checked-los-get-content-961b88, cqc-be-05-lo-history-and-run-report-e7a7ca, cqc-be-06-open-an-artefact-presigned-url-5ab9db]
-attempts: []
+attempts: [{"runId":"cqc-be-10-openapi-single-contract-ba6824-1790642856211","branch":"adw/cqc-be-10-openapi-single-contract-ba6824","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-be-10-openapi-single-contract-ba6824-1790642856211/workspace","outcome":"in-review","pr":"https://github.com/CoorpAcademy/content-quality-checker/pull/22","provider":"codex","model":"gpt-6-sol"}]
 ---
 # backend/openapi.yaml becomes the single API contract
 
