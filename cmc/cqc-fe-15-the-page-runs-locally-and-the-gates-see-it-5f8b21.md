@@ -1,13 +1,13 @@
 ---
 id: cqc-fe-15-the-page-runs-locally-and-the-gates-see-it-5f8b21
 type: chore
-status: in-progress
+status: blocked
 priority: 1
 created: 2026-09-29
 model: gpt-5.6-sol
 caps: {minutes: 120, turns: 500, stallMinutes: 25}
 depends: []
-attempts: []
+attempts: [{"runId":"cqc-fe-15-the-page-runs-locally-and-the-gates-see-it-5f8b21-1790689294105","branch":"adw/cqc-fe-15-the-page-runs-locally-and-the-gates-see-it-5f8b21","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-15-the-page-runs-locally-and-the-gates-see-it-5f8b21-1790689294105/workspace","outcome":"blocked","provider":"codex","model":"gpt-6-sol"}]
 ---
 # A developer can run the Content quality page locally, and the gates see what the dev server sees
 
