@@ -6,7 +6,7 @@ priority: 2
 created: 2026-09-28
 caps: {minutes: 180, turns: 500, stallMinutes: 25}
 depends: []
-attempts: []
+attempts: [{"runId":"adw-jev-00-the-decision-oracle-seam-43e1c1-1790637138701","branch":"adw/adw-jev-00-the-decision-oracle-seam-43e1c1","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-jev-00-the-decision-oracle-seam-43e1c1-1790637138701/workspace","outcome":"in-review","pr":"https://github.com/silouone/adw-factory/pull/159","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # The decision-oracle seam: a typed, journaled, vendor-agnostic port that no node consults yet
 
