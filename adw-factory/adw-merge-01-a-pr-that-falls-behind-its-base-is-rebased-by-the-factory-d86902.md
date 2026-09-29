@@ -1,12 +1,12 @@
 ---
 id: adw-merge-01-a-pr-that-falls-behind-its-base-is-rebased-by-the-factory-d86902
 type: feat
-status: in-progress
+status: blocked
 priority: 1
 created: 2026-09-29
 caps: {minutes: 180, turns: 300, stallMinutes: 25}
 depends: []
-attempts: []
+attempts: [{"runId":"adw-merge-01-a-pr-that-falls-behind-its-base-is-rebased-by-the-factory-d86902-1790643026443","branch":"adw/adw-merge-01-a-pr-that-falls-behind-its-base-is-rebased-by-the-factory-d86902","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-merge-01-a-pr-that-falls-behind-its-base-is-rebased-by-the-factory-d86902-1790643026443/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # A PR that falls behind its base is rebased by the factory, not the operator
 
