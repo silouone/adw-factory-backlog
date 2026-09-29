@@ -20,8 +20,19 @@ Dependency graph (`depends:` is enforced; a blocker must be `done`, that is merg
                                 └─ 03 projector ───┼─── 07 import-run (also 00)
                                                    ├─── 08 go1 enrichment
                                                    └─── 09 refresher
-11 deploy dev + verify (MANUAL) waits on 02, 04–09
+11 deploy dev + verify (MANUAL) waits on 02, 04-09 and now 12-14
+
+Found by the first browser against the dev stack, 2026-09-29 (evidence:
+adw-factory ai_docs/2026-09-29-cqc-dev-integration-findings.md):
+
+12 cors-preflight-on-every-cqc-route      (bug)  4 of 5 routes 403 the preflight
+13 artefact-names-are-paths               (bug)  no artefact is fetchable
+14 the-content-summary-the-cmc-renders    (feat) carries spec amendment BE-38
 ```
+
+All three are independent of each other and of 00-10, so they can run in parallel.
+`14` changes `spec-cqc-backend-release-1.md`, `decisions-2026-09-26.md` and
+`openapi.yaml` alongside the code - that is deliberate, per the amendment rule.
 
 01a (hand-built scaffold, PR #13: dependencies + lockfile + tooling) gates 01. Agents have no
 network, so every dependency lives in that lockfile; tickets must not `npm install`.
