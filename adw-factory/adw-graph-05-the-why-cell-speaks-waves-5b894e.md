@@ -1,7 +1,7 @@
 ---
 id: adw-graph-05-the-why-cell-speaks-waves-5b894e
 type: feat
-status: in-review
+status: done
 priority: 1
 created: 2026-09-28
 review: true
