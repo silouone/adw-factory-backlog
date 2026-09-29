@@ -7,7 +7,7 @@ created: 2026-09-29
 model: gpt-5.6-sol
 caps: {minutes: 180, turns: 700, stallMinutes: 25}
 depends: []
-attempts: []
+attempts: [{"runId":"cqc-be-21-a-run-has-a-life-before-it-publishes-1b93a7-1790691497982","branch":"adw/cqc-be-21-a-run-has-a-life-before-it-publishes-1b93a7","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-be-21-a-run-has-a-life-before-it-publishes-1b93a7-1790691497982/workspace","outcome":"in-review","pr":"https://github.com/CoorpAcademy/content-quality-checker/pull/32","provider":"codex","model":"gpt-6-sol","rebased":"46518499fc1e113934ac6204897061a1f445a31c"}]
 ---
 # A run exists in the read model before it finishes
 
