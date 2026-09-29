@@ -1,7 +1,7 @@
 ---
 id: adw-pr-03-ci-and-validation-on-the-card
 type: feat
-status: queued
+status: in-progress
 priority: 2
 created: 2026-09-17
 caps: {minutes: 180, turns: 600}
