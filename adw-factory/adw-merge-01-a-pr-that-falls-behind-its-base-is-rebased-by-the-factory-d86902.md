@@ -6,7 +6,7 @@ priority: 1
 created: 2026-09-29
 caps: {minutes: 180, turns: 300, stallMinutes: 25}
 depends: []
-attempts: [{"runId":"adw-merge-01-a-pr-that-falls-behind-its-base-is-rebased-by-the-factory-d86902-1790643026443","branch":"adw/adw-merge-01-a-pr-that-falls-behind-its-base-is-rebased-by-the-factory-d86902","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-merge-01-a-pr-that-falls-behind-its-base-is-rebased-by-the-factory-d86902-1790643026443/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"}]
+attempts: [{"runId":"adw-merge-01-a-pr-that-falls-behind-its-base-is-rebased-by-the-factory-d86902-1790643026443","branch":"adw/adw-merge-01-a-pr-that-falls-behind-its-base-is-rebased-by-the-factory-d86902","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-merge-01-a-pr-that-falls-behind-its-base-is-rebased-by-the-factory-d86902-1790643026443/workspace","outcome":"in-review","provider":"claude","model":"claude-sonnet-5-5","pr":"https://github.com/silouone/adw-factory/pull/162"}]
 ---
 # A PR that falls behind its base is rebased by the factory, not the operator
 
