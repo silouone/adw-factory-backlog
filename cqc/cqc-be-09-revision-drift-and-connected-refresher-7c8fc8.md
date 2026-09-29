@@ -1,7 +1,7 @@
 ---
 id: cqc-be-09-revision-drift-and-connected-refresher-7c8fc8
 type: feat
-status: in-review
+status: done
 priority: 2
 created: 2026-09-28
 model: gpt-5.6-sol
