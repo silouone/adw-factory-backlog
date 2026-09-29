@@ -7,7 +7,7 @@ created: 2026-09-28
 review: true
 caps: {minutes: 180, turns: 350, stallMinutes: 20}
 depends: [adw-graph-02-the-dependency-model-in-the-projection-e146f2, adw-graph-04-the-graph-drawer-661279]
-attempts: []
+attempts: [{"runId":"adw-graph-05-the-why-cell-speaks-waves-5b894e-1790642868715","branch":"adw/adw-graph-05-the-why-cell-speaks-waves-5b894e","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-graph-05-the-why-cell-speaks-waves-5b894e-1790642868715/workspace","outcome":"in-review","pr":"https://github.com/silouone/adw-factory/pull/160","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # A waiting row says `W3 need 02 & 03`, and each dep opens the graph
 
