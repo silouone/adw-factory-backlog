@@ -7,7 +7,7 @@ created: 2026-09-29
 model: gpt-5.6-sol
 caps: {minutes: 180, turns: 600, stallMinutes: 25}
 depends: []
-attempts: []
+attempts: [{"runId":"cmc-pending-01-pending-tab-filters-7f6f32-1790676186127","branch":"adw/cmc-pending-01-pending-tab-filters-7f6f32","workspace":"/Users/silouane/personal_project/adw-factory/runs/cmc-pending-01-pending-tab-filters-7f6f32-1790676186127/workspace","outcome":"in-review","pr":"https://github.com/go1com/domain-content-content-management-console/pull/148","provider":"codex","model":"gpt-6-sol"}]
 ---
 # Reviewers find one LO in the Pending tab by LO ID, title or provider
 
