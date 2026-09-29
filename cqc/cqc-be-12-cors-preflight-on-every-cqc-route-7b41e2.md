@@ -7,7 +7,7 @@ created: 2026-09-29
 model: gpt-5.6-sol
 caps: {minutes: 120, turns: 500, stallMinutes: 25}
 depends: []
-attempts: []
+attempts: [{"runId":"cqc-be-12-cors-preflight-on-every-cqc-route-7b41e2-1790687809329","branch":"adw/cqc-be-12-cors-preflight-on-every-cqc-route-7b41e2","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-be-12-cors-preflight-on-every-cqc-route-7b41e2-1790687809329/workspace","outcome":"in-review","pr":"https://github.com/CoorpAcademy/content-quality-checker/pull/24","provider":"codex","model":"gpt-6-sol"}]
 ---
 # Four of the five read routes reject the browser's preflight, so only the list is reachable
 
