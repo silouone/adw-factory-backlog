@@ -7,7 +7,7 @@ created: 2026-09-28
 model: gpt-5.6-sol
 caps: {minutes: 120, turns: 500, stallMinutes: 25}
 depends: [cqc-be-03-published-run-becomes-a-row-projector-125f20]
-attempts: []
+attempts: [{"runId":"cqc-be-09-revision-drift-and-connected-refresher-7c8fc8-1790642844452","branch":"adw/cqc-be-09-revision-drift-and-connected-refresher-7c8fc8","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-be-09-revision-drift-and-connected-refresher-7c8fc8-1790642844452/workspace","outcome":"in-review","pr":"https://github.com/CoorpAcademy/content-quality-checker/pull/23","provider":"codex","model":"gpt-6-sol"}]
 ---
 # Each LO row shows its current revision, drift and whether it is connected (refresher)
 
