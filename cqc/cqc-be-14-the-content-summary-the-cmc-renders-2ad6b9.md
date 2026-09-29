@@ -7,7 +7,7 @@ created: 2026-09-29
 model: gpt-5.6-sol
 caps: {minutes: 120, turns: 600, stallMinutes: 25}
 depends: []
-attempts: []
+attempts: [{"runId":"cqc-be-14-the-content-summary-the-cmc-renders-2ad6b9-1790687828819","branch":"adw/cqc-be-14-the-content-summary-the-cmc-renders-2ad6b9","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-be-14-the-content-summary-the-cmc-renders-2ad6b9-1790687828819/workspace","outcome":"in-review","pr":"https://github.com/CoorpAcademy/content-quality-checker/pull/26","provider":"codex","model":"gpt-6-sol","rebased":"5dc31ef41674e057597f1e938454fb7585aaf547"}]
 ---
 # `GET /cqc/content` returns the summary the CMC's backlog cards actually render
 
