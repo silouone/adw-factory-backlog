@@ -7,7 +7,7 @@ created: 2026-09-29
 model: gpt-5.6-sol
 caps: {minutes: 240, turns: 900, stallMinutes: 30}
 depends: []
-attempts: []
+attempts: [{"runId":"cqc-be-18-observer-channels-make-fail-block-reachable-6ae7d9-1790691288428","branch":"adw/cqc-be-18-observer-channels-make-fail-block-reachable-6ae7d9","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-be-18-observer-channels-make-fail-block-reachable-6ae7d9-1790691288428/workspace","outcome":"in-review","pr":"https://github.com/CoorpAcademy/content-quality-checker/pull/31","provider":"codex","model":"gpt-6-sol","rebased":"550e7aeb7975fa04ffb0d12eb8df41e289dcca8f"}]
 ---
 # Port the observer channels so a run can actually reach Fail-block
 
