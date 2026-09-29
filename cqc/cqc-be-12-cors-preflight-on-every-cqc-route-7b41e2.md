@@ -1,7 +1,7 @@
 ---
 id: cqc-be-12-cors-preflight-on-every-cqc-route-7b41e2
 type: bug
-status: queued
+status: in-progress
 priority: 1
 created: 2026-09-29
 model: gpt-5.6-sol
