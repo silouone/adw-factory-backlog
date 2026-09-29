@@ -6,7 +6,7 @@ priority: 1
 created: 2026-09-28
 caps: {minutes: 240, turns: 700, stallMinutes: 25}
 depends: [sabado-29-every-pr-walks-a-real-browser-through-a-real-backend-a98ee9]
-attempts: []
+attempts: [{"runId":"sabado-31-calendar-biens-and-foyer-are-walked-end-to-end-83f54a-1790637176552","branch":"adw/sabado-31-calendar-biens-and-foyer-are-walked-end-to-end-83f54a","workspace":"/Users/silouane/personal_project/adw-factory/runs/sabado-31-calendar-biens-and-foyer-are-walked-end-to-end-83f54a-1790637176552/workspace","outcome":"in-review","pr":"https://github.com/App-sabado/sabado/pull/1315","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # test(e2e): calendar, biens and foyer are walked end to end, so the pages under active development stop shipping unprotected
 
