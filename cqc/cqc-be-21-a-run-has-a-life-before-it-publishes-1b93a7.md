@@ -1,7 +1,7 @@
 ---
 id: cqc-be-21-a-run-has-a-life-before-it-publishes-1b93a7
 type: feat
-status: in-review
+status: done
 priority: 1
 created: 2026-09-29
 model: gpt-5.6-sol
