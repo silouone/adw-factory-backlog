@@ -1,7 +1,7 @@
 ---
 id: cmc-pending-01-pending-tab-filters-7f6f32
 type: feat
-status: queued
+status: in-progress
 priority: 2
 created: 2026-09-29
 model: gpt-5.6-sol
