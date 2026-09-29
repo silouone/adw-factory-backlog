@@ -1,7 +1,7 @@
 ---
 id: adw-graph-04-the-graph-drawer-661279
 type: feat
-status: in-review
+status: done
 priority: 1
 created: 2026-09-28
 review: true
