@@ -1,7 +1,7 @@
 ---
 id: cqc-be-17-does-go1-provider-id-equal-the-asset-portal-9f2b04
 type: chore
-status: in-review
+status: done
 priority: 2
 created: 2026-09-29
 model: gpt-5.6-sol
