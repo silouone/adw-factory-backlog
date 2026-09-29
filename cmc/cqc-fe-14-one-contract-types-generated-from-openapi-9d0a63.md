@@ -1,7 +1,7 @@
 ---
 id: cqc-fe-14-one-contract-types-generated-from-openapi-9d0a63
 type: feat
-status: blocked
+status: done
 priority: 1
 created: 2026-09-29
 model: gpt-5.6-sol
