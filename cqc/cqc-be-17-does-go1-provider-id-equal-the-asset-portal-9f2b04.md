@@ -7,7 +7,7 @@ created: 2026-09-29
 model: gpt-5.6-sol
 caps: {minutes: 120, turns: 500, stallMinutes: 25}
 depends: []
-attempts: []
+attempts: [{"runId":"cqc-be-17-does-go1-provider-id-equal-the-asset-portal-9f2b04-1790691511926","branch":"adw/cqc-be-17-does-go1-provider-id-equal-the-asset-portal-9f2b04","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-be-17-does-go1-provider-id-equal-the-asset-portal-9f2b04-1790691511926/workspace","outcome":"in-review","pr":"https://github.com/CoorpAcademy/content-quality-checker/pull/29","provider":"codex","model":"gpt-6-sol","rebased":"9d70f6f0f83d02ce8538ebd6ff42e2ecba507b6f"}]
 ---
 # Spike: is Go1's `core.provider_id` the same thing as the asset portal?
 
