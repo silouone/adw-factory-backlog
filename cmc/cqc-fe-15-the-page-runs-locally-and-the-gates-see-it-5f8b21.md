@@ -1,7 +1,7 @@
 ---
 id: cqc-fe-15-the-page-runs-locally-and-the-gates-see-it-5f8b21
 type: chore
-status: queued
+status: in-progress
 priority: 1
 created: 2026-09-29
 model: gpt-5.6-sol
