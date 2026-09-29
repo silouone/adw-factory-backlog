@@ -6,7 +6,7 @@ priority: 2
 created: 2026-09-17
 caps: {minutes: 180, turns: 600}
 depends: [adw-pr-02-one-github-read-per-target]
-attempts: []
+attempts: [{"runId":"adw-pr-03-ci-and-validation-on-the-card-1790674615834","branch":"adw/adw-pr-03-ci-and-validation-on-the-card","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-pr-03-ci-and-validation-on-the-card-1790674615834/workspace","outcome":"in-review","pr":"https://github.com/silouone/adw-factory/pull/163","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # CI and validation on the card — and four different ways of saying nothing
 
