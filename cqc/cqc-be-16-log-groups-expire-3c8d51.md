@@ -7,7 +7,7 @@ created: 2026-09-29
 model: gpt-5.6-sol
 caps: {minutes: 90, turns: 400, stallMinutes: 20}
 depends: []
-attempts: []
+attempts: [{"runId":"cqc-be-16-log-groups-expire-3c8d51-1790691531316","branch":"adw/cqc-be-16-log-groups-expire-3c8d51","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-be-16-log-groups-expire-3c8d51-1790691531316/workspace","outcome":"in-review","pr":"https://github.com/CoorpAcademy/content-quality-checker/pull/28","provider":"codex","model":"gpt-6-sol","rebased":"9d70f6f0f83d02ce8538ebd6ff42e2ecba507b6f"}]
 ---
 # The lambda log groups never expire
 
