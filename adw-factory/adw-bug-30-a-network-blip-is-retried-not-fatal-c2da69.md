@@ -6,7 +6,7 @@ priority: 1
 created: 2026-09-28
 caps: {minutes: 180, turns: 300, stallMinutes: 25}
 depends: []
-attempts: [{"runId":"adw-bug-30-a-network-blip-is-retried-not-fatal-c2da69-1790621511343","branch":"adw/adw-bug-30-a-network-blip-is-retried-not-fatal-c2da69","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-bug-30-a-network-blip-is-retried-not-fatal-c2da69-1790621511343/workspace","outcome":"blocked","provider":"claude","model":"sonnet"}]
+attempts: [{"runId":"adw-bug-30-a-network-blip-is-retried-not-fatal-c2da69-1790621511343","branch":"adw/adw-bug-30-a-network-blip-is-retried-not-fatal-c2da69","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-bug-30-a-network-blip-is-retried-not-fatal-c2da69-1790621511343/workspace","outcome":"blocked","provider":"claude","model":"sonnet"},{"runId":"adw-bug-30-a-network-blip-is-retried-not-fatal-c2da69-1790690661501","branch":"adw/adw-bug-30-a-network-blip-is-retried-not-fatal-c2da69-2","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-bug-30-a-network-blip-is-retried-not-fatal-c2da69-1790690661501/workspace","outcome":"in-review","pr":"https://github.com/silouone/adw-factory/pull/164","provider":"claude","model":"claude-sonnet-5-5","rebased":"9a528dcb37edb88e86d56f9a88cd3bada2a2d940"}]
 ---
 # A 13-minute network blip blocked 10 of 11 in-flight runs; the transient retry recognised none of the errors
 
