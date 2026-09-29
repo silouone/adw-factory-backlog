@@ -1,7 +1,7 @@
 ---
 id: cqc-be-10-openapi-single-contract-ba6824
 type: chore
-status: queued
+status: in-progress
 priority: 3
 created: 2026-09-28
 model: gpt-5.6-sol
