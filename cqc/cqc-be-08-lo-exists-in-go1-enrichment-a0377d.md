@@ -1,7 +1,7 @@
 ---
 id: cqc-be-08-lo-exists-in-go1-enrichment-a0377d
 type: feat
-status: in-review
+status: done
 priority: 2
 created: 2026-09-28
 model: gpt-5.6-sol
