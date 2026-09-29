@@ -7,7 +7,7 @@ created: 2026-09-28
 review: true
 caps: {minutes: 180, turns: 450, stallMinutes: 20}
 depends: [adw-graph-03-the-layered-graph-component-aae152]
-attempts: []
+attempts: [{"runId":"adw-graph-06-live-state-in-the-graph-af5c7a-1790636738197","branch":"adw/adw-graph-06-live-state-in-the-graph-af5c7a","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-graph-06-live-state-in-the-graph-af5c7a-1790636738197/workspace","outcome":"in-review","pr":"https://github.com/silouone/adw-factory/pull/158","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # The graph shows what is moving and what is stuck
 
