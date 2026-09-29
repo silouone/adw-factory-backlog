@@ -1,7 +1,7 @@
 ---
 id: cqc-be-14-the-content-summary-the-cmc-renders-2ad6b9
 type: feat
-status: queued
+status: in-progress
 priority: 1
 created: 2026-09-29
 model: gpt-5.6-sol
