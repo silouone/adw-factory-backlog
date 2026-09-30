@@ -6,7 +6,7 @@ priority: 1
 created: 2026-09-30
 caps: {minutes: 180, turns: 600, stallMinutes: 25}
 depends: []
-attempts: []
+attempts: [{"runId":"sabado-34-the-classifier-reads-the-ocr-text-the-run-already-bought-90b959-1790770672391","branch":"adw/sabado-34-the-classifier-reads-the-ocr-text-the-run-already-bought-90b959","workspace":"/Users/silouane/personal_project/adw-factory/runs/sabado-34-the-classifier-reads-the-ocr-text-the-run-already-bought-90b959-1790770672391/workspace","outcome":"in-review","pr":"https://github.com/App-sabado/sabado/pull/1329","provider":"claude","model":"claude-sonnet-5-5","rebased":"94ddda3b2db9e7d383014d8b68ed4a156d7504b1"}]
 ---
 # fix(extraction): the classifier reads the OCR text the run already paid for, instead of guessing from a page image
 
