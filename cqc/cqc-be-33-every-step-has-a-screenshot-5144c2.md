@@ -7,7 +7,7 @@ created: 2026-09-30
 model: gpt-5.6-sol
 caps: {minutes: 240, turns: 900, stallMinutes: 30}
 depends: [cqc-be-32-the-final-screenshot-and-scorm-log-are-published-dc3ce9]
-attempts: []
+attempts: [{"runId":"cqc-be-33-every-step-has-a-screenshot-5144c2-1790802711022","branch":"adw/cqc-be-33-every-step-has-a-screenshot-5144c2","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-be-33-every-step-has-a-screenshot-5144c2-1790802711022/workspace","outcome":"in-review","pr":"https://github.com/CoorpAcademy/content-quality-checker/pull/47","provider":"codex","model":"gpt-6-sol","rebased":"1143fc0a7060f768e4834a226782a3ef39c4b4d4"}]
 ---
 # Every navigation step has a screenshot next to its accessibility snapshot
 
