@@ -1,7 +1,7 @@
 ---
 id: sabado-33-an-ocr-page-reaches-the-cost-meter-d1670e
 type: bug
-status: queued
+status: in-progress
 priority: 2
 created: 2026-09-30
 caps: {minutes: 120, turns: 400, stallMinutes: 25}
