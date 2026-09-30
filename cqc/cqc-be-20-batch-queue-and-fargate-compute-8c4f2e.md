@@ -1,7 +1,7 @@
 ---
 id: cqc-be-20-batch-queue-and-fargate-compute-8c4f2e
 type: feat
-status: in-progress
+status: in-review
 priority: 1
 created: 2026-09-29
 model: gpt-5.6-sol
