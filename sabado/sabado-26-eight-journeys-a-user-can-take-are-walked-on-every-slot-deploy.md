@@ -6,7 +6,7 @@ priority: 3
 created: 2026-09-20
 caps: {minutes: 180, turns: 600, stallMinutes: 25}
 depends: [sabado-30-the-remaining-six-journeys-run-on-every-pr-d8bac6]
-attempts: []
+attempts: [{"runId":"sabado-26-eight-journeys-a-user-can-take-are-walked-on-every-slot-deploy-1790775358057","branch":"adw/sabado-26-eight-journeys-a-user-can-take-are-walked-on-every-slot-deploy","workspace":"/Users/silouane/personal_project/adw-factory/runs/sabado-26-eight-journeys-a-user-can-take-are-walked-on-every-slot-deploy-1790775358057/workspace","outcome":"in-review","pr":"https://github.com/App-sabado/sabado/pull/1328","provider":"claude","model":"claude-sonnet-5-5","rebased":"94ddda3b2db9e7d383014d8b68ed4a156d7504b1"}]
 ---
 # test(e2e): the journey suite is walked against a deployed slot, and before every production promotion
 
