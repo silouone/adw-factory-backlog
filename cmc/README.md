@@ -50,6 +50,28 @@ Gateway 403 today. Ship read-only behind a config flag, or hold the PR. Product 
 **There is no other CMC release-2 work.** The trigger UI, the polling and the in-progress
 strip are already built and waiting on the backend.
 
+## UI/UX pass, 2026-09-30
+
+Audit: adw-factory `ai_docs/2026-09-30-cqc-frontend-ux-audit.md`. Token discipline in this
+feature is clean - no hex, no rgb, no px spacing. The problem is composition: the page states
+everything at equal weight, repeats the same six checks up to three times, and is ~1848px
+wide against a 1440px laptop.
+
+```
+17 four-things-that-render-broken  (bug,   P1) tabs stack, chips overlap, buttons stretch, page overflows
+18 the-row-leads-with-a-verdict    (feat,  P1) 7 cols -> 5, <=1180px, rows 240px -> 96px   [needs 17]
+19 the-drawer-says-each-check-once (feat,  P2) three restatements -> one; one fact block   [needs 17]
+20 the-page-stops-shouting...      (chore, P2) premature validation, ragged filter row, trigger placement
+```
+
+`17` and `20` can run now. Three of `17`'s four defects share one cause: Go1d `View` is a
+flex column with `align-items: stretch`, and this code does not counter it.
+
+Design direction, for anyone picking these up: the signature is the **journey strip** -
+six checks, always the same order, `launch -> navigate -> complete -> not-forced -> media ->
+resume`. It is the one ordered device that is honest here, because the checks really are a
+sequence. Everything else gets quieter.
+
 `15` is independent and can run now. **`14` must not be dispatched until `cqc-be-14` is
 merged** - it rewrites `backend/openapi.yaml` under amendment BE-38, and generating against
 today's file would bake in the shape being replaced. That blocker is *not* enforceable in
