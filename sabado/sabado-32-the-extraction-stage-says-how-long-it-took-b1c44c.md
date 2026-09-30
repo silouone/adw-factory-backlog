@@ -1,7 +1,7 @@
 ---
 id: sabado-32-the-extraction-stage-says-how-long-it-took-b1c44c
 type: bug
-status: in-progress
+status: in-review
 priority: 1
 created: 2026-09-30
 caps: {minutes: 120, turns: 400, stallMinutes: 25}
