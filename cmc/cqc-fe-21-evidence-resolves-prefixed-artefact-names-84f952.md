@@ -1,13 +1,13 @@
 ---
 id: cqc-fe-21-evidence-resolves-prefixed-artefact-names-84f952
 type: bug
-status: in-progress
+status: blocked
 priority: 1
 created: 2026-09-30
 model: gpt-5.6-sol
 caps: {minutes: 120, turns: 500, stallMinutes: 25}
 depends: []
-attempts: []
+attempts: [{"runId":"cqc-fe-21-evidence-resolves-prefixed-artefact-names-84f952-1790794307578","branch":"adw/cqc-fe-21-evidence-resolves-prefixed-artefact-names-84f952","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-21-evidence-resolves-prefixed-artefact-names-84f952-1790794307578/workspace","outcome":"blocked","provider":"codex","model":"gpt-6-sol"}]
 ---
 # The evidence viewer finds artefacts on a real run: names arrive as `runs/<file>` and `output/<file>`
 
