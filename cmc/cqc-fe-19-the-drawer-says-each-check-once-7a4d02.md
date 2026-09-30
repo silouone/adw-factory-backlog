@@ -1,13 +1,13 @@
 ---
 id: cqc-fe-19-the-drawer-says-each-check-once-7a4d02
 type: feat
-status: in-progress
+status: blocked
 priority: 2
 created: 2026-09-30
 model: gpt-5.6-sol
 caps: {minutes: 240, turns: 900, stallMinutes: 30}
 depends: [cqc-fe-17-four-things-that-render-broken-b6e409]
-attempts: []
+attempts: [{"runId":"cqc-fe-19-the-drawer-says-each-check-once-7a4d02-1790782788355","branch":"adw/cqc-fe-19-the-drawer-says-each-check-once-7a4d02","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-19-the-drawer-says-each-check-once-7a4d02-1790782788355/workspace","outcome":"blocked","provider":"codex","model":"gpt-6-sol"}]
 ---
 # The run drawer states each check once, and its facts in one place
 
