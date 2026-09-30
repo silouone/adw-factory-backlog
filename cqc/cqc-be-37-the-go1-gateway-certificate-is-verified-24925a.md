@@ -7,7 +7,7 @@ created: 2026-09-30
 model: gpt-5.6-sol
 caps: {minutes: 120, turns: 500, stallMinutes: 25}
 depends: []
-attempts: []
+attempts: [{"runId":"cqc-be-37-the-go1-gateway-certificate-is-verified-24925a-1790802934550","branch":"adw/cqc-be-37-the-go1-gateway-certificate-is-verified-24925a","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-be-37-the-go1-gateway-certificate-is-verified-24925a-1790802934550/workspace","outcome":"in-review","pr":"https://github.com/CoorpAcademy/content-quality-checker/pull/43","provider":"codex","model":"gpt-6-sol"}]
 ---
 # The Go1 gateway's certificate is verified; `rejectUnauthorized: false` goes
 
