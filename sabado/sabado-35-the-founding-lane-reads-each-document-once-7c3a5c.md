@@ -1,7 +1,7 @@
 ---
 id: sabado-35-the-founding-lane-reads-each-document-once-7c3a5c
 type: bug
-status: in-progress
+status: in-review
 priority: 1
 created: 2026-09-30
 caps: {minutes: 180, turns: 600, stallMinutes: 25}
