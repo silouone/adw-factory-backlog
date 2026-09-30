@@ -7,7 +7,7 @@ created: 2026-09-30
 model: gpt-5.6-sol
 caps: {minutes: 240, turns: 900, stallMinutes: 30}
 depends: []
-attempts: []
+attempts: [{"runId":"cqc-be-32-the-final-screenshot-and-scorm-log-are-published-dc3ce9-1790794366006","branch":"adw/cqc-be-32-the-final-screenshot-and-scorm-log-are-published-dc3ce9","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-be-32-the-final-screenshot-and-scorm-log-are-published-dc3ce9-1790794366006/workspace","outcome":"in-review","pr":"https://github.com/CoorpAcademy/content-quality-checker/pull/42","provider":"codex","model":"gpt-6-sol"}]
 ---
 # The final screenshot and the SCORM log are published, under the names the report cites
 
