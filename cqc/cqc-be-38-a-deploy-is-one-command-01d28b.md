@@ -1,7 +1,7 @@
 ---
 id: cqc-be-38-a-deploy-is-one-command-01d28b
 type: chore
-status: in-review
+status: done
 priority: 2
 created: 2026-09-30
 model: gpt-5.6-sol
