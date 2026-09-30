@@ -1,7 +1,7 @@
 ---
 id: cqc-be-22-staff-trigger-a-check-and-a-batch-5e0c19
 type: feat
-status: in-progress
+status: in-review
 priority: 1
 created: 2026-09-29
 model: gpt-5.6-sol
