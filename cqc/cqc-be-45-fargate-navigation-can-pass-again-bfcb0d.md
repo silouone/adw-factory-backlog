@@ -7,7 +7,7 @@ created: 2026-09-30
 model: gpt-5.6-sol
 caps: {minutes: 120, turns: 500, stallMinutes: 25}
 depends: []
-attempts: []
+attempts: [{"runId":"cqc-be-45-fargate-navigation-can-pass-again-bfcb0d-1790802580858","branch":"adw/cqc-be-45-fargate-navigation-can-pass-again-bfcb0d","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-be-45-fargate-navigation-can-pass-again-bfcb0d-1790802580858/workspace","outcome":"in-review","pr":"https://github.com/CoorpAcademy/content-quality-checker/pull/44","provider":"codex","model":"gpt-6-sol","rebased":"74ebc700043acbd08ba751bc9626b5e66046fcfd"}]
 ---
 # A Fargate run can never pass `navigation-happened` since PR #30, and cites a HAR it never wrote
 
