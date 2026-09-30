@@ -1,7 +1,7 @@
 ---
 id: cqc-fe-23-shared-limitations-are-grouped-d98538
 type: feat
-status: queued
+status: in-progress
 priority: 2
 created: 2026-09-30
 model: gpt-5.6-sol
