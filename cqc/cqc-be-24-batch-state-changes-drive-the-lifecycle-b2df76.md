@@ -7,7 +7,7 @@ created: 2026-09-29
 model: gpt-5.6-sol
 caps: {minutes: 180, turns: 700, stallMinutes: 25}
 depends: [cqc-be-22-staff-trigger-a-check-and-a-batch-5e0c19]
-attempts: []
+attempts: [{"runId":"cqc-be-24-batch-state-changes-drive-the-lifecycle-b2df76-1790770814886","branch":"adw/cqc-be-24-batch-state-changes-drive-the-lifecycle-b2df76","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-be-24-batch-state-changes-drive-the-lifecycle-b2df76-1790770814886/workspace","outcome":"in-review","pr":"https://github.com/CoorpAcademy/content-quality-checker/pull/37","provider":"codex","model":"gpt-6-sol"}]
 ---
 # A run that dies in the container still tells the truth in the read model
 
