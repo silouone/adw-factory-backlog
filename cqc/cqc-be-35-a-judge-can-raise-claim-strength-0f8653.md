@@ -1,7 +1,7 @@
 ---
 id: cqc-be-35-a-judge-can-raise-claim-strength-0f8653
 type: feat
-status: queued
+status: in-progress
 priority: 3
 created: 2026-09-30
 model: gpt-5.6-sol
