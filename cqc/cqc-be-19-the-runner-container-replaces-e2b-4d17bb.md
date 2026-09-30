@@ -7,7 +7,7 @@ created: 2026-09-29
 model: gpt-5.6-sol
 caps: {minutes: 240, turns: 900, stallMinutes: 30}
 depends: [cqc-be-18-observer-channels-make-fail-block-reachable-6ae7d9]
-attempts: []
+attempts: [{"runId":"cqc-be-19-the-runner-container-replaces-e2b-4d17bb-1790728309480","branch":"adw/cqc-be-19-the-runner-container-replaces-e2b-4d17bb","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-be-19-the-runner-container-replaces-e2b-4d17bb-1790728309480/workspace","outcome":"in-review","pr":"https://github.com/CoorpAcademy/content-quality-checker/pull/33","provider":"codex","model":"gpt-6-sol"}]
 ---
 # The check runs in our own container, not an E2B sandbox
 
