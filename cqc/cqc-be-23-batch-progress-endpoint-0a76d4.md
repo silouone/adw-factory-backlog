@@ -1,7 +1,7 @@
 ---
 id: cqc-be-23-batch-progress-endpoint-0a76d4
 type: feat
-status: in-progress
+status: in-review
 priority: 2
 created: 2026-09-29
 model: gpt-5.6-sol
