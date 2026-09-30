@@ -7,7 +7,7 @@ created: 2026-09-30
 model: gpt-5.6-sol
 caps: {minutes: 240, turns: 900, stallMinutes: 30}
 depends: []
-attempts: []
+attempts: [{"runId":"cqc-be-28-config-says-which-case-actions-exist-40185e-1790794231034","branch":"adw/cqc-be-28-config-says-which-case-actions-exist-40185e","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-be-28-config-says-which-case-actions-exist-40185e-1790794231034/workspace","outcome":"in-review","pr":"https://github.com/CoorpAcademy/content-quality-checker/pull/39","provider":"codex","model":"gpt-6-sol"}]
 ---
 # `/cqc/config` tells the CMC which case actions exist, so no button calls a missing route
 
