@@ -6,7 +6,7 @@ priority: 1
 created: 2026-09-30
 caps: {minutes: 150, turns: 300, stallMinutes: 25}
 depends: []
-attempts: []
+attempts: [{"runId":"adw-bug-32-a-dependency-in-another-store-is-ignored-a1a312-1790802772550","branch":"adw/adw-bug-32-a-dependency-in-another-store-is-ignored-a1a312","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-bug-32-a-dependency-in-another-store-is-ignored-a1a312-1790802772550/workspace","outcome":"in-review","pr":"https://github.com/silouone/adw-factory/pull/167","provider":"claude","model":"claude-sonnet-5-5","rebased":"b131d4f21f6e81fbaf5f68fd23aa05998d3f739b"}]
 ---
 # A dependency on a ticket in another target's store is silently treated as met
 
