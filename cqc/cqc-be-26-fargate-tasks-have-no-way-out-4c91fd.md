@@ -1,7 +1,7 @@
 ---
 id: cqc-be-26-fargate-tasks-have-no-way-out-4c91fd
 type: bug
-status: blocked
+status: rejected
 priority: 1
 created: 2026-09-30
 model: gpt-5.6-sol
@@ -10,6 +10,21 @@ depends: []
 attempts: [{"runId":"cqc-be-26-fargate-tasks-have-no-way-out-4c91fd-1790785050847","branch":"adw/cqc-be-26-fargate-tasks-have-no-way-out-4c91fd","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-be-26-fargate-tasks-have-no-way-out-4c91fd-1790785050847/workspace","outcome":"blocked","provider":"codex","model":"gpt-6-sol"}]
 ---
 # A Batch job cannot pull its own image: the Fargate tasks have no egress
+
+> **REJECTED 2026-09-30: the premise is false.** The run (`…-1790785050847`) blocked at
+> `red-check` because no honest red test exists, and the agent was right not to fake one:
+> - `AssignPublicIp` is not a property of Batch `ComputeResources`. For Fargate it lives on the
+>   job definition's `ContainerProperties.NetworkConfiguration`. This ticket read the compute
+>   environment, so it saw "NOT SET".
+> - Already there: `backend/serverless.yml` sets `AssignPublicIp: ENABLED` on
+>   `RunnerJobDefinition` since cqc-be-20 (`b1bf523`), and `test/serverless-batch.test.ts`
+>   ("Fargate job is x86 4 vCPU…") asserts it.
+> - Deployed: `aws batch describe-job-definitions content-quality-checker--batch-job-dev` has
+>   revision 1 with `assignPublicIp: ENABLED`.
+>
+> **The real pull risk is different:** the job definition pulls `…ecr-runner-dev:bootstrap`
+> (`runnerImageTag` defaults to `bootstrap`), and the ECR repo is **empty**. See the note in
+> `cqc-be-25`.
 
 Measured against the **deployed** `dev` stack immediately after the release-2 deploy
 (2026-09-30, `content-quality-checker-dev`, 108 resources). This blocks `cqc-be-25` — the
