@@ -7,7 +7,7 @@ created: 2026-09-30
 model: gpt-5.6-sol
 caps: {minutes: 240, turns: 900, stallMinutes: 30}
 depends: []
-attempts: []
+attempts: [{"runId":"cqc-be-35-a-judge-can-raise-claim-strength-0f8653-1790804525489","branch":"adw/cqc-be-35-a-judge-can-raise-claim-strength-0f8653","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-be-35-a-judge-can-raise-claim-strength-0f8653-1790804525489/workspace","outcome":"in-review","pr":"https://github.com/CoorpAcademy/content-quality-checker/pull/49","provider":"codex","model":"gpt-6-sol"}]
 ---
 # A judge's review maps to `claim_strength`, advisory until humans agree with it
 
