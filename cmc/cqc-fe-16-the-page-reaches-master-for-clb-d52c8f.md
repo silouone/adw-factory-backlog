@@ -4,7 +4,7 @@ type: manual
 status: queued
 priority: 1
 created: 2026-09-29
-depends: [cqc-fe-14-one-contract-types-generated-from-openapi-9d0a63, cqc-fe-15-the-page-runs-locally-and-the-gates-see-it-5f8b21]
+depends: [cqc-fe-14-one-contract-types-generated-from-openapi-9d0a63, cqc-fe-15-the-page-runs-locally-and-the-gates-see-it-5f8b21, cqc-fe-22-case-actions-follow-the-config-1bb8a8]
 attempts: []
 ---
 # The Content quality page goes to `master` as one PR for CLB
@@ -17,6 +17,12 @@ and the assembled branch was verified green (tslint, 952 tests in 121 suites, bu
 clean checkout with a fresh `pnpm install --frozen-lockfile`.
 
 ## ⚠️ Decide this first: four of the page's actions have no backend
+
+> **Decided 2026-09-30 (operator): (a).** On 2026-09-30 release 2 was deployed to dev, so
+> Check, paste-many and Run check again now have routes (`POST /cqc/checks`,
+> `/cqc/batches`). Resolve, Validate and Reopen do not until `cqc-be-30` (release 3). They are
+> disabled with a reason via `/cqc/config` `actions`: `cqc-be-28` (backend, CQC store) and
+> `cqc-fe-22` (CMC, now in `depends`). The PR body must say which actions are live.
 
 `cqc-fe-10` and `cqc-fe-12` shipped the client for endpoints that do not exist yet. Probed
 against the live dev API on 2026-09-29 — all return a **raw API Gateway `403`**, not the
