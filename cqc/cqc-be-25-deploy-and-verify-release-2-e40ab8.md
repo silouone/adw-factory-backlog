@@ -24,6 +24,12 @@ attempts: []
 ## Steps
 
 - Build and push the runner image to ECR; `sls deploy --stage dev`.
+  **Measured 2026-09-30:** `content-quality-checker--ecr-runner-dev` is **empty**, and the
+  deployed job definition (revision 1) pulls `:bootstrap`, the default of
+  `${param:runnerImageTag, 'bootstrap'}`. Either push the image as `bootstrap`, or push an
+  immutable tag and deploy with `--param runnerImageTag=<tag>`. Until then every job fails
+  with `CannotPullContainerError`, which is not an egress problem (see `cqc-be-26`,
+  rejected). Confirm with `aws ecr describe-images` before the first trigger.
 - From the CMC: paste one LO id, press Check.
 - Then paste a batch — include a deliberately bad id, an already-running id, and enough ids
   to cross `max_lo_ids_per_batch`.
