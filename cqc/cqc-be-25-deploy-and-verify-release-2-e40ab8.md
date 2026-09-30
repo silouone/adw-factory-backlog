@@ -16,6 +16,9 @@ attempts: []
 - **B2 needs an owner and a date** (BE-7). `launch` mode is disabled in `/config` with a
   reason; until the analytics-excluded learner exists, a `launch` run can never Pass. Decide
   whether release 2 ships `preview` only.
+  **Decided 2026-09-30 (operator): release 2 ships `preview` only;** `launch` stays disabled.
+- **Grant status 2026-09-30:** not live yet; a request is being sent to Go1 DevOps. The
+  runner image `3dc471e…` is pushed and deployed; the smoke test waits on the grant.
 - The **`go1-scormassets` grant** must be live, for the *correct* region — `ap-southeast-2`,
   see `cqc-be-15`. The runner needs it to fetch a package for an LO that has never run.
 - `cqc-be-17`'s finding must be recorded as `BE-39`: if `core.provider_id` is not the asset
