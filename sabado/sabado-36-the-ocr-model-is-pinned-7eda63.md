@@ -6,7 +6,7 @@ priority: 3
 created: 2026-09-30
 caps: {minutes: 90, turns: 300, stallMinutes: 25}
 depends: []
-attempts: []
+attempts: [{"runId":"sabado-36-the-ocr-model-is-pinned-7eda63-1790770731283","branch":"adw/sabado-36-the-ocr-model-is-pinned-7eda63","workspace":"/Users/silouane/personal_project/adw-factory/runs/sabado-36-the-ocr-model-is-pinned-7eda63-1790770731283/workspace","outcome":"in-review","pr":"https://github.com/App-sabado/sabado/pull/1323","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # chore(extraction): the OCR model is pinned by date, as the repo's own doctrine requires
 
