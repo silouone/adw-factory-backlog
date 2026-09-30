@@ -1,7 +1,7 @@
 ---
 id: sabado-36-the-ocr-model-is-pinned-7eda63
 type: chore
-status: queued
+status: in-progress
 priority: 3
 created: 2026-09-30
 caps: {minutes: 90, turns: 300, stallMinutes: 25}
