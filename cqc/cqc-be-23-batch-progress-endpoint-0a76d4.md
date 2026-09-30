@@ -7,7 +7,7 @@ created: 2026-09-29
 model: gpt-5.6-sol
 caps: {minutes: 150, turns: 600, stallMinutes: 25}
 depends: [cqc-be-22-staff-trigger-a-check-and-a-batch-5e0c19]
-attempts: []
+attempts: [{"runId":"cqc-be-23-batch-progress-endpoint-0a76d4-1790770824510","branch":"adw/cqc-be-23-batch-progress-endpoint-0a76d4","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-be-23-batch-progress-endpoint-0a76d4-1790770824510/workspace","outcome":"in-review","pr":"https://github.com/CoorpAcademy/content-quality-checker/pull/36","provider":"codex","model":"gpt-6-sol"}]
 ---
 # `GET /cqc/batches/{batch_id}`: what happened to the twenty ids I pasted
 
