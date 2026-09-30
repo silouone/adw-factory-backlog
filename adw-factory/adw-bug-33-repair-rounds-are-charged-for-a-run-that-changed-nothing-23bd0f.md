@@ -6,7 +6,7 @@ priority: 2
 created: 2026-09-30
 caps: {minutes: 150, turns: 300, stallMinutes: 25}
 depends: []
-attempts: []
+attempts: [{"runId":"adw-bug-33-repair-rounds-are-charged-for-a-run-that-changed-nothing-23bd0f-1790802810612","branch":"adw/adw-bug-33-repair-rounds-are-charged-for-a-run-that-changed-nothing-23bd0f","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-bug-33-repair-rounds-are-charged-for-a-run-that-changed-nothing-23bd0f-1790802810612/workspace","outcome":"in-review","pr":"https://github.com/silouone/adw-factory/pull/168","provider":"claude","model":"claude-sonnet-5-5","rebased":"b131d4f21f6e81fbaf5f68fd23aa05998d3f739b"}]
 ---
 # Repair rounds are charged for a run that changed nothing, or whose agent said it must not start
 
