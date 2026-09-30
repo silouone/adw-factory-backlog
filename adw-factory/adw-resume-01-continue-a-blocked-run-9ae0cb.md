@@ -5,7 +5,7 @@ status: in-progress
 priority: 2
 created: 2026-09-28
 depends: [adw-bug-30-a-network-blip-is-retried-not-fatal-c2da69]
-attempts: []
+attempts: [{"runId":"adw-resume-01-continue-a-blocked-run-9ae0cb-1790759868841","branch":"adw/adw-resume-01-continue-a-blocked-run-9ae0cb","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-resume-01-continue-a-blocked-run-9ae0cb-1790759868841/workspace","outcome":"in-review","pr":"https://github.com/silouone/adw-factory/pull/165","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # A blocked run can be continued from the node that failed, instead of thrown away
 
