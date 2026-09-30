@@ -1,7 +1,7 @@
 ---
 id: cqc-fe-18-the-row-leads-with-a-verdict-2f7c31
 type: feat
-status: queued
+status: in-progress
 priority: 1
 created: 2026-09-30
 model: gpt-5.6-sol
