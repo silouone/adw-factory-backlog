@@ -7,7 +7,7 @@ created: 2026-09-29
 model: gpt-5.6-sol
 caps: {minutes: 240, turns: 900, stallMinutes: 30}
 depends: [cqc-be-20-batch-queue-and-fargate-compute-8c4f2e, cqc-be-21-a-run-has-a-life-before-it-publishes-1b93a7]
-attempts: []
+attempts: [{"runId":"cqc-be-22-staff-trigger-a-check-and-a-batch-5e0c19-1790761991708","branch":"adw/cqc-be-22-staff-trigger-a-check-and-a-batch-5e0c19","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-be-22-staff-trigger-a-check-and-a-batch-5e0c19-1790761991708/workspace","outcome":"in-review","pr":"https://github.com/CoorpAcademy/content-quality-checker/pull/35","provider":"codex","model":"gpt-6-sol"}]
 ---
 # `POST /cqc/checks` and `POST /cqc/batches`: the two buttons the CMC already has
 
