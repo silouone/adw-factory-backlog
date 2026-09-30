@@ -7,7 +7,7 @@ created: 2026-09-30
 model: gpt-5.6-sol
 caps: {minutes: 120, turns: 500, stallMinutes: 25}
 depends: []
-attempts: []
+attempts: [{"runId":"cqc-be-27-the-trigger-reads-the-go1-bucket-in-its-region-51db27-1790794183403","branch":"adw/cqc-be-27-the-trigger-reads-the-go1-bucket-in-its-region-51db27","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-be-27-the-trigger-reads-the-go1-bucket-in-its-region-51db27-1790794183403/workspace","outcome":"in-review","pr":"https://github.com/CoorpAcademy/content-quality-checker/pull/38","provider":"codex","model":"gpt-6-sol"}]
 ---
 # The trigger's preflight reads `go1-scormassets` from the wrong region, so every check will fail
 
