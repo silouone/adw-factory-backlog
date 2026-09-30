@@ -1,7 +1,7 @@
 ---
 id: cqc-fe-25-the-stepper-pairs-each-step-with-its-screenshot-852b58
 type: feat
-status: in-progress
+status: in-review
 priority: 2
 created: 2026-09-30
 model: gpt-5.6-sol
