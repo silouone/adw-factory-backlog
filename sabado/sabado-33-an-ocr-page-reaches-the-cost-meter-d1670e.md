@@ -6,7 +6,7 @@ priority: 2
 created: 2026-09-30
 caps: {minutes: 120, turns: 400, stallMinutes: 25}
 depends: []
-attempts: []
+attempts: [{"runId":"sabado-33-an-ocr-page-reaches-the-cost-meter-d1670e-1790770706060","branch":"adw/sabado-33-an-ocr-page-reaches-the-cost-meter-d1670e","workspace":"/Users/silouane/personal_project/adw-factory/runs/sabado-33-an-ocr-page-reaches-the-cost-meter-d1670e-1790770706060/workspace","outcome":"in-review","pr":"https://github.com/App-sabado/sabado/pull/1324","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # fix(extraction): an OCR page is priced, so a run stops under-reporting its own bill
 
