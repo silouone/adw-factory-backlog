@@ -7,7 +7,7 @@ created: 2026-09-30
 model: gpt-5.6-sol
 caps: {minutes: 240, turns: 900, stallMinutes: 30}
 depends: []
-attempts: []
+attempts: [{"runId":"cqc-be-36-one-check-id-per-behaviour-7fe0a8-1790802906609","branch":"adw/cqc-be-36-one-check-id-per-behaviour-7fe0a8","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-be-36-one-check-id-per-behaviour-7fe0a8-1790802906609/workspace","outcome":"in-review","pr":"https://github.com/CoorpAcademy/content-quality-checker/pull/45","provider":"codex","model":"gpt-6-sol","rebased":"74ebc700043acbd08ba751bc9626b5e66046fcfd"}]
 ---
 # The local and Go1 contracts name each check the same way
 
