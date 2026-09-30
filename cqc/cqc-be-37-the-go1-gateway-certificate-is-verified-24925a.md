@@ -1,7 +1,7 @@
 ---
 id: cqc-be-37-the-go1-gateway-certificate-is-verified-24925a
 type: bug
-status: queued
+status: in-progress
 priority: 2
 created: 2026-09-30
 model: gpt-5.6-sol
