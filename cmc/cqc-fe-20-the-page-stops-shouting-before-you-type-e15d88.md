@@ -7,7 +7,7 @@ created: 2026-09-30
 model: gpt-5.6-sol
 caps: {minutes: 180, turns: 700, stallMinutes: 25}
 depends: []
-attempts: []
+attempts: [{"runId":"cqc-fe-20-the-page-stops-shouting-before-you-type-e15d88-1790757375205","branch":"adw/cqc-fe-20-the-page-stops-shouting-before-you-type-e15d88","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-20-the-page-stops-shouting-before-you-type-e15d88-1790757375205/workspace","outcome":"in-review","pr":"https://github.com/go1com/domain-content-content-management-console/pull/149","provider":"codex","model":"gpt-6-sol"}]
 ---
 # The page stops showing an error before the user has typed, and triage gets the top of it
 
