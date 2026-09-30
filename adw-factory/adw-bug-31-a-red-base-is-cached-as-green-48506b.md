@@ -1,7 +1,7 @@
 ---
 id: adw-bug-31-a-red-base-is-cached-as-green-48506b
 type: bug
-status: queued
+status: in-progress
 priority: 1
 created: 2026-09-30
 caps: {minutes: 180, turns: 300, stallMinutes: 25}
