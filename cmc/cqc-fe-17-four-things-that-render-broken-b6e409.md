@@ -7,7 +7,7 @@ created: 2026-09-30
 model: gpt-5.6-sol
 caps: {minutes: 180, turns: 700, stallMinutes: 25}
 depends: []
-attempts: []
+attempts: [{"runId":"cqc-fe-17-four-things-that-render-broken-b6e409-1790757351241","branch":"adw/cqc-fe-17-four-things-that-render-broken-b6e409","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-17-four-things-that-render-broken-b6e409-1790757351241/workspace","outcome":"in-review","pr":"https://github.com/go1com/domain-content-content-management-console/pull/150","provider":"codex","model":"gpt-6-sol","rebased":"453a653c040d70f363e1e4290299ce74d9961c8c"}]
 ---
 # Four parts of the Content quality page render broken, and three share one cause
 
