@@ -1,7 +1,7 @@
 ---
 id: cqc-fe-19-the-drawer-says-each-check-once-7a4d02
 type: feat
-status: blocked
+status: in-review
 priority: 2
 created: 2026-09-30
 model: gpt-5.6-sol
