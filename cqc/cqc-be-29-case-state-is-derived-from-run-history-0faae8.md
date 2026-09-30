@@ -7,7 +7,7 @@ created: 2026-09-30
 model: gpt-5.6-sol
 caps: {minutes: 240, turns: 900, stallMinutes: 30}
 depends: []
-attempts: []
+attempts: [{"runId":"cqc-be-29-case-state-is-derived-from-run-history-0faae8-1790794255651","branch":"adw/cqc-be-29-case-state-is-derived-from-run-history-0faae8","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-be-29-case-state-is-derived-from-run-history-0faae8-1790794255651/workspace","outcome":"in-review","pr":"https://github.com/CoorpAcademy/content-quality-checker/pull/40","provider":"codex","model":"gpt-6-sol"}]
 ---
 # `case_state` follows the run history: a Fail-block opens a case, and a later Pass resolves it
 
