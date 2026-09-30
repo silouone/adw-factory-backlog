@@ -1,7 +1,7 @@
 ---
 id: cqc-fe-21-evidence-resolves-prefixed-artefact-names-84f952
 type: bug
-status: blocked
+status: in-review
 priority: 1
 created: 2026-09-30
 model: gpt-5.6-sol
