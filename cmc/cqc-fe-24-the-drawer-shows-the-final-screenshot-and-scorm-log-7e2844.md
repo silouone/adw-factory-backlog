@@ -1,7 +1,7 @@
 ---
 id: cqc-fe-24-the-drawer-shows-the-final-screenshot-and-scorm-log-7e2844
 type: feat
-status: queued
+status: in-progress
 priority: 2
 created: 2026-09-30
 model: gpt-5.6-sol
