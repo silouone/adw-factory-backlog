@@ -11,6 +11,8 @@ attempts: [{"runId":"cqc-fe-22-case-actions-follow-the-config-1bb8a8-17907952419
 ---
 # Resolve, Validate and Reopen are disabled, with the reason, when the backend says they don't exist
 
+> 2026-09-30: dispatched early and blocked on a false-green baseline; nothing to salvage. Requeue only after cqc-be-28 is done AND deployed to dev (PR #39 merged, but dev still runs 3dc471e, so not deployed).
+
 Sources: CMC spec "Unavailable actions are disabled and explain why"
 (`spec-cqc-fe-release-1.md:381-387`); the `cqc-fe-16` decision (a), taken by the operator on
 2026-09-30. Backend: `cqc-be-28` adds `actions: { resolve, reopen }` to `GET /cqc/config`,

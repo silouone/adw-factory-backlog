@@ -11,6 +11,8 @@ attempts: [{"runId":"cqc-fe-26-the-declared-half-is-shown-c791f6-1790795123159",
 ---
 # The drawer shows what the package declares, next to what the run observed
 
+> 2026-09-30: dispatched early and blocked on a false-green baseline; nothing to salvage. Requeue only after cqc-be-34 is done AND deployed to dev (cqc-be-34 is still queued).
+
 Sources: FE D-24 (it hid the declared half until the backend could fill it). Backend:
 `cqc-be-34` fills `package_extraction_snapshot` from `imsmanifest.xml`.
 
