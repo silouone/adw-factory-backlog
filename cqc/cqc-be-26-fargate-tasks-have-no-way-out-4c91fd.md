@@ -1,13 +1,13 @@
 ---
 id: cqc-be-26-fargate-tasks-have-no-way-out-4c91fd
 type: bug
-status: in-progress
+status: blocked
 priority: 1
 created: 2026-09-30
 model: gpt-5.6-sol
 caps: {minutes: 120, turns: 500, stallMinutes: 25}
 depends: []
-attempts: []
+attempts: [{"runId":"cqc-be-26-fargate-tasks-have-no-way-out-4c91fd-1790785050847","branch":"adw/cqc-be-26-fargate-tasks-have-no-way-out-4c91fd","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-be-26-fargate-tasks-have-no-way-out-4c91fd-1790785050847/workspace","outcome":"blocked","provider":"codex","model":"gpt-6-sol"}]
 ---
 # A Batch job cannot pull its own image: the Fargate tasks have no egress
 
