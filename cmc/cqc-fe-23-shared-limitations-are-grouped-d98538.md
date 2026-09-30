@@ -7,7 +7,7 @@ created: 2026-09-30
 model: gpt-5.6-sol
 caps: {minutes: 180, turns: 700, stallMinutes: 25}
 depends: []
-attempts: []
+attempts: [{"runId":"cqc-fe-23-shared-limitations-are-grouped-d98538-1790804544114","branch":"adw/cqc-fe-23-shared-limitations-are-grouped-d98538","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-23-shared-limitations-are-grouped-d98538-1790804544114/workspace","outcome":"in-review","pr":"https://github.com/go1com/domain-content-content-management-console/pull/155","provider":"codex","model":"gpt-6-sol"}]
 ---
 # Limitations shared by every run of a profile are grouped apart from this run's own
 
