@@ -1,7 +1,7 @@
 ---
 id: cqc-be-19-the-runner-container-replaces-e2b-4d17bb
 type: feat
-status: in-progress
+status: in-review
 priority: 1
 created: 2026-09-29
 model: gpt-5.6-sol
