@@ -7,7 +7,7 @@ created: 2026-09-30
 model: gpt-5.6-sol
 caps: {minutes: 180, turns: 700, stallMinutes: 25}
 depends: [cqc-fe-21-evidence-resolves-prefixed-artefact-names-84f952]
-attempts: []
+attempts: [{"runId":"cqc-fe-25-the-stepper-pairs-each-step-with-its-screenshot-852b58-1790804672750","branch":"adw/cqc-fe-25-the-stepper-pairs-each-step-with-its-screenshot-852b58","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-25-the-stepper-pairs-each-step-with-its-screenshot-852b58-1790804672750/workspace","outcome":"in-review","pr":"https://github.com/go1com/domain-content-content-management-console/pull/157","provider":"codex","model":"gpt-6-sol","rebased":"f8a5ad17f00b5444634fff94d3cea7c00afa1822"}]
 ---
 # The snapshot stepper shows each step's screenshot next to its accessibility tree
 
