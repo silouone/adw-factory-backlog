@@ -1,7 +1,7 @@
 ---
 id: cqc-fe-20-the-page-stops-shouting-before-you-type-e15d88
 type: chore
-status: queued
+status: in-progress
 priority: 2
 created: 2026-09-30
 model: gpt-5.6-sol
