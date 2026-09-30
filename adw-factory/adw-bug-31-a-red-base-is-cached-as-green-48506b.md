@@ -6,7 +6,7 @@ priority: 1
 created: 2026-09-30
 caps: {minutes: 180, turns: 300, stallMinutes: 25}
 depends: []
-attempts: []
+attempts: [{"runId":"adw-bug-31-a-red-base-is-cached-as-green-48506b-1790802751200","branch":"adw/adw-bug-31-a-red-base-is-cached-as-green-48506b","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-bug-31-a-red-base-is-cached-as-green-48506b-1790802751200/workspace","outcome":"in-review","pr":"https://github.com/silouone/adw-factory/pull/166","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # A red base is cached as green whenever the test runner writes its results to a report file
 
