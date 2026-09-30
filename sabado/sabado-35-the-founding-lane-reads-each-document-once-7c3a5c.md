@@ -6,7 +6,7 @@ priority: 1
 created: 2026-09-30
 caps: {minutes: 180, turns: 600, stallMinutes: 25}
 depends: [sabado-32-the-extraction-stage-says-how-long-it-took-b1c44c]
-attempts: []
+attempts: [{"runId":"sabado-35-the-founding-lane-reads-each-document-once-7c3a5c-1790783559739","branch":"adw/sabado-35-the-founding-lane-reads-each-document-once-7c3a5c","workspace":"/Users/silouane/personal_project/adw-factory/runs/sabado-35-the-founding-lane-reads-each-document-once-7c3a5c-1790783559739/workspace","outcome":"in-review","pr":"https://github.com/App-sabado/sabado/pull/1330","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # fix(extraction): the founding lane reads each document once, instead of once per anchor
 
