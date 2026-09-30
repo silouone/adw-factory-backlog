@@ -1,7 +1,7 @@
 ---
 id: cqc-be-45-fargate-navigation-can-pass-again-bfcb0d
 type: bug
-status: in-progress
+status: in-review
 priority: 1
 created: 2026-09-30
 model: gpt-5.6-sol
