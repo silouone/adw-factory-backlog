@@ -6,7 +6,7 @@ priority: 1
 created: 2026-09-30
 caps: {minutes: 120, turns: 400, stallMinutes: 25}
 depends: []
-attempts: []
+attempts: [{"runId":"sabado-32-the-extraction-stage-says-how-long-it-took-b1c44c-1790770590207","branch":"adw/sabado-32-the-extraction-stage-says-how-long-it-took-b1c44c","workspace":"/Users/silouane/personal_project/adw-factory/runs/sabado-32-the-extraction-stage-says-how-long-it-took-b1c44c-1790770590207/workspace","outcome":"in-review","pr":"https://github.com/App-sabado/sabado/pull/1325","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # fix(extraction): the extraction stage is timed, so the 15-minute cap can be reasoned about at all
 
