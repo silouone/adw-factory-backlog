@@ -7,7 +7,7 @@ created: 2026-09-30
 model: gpt-5.6-sol
 caps: {minutes: 120, turns: 500, stallMinutes: 25}
 depends: []
-attempts: []
+attempts: [{"runId":"cqc-be-38-a-deploy-is-one-command-01d28b-1790795089192","branch":"adw/cqc-be-38-a-deploy-is-one-command-01d28b","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-be-38-a-deploy-is-one-command-01d28b-1790795089192/workspace","outcome":"in-review","pr":"https://github.com/CoorpAcademy/content-quality-checker/pull/41","provider":"codex","model":"gpt-6-sol"}]
 ---
 # A deploy is one scripted command that a CI box can run
 
