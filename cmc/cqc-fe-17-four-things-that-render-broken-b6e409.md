@@ -1,7 +1,7 @@
 ---
 id: cqc-fe-17-four-things-that-render-broken-b6e409
 type: bug
-status: in-progress
+status: in-review
 priority: 1
 created: 2026-09-30
 model: gpt-5.6-sol
