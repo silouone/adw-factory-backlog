@@ -7,7 +7,7 @@ created: 2026-09-29
 model: gpt-5.6-sol
 caps: {minutes: 180, turns: 700, stallMinutes: 25}
 depends: [cqc-be-19-the-runner-container-replaces-e2b-4d17bb]
-attempts: []
+attempts: [{"runId":"cqc-be-20-batch-queue-and-fargate-compute-8c4f2e-1790755548814","branch":"adw/cqc-be-20-batch-queue-and-fargate-compute-8c4f2e","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-be-20-batch-queue-and-fargate-compute-8c4f2e-1790755548814/workspace","outcome":"in-review","pr":"https://github.com/CoorpAcademy/content-quality-checker/pull/34","provider":"codex","model":"gpt-6-sol"}]
 ---
 # The infrastructure that runs a container: Batch queue, Fargate compute, runner role
 
