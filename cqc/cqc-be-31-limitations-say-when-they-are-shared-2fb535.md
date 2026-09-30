@@ -7,7 +7,7 @@ created: 2026-09-30
 model: gpt-5.6-sol
 caps: {minutes: 240, turns: 900, stallMinutes: 30}
 depends: []
-attempts: []
+attempts: [{"runId":"cqc-be-31-limitations-say-when-they-are-shared-2fb535-1790802610549","branch":"adw/cqc-be-31-limitations-say-when-they-are-shared-2fb535","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-be-31-limitations-say-when-they-are-shared-2fb535-1790802610549/workspace","outcome":"in-review","pr":"https://github.com/CoorpAcademy/content-quality-checker/pull/46","provider":"codex","model":"gpt-6-sol","rebased":"84089470c9e40fb22691d123e49a149b9aedb1a9"}]
 ---
 # Each limitation says whether it is shared by every run of its profile
 
