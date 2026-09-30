@@ -1,7 +1,7 @@
 ---
 id: sabado-34-the-classifier-reads-the-ocr-text-the-run-already-bought-90b959
 type: bug
-status: queued
+status: in-progress
 priority: 1
 created: 2026-09-30
 caps: {minutes: 180, turns: 600, stallMinutes: 25}
