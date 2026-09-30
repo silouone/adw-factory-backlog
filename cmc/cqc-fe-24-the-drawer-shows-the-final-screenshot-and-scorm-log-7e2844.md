@@ -7,7 +7,7 @@ created: 2026-09-30
 model: gpt-5.6-sol
 caps: {minutes: 180, turns: 700, stallMinutes: 25}
 depends: [cqc-fe-21-evidence-resolves-prefixed-artefact-names-84f952]
-attempts: []
+attempts: [{"runId":"cqc-fe-24-the-drawer-shows-the-final-screenshot-and-scorm-log-7e2844-1790804552818","branch":"adw/cqc-fe-24-the-drawer-shows-the-final-screenshot-and-scorm-log-7e2844","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-24-the-drawer-shows-the-final-screenshot-and-scorm-log-7e2844-1790804552818/workspace","outcome":"in-review","pr":"https://github.com/go1com/domain-content-content-management-console/pull/156","provider":"codex","model":"gpt-6-sol"}]
 ---
 # The drawer shows the final screenshot and the SCORM log as evidence
 
