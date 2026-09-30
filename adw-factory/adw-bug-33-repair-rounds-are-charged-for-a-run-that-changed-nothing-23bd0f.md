@@ -1,7 +1,7 @@
 ---
 id: adw-bug-33-repair-rounds-are-charged-for-a-run-that-changed-nothing-23bd0f
 type: bug
-status: in-progress
+status: in-review
 priority: 2
 created: 2026-09-30
 caps: {minutes: 150, turns: 300, stallMinutes: 25}
