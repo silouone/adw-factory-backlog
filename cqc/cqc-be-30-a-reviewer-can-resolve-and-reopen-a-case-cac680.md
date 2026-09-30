@@ -7,7 +7,7 @@ created: 2026-09-30
 model: gpt-5.6-sol
 caps: {minutes: 240, turns: 900, stallMinutes: 30}
 depends: [cqc-be-28-config-says-which-case-actions-exist-40185e, cqc-be-29-case-state-is-derived-from-run-history-0faae8]
-attempts: []
+attempts: [{"runId":"cqc-be-30-a-reviewer-can-resolve-and-reopen-a-case-cac680-1790802597181","branch":"adw/cqc-be-30-a-reviewer-can-resolve-and-reopen-a-case-cac680","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-be-30-a-reviewer-can-resolve-and-reopen-a-case-cac680-1790802597181/workspace","outcome":"in-review","pr":"https://github.com/CoorpAcademy/content-quality-checker/pull/48","provider":"codex","model":"gpt-6-sol"}]
 ---
 # A reviewer can resolve a case with an outcome and a note, and reopen it
 
