@@ -1,7 +1,7 @@
 ---
 id: cqc-be-30-a-reviewer-can-resolve-and-reopen-a-case-cac680
 type: feat
-status: in-review
+status: done
 priority: 2
 created: 2026-09-30
 model: gpt-5.6-sol
