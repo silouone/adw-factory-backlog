@@ -1,7 +1,7 @@
 ---
 id: cqc-be-26-fargate-tasks-have-no-way-out-4c91fd
 type: bug
-status: queued
+status: in-progress
 priority: 1
 created: 2026-09-30
 model: gpt-5.6-sol
