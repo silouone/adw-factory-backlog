@@ -1,7 +1,7 @@
 ---
 id: adw-resume-01-continue-a-blocked-run-9ae0cb
 type: feat
-status: in-review
+status: done
 priority: 2
 created: 2026-09-28
 depends: [adw-bug-30-a-network-blip-is-retried-not-fatal-c2da69]
