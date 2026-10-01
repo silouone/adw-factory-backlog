@@ -1,11 +1,11 @@
 ---
 id: adw-perf-07-a-green-baseline-runs-once-b341d3
 type: feat
-status: in-progress
+status: blocked
 priority: 1
 created: 2026-10-01
 depends: []
-attempts: []
+attempts: [{"runId":"adw-perf-07-a-green-baseline-runs-once-b341d3-1790892320853","branch":"adw/adw-perf-07-a-green-baseline-runs-once-b341d3","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-perf-07-a-green-baseline-runs-once-b341d3-1790892320853/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # A green baseline runs once: the second pass only exists to classify a red one
 
