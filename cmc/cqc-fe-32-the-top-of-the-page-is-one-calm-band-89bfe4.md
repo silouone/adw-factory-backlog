@@ -7,7 +7,7 @@ created: 2026-10-01
 model: gpt-5.6-sol
 caps: {minutes: 240, turns: 900, stallMinutes: 30}
 depends: [cqc-fe-31-the-row-is-the-click-target-9222d4]
-attempts: [{"runId":"cqc-fe-32-the-top-of-the-page-is-one-calm-band-89bfe4-1790879743229","branch":"adw/cqc-fe-32-the-top-of-the-page-is-one-calm-band-89bfe4","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-32-the-top-of-the-page-is-one-calm-band-89bfe4-1790879743229/workspace","outcome":"blocked","provider":"codex","model":"gpt-6-sol"}]
+attempts: [{"runId":"cqc-fe-32-the-top-of-the-page-is-one-calm-band-89bfe4-1790879743229","branch":"adw/cqc-fe-32-the-top-of-the-page-is-one-calm-band-89bfe4","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-32-the-top-of-the-page-is-one-calm-band-89bfe4-1790879743229/workspace","outcome":"blocked","provider":"codex","model":"gpt-6-sol"},{"runId":"cqc-fe-32-the-top-of-the-page-is-one-calm-band-89bfe4-1790883438641","branch":"adw/cqc-fe-32-the-top-of-the-page-is-one-calm-band-89bfe4","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-32-the-top-of-the-page-is-one-calm-band-89bfe4-1790883438641/workspace","outcome":"in-review","pr":"https://github.com/go1com/domain-content-content-management-console/pull/163","provider":"codex","model":"gpt-6-sol"}]
 ---
 # The top of the page reads like the prototype: paste bar, summary with captions, one filter row, honest empty states
 
