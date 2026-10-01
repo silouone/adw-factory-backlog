@@ -1,13 +1,13 @@
 ---
 id: cqc-fe-29-the-strip-and-tabs-stay-put-and-checks-are-cards-31f799
 type: feat
-status: in-progress
+status: blocked
 priority: 1
 created: 2026-10-01
 model: gpt-5.6-sol
 caps: {minutes: 240, turns: 900, stallMinutes: 30}
 depends: [cqc-fe-28-the-drawer-header-fits-in-a-quarter-6ae6c9]
-attempts: [{"runId":"cqc-fe-29-the-strip-and-tabs-stay-put-and-checks-are-cards-31f799-1790879734896","branch":"adw/cqc-fe-29-the-strip-and-tabs-stay-put-and-checks-are-cards-31f799","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-29-the-strip-and-tabs-stay-put-and-checks-are-cards-31f799-1790879734896/workspace","outcome":"blocked","provider":"codex","model":"gpt-6-sol"}]
+attempts: [{"runId":"cqc-fe-29-the-strip-and-tabs-stay-put-and-checks-are-cards-31f799-1790879734896","branch":"adw/cqc-fe-29-the-strip-and-tabs-stay-put-and-checks-are-cards-31f799","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-29-the-strip-and-tabs-stay-put-and-checks-are-cards-31f799-1790879734896/workspace","outcome":"blocked","provider":"codex","model":"gpt-6-sol"},{"runId":"cqc-fe-29-the-strip-and-tabs-stay-put-and-checks-are-cards-31f799-1790883431723","branch":"adw/cqc-fe-29-the-strip-and-tabs-stay-put-and-checks-are-cards-31f799","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-29-the-strip-and-tabs-stay-put-and-checks-are-cards-31f799-1790883431723/workspace","outcome":"blocked","provider":"codex","model":"gpt-6-sol"}]
 ---
 # The check strip and the tabs stay put, and each check is a card you can read at a glance
 
