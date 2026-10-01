@@ -1,7 +1,7 @@
 ---
 id: sabado-42-sealed-is-a-structural-check-not-a-substring-test-b6ac33
 type: bug
-status: blocked
+status: queued
 priority: 2
 created: 2026-10-01
 caps: {minutes: 90, turns: 300, stallMinutes: 25}

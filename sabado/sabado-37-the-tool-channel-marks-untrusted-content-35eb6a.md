@@ -1,7 +1,7 @@
 ---
 id: sabado-37-the-tool-channel-marks-untrusted-content-35eb6a
 type: bug
-status: blocked
+status: queued
 priority: 1
 created: 2026-09-30
 caps: {minutes: 180, turns: 600, stallMinutes: 25}
