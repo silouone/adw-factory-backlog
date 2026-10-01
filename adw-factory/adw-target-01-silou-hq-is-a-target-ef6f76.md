@@ -1,7 +1,7 @@
 ---
 id: adw-target-01-silou-hq-is-a-target-ef6f76
 type: chore
-status: in-review
+status: done
 priority: 1
 created: 2026-10-01
 depends: []
