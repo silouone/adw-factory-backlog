@@ -1,7 +1,7 @@
 ---
 id: cqc-be-46-errors-and-artefacts-reach-the-browser-e2fd2c
 type: bug
-status: queued
+status: in-progress
 priority: 1
 created: 2026-10-01
 model: gpt-5.6-sol
