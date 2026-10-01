@@ -10,3 +10,4 @@ ticket status transitions here, so a client repository is never written to by a 
 - `sabado/`: Sabado (`~/personal_project/SABADO/sabado`), moved from the repo's `tickets/` on 2026-09-27
 - `clens/`: cLens (`~/agent-observability-project`), moved from the repo's `tickets/` on 2026-09-27
 - `adw-factory/`: the factory's own meta-backlog, moved from `tickets/` on 2026-09-27 (adw-store-02); `tickets/README.md` (pickup protocol) and `tickets/BACKLOG.md` stay in the code repo
+- `silou-hq/`: silou-hq, the HQ landing (`~/personal_project/silou-hq`), created 2026-10-01, with spec `docs/spec-v1.md`
