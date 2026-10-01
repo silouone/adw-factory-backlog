@@ -1,7 +1,7 @@
 ---
 id: sabado-41-the-weekly-allowance-cannot-be-bypassed-2a070a
 type: bug
-status: queued
+status: in-progress
 priority: 2
 created: 2026-10-01
 caps: {minutes: 150, turns: 500, stallMinutes: 25}
