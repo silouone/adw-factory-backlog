@@ -1,11 +1,11 @@
 ---
 id: adw-target-01-silou-hq-is-a-target-ef6f76
 type: chore
-status: in-progress
+status: blocked
 priority: 1
 created: 2026-10-01
 depends: []
-attempts: []
+attempts: [{"runId":"adw-target-01-silou-hq-is-a-target-ef6f76-1790882955645","branch":"adw/adw-target-01-silou-hq-is-a-target-ef6f76","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-target-01-silou-hq-is-a-target-ef6f76-1790882955645/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # silou-hq is a factory target
 
