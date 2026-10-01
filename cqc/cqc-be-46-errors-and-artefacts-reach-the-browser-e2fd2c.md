@@ -7,7 +7,7 @@ created: 2026-10-01
 model: gpt-5.6-sol
 caps: {minutes: 120, turns: 500, stallMinutes: 25}
 depends: []
-attempts: []
+attempts: [{"runId":"cqc-be-46-errors-and-artefacts-reach-the-browser-e2fd2c-1790857514939","branch":"adw/cqc-be-46-errors-and-artefacts-reach-the-browser-e2fd2c","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-be-46-errors-and-artefacts-reach-the-browser-e2fd2c-1790857514939/workspace","outcome":"in-review","pr":"https://github.com/CoorpAcademy/content-quality-checker/pull/54","provider":"codex","model":"gpt-6-sol"}]
 ---
 # Gateway errors and evidence files never reach the browser: no CORS on 4xx/5xx, none on the artefacts bucket
 
