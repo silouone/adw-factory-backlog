@@ -7,7 +7,7 @@ created: 2026-10-01
 model: gpt-5.6-sol
 caps: {minutes: 240, turns: 900, stallMinutes: 30}
 depends: [cqc-fe-27-go1d-containers-stop-breaking-the-layout-96b868]
-attempts: []
+attempts: [{"runId":"cqc-fe-28-the-drawer-header-fits-in-a-quarter-6ae6c9-1790865316693","branch":"adw/cqc-fe-28-the-drawer-header-fits-in-a-quarter-6ae6c9","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-28-the-drawer-header-fits-in-a-quarter-6ae6c9-1790865316693/workspace","outcome":"in-review","pr":"https://github.com/go1com/domain-content-content-management-console/pull/161","provider":"codex","model":"gpt-6-sol"}]
 ---
 # The drawer header takes a quarter of the drawer, not half, and reads like the prototype
 
