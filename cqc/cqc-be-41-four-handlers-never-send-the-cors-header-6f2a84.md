@@ -1,7 +1,7 @@
 ---
 id: cqc-be-41-four-handlers-never-send-the-cors-header-6f2a84
 type: bug
-status: queued
+status: in-progress
 priority: 1
 created: 2026-10-01
 model: gpt-5.6-sol
