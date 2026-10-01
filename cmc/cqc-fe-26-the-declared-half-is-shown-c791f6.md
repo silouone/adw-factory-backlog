@@ -1,7 +1,7 @@
 ---
 id: cqc-fe-26-the-declared-half-is-shown-c791f6
 type: feat
-status: blocked
+status: queued
 priority: 2
 created: 2026-09-30
 model: gpt-5.6-sol
@@ -10,6 +10,13 @@ depends: []
 attempts: [{"runId":"cqc-fe-26-the-declared-half-is-shown-c791f6-1790795123159","branch":"adw/cqc-fe-26-the-declared-half-is-shown-c791f6","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-26-the-declared-half-is-shown-c791f6-1790795123159/workspace","outcome":"blocked","provider":"codex","model":"gpt-6-sol"}]
 ---
 # The drawer shows what the package declares, next to what the run observed
+
+> **Reset to `queued` 2026-10-01.** The first attempt blocked on
+> `ContentQuality > renders manual resolution outcome, person, date-time and note in the
+> drawer`, which this ticket did not introduce: `cqc/release-1` was briefly red and the
+> repair loop spent all three rounds on someone else's failure. Nothing was committed and
+> no branch was pushed. The branch is green again (1028 tests, 123 suites), so start from a
+> clean read of the ticket — do not try to work around that test.
 
 > 2026-09-30: dispatched early and blocked on a false-green baseline; nothing to salvage. Requeue only after cqc-be-34 is done AND deployed to dev (cqc-be-34 is still queued).
 

@@ -1,7 +1,7 @@
 ---
 id: cqc-fe-22-case-actions-follow-the-config-1bb8a8
 type: feat
-status: blocked
+status: queued
 priority: 1
 created: 2026-09-30
 model: gpt-5.6-sol
@@ -10,6 +10,13 @@ depends: []
 attempts: [{"runId":"cqc-fe-22-case-actions-follow-the-config-1bb8a8-1790795241911","branch":"adw/cqc-fe-22-case-actions-follow-the-config-1bb8a8","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-22-case-actions-follow-the-config-1bb8a8-1790795241911/workspace","outcome":"blocked","provider":"codex","model":"gpt-6-sol"}]
 ---
 # Resolve, Validate and Reopen are disabled, with the reason, when the backend says they don't exist
+
+> **Reset to `queued` 2026-10-01.** The first attempt blocked on
+> `ContentQuality > renders manual resolution outcome, person, date-time and note in the
+> drawer`, which this ticket did not introduce: `cqc/release-1` was briefly red and the
+> repair loop spent all three rounds on someone else's failure. Nothing was committed and
+> no branch was pushed. The branch is green again (1028 tests, 123 suites), so start from a
+> clean read of the ticket — do not try to work around that test.
 
 > 2026-09-30: dispatched early and blocked on a false-green baseline; nothing to salvage. Requeue only after cqc-be-28 is done AND deployed to dev (PR #39 merged, but dev still runs 3dc471e, so not deployed).
 
