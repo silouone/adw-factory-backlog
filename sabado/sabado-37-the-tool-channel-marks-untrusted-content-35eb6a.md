@@ -1,12 +1,12 @@
 ---
 id: sabado-37-the-tool-channel-marks-untrusted-content-35eb6a
 type: bug
-status: in-progress
+status: blocked
 priority: 1
 created: 2026-09-30
 caps: {minutes: 180, turns: 600, stallMinutes: 25}
 depends: []
-attempts: []
+attempts: [{"runId":"sabado-37-the-tool-channel-marks-untrusted-content-35eb6a-1790808579601","branch":"adw/sabado-37-the-tool-channel-marks-untrusted-content-35eb6a","workspace":"/Users/silouane/personal_project/adw-factory/runs/sabado-37-the-tool-channel-marks-untrusted-content-35eb6a-1790808579601/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # fix(chat): a document cannot instruct the model, because untrusted content is marked as data
 
