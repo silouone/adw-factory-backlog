@@ -1,7 +1,7 @@
 ---
 id: cqc-fe-22-case-actions-follow-the-config-1bb8a8
 type: feat
-status: in-progress
+status: in-review
 priority: 1
 created: 2026-09-30
 model: gpt-5.6-sol
