@@ -1,12 +1,12 @@
 ---
 id: sabado-42-sealed-is-a-structural-check-not-a-substring-test-b6ac33
 type: bug
-status: in-progress
+status: blocked
 priority: 2
 created: 2026-10-01
 caps: {minutes: 90, turns: 300, stallMinutes: 25}
 depends: []
-attempts: [{"runId":"sabado-42-sealed-is-a-structural-check-not-a-substring-test-b6ac33-1790808599352","branch":"adw/sabado-42-sealed-is-a-structural-check-not-a-substring-test-b6ac33","workspace":"/Users/silouane/personal_project/adw-factory/runs/sabado-42-sealed-is-a-structural-check-not-a-substring-test-b6ac33-1790808599352/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"}]
+attempts: [{"runId":"sabado-42-sealed-is-a-structural-check-not-a-substring-test-b6ac33-1790808599352","branch":"adw/sabado-42-sealed-is-a-structural-check-not-a-substring-test-b6ac33","workspace":"/Users/silouane/personal_project/adw-factory/runs/sabado-42-sealed-is-a-structural-check-not-a-substring-test-b6ac33-1790808599352/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"},{"runId":"sabado-42-sealed-is-a-structural-check-not-a-substring-test-b6ac33-1790842826374","branch":"adw/sabado-42-sealed-is-a-structural-check-not-a-substring-test-b6ac33-2","workspace":"/Users/silouane/personal_project/adw-factory/runs/sabado-42-sealed-is-a-structural-check-not-a-substring-test-b6ac33-1790842826374/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # fix(chat): a turn is marked sealed by the marker it carries, not by the word appearing anywhere in it
 
