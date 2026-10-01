@@ -5,7 +5,7 @@ status: in-progress
 priority: 1
 created: 2026-10-01
 depends: [hq-01-buildgraph-is-pure-and-tested-0aabb3]
-attempts: []
+attempts: [{"runId":"hq-02-the-read-only-http-surface-is-tested-72e739-1790896749213","branch":"adw/hq-02-the-read-only-http-surface-is-tested-72e739","workspace":"/Users/silouane/personal_project/adw-factory/runs/hq-02-the-read-only-http-surface-is-tested-72e739-1790896749213/workspace","outcome":"in-review","pr":"https://github.com/silouone/silou-hq/pull/2","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # The read-only HTTP surface is proven by tests
 
