@@ -1,11 +1,11 @@
 ---
 id: adw-web-01-a-stable-address-d7064f
 type: feat
-status: in-progress
+status: blocked
 priority: 2
 created: 2026-10-01
 depends: []
-attempts: [{"runId":"adw-web-01-a-stable-address-d7064f-1790883163351","branch":"adw/adw-web-01-a-stable-address-d7064f","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-web-01-a-stable-address-d7064f-1790883163351/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"}]
+attempts: [{"runId":"adw-web-01-a-stable-address-d7064f-1790883163351","branch":"adw/adw-web-01-a-stable-address-d7064f","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-web-01-a-stable-address-d7064f-1790883163351/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"},{"runId":"adw-web-01-a-stable-address-d7064f-1790891798135","branch":"adw/adw-web-01-a-stable-address-d7064f-2","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-web-01-a-stable-address-d7064f-1790891798135/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # adw web can keep the same address across restarts
 
