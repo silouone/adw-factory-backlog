@@ -1,11 +1,11 @@
 ---
 id: adw-web-02-a-one-shot-board-snapshot-75da7d
 type: feat
-status: in-progress
+status: blocked
 priority: 3
 created: 2026-10-01
 depends: []
-attempts: []
+attempts: [{"runId":"adw-web-02-a-one-shot-board-snapshot-75da7d-1790883174675","branch":"adw/adw-web-02-a-one-shot-board-snapshot-75da7d","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-web-02-a-one-shot-board-snapshot-75da7d-1790883174675/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # adw web serves the board as a one-shot JSON snapshot
 
