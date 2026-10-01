@@ -1,7 +1,7 @@
 ---
 id: cqc-fe-27-go1d-containers-stop-breaking-the-layout-96b868
 type: bug
-status: in-progress
+status: in-review
 priority: 1
 created: 2026-10-01
 model: gpt-5.6-sol
