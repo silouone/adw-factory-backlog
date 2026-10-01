@@ -1,7 +1,7 @@
 ---
 id: cqc-fe-26-the-declared-half-is-shown-c791f6
 type: feat
-status: in-review
+status: done
 priority: 2
 created: 2026-09-30
 model: gpt-5.6-sol
