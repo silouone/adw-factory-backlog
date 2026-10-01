@@ -1,12 +1,12 @@
 ---
 id: hq-01-buildgraph-is-pure-and-tested-0aabb3
 type: feat
-status: in-progress
+status: blocked
 priority: 1
 created: 2026-10-01
 caps: {minutes: 120, turns: 300}
 depends: [hq-00-bind-the-remote-2c5ede]
-attempts: []
+attempts: [{"runId":"hq-01-buildgraph-is-pure-and-tested-0aabb3-1790893493810","branch":"adw/hq-01-buildgraph-is-pure-and-tested-0aabb3","workspace":"/Users/silouane/personal_project/adw-factory/runs/hq-01-buildgraph-is-pure-and-tested-0aabb3-1790893493810/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # The graph is a pure function of its inputs, and is tested
 
