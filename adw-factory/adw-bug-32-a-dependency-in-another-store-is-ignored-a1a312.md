@@ -1,7 +1,7 @@
 ---
 id: adw-bug-32-a-dependency-in-another-store-is-ignored-a1a312
 type: bug
-status: in-review
+status: done
 priority: 1
 created: 2026-09-30
 caps: {minutes: 150, turns: 300, stallMinutes: 25}
