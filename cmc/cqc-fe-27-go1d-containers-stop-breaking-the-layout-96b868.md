@@ -7,7 +7,7 @@ created: 2026-10-01
 model: gpt-5.6-sol
 caps: {minutes: 240, turns: 900, stallMinutes: 30}
 depends: []
-attempts: []
+attempts: [{"runId":"cqc-fe-27-go1d-containers-stop-breaking-the-layout-96b868-1790857465215","branch":"adw/cqc-fe-27-go1d-containers-stop-breaking-the-layout-96b868","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-27-go1d-containers-stop-breaking-the-layout-96b868-1790857465215/workspace","outcome":"in-review","pr":"https://github.com/go1com/domain-content-content-management-console/pull/160","provider":"codex","model":"gpt-6-sol"}]
 ---
 # Four Go1d defaults break the page everywhere: pills wrap, buttons stretch or overflow, lists lose bullets, focus is invisible
 
