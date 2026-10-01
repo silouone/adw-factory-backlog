@@ -1,7 +1,7 @@
 ---
 id: sabado-42-sealed-is-a-structural-check-not-a-substring-test-b6ac33
 type: bug
-status: blocked
+status: queued
 priority: 2
 created: 2026-10-01
 caps: {minutes: 90, turns: 300, stallMinutes: 25}
@@ -10,10 +10,18 @@ attempts: [{"runId":"sabado-42-sealed-is-a-structural-check-not-a-substring-test
 ---
 # fix(chat): a turn is marked sealed by the marker it carries, not by the word appearing anywhere in it
 
-> ## ⚠️ DO NOT DISPATCH until PR #1283 is merged into `main`
+> ## Base: PR #1283 is merged — this ticket is runnable
 >
-> `backend/app/ai/chat_loop.py` does not exist on `origin/main` yet. The line number
-> below is as audited 2026-09-30 on `feat/chat-calls-tools` and will shift in the rebase.
+> `feat/chat-calls-tools` landed on `main` at **2026-10-01T06:01Z**, so `chat_loop.py`,
+> `ai_tools*.py`, `usage.py` and `chat_turn.py` are all present. Line numbers below are as
+> audited 2026-09-30 on the pre-merge branch and shifted in the rebase — **navigate by
+> symbol, not by line**.
+>
+> **A first attempt was fired at 2026-09-30T22:49Z, seven hours BEFORE that merge**, cut
+> from `29ae7af5` where none of these files existed. All four such runs blocked on
+> `red-check exhausted` having produced nothing — an agent cannot write a failing test for
+> a defect in a file that is not in its tree. The `attempts` entry below is that run. It is
+> not a verdict on this ticket.
 
 > **Finding:** `ai_docs/2026-09-30-sabado-pr1283-seven-axes.md` Axis 6, final note.
 > Smallest ticket in the batch, and deliberately so: the observability audit

@@ -1,7 +1,7 @@
 ---
 id: sabado-41-the-weekly-allowance-cannot-be-bypassed-2a070a
 type: bug
-status: blocked
+status: queued
 priority: 2
 created: 2026-10-01
 caps: {minutes: 150, turns: 500, stallMinutes: 25}
@@ -10,11 +10,18 @@ attempts: [{"runId":"sabado-41-the-weekly-allowance-cannot-be-bypassed-2a070a-17
 ---
 # fix(chat): the weekly allowance cannot be bypassed by the old routes, and OCR is inside the gate
 
-> ## ⚠️ DO NOT DISPATCH until PR #1283 is merged into `main`
+> ## Base: PR #1283 is merged — this ticket is runnable
 >
-> Every file this ticket names lives on `feat/chat-calls-tools` and **does not exist on
-> `origin/main`** yet. Line numbers are **as audited 2026-09-30 on that branch** and will
-> shift in the rebase — navigate by symbol, not by line.
+> `feat/chat-calls-tools` landed on `main` at **2026-10-01T06:01Z**, so `chat_loop.py`,
+> `ai_tools*.py`, `usage.py` and `chat_turn.py` are all present. Line numbers below are as
+> audited 2026-09-30 on the pre-merge branch and shifted in the rebase — **navigate by
+> symbol, not by line**.
+>
+> **A first attempt was fired at 2026-09-30T22:49Z, seven hours BEFORE that merge**, cut
+> from `29ae7af5` where none of these files existed. All four such runs blocked on
+> `red-check exhausted` having produced nothing — an agent cannot write a failing test for
+> a defect in a file that is not in its tree. The `attempts` entry below is that run. It is
+> not a verdict on this ticket.
 
 > **Finding:** `ai_docs/2026-09-30-sabado-pr1283-seven-axes.md` Axis 7 (d) — the remaining
 > two `SEC:` items of the PR's second clause.
