@@ -1,7 +1,7 @@
 ---
 id: cqc-fe-32-the-top-of-the-page-is-one-calm-band-89bfe4
 type: feat
-status: queued
+status: in-progress
 priority: 2
 created: 2026-10-01
 model: gpt-5.6-sol
