@@ -1,7 +1,7 @@
 ---
 id: cqc-fe-33-actions-look-like-actions-and-degrade-quietly-faf977
 type: bug
-status: queued
+status: in-progress
 priority: 2
 created: 2026-10-01
 model: gpt-5.6-sol
