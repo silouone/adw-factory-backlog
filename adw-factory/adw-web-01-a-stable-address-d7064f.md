@@ -1,13 +1,15 @@
 ---
 id: adw-web-01-a-stable-address-d7064f
 type: feat
-status: blocked
+status: queued
 priority: 2
 created: 2026-10-01
 depends: []
 attempts: [{"runId":"adw-web-01-a-stable-address-d7064f-1790883163351","branch":"adw/adw-web-01-a-stable-address-d7064f","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-web-01-a-stable-address-d7064f-1790883163351/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # adw web can keep the same address across restarts
+
+> **Re-queued 2026-10-01:** the first attempt was refused at `baseline-green-check` on `6b058da`, but the base was not red. The passes failed on different (flaky) rebase tests, and the rule from adw-bug-31 cached that as red. See adw-bug-35 and adw-bug-36. The cached verdict was removed.
 
 `adw web` mints a random token on every launch, and takes its port from a flag. A tool that
 embeds or reads it, the HQ (spec `~/personal_project/silou-hq/docs/spec-v1.md`, "the factory contract"), must be handed a fresh

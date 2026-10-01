@@ -1,13 +1,15 @@
 ---
 id: adw-web-02-a-one-shot-board-snapshot-75da7d
 type: feat
-status: blocked
+status: queued
 priority: 3
 created: 2026-10-01
 depends: []
 attempts: [{"runId":"adw-web-02-a-one-shot-board-snapshot-75da7d-1790883174675","branch":"adw/adw-web-02-a-one-shot-board-snapshot-75da7d","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-web-02-a-one-shot-board-snapshot-75da7d-1790883174675/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # adw web serves the board as a one-shot JSON snapshot
+
+> **Re-queued 2026-10-01:** the first attempt was refused at `baseline-green-check` on `6b058da`, but the base was not red. The passes failed on different (flaky) rebase tests, and the rule from adw-bug-31 cached that as red. See adw-bug-35 and adw-bug-36. The cached verdict was removed.
 
 A consumer that wants the board once (the HQ's factory widget, spec `~/personal_project/silou-hq/docs/spec-v1.md`) has to open the
 `/events` SSE stream, read its first frame and hang up. A plain `GET /board.json` returning

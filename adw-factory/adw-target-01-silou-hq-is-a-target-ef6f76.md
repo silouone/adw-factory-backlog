@@ -1,13 +1,15 @@
 ---
 id: adw-target-01-silou-hq-is-a-target-ef6f76
 type: chore
-status: blocked
+status: queued
 priority: 1
 created: 2026-10-01
 depends: []
 attempts: [{"runId":"adw-target-01-silou-hq-is-a-target-ef6f76-1790882955645","branch":"adw/adw-target-01-silou-hq-is-a-target-ef6f76","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-target-01-silou-hq-is-a-target-ef6f76-1790882955645/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # silou-hq is a factory target
+
+> **Re-queued 2026-10-01:** the first attempt was refused at `baseline-green-check` on `6b058da`, but the base was not red. The passes failed on different (flaky) rebase tests, and the rule from adw-bug-31 cached that as red. See adw-bug-35 and adw-bug-36. The cached verdict was removed.
 
 The HQ (`~/personal_project/silou-hq`, spec `~/personal_project/silou-hq/docs/spec-v1.md`) is built by this factory. Today
 `TARGET=silou-hq just next` refuses, because no target config exists.
