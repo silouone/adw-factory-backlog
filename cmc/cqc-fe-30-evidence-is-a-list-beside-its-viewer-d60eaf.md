@@ -1,7 +1,7 @@
 ---
 id: cqc-fe-30-evidence-is-a-list-beside-its-viewer-d60eaf
 type: bug
-status: queued
+status: in-progress
 priority: 1
 created: 2026-10-01
 model: gpt-5.6-sol
