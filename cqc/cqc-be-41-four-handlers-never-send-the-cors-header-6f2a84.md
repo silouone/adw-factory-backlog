@@ -7,7 +7,7 @@ created: 2026-10-01
 model: gpt-5.6-sol
 caps: {minutes: 120, turns: 500, stallMinutes: 25}
 depends: []
-attempts: []
+attempts: [{"runId":"cqc-be-41-four-handlers-never-send-the-cors-header-6f2a84-1790850925358","branch":"adw/cqc-be-41-four-handlers-never-send-the-cors-header-6f2a84","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-be-41-four-handlers-never-send-the-cors-header-6f2a84-1790850925358/workspace","outcome":"in-review","pr":"https://github.com/CoorpAcademy/content-quality-checker/pull/53","provider":"codex","model":"gpt-6-sol"}]
 ---
 # Four handlers return 200 without `access-control-allow-origin`, so the browser throws the response away
 
