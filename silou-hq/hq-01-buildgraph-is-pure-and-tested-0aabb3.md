@@ -1,7 +1,7 @@
 ---
 id: hq-01-buildgraph-is-pure-and-tested-0aabb3
 type: feat
-status: queued
+status: in-progress
 priority: 1
 created: 2026-10-01
 caps: {minutes: 120, turns: 300}
