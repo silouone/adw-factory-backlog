@@ -3,6 +3,7 @@ id: adw-bug-38-a-dropped-field-in-a-verdict-kills-a-green-run-7d6735
 type: bug
 status: queued
 priority: 1
+review: false
 created: 2026-10-02
 caps: {minutes: 120, turns: 250, stallMinutes: 20}
 depends: []
@@ -33,11 +34,33 @@ reasoned about severity **in the wrong slot** — in prose, inside `summary`:
 > judgement call**."
 > "This is **a baseline primitive-obsession smell rather than a rule breach**."
 
-All three findings were baseline-catalog smells (long method, duplicated code, primitive
-obsession). `prompts/review-standards.md` states those are *always* `"judgement"`, and a
-`standards`/`judgement` finding neither routes nor blocks (`adw-v1.12` §3). So the most
-likely true verdict was **three non-routing findings → straight to `open-pr`**. A green run
-was thrown away over a key whose only admissible value here was already stated in prose.
+Findings 1 and 2 (long method, duplicated code) are baseline-catalog smells;
+`prompts/review-standards.md` states those are *always* `"judgement"`, and a
+`standards`/`judgement` finding neither routes nor blocks (`adw-v1.12` §3). Finding 3 is
+**undecided by the reviewer itself**: its `citation` is
+`"CLAUDE.md Craft: 'strict TypeScript'; ~/.claude/CLAUDE.md §5: 'strict typing'"` — the
+kind-1 documented-rule form, the only kind permitted to be `hard` — while its `summary`
+says the opposite, "a baseline primitive-obsession smell rather than a rule breach". So
+whether this run would have routed a fix round is **not** establishable from the artifact,
+and this ticket does not claim it.
+
+That contradiction is the sharper evidence. The reviewer did not merely drop a key: its
+citation and its summary disagree about which finding-kind it was looking at, which means
+it never resolved severity at all. A re-ask that **names the slot and restates the
+admissible values** (R3) is the fix that case needs. Any scheme that *defaults* an absent
+`severity` would have silently invented a routing decision the reviewer had not made — see
+"Unchanged" below.
+
+## The fourth occurrence of one failure mode
+
+`adw-bug-13` is the evidence record for *the review lane discards completed work*, and
+names its variants: `adw-bug-12` (PR #73) fixed the **formatting** variant, `adw-bug-13`
+the **substantive-disagreement** and **gate-flake** variants. This is the **dropped-required-field**
+variant — a fourth way the same lane throws away a green run. No dependency on those
+tickets (all `done`); this is their missing sibling, not a reopening.
+
+`review: false` on this ticket, for the reason `adw-bug-12` and `adw-bug-13` both carried
+it: the lane being fixed is the lane that would judge the fix.
 
 ## Why it happens (read before fixing)
 
