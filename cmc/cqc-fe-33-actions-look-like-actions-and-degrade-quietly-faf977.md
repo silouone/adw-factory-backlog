@@ -7,7 +7,7 @@ created: 2026-10-01
 model: gpt-5.6-sol
 caps: {minutes: 240, turns: 900, stallMinutes: 30}
 depends: [cqc-fe-28-the-drawer-header-fits-in-a-quarter-6ae6c9, cqc-fe-32-the-top-of-the-page-is-one-calm-band-89bfe4]
-attempts: []
+attempts: [{"runId":"cqc-fe-33-actions-look-like-actions-and-degrade-quietly-faf977-1790892529629","branch":"adw/cqc-fe-33-actions-look-like-actions-and-degrade-quietly-faf977","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-33-actions-look-like-actions-and-degrade-quietly-faf977-1790892529629/workspace","outcome":"in-review","pr":"https://github.com/go1com/domain-content-content-management-console/pull/166","provider":"codex","model":"gpt-6-sol","rebased":"f9120601504f8f314f5adfc14c33f990edcba905"}]
 ---
 # Actions look like actions, the Resolve dialog uses radios, and a missing config is said once — not on every row
 
