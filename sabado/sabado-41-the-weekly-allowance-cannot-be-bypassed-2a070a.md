@@ -1,12 +1,12 @@
 ---
 id: sabado-41-the-weekly-allowance-cannot-be-bypassed-2a070a
 type: bug
-status: in-progress
+status: blocked
 priority: 2
 created: 2026-10-01
 caps: {minutes: 150, turns: 500, stallMinutes: 25}
 depends: []
-attempts: []
+attempts: [{"runId":"sabado-41-the-weekly-allowance-cannot-be-bypassed-2a070a-1790808592086","branch":"adw/sabado-41-the-weekly-allowance-cannot-be-bypassed-2a070a","workspace":"/Users/silouane/personal_project/adw-factory/runs/sabado-41-the-weekly-allowance-cannot-be-bypassed-2a070a-1790808592086/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # fix(chat): the weekly allowance cannot be bypassed by the old routes, and OCR is inside the gate
 
