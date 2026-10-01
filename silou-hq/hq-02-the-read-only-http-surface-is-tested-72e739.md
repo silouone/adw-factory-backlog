@@ -1,7 +1,7 @@
 ---
 id: hq-02-the-read-only-http-surface-is-tested-72e739
 type: feat
-status: in-review
+status: done
 priority: 1
 created: 2026-10-01
 depends: [hq-01-buildgraph-is-pure-and-tested-0aabb3]
