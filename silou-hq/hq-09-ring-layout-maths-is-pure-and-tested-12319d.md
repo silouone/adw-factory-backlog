@@ -1,7 +1,7 @@
 ---
 id: hq-09-ring-layout-maths-is-pure-and-tested-12319d
 type: feat
-status: in-progress
+status: in-review
 priority: 3
 created: 2026-10-01
 depends: [hq-01-buildgraph-is-pure-and-tested-0aabb3]
