@@ -1,12 +1,12 @@
 ---
 id: sabado-40-a-confirmation-is-redeemed-once-and-expires-f2cefb
 type: bug
-status: in-progress
+status: blocked
 priority: 1
 created: 2026-10-01
 caps: {minutes: 120, turns: 400, stallMinutes: 25}
 depends: []
-attempts: []
+attempts: [{"runId":"sabado-40-a-confirmation-is-redeemed-once-and-expires-f2cefb-1790808576906","branch":"adw/sabado-40-a-confirmation-is-redeemed-once-and-expires-f2cefb","workspace":"/Users/silouane/personal_project/adw-factory/runs/sabado-40-a-confirmation-is-redeemed-once-and-expires-f2cefb-1790808576906/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # fix(chat): a confirmation executes once and stops being redeemable, so a stale yes cannot fire twice
 
