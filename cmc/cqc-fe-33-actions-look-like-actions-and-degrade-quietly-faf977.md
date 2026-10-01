@@ -6,12 +6,12 @@ priority: 2
 created: 2026-10-01
 model: gpt-5.6-sol
 caps: {minutes: 240, turns: 900, stallMinutes: 30}
-depends: [cqc-fe-28-the-drawer-header-fits-in-a-quarter-6ae6c9, cqc-fe-31-the-row-is-the-click-target-9222d4]
+depends: [cqc-fe-28-the-drawer-header-fits-in-a-quarter-6ae6c9, cqc-fe-32-the-top-of-the-page-is-one-calm-band-89bfe4]
 attempts: []
 ---
 # Actions look like actions, the Resolve dialog uses radios, and a missing config is said once — not on every row
 
-Design pass 2026-10-01. Evidence: adw-factory `ai_docs/2026-10-01-cqc-fe-design-pass/`.
+Design pass 2026-10-01. Evidence (operator-only, **not in your worktree** — do not look for it): adw-factory `ai_docs/2026-10-01-cqc-fe-design-pass/`.
 Today: `shots/app-01-fullpage.png` (config down), `shots/appcfg-state-footer-resolve.png`,
 `shots/appcfg-w1440-d0-checks-s0.png` (footer). Target: `shots/proto-w1440-d0-checks-s0.png`
 (footer), prototype Resolve modal (`docs/cqc/prototype/app.js` `resolveModal`, described below).

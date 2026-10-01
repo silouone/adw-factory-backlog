@@ -11,7 +11,7 @@ attempts: []
 ---
 # Evidence items draw on top of each other; the Evidence tab becomes a list beside its viewer
 
-Design pass 2026-10-01. Evidence: adw-factory `ai_docs/2026-10-01-cqc-fe-design-pass/`.
+Design pass 2026-10-01. Evidence (operator-only, **not in your worktree** — do not look for it): adw-factory `ai_docs/2026-10-01-cqc-fe-design-pass/`.
 Today: `shots/appcfg-w1440-d0-tab1-s2.png` (the overlap), `shots/appcfg-state-evidence-item3.png`.
 Target: `shots/proto-w1440-d0-tab1-s0.png`.
 

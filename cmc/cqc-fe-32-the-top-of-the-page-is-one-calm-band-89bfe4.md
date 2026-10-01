@@ -11,7 +11,7 @@ attempts: []
 ---
 # The top of the page reads like the prototype: paste bar, summary with captions, one filter row, honest empty states
 
-Design pass 2026-10-01. Evidence: adw-factory `ai_docs/2026-10-01-cqc-fe-design-pass/`.
+Design pass 2026-10-01. Evidence (operator-only, **not in your worktree** — do not look for it): adw-factory `ai_docs/2026-10-01-cqc-fe-design-pass/`.
 Today: `shots/appcfg-list-w1440-full.png`, `-filter0-open.png`, `-trigger-invalid.png`,
 `-resolve-open.png` (the Resolved tab), and your own screenshots of the filter row and of
 "Run checks". Target: `shots/proto-01-fullpage.png`, `proto-list-w1440-top.png`.
@@ -68,7 +68,7 @@ Go1d translation and rules:
   variant B, whose paste bar is the top of the page.
 - **Summary cards**: keep the four, add the caption line (`fontSize={1}`, `color="subtle"`);
   label as eyebrow (`fontSize={0}`, uppercase). Labels route through the verdict-vocabulary
-  helper.
+  helper `cqc-fe-27` added.
 - **Tabs**: the count as a badge next to the label.
 - **Filter row**: one `View flexDirection="row" flexWrap="wrap" alignItems="flex-end"` with a
   **gap** (`css={{ gap }}` with a spacing token, or a negative-margin wrapper) instead of

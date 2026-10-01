@@ -96,7 +96,7 @@ structure in writing, translated to Go1d.
 30 evidence-is-a-list-beside-its-viewer     (bug,  P1) overlapping rows, two-pane Evidence tab     [needs 29]
 31 the-row-is-the-click-target              (feat, P1) whole-row target, page fits, 9 columns     [needs 27]
 32 the-top-of-the-page-is-one-calm-band     (feat, P2) paste bar on top, captions, one filter row [needs 31]
-33 actions-look-like-actions-...quietly     (bug,  P2) config-down once, footer buttons, radios   [needs 28, 31]
+33 actions-look-like-actions-...quietly     (bug,  P2) config-down once, footer buttons, radios   [needs 28, 32]
 ```
 
 Two lanes after 27: drawer (28 → 29 → 30) and list (31 → 32). 33 joins them. 31 and 32

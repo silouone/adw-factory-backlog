@@ -11,7 +11,7 @@ attempts: []
 ---
 # Four Go1d defaults break the page everywhere: pills wrap, buttons stretch or overflow, lists lose bullets, focus is invisible
 
-Design pass 2026-10-01. Evidence (screenshots, DOM measurements, sweep scripts):
+Design pass 2026-10-01. Evidence (operator-only, **not in your worktree** — do not look for it):
 adw-factory `ai_docs/2026-10-01-cqc-fe-design-pass/`. This ticket is the **foundation** of the
 pass: every other `cqc-fe-28..33` ticket depends on it. Fix the causes once, here, and apply
 them at every site listed. Do not restyle anything else.
@@ -58,7 +58,15 @@ them at every site listed. Do not restyle anything else.
    `:focus-visible { box-shadow: 0 0 0 2px <accent token> }` — and **no** ring for
    `tabIndex={-1}` programmatic targets (`:focus:not(:focus-visible) { box-shadow: none }`).
    Remove the D14 `:focus` box-shadow.
-6. **Fact grid**: a `FactGrid` that lays label/value pairs on **fixed columns**
+6. **Verdict vocabulary (D23)**: one helper decides the words. The **verdict** of a run/LO
+   reads `Fail-block`, `Needs review`, `Pass` — the words the summary cards and the Status
+   filter already use. A **check** reads `passed`, `failed`, `not verified`. Today
+   `domain.ts:365-375` maps the verdict to the check words, so a "Needs review" filter shows
+   rows labelled "not verified"; `CheckedContentSummary.tsx:15` and
+   `CheckedContentFilters.tsx:285-288` hard-code "Fail-block". Add the verdict-label helper
+   next to `getStatusLabel` and route the summary card and filter labels through it.
+   `cqc-fe-28` (drawer verdict) and `cqc-fe-31` (row verdict) only **consume** it.
+7. **Fact grid**: a `FactGrid` that lays label/value pairs on **fixed columns**
    (`width={[1, 1/2, 1/3]}` or a CSS grid, `flexGrow={0}`), so a short last row stays under its
    columns. Apply it to `TechnicalTab`. (`cqc-fe-28` applies it to the drawer header.)
 
@@ -68,11 +76,16 @@ lines is a `View element="button"` with auto height.
 
 ## Acceptance criteria
 
-- [ ] Red tests first (jsdom has no layout, so assert structure):
+- [ ] Red tests first. jsdom has no layout, so assert structure and computed style **on
+      surfaces that render today** (not on the new primitives' imports, which do not exist yet).
+      Emotion styles are in the jsdom document: use the pattern already in
+      `RunDrawer/index.test.tsx` — `window.getComputedStyle(el).<prop>` — not `toHaveStyleRule`
+      (not configured here).
   - `CqcStatusPill` renders its icon and label as siblings inside one row container.
-  - `InlineAction` has zero horizontal padding and `align-self: flex-start` (emotion styles
-    are in the document; `toHaveStyleRule`/computed style).
-  - Each D11 label is rendered through `InlineAction` (query by text, assert the primitive).
+  - The "Shared by every run of this profile", "Show declared and observed values" and
+    "More" buttons have `padding-left: 0` and `align-self: flex-start` (computed style).
+  - The verdict helper returns `Needs review` for `Needs-review`; the summary card and the
+    Status filter option render through it.
   - Limitations render as `li` inside a `ul` whose style has `list-style: disc`.
   - Declared/observed JSON renders in a `pre` with the mono family.
   - The tabpanel heading focused programmatically has no box-shadow outside `:focus-visible`.
@@ -82,7 +95,7 @@ lines is a `View element="button"` with auto height.
 
 ## Explicitly not in scope
 
-Header layout (`cqc-fe-28`), strip/tabs/check cards (`cqc-fe-29`), evidence list
+Rendering the verdict words in the drawer and the row (`cqc-fe-28`, `cqc-fe-31`). Header layout (`cqc-fe-28`), strip/tabs/check cards (`cqc-fe-29`), evidence list
 (`cqc-fe-30`), list row (`cqc-fe-31`), filters/trigger (`cqc-fe-32`), case actions (`cqc-fe-33`).
 They all build on these primitives.
 

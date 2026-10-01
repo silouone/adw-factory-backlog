@@ -11,7 +11,7 @@ attempts: []
 ---
 # The drawer header takes a quarter of the drawer, not half, and reads like the prototype
 
-Design pass 2026-10-01. Evidence: adw-factory `ai_docs/2026-10-01-cqc-fe-design-pass/`
+Design pass 2026-10-01. Evidence (operator-only, **not in your worktree** — do not look for it): adw-factory `ai_docs/2026-10-01-cqc-fe-design-pass/`
 (`shots/appcfg-w1440-d0-checks-s0.png` is today; `shots/proto-w1440-d0-checks-s0.png` is the
 target).
 
@@ -65,12 +65,9 @@ Technical tab already lists the full set as a grid.
 
 ### Status vocabulary
 
-The verdict pill uses the **verdict** words the summary cards and the Status filter use:
-`Fail-block`, `Needs review`, `Pass` (route through one helper — `domain.ts:365-375` maps the
-verdict to the **check** words "failed / not verified" today, `CheckedContentSummary.tsx:15`
-and `CheckedContentFilters.tsx:285-288` hard-code "Fail-block"). Check-level pills keep
-"passed / failed / not verified". One helper decides which vocabulary; `cqc-fe-31` reuses it
-in the list.
+The drawer's verdict pill uses the **verdict** words (`Fail-block`, `Needs review`, `Pass`)
+through the helper `cqc-fe-27` added next to `getStatusLabel`. Check-level pills keep
+"passed / failed / not verified". Do not add a second helper.
 
 ## Also in this ticket
 

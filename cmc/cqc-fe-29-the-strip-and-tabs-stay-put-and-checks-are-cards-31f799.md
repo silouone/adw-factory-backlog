@@ -11,7 +11,7 @@ attempts: []
 ---
 # The check strip and the tabs stay put, and each check is a card you can read at a glance
 
-Design pass 2026-10-01. Evidence: adw-factory `ai_docs/2026-10-01-cqc-fe-design-pass/`.
+Design pass 2026-10-01. Evidence (operator-only, **not in your worktree** — do not look for it): adw-factory `ai_docs/2026-10-01-cqc-fe-design-pass/`.
 Today: `shots/appcfg-w1440-d0-checks-s0.png`, `-s2.png`, `-chip2-click.png`. Target:
 `shots/proto-w1440-d0-checks-s0.png`, `-s1.png`.
 
@@ -60,6 +60,9 @@ Today: `shots/appcfg-w1440-d0-checks-s0.png`, `-s2.png`, `-chip2-click.png`. Tar
   ┃ (inline viewer of the selected evidence)                              ┃
   ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 ```
+
+The drawing shows the prototype's wording; **check labels stay exactly as today** (they come
+from the report: "Content launches", "Navigation happens", …). Do not rename checks.
 
 Go1d translation:
 

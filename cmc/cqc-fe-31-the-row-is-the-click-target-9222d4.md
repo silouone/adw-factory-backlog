@@ -11,7 +11,7 @@ attempts: []
 ---
 # The whole row opens the run, the page never runs past the screen, and the row reads like the prototype
 
-Design pass 2026-10-01. Evidence: adw-factory `ai_docs/2026-10-01-cqc-fe-design-pass/`.
+Design pass 2026-10-01. Evidence (operator-only, **not in your worktree** — do not look for it): adw-factory `ai_docs/2026-10-01-cqc-fe-design-pass/`.
 Today: `shots/appcfg-list-w1440-full.png`, `-hover-x360.png`, `appcfg-list-w1280-top.png`.
 Target: `shots/proto-list-w1440-top.png`, `proto-list-w1440-hover-x700.png`.
 
@@ -50,8 +50,8 @@ Allara Learning · rev N/A
 
 - **Primary**: `LO <id>` in bold, link colour on row hover. Under it, subtle `fontSize={1}`: the
   Go1 title (omitted when absent — never "N/A" as a title), then partner · revision.
-- **Status**: the verdict pill (verdict vocabulary — the helper from `cqc-fe-28`; if that ticket
-  has not landed, route through `domain.ts` the same way), the six-icon mini strip under it, an
+- **Status**: the verdict pill (verdict vocabulary — the helper `cqc-fe-27` added; do not add
+  another), the six-icon mini strip under it, an
   in-progress or failed-to-run line under that when relevant.
 - **Authoring tool** and **Connected**: badges, with "+ Storyline embedded" / "served by <host>"
   as a subtle second line (data already on `ContentRow`; the filters already use it).
@@ -64,10 +64,11 @@ Allara Learning · rev N/A
   and a `faint` background on hover; the row whose drawer is open gets `soft` background and an
   `accent` left border, with `aria-current`. The keyboard target stays a real button (the LO id),
   so Tab + Enter still works and focus returns to it on close.
-- **Width**: remove the `PageBody` width override. The table scrolls horizontally **inside its
-  card** below its natural width; the page itself never exceeds the viewport. Give the column
-  widths a total that fits a 1440 viewport with the sidebar (~1130px of content) without
-  scrolling; under that, the card scrolls.
+- **Width**: remove the `PageBody` width override. **Hard rule: the page never exceeds the
+  viewport; the table scrolls horizontally inside its card.** Goal, not a gate: at 1440 the
+  usable width is ~1070px (1440 − 242 sidebar − 128 `PageBody` padding); keep columns tight
+  (badges, two short lines) so most of the table is visible, but never ellipsise the LO id or
+  the verdict to make it fit — the prototype also scrolls its table at 1440.
 
 ### This deliberately reverses part of `cqc-fe-18`
 
