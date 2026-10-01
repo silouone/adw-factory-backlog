@@ -1,7 +1,7 @@
 ---
 id: sabado-40-a-confirmation-is-redeemed-once-and-expires-f2cefb
 type: bug
-status: in-review
+status: done
 priority: 1
 created: 2026-10-01
 caps: {minutes: 120, turns: 400, stallMinutes: 25}
