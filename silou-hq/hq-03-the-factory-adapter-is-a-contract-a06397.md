@@ -5,7 +5,7 @@ status: in-progress
 priority: 1
 created: 2026-10-01
 depends: [hq-01-buildgraph-is-pure-and-tested-0aabb3]
-attempts: []
+attempts: [{"runId":"hq-03-the-factory-adapter-is-a-contract-a06397-1790896757872","branch":"adw/hq-03-the-factory-adapter-is-a-contract-a06397","workspace":"/Users/silouane/personal_project/adw-factory/runs/hq-03-the-factory-adapter-is-a-contract-a06397-1790896757872/workspace","outcome":"in-review","pr":"https://github.com/silouone/silou-hq/pull/4","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # The factory is read through one adapter, pinned by contract tests
 
