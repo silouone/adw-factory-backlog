@@ -1,7 +1,7 @@
 ---
 id: cqc-fe-28-the-drawer-header-fits-in-a-quarter-6ae6c9
 type: feat
-status: in-review
+status: done
 priority: 1
 created: 2026-10-01
 model: gpt-5.6-sol
