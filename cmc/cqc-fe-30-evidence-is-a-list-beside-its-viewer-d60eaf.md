@@ -7,7 +7,7 @@ created: 2026-10-01
 model: gpt-5.6-sol
 caps: {minutes: 240, turns: 900, stallMinutes: 30}
 depends: [cqc-fe-29-the-strip-and-tabs-stay-put-and-checks-are-cards-31f799]
-attempts: []
+attempts: [{"runId":"cqc-fe-30-evidence-is-a-list-beside-its-viewer-d60eaf-1790892521079","branch":"adw/cqc-fe-30-evidence-is-a-list-beside-its-viewer-d60eaf","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-30-evidence-is-a-list-beside-its-viewer-d60eaf-1790892521079/workspace","outcome":"in-review","pr":"https://github.com/go1com/domain-content-content-management-console/pull/165","provider":"codex","model":"gpt-6-sol"}]
 ---
 # Evidence items draw on top of each other; the Evidence tab becomes a list beside its viewer
 
