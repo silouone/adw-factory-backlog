@@ -1,7 +1,7 @@
 ---
 id: cqc-fe-31-the-row-is-the-click-target-9222d4
 type: feat
-status: in-review
+status: done
 priority: 1
 created: 2026-10-01
 model: gpt-5.6-sol
