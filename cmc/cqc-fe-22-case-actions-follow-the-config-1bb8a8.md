@@ -7,7 +7,7 @@ created: 2026-09-30
 model: gpt-5.6-sol
 caps: {minutes: 180, turns: 700, stallMinutes: 25}
 depends: []
-attempts: [{"runId":"cqc-fe-22-case-actions-follow-the-config-1bb8a8-1790795241911","branch":"adw/cqc-fe-22-case-actions-follow-the-config-1bb8a8","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-22-case-actions-follow-the-config-1bb8a8-1790795241911/workspace","outcome":"blocked","provider":"codex","model":"gpt-6-sol"}]
+attempts: [{"runId":"cqc-fe-22-case-actions-follow-the-config-1bb8a8-1790795241911","branch":"adw/cqc-fe-22-case-actions-follow-the-config-1bb8a8","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-22-case-actions-follow-the-config-1bb8a8-1790795241911/workspace","outcome":"blocked","provider":"codex","model":"gpt-6-sol"},{"runId":"cqc-fe-22-case-actions-follow-the-config-1bb8a8-1790845895164","branch":"adw/cqc-fe-22-case-actions-follow-the-config-1bb8a8-2","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-22-case-actions-follow-the-config-1bb8a8-1790845895164/workspace","outcome":"in-review","pr":"https://github.com/go1com/domain-content-content-management-console/pull/158","provider":"codex","model":"gpt-6-sol"}]
 ---
 # Resolve, Validate and Reopen are disabled, with the reason, when the backend says they don't exist
 
