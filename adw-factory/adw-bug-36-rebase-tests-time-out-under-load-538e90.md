@@ -23,6 +23,7 @@ passes took ~35 minutes under load.
 - Build each scenario's repositories once from a template (`git clone --local` of a prepared fixture, or one bare repo per file), instead of `git init` plus commits per test.
 - Where real git is not the point, use the scripted-git seam the file already has ("scripted git failures").
 - Keep the few real-git cases that prove real behaviour, but make them fast. Raise their own per-test timeout only if they genuinely need it, never the suite's.
+- **Added 2026-10-02 (test audit).** Build the template fixture as **one shared helper next to `test/real-git-workspace.ts`**, not a per-file copy. adw-perf-09 reuses it for ci-round and sync-pr-state, which have the same fixture shape. While you're in that file, stop running every command through `sh -c` (`:23`); it costs two processes per git call. Measured spawns: rebase-round 892 git calls for 28 tests, rebase 542 for 41.
 
 ## Red first
 
