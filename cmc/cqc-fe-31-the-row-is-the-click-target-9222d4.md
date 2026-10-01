@@ -7,7 +7,7 @@ created: 2026-10-01
 model: gpt-5.6-sol
 caps: {minutes: 240, turns: 900, stallMinutes: 30}
 depends: [cqc-fe-27-go1d-containers-stop-breaking-the-layout-96b868]
-attempts: []
+attempts: [{"runId":"cqc-fe-31-the-row-is-the-click-target-9222d4-1790865326022","branch":"adw/cqc-fe-31-the-row-is-the-click-target-9222d4","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-31-the-row-is-the-click-target-9222d4-1790865326022/workspace","outcome":"in-review","pr":"https://github.com/go1com/domain-content-content-management-console/pull/162","provider":"codex","model":"gpt-6-sol"}]
 ---
 # The whole row opens the run, the page never runs past the screen, and the row reads like the prototype
 
