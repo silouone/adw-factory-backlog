@@ -1,7 +1,7 @@
 ---
 id: hq-03-the-factory-adapter-is-a-contract-a06397
 type: feat
-status: in-progress
+status: in-review
 priority: 1
 created: 2026-10-01
 depends: [hq-01-buildgraph-is-pure-and-tested-0aabb3]
