@@ -1,7 +1,7 @@
 ---
 id: cqc-be-40-the-projector-cannot-write-a-new-run-8d21ae
 type: bug
-status: in-progress
+status: in-review
 priority: 1
 created: 2026-10-01
 model: gpt-5.6-sol
