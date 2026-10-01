@@ -5,7 +5,7 @@ status: in-progress
 priority: 3
 created: 2026-10-01
 depends: [hq-01-buildgraph-is-pure-and-tested-0aabb3]
-attempts: []
+attempts: [{"runId":"hq-09-ring-layout-maths-is-pure-and-tested-12319d-1790896775218","branch":"adw/hq-09-ring-layout-maths-is-pure-and-tested-12319d","workspace":"/Users/silouane/personal_project/adw-factory/runs/hq-09-ring-layout-maths-is-pure-and-tested-12319d-1790896775218/workspace","outcome":"in-review","pr":"https://github.com/silouone/silou-hq/pull/3","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # The ring layout maths is pure and tested
 
