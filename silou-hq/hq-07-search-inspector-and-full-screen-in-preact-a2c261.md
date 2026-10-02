@@ -1,7 +1,7 @@
 ---
 id: hq-07-search-inspector-and-full-screen-in-preact-a2c261
 type: feat
-status: in-review
+status: done
 priority: 2
 created: 2026-10-01
 caps: {minutes: 150, turns: 400}
