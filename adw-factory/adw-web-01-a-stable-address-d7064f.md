@@ -1,13 +1,15 @@
 ---
 id: adw-web-01-a-stable-address-d7064f
 type: feat
-status: blocked
+status: queued
 priority: 2
 created: 2026-10-01
 depends: []
 attempts: [{"runId":"adw-web-01-a-stable-address-d7064f-1790883163351","branch":"adw/adw-web-01-a-stable-address-d7064f","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-web-01-a-stable-address-d7064f-1790883163351/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"},{"runId":"adw-web-01-a-stable-address-d7064f-1790891798135","branch":"adw/adw-web-01-a-stable-address-d7064f-2","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-web-01-a-stable-address-d7064f-1790891798135/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # adw web can keep the same address across restarts
+
+> **Re-queued 2026-10-02:** the second attempt (`…-1790891798135`) used up 3 repair rounds on failures in `adw run` CLI tests (green path, codex, container) that the diff never touched. That is the flaky-suite class fixed since by adw-bug-35/36 and adw-gates-08. Its workspace diff (justfile, `src/cli.ts`, the v1.2 amendment, `test/cli.web-launch.test.ts`) is still on disk if a fresh run wants a reference.
 
 > **Re-queued 2026-10-01:** the first attempt was refused at `baseline-green-check` on `6b058da`, but the base was not red. The passes failed on different (flaky) rebase tests, and the rule from adw-bug-31 cached that as red. See adw-bug-35 and adw-bug-36. The cached verdict was removed.
 
