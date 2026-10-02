@@ -1,7 +1,7 @@
 ---
 id: adw-tools-03-a-piped-bun-call-needs-the-classifier-16d6dc
 type: bug
-status: in-progress
+status: in-review
 priority: 1
 created: 2026-10-02
 caps: {minutes: 90, turns: 250}
