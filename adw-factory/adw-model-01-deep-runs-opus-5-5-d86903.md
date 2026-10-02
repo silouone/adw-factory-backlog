@@ -1,11 +1,11 @@
 ---
 id: adw-model-01-deep-runs-opus-5-5-d86903
 type: chore
-status: blocked
+status: in-review
 priority: 2
 created: 2026-09-28
 depends: []
-attempts: [{"runId":"adw-model-01-deep-runs-opus-5-5-d86903-1790928393113","branch":"adw/adw-model-01-deep-runs-opus-5-5-d86903","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-model-01-deep-runs-opus-5-5-d86903-1790928393113/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"}]
+attempts: [{"runId":"adw-model-01-deep-runs-opus-5-5-d86903-1790928393113","branch":"adw/adw-model-01-deep-runs-opus-5-5-d86903","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-model-01-deep-runs-opus-5-5-d86903-1790928393113/workspace","outcome":"in-review","provider":"claude","model":"claude-sonnet-5-5","pr":"https://github.com/silouone/adw-factory/pull/182"}]
 ---
 # The `deep` profile still runs Opus 4.8: Opus 5.5 needs Claude Code ≥ 2.1.280
 
