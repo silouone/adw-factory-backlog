@@ -1,11 +1,11 @@
 ---
 id: hq-13-m1-routines-report-their-failures-too-eb305c
 type: feat
-status: in-progress
+status: blocked
 priority: 3
 created: 2026-10-02
 depends: [hq-12-a-failed-routine-is-flagged-the-day-it-fails-cb38c0, hq-11-an-m1-scan-survives-a-missing-cache-933bf9]
-attempts: []
+attempts: [{"runId":"hq-13-m1-routines-report-their-failures-too-eb305c-1790979082424","branch":"adw/hq-13-m1-routines-report-their-failures-too-eb305c","workspace":"/Users/silouane/personal_project/adw-factory/runs/hq-13-m1-routines-report-their-failures-too-eb305c-1790979082424/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # M1 routines report their failures too
 
