@@ -5,7 +5,7 @@ status: in-progress
 priority: 3
 created: 2026-10-01
 depends: []
-attempts: [{"runId":"adw-web-02-a-one-shot-board-snapshot-75da7d-1790883174675","branch":"adw/adw-web-02-a-one-shot-board-snapshot-75da7d","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-web-02-a-one-shot-board-snapshot-75da7d-1790883174675/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"}]
+attempts: [{"runId":"adw-web-02-a-one-shot-board-snapshot-75da7d-1790883174675","branch":"adw/adw-web-02-a-one-shot-board-snapshot-75da7d","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-web-02-a-one-shot-board-snapshot-75da7d-1790883174675/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"},{"runId":"adw-web-02-a-one-shot-board-snapshot-75da7d-1790891799305","branch":"adw/adw-web-02-a-one-shot-board-snapshot-75da7d-2","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-web-02-a-one-shot-board-snapshot-75da7d-1790891799305/workspace","outcome":"in-review","pr":"https://github.com/silouone/adw-factory/pull/179","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # adw web serves the board as a one-shot JSON snapshot
 
