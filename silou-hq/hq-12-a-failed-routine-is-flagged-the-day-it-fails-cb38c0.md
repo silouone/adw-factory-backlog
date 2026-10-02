@@ -1,11 +1,11 @@
 ---
 id: hq-12-a-failed-routine-is-flagged-the-day-it-fails-cb38c0
 type: feat
-status: in-progress
+status: blocked
 priority: 1
 created: 2026-10-02
 depends: [hq-10-routine-schedules-mean-what-launchd-means-2232d3]
-attempts: [{"runId":"hq-12-a-failed-routine-is-flagged-the-day-it-fails-cb38c0-1790968302849","branch":"adw/hq-12-a-failed-routine-is-flagged-the-day-it-fails-cb38c0","workspace":"/Users/silouane/personal_project/adw-factory/runs/hq-12-a-failed-routine-is-flagged-the-day-it-fails-cb38c0-1790968302849/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"}]
+attempts: [{"runId":"hq-12-a-failed-routine-is-flagged-the-day-it-fails-cb38c0-1790968302849","branch":"adw/hq-12-a-failed-routine-is-flagged-the-day-it-fails-cb38c0","workspace":"/Users/silouane/personal_project/adw-factory/runs/hq-12-a-failed-routine-is-flagged-the-day-it-fails-cb38c0-1790968302849/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"},{"runId":"hq-12-a-failed-routine-is-flagged-the-day-it-fails-cb38c0-1790968885177","branch":"adw/hq-12-a-failed-routine-is-flagged-the-day-it-fails-cb38c0-2","workspace":"/Users/silouane/personal_project/adw-factory/runs/hq-12-a-failed-routine-is-flagged-the-day-it-fails-cb38c0-1790968885177/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # A routine that failed its last run is flagged the day it fails (this Mac)
 
