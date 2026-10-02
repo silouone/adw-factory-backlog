@@ -1,7 +1,7 @@
 ---
 id: hq-14-the-skills-deck-counts-match-the-graph-1aa94f
 type: bug
-status: in-review
+status: done
 priority: 2
 created: 2026-10-02
 depends: []
