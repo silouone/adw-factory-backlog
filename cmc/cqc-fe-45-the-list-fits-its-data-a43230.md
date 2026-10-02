@@ -1,13 +1,13 @@
 ---
 id: cqc-fe-45-the-list-fits-its-data-a43230
 type: feat
-status: in-progress
+status: blocked
 priority: 2
 created: 2026-10-02
 model: gpt-5.6-sol
 caps: {minutes: 240, turns: 900, stallMinutes: 30}
 depends: []
-attempts: []
+attempts: [{"runId":"cqc-fe-45-the-list-fits-its-data-a43230-1790968353628","branch":"adw/cqc-fe-45-the-list-fits-its-data-a43230","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-45-the-list-fits-its-data-a43230-1790968353628/workspace","outcome":"blocked","provider":"codex","model":"gpt-6-sol"}]
 ---
 # The list fits its data
 
