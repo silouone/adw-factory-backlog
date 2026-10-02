@@ -1,7 +1,7 @@
 ---
 id: hq-05-the-widget-frame-in-preact-d4bbf4
 type: feat
-status: blocked
+status: in-review
 priority: 2
 created: 2026-10-01
 caps: {minutes: 150, turns: 400}
