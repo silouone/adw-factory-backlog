@@ -1,12 +1,12 @@
 ---
 id: adw-bug-40-a-tool-approval-outage-lets-agents-code-blind-165ff7
 type: bug
-status: in-progress
+status: blocked
 priority: 1
 created: 2026-10-02
 caps: {minutes: 120, turns: 300}
 depends: []
-attempts: []
+attempts: [{"runId":"adw-bug-40-a-tool-approval-outage-lets-agents-code-blind-165ff7-1790928351440","branch":"adw/adw-bug-40-a-tool-approval-outage-lets-agents-code-blind-165ff7","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-bug-40-a-tool-approval-outage-lets-agents-code-blind-165ff7-1790928351440/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # When tool approval goes down, agents keep coding blind and the run blocks at gates instead of waiting
 
