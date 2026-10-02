@@ -1,11 +1,11 @@
 ---
 id: hq-14-the-skills-deck-counts-match-the-graph-1aa94f
 type: bug
-status: blocked
+status: in-review
 priority: 2
 created: 2026-10-02
 depends: []
-attempts: [{"runId":"hq-14-the-skills-deck-counts-match-the-graph-1aa94f-1790937421329","branch":"adw/hq-14-the-skills-deck-counts-match-the-graph-1aa94f","workspace":"/Users/silouane/personal_project/adw-factory/runs/hq-14-the-skills-deck-counts-match-the-graph-1aa94f-1790937421329/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"}]
+attempts: [{"runId":"hq-14-the-skills-deck-counts-match-the-graph-1aa94f-1790937421329","branch":"adw/hq-14-the-skills-deck-counts-match-the-graph-1aa94f","workspace":"/Users/silouane/personal_project/adw-factory/runs/hq-14-the-skills-deck-counts-match-the-graph-1aa94f-1790937421329/workspace","outcome":"in-review","provider":"claude","model":"claude-sonnet-5-5","pr":"https://github.com/silouone/silou-hq/pull/12"}]
 ---
 # The skills deck counts match the graph's portable and claude-only totals
 
