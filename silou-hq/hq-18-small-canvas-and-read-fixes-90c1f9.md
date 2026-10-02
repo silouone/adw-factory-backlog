@@ -5,7 +5,7 @@ status: in-progress
 priority: 3
 created: 2026-10-02
 depends: [hq-17-repos-appear-on-zoom-or-select-474a82, hq-11-an-m1-scan-survives-a-missing-cache-933bf9]
-attempts: []
+attempts: [{"runId":"hq-18-small-canvas-and-read-fixes-90c1f9-1790968312541","branch":"adw/hq-18-small-canvas-and-read-fixes-90c1f9","workspace":"/Users/silouane/personal_project/adw-factory/runs/hq-18-small-canvas-and-read-fixes-90c1f9-1790968312541/workspace","outcome":"in-review","pr":"https://github.com/silouone/silou-hq/pull/14","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # Small canvas and read fixes: hover cluster, double-click fits, existing hooks, quoted ssh tail, factory name
 
