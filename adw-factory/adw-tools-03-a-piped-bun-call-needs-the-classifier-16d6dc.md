@@ -6,7 +6,7 @@ priority: 1
 created: 2026-10-02
 caps: {minutes: 90, turns: 250}
 depends: []
-attempts: []
+attempts: [{"runId":"adw-tools-03-a-piped-bun-call-needs-the-classifier-16d6dc-1790937456097","branch":"adw/adw-tools-03-a-piped-bun-call-needs-the-classifier-16d6dc","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-tools-03-a-piped-bun-call-needs-the-classifier-16d6dc-1790937456097/workspace","outcome":"in-review","pr":"https://github.com/silouone/adw-factory/pull/183","provider":"claude","model":"claude-sonnet-5-5","rebased":"4ed59baf4902925299fb07886d985f00e4bf2302"}]
 ---
 # A piped `bun`/`bunx` call falls outside the allowlist and needs the classifier
 
