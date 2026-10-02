@@ -6,7 +6,7 @@ priority: 3
 created: 2026-10-02
 caps: {minutes: 90, turns: 300, stallMinutes: 25}
 depends: []
-attempts: [{"runId":"sabado-46-the-gmail-pacer-stays-inside-googles-window-d46e45-1790978591983","branch":"adw/sabado-46-the-gmail-pacer-stays-inside-googles-window-d46e45","workspace":"/Users/silouane/personal_project/adw-factory/runs/sabado-46-the-gmail-pacer-stays-inside-googles-window-d46e45-1790978591983/workspace","outcome":"in-review","pr":"https://github.com/App-sabado/sabado/pull/1355","provider":"claude","model":"claude-sonnet-5-5","rebased":"875fe793318e86fc9e0cd1cb7edbeea6b23fe5d7"}]
+attempts: [{"runId":"sabado-46-the-gmail-pacer-stays-inside-googles-window-d46e45-1790978591983","branch":"adw/sabado-46-the-gmail-pacer-stays-inside-googles-window-d46e45","workspace":"/Users/silouane/personal_project/adw-factory/runs/sabado-46-the-gmail-pacer-stays-inside-googles-window-d46e45-1790978591983/workspace","outcome":"in-review","pr":"https://github.com/App-sabado/sabado/pull/1355","provider":"claude","model":"claude-sonnet-5-5","rebased":"875fe793318e86fc9e0cd1cb7edbeea6b23fe5d7","ciRounds":1}]
 ---
 # chore(gmail): the pacer stays inside Google's window, so a read stops buying 403 cliffs
 
