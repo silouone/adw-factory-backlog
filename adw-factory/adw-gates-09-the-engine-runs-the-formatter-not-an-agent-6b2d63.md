@@ -6,7 +6,7 @@ priority: 2
 created: 2026-10-02
 caps: {minutes: 150, turns: 400}
 depends: []
-attempts: []
+attempts: [{"runId":"adw-gates-09-the-engine-runs-the-formatter-not-an-agent-6b2d63-1790928400339","branch":"adw/adw-gates-09-the-engine-runs-the-formatter-not-an-agent-6b2d63","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-gates-09-the-engine-runs-the-formatter-not-an-agent-6b2d63-1790928400339/workspace","outcome":"in-review","pr":"https://github.com/silouone/adw-factory/pull/177","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # The engine applies the target's formatter itself; formatting is never an agent's job
 
