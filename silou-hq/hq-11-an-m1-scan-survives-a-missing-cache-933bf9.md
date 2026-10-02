@@ -5,7 +5,7 @@ status: in-progress
 priority: 2
 created: 2026-10-02
 depends: []
-attempts: []
+attempts: [{"runId":"hq-11-an-m1-scan-survives-a-missing-cache-933bf9-1790937380028","branch":"adw/hq-11-an-m1-scan-survives-a-missing-cache-933bf9","workspace":"/Users/silouane/personal_project/adw-factory/runs/hq-11-an-m1-scan-survives-a-missing-cache-933bf9-1790937380028/workspace","outcome":"in-review","pr":"https://github.com/silouone/silou-hq/pull/11","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # A successful M1 scan shows up on a fresh clone, even before `cache/` exists
 
