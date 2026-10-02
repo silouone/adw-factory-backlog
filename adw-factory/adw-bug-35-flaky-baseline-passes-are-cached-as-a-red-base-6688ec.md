@@ -1,7 +1,7 @@
 ---
 id: adw-bug-35-flaky-baseline-passes-are-cached-as-a-red-base-6688ec
 type: bug
-status: queued
+status: in-progress
 priority: 1
 created: 2026-10-01
 caps: {minutes: 150, turns: 300, stallMinutes: 25}
