@@ -1,13 +1,13 @@
 ---
 id: cqc-fe-36-each-count-says-what-it-counts-e0dead
 type: chore
-status: in-progress
+status: blocked
 priority: 2
 created: 2026-10-02
 model: gpt-5.6-sol
 caps: {minutes: 240, turns: 900, stallMinutes: 30}
 depends: []
-attempts: []
+attempts: [{"runId":"cqc-fe-36-each-count-says-what-it-counts-e0dead-1790968337623","branch":"adw/cqc-fe-36-each-count-says-what-it-counts-e0dead","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-36-each-count-says-what-it-counts-e0dead-1790968337623/workspace","outcome":"blocked","provider":"codex","model":"gpt-6-sol"}]
 ---
 # Each count says what it counts
 
