@@ -7,7 +7,7 @@ created: 2026-10-02
 model: gpt-5.6-sol
 caps: {minutes: 240, turns: 900, stallMinutes: 30}
 depends: [cqc-fe-34-nothing-renders-at-zero-px-3a4007]
-attempts: []
+attempts: [{"runId":"cqc-fe-37-the-run-report-is-a-page-994cbb-1790975731594","branch":"adw/cqc-fe-37-the-run-report-is-a-page-994cbb","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-37-the-run-report-is-a-page-994cbb-1790975731594/workspace","outcome":"in-review","pr":"https://github.com/go1com/domain-content-content-management-console/pull/172","provider":"codex","model":"gpt-6-sol"}]
 ---
 # The run report is a page
 
