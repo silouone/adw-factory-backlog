@@ -5,7 +5,7 @@ status: in-progress
 priority: 2
 created: 2026-10-02
 depends: []
-attempts: []
+attempts: [{"runId":"adw-perf-10-r5-runs-on-a-driven-clock-a27357-1790899243209","branch":"adw/adw-perf-10-r5-runs-on-a-driven-clock-a27357","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-perf-10-r5-runs-on-a-driven-clock-a27357-1790899243209/workspace","outcome":"in-review","pr":"https://github.com/silouone/adw-factory/pull/170","provider":"claude","model":"claude-sonnet-5-5","rebased":"d1ecb7378c7844cf583be903b6d0648fc6356507"}]
 ---
 # One web-server test waits 70 real seconds; the clock it needs is already injectable
 
