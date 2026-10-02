@@ -1,7 +1,7 @@
 ---
 id: hq-19-the-rings-make-room-3f1a92
 type: feat
-status: queued
+status: in-progress
 priority: 1
 depends: []
 created: 2026-10-03
