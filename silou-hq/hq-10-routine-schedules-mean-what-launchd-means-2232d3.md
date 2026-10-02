@@ -1,11 +1,11 @@
 ---
 id: hq-10-routine-schedules-mean-what-launchd-means-2232d3
 type: bug
-status: in-progress
+status: blocked
 priority: 2
 created: 2026-10-02
 depends: []
-attempts: []
+attempts: [{"runId":"hq-10-routine-schedules-mean-what-launchd-means-2232d3-1790937369658","branch":"adw/hq-10-routine-schedules-mean-what-launchd-means-2232d3","workspace":"/Users/silouane/personal_project/adw-factory/runs/hq-10-routine-schedules-mean-what-launchd-means-2232d3-1790937369658/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # Routine schedules mean what launchd means: weekdays, every slot, and "at load"
 
