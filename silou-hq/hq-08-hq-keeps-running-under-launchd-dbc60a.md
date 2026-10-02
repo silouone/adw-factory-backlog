@@ -1,7 +1,7 @@
 ---
 id: hq-08-hq-keeps-running-under-launchd-dbc60a
 type: feat
-status: queued
+status: in-progress
 priority: 2
 created: 2026-10-01
 depends: [hq-04-the-landing-answers-in-under-a-second-6ded62]
