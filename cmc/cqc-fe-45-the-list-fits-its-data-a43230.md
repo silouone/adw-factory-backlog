@@ -7,7 +7,7 @@ created: 2026-10-02
 model: gpt-5.6-sol
 caps: {minutes: 240, turns: 900, stallMinutes: 30}
 depends: []
-attempts: [{"runId":"cqc-fe-45-the-list-fits-its-data-a43230-1790968353628","branch":"adw/cqc-fe-45-the-list-fits-its-data-a43230","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-45-the-list-fits-its-data-a43230-1790968353628/workspace","outcome":"blocked","provider":"codex","model":"gpt-6-sol"},{"runId":"cqc-fe-45-the-list-fits-its-data-a43230-1790968651958","branch":"adw/cqc-fe-45-the-list-fits-its-data-a43230-2","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-45-the-list-fits-its-data-a43230-1790968651958/workspace","outcome":"in-review","pr":"https://github.com/go1com/domain-content-content-management-console/pull/170","provider":"codex","model":"gpt-6-sol"}]
+attempts: [{"runId":"cqc-fe-45-the-list-fits-its-data-a43230-1790968353628","branch":"adw/cqc-fe-45-the-list-fits-its-data-a43230","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-45-the-list-fits-its-data-a43230-1790968353628/workspace","outcome":"blocked","provider":"codex","model":"gpt-6-sol"},{"runId":"cqc-fe-45-the-list-fits-its-data-a43230-1790968651958","branch":"adw/cqc-fe-45-the-list-fits-its-data-a43230-2","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-45-the-list-fits-its-data-a43230-1790968651958/workspace","outcome":"in-review","pr":"https://github.com/go1com/domain-content-content-management-console/pull/170","provider":"codex","model":"gpt-6-sol","rebaseRounds":1}]
 ---
 # The list fits its data
 
