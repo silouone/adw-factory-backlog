@@ -1,7 +1,7 @@
 ---
 id: adw-perf-10-r5-runs-on-a-driven-clock-a27357
 type: chore
-status: in-progress
+status: in-review
 priority: 2
 created: 2026-10-02
 depends: []
