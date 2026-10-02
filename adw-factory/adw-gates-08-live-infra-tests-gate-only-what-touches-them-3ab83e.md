@@ -1,7 +1,7 @@
 ---
 id: adw-gates-08-live-infra-tests-gate-only-what-touches-them-3ab83e
 type: feat
-status: queued
+status: in-progress
 priority: 1
 created: 2026-10-02
 caps: {minutes: 150, turns: 400, stallMinutes: 25}
