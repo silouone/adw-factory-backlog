@@ -6,7 +6,7 @@ priority: 2
 created: 2026-10-01
 caps: {minutes: 150, turns: 400}
 depends: [hq-05-the-widget-frame-in-preact-d4bbf4, hq-03-the-factory-adapter-is-a-contract-a06397]
-attempts: []
+attempts: [{"runId":"hq-06-projects-progress-routines-and-skills-widgets-17c207-1790900194243","branch":"adw/hq-06-projects-progress-routines-and-skills-widgets-17c207","workspace":"/Users/silouane/personal_project/adw-factory/runs/hq-06-projects-progress-routines-and-skills-widgets-17c207-1790900194243/workspace","outcome":"in-review","pr":"https://github.com/silouone/silou-hq/pull/8","provider":"claude","model":"claude-sonnet-5-5","rebased":"edf5d5c2714ea6caa3fbdc7d75ca40b0563ef752"}]
 ---
 # Projects, In progress, Routines and Skills deck as components
 
