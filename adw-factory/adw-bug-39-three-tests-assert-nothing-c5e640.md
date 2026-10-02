@@ -1,7 +1,7 @@
 ---
 id: adw-bug-39-three-tests-assert-nothing-c5e640
 type: bug
-status: in-progress
+status: in-review
 priority: 2
 created: 2026-10-02
 depends: []
