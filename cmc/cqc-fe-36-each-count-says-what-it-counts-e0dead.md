@@ -1,7 +1,7 @@
 ---
 id: cqc-fe-36-each-count-says-what-it-counts-e0dead
 type: chore
-status: in-review
+status: done
 priority: 2
 created: 2026-10-02
 model: gpt-5.6-sol
