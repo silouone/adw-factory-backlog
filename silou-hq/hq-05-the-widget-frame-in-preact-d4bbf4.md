@@ -6,7 +6,7 @@ priority: 2
 created: 2026-10-01
 caps: {minutes: 150, turns: 400}
 depends: [hq-01-buildgraph-is-pure-and-tested-0aabb3]
-attempts: [{"runId":"hq-05-the-widget-frame-in-preact-d4bbf4-1790896766152","branch":"adw/hq-05-the-widget-frame-in-preact-d4bbf4","workspace":"/Users/silouane/personal_project/adw-factory/runs/hq-05-the-widget-frame-in-preact-d4bbf4-1790896766152/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"}]
+attempts: [{"runId":"hq-05-the-widget-frame-in-preact-d4bbf4-1790896766152","branch":"adw/hq-05-the-widget-frame-in-preact-d4bbf4","workspace":"/Users/silouane/personal_project/adw-factory/runs/hq-05-the-widget-frame-in-preact-d4bbf4-1790896766152/workspace","outcome":"in-review","pr":"https://github.com/silouone/silou-hq/pull/5","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # Widgets become Preact components: the frame, arrange mode, Today, Factory, Mail
 
