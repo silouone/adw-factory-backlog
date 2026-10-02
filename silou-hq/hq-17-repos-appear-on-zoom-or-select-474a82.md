@@ -5,7 +5,7 @@ status: in-progress
 priority: 3
 created: 2026-10-02
 depends: []
-attempts: []
+attempts: [{"runId":"hq-17-repos-appear-on-zoom-or-select-474a82-1790937434618","branch":"adw/hq-17-repos-appear-on-zoom-or-select-474a82","workspace":"/Users/silouane/personal_project/adw-factory/runs/hq-17-repos-appear-on-zoom-or-select-474a82-1790937434618/workspace","outcome":"in-review","pr":"https://github.com/silouone/silou-hq/pull/10","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # The fitted view shows no repo ticks; a cluster's repos appear when you zoom in or select it
 
