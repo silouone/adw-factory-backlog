@@ -7,7 +7,7 @@ created: 2026-10-02
 model: gpt-5.6-sol
 caps: {minutes: 240, turns: 900, stallMinutes: 30}
 depends: []
-attempts: [{"runId":"cqc-fe-34-nothing-renders-at-zero-px-3a4007-1790968330204","branch":"adw/cqc-fe-34-nothing-renders-at-zero-px-3a4007","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-34-nothing-renders-at-zero-px-3a4007-1790968330204/workspace","outcome":"blocked","provider":"codex","model":"gpt-6-sol"}]
+attempts: [{"runId":"cqc-fe-34-nothing-renders-at-zero-px-3a4007-1790968330204","branch":"adw/cqc-fe-34-nothing-renders-at-zero-px-3a4007","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-34-nothing-renders-at-zero-px-3a4007-1790968330204/workspace","outcome":"blocked","provider":"codex","model":"gpt-6-sol"},{"runId":"cqc-fe-34-nothing-renders-at-zero-px-3a4007-1790968604411","branch":"adw/cqc-fe-34-nothing-renders-at-zero-px-3a4007-2","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-34-nothing-renders-at-zero-px-3a4007-1790968604411/workspace","outcome":"in-review","pr":"https://github.com/go1com/domain-content-content-management-console/pull/169","provider":"codex","model":"gpt-6-sol"}]
 ---
 # Nothing renders at 0 px
 
