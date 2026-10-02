@@ -7,7 +7,7 @@ created: 2026-10-02
 model: gpt-5.6-sol
 caps: {minutes: 240, turns: 900, stallMinutes: 30}
 depends: []
-attempts: [{"runId":"cqc-fe-36-each-count-says-what-it-counts-e0dead-1790968337623","branch":"adw/cqc-fe-36-each-count-says-what-it-counts-e0dead","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-36-each-count-says-what-it-counts-e0dead-1790968337623/workspace","outcome":"blocked","provider":"codex","model":"gpt-6-sol"}]
+attempts: [{"runId":"cqc-fe-36-each-count-says-what-it-counts-e0dead-1790968337623","branch":"adw/cqc-fe-36-each-count-says-what-it-counts-e0dead","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-36-each-count-says-what-it-counts-e0dead-1790968337623/workspace","outcome":"blocked","provider":"codex","model":"gpt-6-sol"},{"runId":"cqc-fe-36-each-count-says-what-it-counts-e0dead-1790968613547","branch":"adw/cqc-fe-36-each-count-says-what-it-counts-e0dead-2","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-36-each-count-says-what-it-counts-e0dead-1790968613547/workspace","outcome":"in-review","pr":"https://github.com/go1com/domain-content-content-management-console/pull/168","provider":"codex","model":"gpt-6-sol"}]
 ---
 # Each count says what it counts
 
