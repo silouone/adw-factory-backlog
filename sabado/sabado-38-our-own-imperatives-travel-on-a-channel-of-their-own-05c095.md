@@ -1,7 +1,7 @@
 ---
 id: sabado-38-our-own-imperatives-travel-on-a-channel-of-their-own-05c095
 type: bug
-status: queued
+status: in-progress
 priority: 1
 created: 2026-10-01
 caps: {minutes: 150, turns: 500, stallMinutes: 25}
