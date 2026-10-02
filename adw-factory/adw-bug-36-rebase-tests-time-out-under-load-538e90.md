@@ -6,7 +6,7 @@ priority: 2
 created: 2026-10-01
 caps: {minutes: 150, turns: 300, stallMinutes: 25}
 depends: []
-attempts: []
+attempts: [{"runId":"adw-bug-36-rebase-tests-time-out-under-load-538e90-1790924517436","branch":"adw/adw-bug-36-rebase-tests-time-out-under-load-538e90","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-bug-36-rebase-tests-time-out-under-load-538e90-1790924517436/workspace","outcome":"in-review","pr":"https://github.com/silouone/adw-factory/pull/178","provider":"claude","model":"claude-sonnet-5-5","rebased":"abe6825b53da63bde6927d21766f19184ec99331"}]
 ---
 # The rebase tests spend three minutes on real git and time out when runs overlap
 
