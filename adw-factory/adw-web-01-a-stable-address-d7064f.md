@@ -9,7 +9,7 @@ attempts: [{"runId":"adw-web-01-a-stable-address-d7064f-1790883163351","branch":
 ---
 # adw web can keep the same address across restarts
 
-> **Re-queued 2026-10-02:** the second attempt (`…-1790891798135`) used up 3 repair rounds on failures in `adw run` CLI tests (green path, codex, container) that the diff never touched. That is the flaky-suite class fixed since by adw-bug-35/36 and adw-gates-08. Its workspace diff (justfile, `src/cli.ts`, the v1.2 amendment, `test/cli.web-launch.test.ts`) is still on disk if a fresh run wants a reference.
+> **Re-queued 2026-10-02:** the second attempt (`…-1790891798135`) used up 3 repair rounds on failures in `adw run` CLI tests (green path, codex, container). The diff does edit `src/cli.ts`, but `test/cli.test.ts` run alone on that workspace passes 49/49. The failures were load: web-01 and web-02 started within a second of each other. If `test/cli.test.ts` goes red in your run, treat it as real, not flaky. Its workspace diff (justfile, `src/cli.ts`, the v1.2 amendment, `test/cli.web-launch.test.ts`) is still on disk if a fresh run wants a reference.
 
 > **Re-queued 2026-10-01:** the first attempt was refused at `baseline-green-check` on `6b058da`, but the base was not red. The passes failed on different (flaky) rebase tests, and the rule from adw-bug-31 cached that as red. See adw-bug-35 and adw-bug-36. The cached verdict was removed.
 
