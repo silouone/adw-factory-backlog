@@ -1,7 +1,7 @@
 ---
 id: hq-11-an-m1-scan-survives-a-missing-cache-933bf9
 type: bug
-status: queued
+status: in-progress
 priority: 2
 created: 2026-10-02
 depends: []
