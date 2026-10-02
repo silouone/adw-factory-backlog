@@ -1,7 +1,7 @@
 ---
 id: cqc-fe-44-technical-values-are-mono-and-copyable-28f7e0
 type: chore
-status: in-progress
+status: in-review
 priority: 3
 created: 2026-10-02
 model: gpt-5.6-sol
