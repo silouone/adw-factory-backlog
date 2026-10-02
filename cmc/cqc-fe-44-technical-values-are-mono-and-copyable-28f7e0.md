@@ -7,7 +7,7 @@ created: 2026-10-02
 model: gpt-5.6-sol
 caps: {minutes: 240, turns: 900, stallMinutes: 30}
 depends: [cqc-fe-36-each-count-says-what-it-counts-e0dead]
-attempts: []
+attempts: [{"runId":"cqc-fe-44-technical-values-are-mono-and-copyable-28f7e0-1790975710201","branch":"adw/cqc-fe-44-technical-values-are-mono-and-copyable-28f7e0","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-44-technical-values-are-mono-and-copyable-28f7e0-1790975710201/workspace","outcome":"in-review","pr":"https://github.com/go1com/domain-content-content-management-console/pull/171","provider":"codex","model":"gpt-6-sol"}]
 ---
 # Technical values are mono and copyable
 
