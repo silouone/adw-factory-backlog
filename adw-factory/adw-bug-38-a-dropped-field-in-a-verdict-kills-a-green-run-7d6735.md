@@ -1,7 +1,7 @@
 ---
 id: adw-bug-38-a-dropped-field-in-a-verdict-kills-a-green-run-7d6735
 type: bug
-status: in-progress
+status: in-review
 priority: 1
 review: false
 created: 2026-10-02
