@@ -1,7 +1,7 @@
 ---
 id: adw-gates-09-the-engine-runs-the-formatter-not-an-agent-6b2d63
 type: feat
-status: queued
+status: in-progress
 priority: 2
 created: 2026-10-02
 caps: {minutes: 150, turns: 400}
