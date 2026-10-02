@@ -1,7 +1,7 @@
 ---
 id: adw-web-01-a-stable-address-d7064f
 type: feat
-status: in-progress
+status: in-review
 priority: 2
 created: 2026-10-01
 depends: []
