@@ -1,6 +1,6 @@
 ---
 id: adw-model-01-deep-runs-opus-5-5
-type: manual
+type: chore
 status: queued
 priority: 2
 created: 2026-09-28
