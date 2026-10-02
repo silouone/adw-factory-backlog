@@ -1,7 +1,7 @@
 ---
 id: hq-17-repos-appear-on-zoom-or-select-474a82
 type: feat
-status: queued
+status: in-progress
 priority: 3
 created: 2026-10-02
 depends: []
