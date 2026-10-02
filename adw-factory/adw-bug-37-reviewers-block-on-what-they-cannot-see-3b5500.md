@@ -6,7 +6,7 @@ priority: 1
 created: 2026-10-02
 caps: {minutes: 150, turns: 300, stallMinutes: 25}
 depends: []
-attempts: []
+attempts: [{"runId":"adw-bug-37-reviewers-block-on-what-they-cannot-see-3b5500-1790896905243","branch":"adw/adw-bug-37-reviewers-block-on-what-they-cannot-see-3b5500","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-bug-37-reviewers-block-on-what-they-cannot-see-3b5500-1790896905243/workspace","outcome":"in-review","pr":"https://github.com/silouone/adw-factory/pull/174","provider":"claude","model":"claude-sonnet-5-5","rebased":"d1ecb7378c7844cf583be903b6d0648fc6356507"}]
 ---
 # Reviewers open fix rounds over things they cannot see: gates the engine already ran, and how the builder worked
 
