@@ -6,7 +6,7 @@ priority: 1
 created: 2026-10-01
 caps: {minutes: 150, turns: 500, stallMinutes: 25}
 depends: [sabado-37-the-tool-channel-marks-untrusted-content-35eb6a]
-attempts: []
+attempts: [{"runId":"sabado-38-our-own-imperatives-travel-on-a-channel-of-their-own-05c095-1790925196049","branch":"adw/sabado-38-our-own-imperatives-travel-on-a-channel-of-their-own-05c095","workspace":"/Users/silouane/personal_project/adw-factory/runs/sabado-38-our-own-imperatives-travel-on-a-channel-of-their-own-05c095-1790925196049/workspace","outcome":"in-review","pr":"https://github.com/App-sabado/sabado/pull/1336","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # fix(chat): our own instructions travel on a channel of their own, so marking untrusted data means something
 
