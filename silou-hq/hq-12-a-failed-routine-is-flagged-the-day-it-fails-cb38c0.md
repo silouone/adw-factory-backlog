@@ -1,7 +1,7 @@
 ---
 id: hq-12-a-failed-routine-is-flagged-the-day-it-fails-cb38c0
 type: feat
-status: blocked
+status: queued
 priority: 1
 created: 2026-10-02
 depends: [hq-10-routine-schedules-mean-what-launchd-means-2232d3]
