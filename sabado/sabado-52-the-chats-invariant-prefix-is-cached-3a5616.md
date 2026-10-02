@@ -5,7 +5,7 @@ status: queued
 priority: 2
 created: 2026-10-02
 caps: {minutes: 180, turns: 600, stallMinutes: 25}
-depends: []
+depends: [sabado-44-a-conversation-is-walked-in-a-real-browser-on-every-pr-5ba996]
 attempts: []
 ---
 # feat(chat): the turn's invariant prefix is cached, so a round stops paying for the same 8 500 tokens
@@ -39,6 +39,11 @@ Three facts compose into a guaranteed miss:
 Quantified: a static system prompt of 20 481 bytes (~6k tokens) plus a spec
 payload the code itself sizes at 7 509 characters (~2.5k tokens), re-sent 3 to 5
 times per turn. **~8.5k tokens of byte-identical prefix, re-sent 3–5×.**
+
+> **Waits on `sabado-44-a-conversation-is-walked-in-a-real-browser-on-every-pr-5ba996`.**
+> This ticket changes what the chat *does*. The chat has **zero end-to-end
+> coverage** and `run_turn` is called by no backend test, so nothing today would
+> catch a conduct regression. The journey lands first, then this.
 
 ## Requirements
 

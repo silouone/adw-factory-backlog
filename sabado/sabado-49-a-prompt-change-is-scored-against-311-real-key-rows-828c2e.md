@@ -5,7 +5,7 @@ status: queued
 priority: 2
 created: 2026-10-02
 caps: {minutes: 300, turns: 1000, stallMinutes: 30}
-depends: [sabado-45-an-edited-prompt-invalidates-the-ledger-it-wrote-305bf1]
+depends: []
 attempts: []
 ---
 # feat(extraction): a prompt change is scored against 311 real key rows before it ships
@@ -13,8 +13,10 @@ attempts: []
 > **Finding:** `ai_docs/2026-09-30-sabado-synthesis-what-is-next.md` §3 and Wave
 > C row 45.
 >
-> **Depends on `sabado-45`:** scoring a prompt change is meaningless while six
-> prompt versions share one `extractor_version`. Fix the version, then measure.
+> **`sabado-45` is a companion, not a blocker — considered and dropped as an
+> edge.** The digest fixes *ledger attribution* (which stored reading came from
+> which prompt); this scorer replays against a fixed corpus and produces its own
+> run, so it does not need it. Land both; order is the operator's.
 
 ## What happens today
 

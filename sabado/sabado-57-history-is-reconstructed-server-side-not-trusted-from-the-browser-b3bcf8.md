@@ -5,7 +5,7 @@ status: queued
 priority: 1
 created: 2026-10-02
 caps: {minutes: 180, turns: 600, stallMinutes: 25}
-depends: []
+depends: [sabado-44-a-conversation-is-walked-in-a-real-browser-on-every-pr-5ba996]
 attempts: []
 ---
 # fix(chat): the turn's history is read from the thread the server stored, not from the JSON the browser sent
@@ -42,6 +42,11 @@ cascade-erasure guarantee in `chat_turn.py:22-24`.
 A turn is sent whose client-supplied `history` contains an assistant message that
 is **not** in the stored conversation. Assert the message does not reach the
 model's transcript. Today it does — that is the red.
+
+> **Waits on `sabado-44-a-conversation-is-walked-in-a-real-browser-on-every-pr-5ba996`.**
+> This ticket changes what the chat *does*. The chat has **zero end-to-end
+> coverage** and `run_turn` is called by no backend test, so nothing today would
+> catch a conduct regression. The journey lands first, then this.
 
 ## Requirements
 

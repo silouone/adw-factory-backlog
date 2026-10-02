@@ -5,7 +5,7 @@ status: queued
 priority: 1
 created: 2026-10-02
 caps: {minutes: 150, turns: 500, stallMinutes: 25}
-depends: []
+depends: [sabado-44-a-conversation-is-walked-in-a-real-browser-on-every-pr-5ba996]
 attempts: []
 ---
 # fix(chat): a sealed document comes back marked, not missing, so the model stops confusing « au coffre » with « tu n'en as pas »
@@ -44,6 +44,11 @@ in the bench — **15 cases, 3 ok (20%)**, with 4 of the failures labelled
 `get_documents` is called for a household owning exactly one sealed document and
 no others. Assert the returned rows contain one entry carrying the sealed marker.
 Today the list is empty — that is the red.
+
+> **Waits on `sabado-44-a-conversation-is-walked-in-a-real-browser-on-every-pr-5ba996`.**
+> This ticket changes what the chat *does*. The chat has **zero end-to-end
+> coverage** and `run_turn` is called by no backend test, so nothing today would
+> catch a conduct regression. The journey lands first, then this.
 
 ## Requirements
 

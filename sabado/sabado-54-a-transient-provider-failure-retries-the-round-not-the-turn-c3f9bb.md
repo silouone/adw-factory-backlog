@@ -5,7 +5,7 @@ status: queued
 priority: 2
 created: 2026-10-02
 caps: {minutes: 150, turns: 500, stallMinutes: 25}
-depends: []
+depends: [sabado-44-a-conversation-is-walked-in-a-real-browser-on-every-pr-5ba996]
 attempts: []
 ---
 # fix(chat): a transient provider failure costs a round, not the whole turn the person already paid for
@@ -36,6 +36,11 @@ its report. This ticket adds a retry **above** it, not a replacement for it.
 A scripted provider raises a transient error on its second call and succeeds on
 the third. Assert the turn completes with an answer. Today it returns `error` —
 that is the red.
+
+> **Waits on `sabado-44-a-conversation-is-walked-in-a-real-browser-on-every-pr-5ba996`.**
+> This ticket changes what the chat *does*. The chat has **zero end-to-end
+> coverage** and `run_turn` is called by no backend test, so nothing today would
+> catch a conduct regression. The journey lands first, then this.
 
 ## Requirements
 
