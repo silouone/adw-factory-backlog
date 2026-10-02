@@ -1,7 +1,7 @@
 ---
 id: adw-web-02-a-one-shot-board-snapshot-75da7d
 type: feat
-status: in-review
+status: done
 priority: 3
 created: 2026-10-01
 depends: []
