@@ -1,7 +1,7 @@
 ---
 id: cqc-fe-37-the-run-report-is-a-page-994cbb
 type: feat
-status: queued
+status: in-progress
 priority: 1
 created: 2026-10-02
 model: gpt-5.6-sol
