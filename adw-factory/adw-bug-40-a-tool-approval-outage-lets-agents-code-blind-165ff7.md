@@ -1,7 +1,7 @@
 ---
 id: adw-bug-40-a-tool-approval-outage-lets-agents-code-blind-165ff7
 type: bug
-status: queued
+status: in-progress
 priority: 1
 created: 2026-10-02
 caps: {minutes: 120, turns: 300}
