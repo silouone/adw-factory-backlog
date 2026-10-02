@@ -1,12 +1,12 @@
 ---
 id: sabado-55-the-loop-is-driven-from-tests-not-only-through-the-route-977550
 type: feat
-status: in-progress
+status: blocked
 priority: 2
 created: 2026-10-02
 caps: {minutes: 240, turns: 800, stallMinutes: 25}
 depends: []
-attempts: []
+attempts: [{"runId":"sabado-55-the-loop-is-driven-from-tests-not-only-through-the-route-977550-1790978632068","branch":"adw/sabado-55-the-loop-is-driven-from-tests-not-only-through-the-route-977550","workspace":"/Users/silouane/personal_project/adw-factory/runs/sabado-55-the-loop-is-driven-from-tests-not-only-through-the-route-977550-1790978632068/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # test(chat): the loop is driven directly, so the rules that decide a turn stop being untested
 
