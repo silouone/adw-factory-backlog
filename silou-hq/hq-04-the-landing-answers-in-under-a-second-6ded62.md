@@ -1,7 +1,7 @@
 ---
 id: hq-04-the-landing-answers-in-under-a-second-6ded62
 type: feat
-status: in-progress
+status: in-review
 priority: 2
 created: 2026-10-01
 depends: [hq-02-the-read-only-http-surface-is-tested-72e739]
