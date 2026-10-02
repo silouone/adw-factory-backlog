@@ -1,7 +1,7 @@
 ---
 id: cqc-fe-45-the-list-fits-its-data-a43230
 type: feat
-status: in-progress
+status: in-review
 priority: 2
 created: 2026-10-02
 model: gpt-5.6-sol
