@@ -1,12 +1,12 @@
 ---
 id: adw-gates-10-a-biome-lint-gate-prints-only-its-errors-894a0b
 type: chore
-status: in-progress
+status: blocked
 priority: 2
 created: 2026-10-02
 caps: {minutes: 60, turns: 150}
 depends: []
-attempts: []
+attempts: [{"runId":"adw-gates-10-a-biome-lint-gate-prints-only-its-errors-894a0b-1790968675723","branch":"adw/adw-gates-10-a-biome-lint-gate-prints-only-its-errors-894a0b","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-gates-10-a-biome-lint-gate-prints-only-its-errors-894a0b-1790968675723/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # A Biome lint gate prints only its errors, so repair can see the one that fails it
 
