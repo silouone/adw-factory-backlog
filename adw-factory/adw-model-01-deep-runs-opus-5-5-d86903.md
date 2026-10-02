@@ -1,7 +1,7 @@
 ---
 id: adw-model-01-deep-runs-opus-5-5-d86903
 type: chore
-status: queued
+status: in-progress
 priority: 2
 created: 2026-09-28
 depends: []
