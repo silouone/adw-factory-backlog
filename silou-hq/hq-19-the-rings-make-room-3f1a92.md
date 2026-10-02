@@ -1,12 +1,12 @@
 ---
 id: hq-19-the-rings-make-room-3f1a92
 type: feat
-status: blocked
+status: in-review
 priority: 1
 depends: []
 created: 2026-10-03
 caps: {minutes: 150, turns: 400}
-attempts: [{"runId":"hq-19-the-rings-make-room-3f1a92-1790981272143","branch":"adw/hq-19-the-rings-make-room-3f1a92","workspace":"/Users/silouane/personal_project/adw-factory/runs/hq-19-the-rings-make-room-3f1a92-1790981272143/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"}]
+attempts: [{"runId":"hq-19-the-rings-make-room-3f1a92-1790981272143","branch":"adw/hq-19-the-rings-make-room-3f1a92","workspace":"/Users/silouane/personal_project/adw-factory/runs/hq-19-the-rings-make-room-3f1a92-1790981272143/workspace","outcome":"in-review","provider":"claude","model":"claude-sonnet-5-5","pr":"https://github.com/silouone/silou-hq/pull/16"}]
 ---
 # The rings make room: runtimes only, a plugins track, docked instructions, a real clock
 
