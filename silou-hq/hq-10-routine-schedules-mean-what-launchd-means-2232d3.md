@@ -1,7 +1,7 @@
 ---
 id: hq-10-routine-schedules-mean-what-launchd-means-2232d3
 type: bug
-status: queued
+status: in-progress
 priority: 2
 created: 2026-10-02
 depends: []
