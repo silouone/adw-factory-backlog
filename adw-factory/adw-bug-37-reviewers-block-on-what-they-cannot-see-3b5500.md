@@ -1,7 +1,7 @@
 ---
 id: adw-bug-37-reviewers-block-on-what-they-cannot-see-3b5500
 type: bug
-status: in-review
+status: done
 priority: 1
 created: 2026-10-02
 caps: {minutes: 150, turns: 300, stallMinutes: 25}
