@@ -1,7 +1,7 @@
 ---
 id: adw-bug-36-rebase-tests-time-out-under-load-538e90
 type: bug
-status: in-progress
+status: in-review
 priority: 2
 created: 2026-10-01
 caps: {minutes: 150, turns: 300, stallMinutes: 25}
