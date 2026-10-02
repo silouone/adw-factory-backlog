@@ -25,9 +25,15 @@ On those binaries `opus` resolves to `claude-opus-4-8`. Pinning
 `standard` and `swift` are already pinned to `claude-sonnet-5-5`, which runs
 cleanly on 2.1.209.
 
+The slug itself is confirmed real, re-probed 2026-10-02 on the host CLI
+`2.1.287` (past the gate) with the advisor trap disarmed:
+`claude --setting-sources project -p --model claude-opus-5-5` returns a clean
+turn. So this is purely a binary-version bump, not a model question.
+
 ## Done when
 
-1. `agent-sdk` is bumped to a version bundling CLI ≥ 2.1.280 (0.3.284 bundles 2.1.284).
+1. `agent-sdk` is bumped to a version bundling CLI ≥ 2.1.280. Latest on npm
+   as of 2026-10-02 is `0.3.287`; the installed tree is still `0.3.209`.
 2. The container image and E2B template are rebuilt on the same CLI version:
    - `containers/Dockerfile` ARG
    - `ADW_AGENT_IMAGE`
