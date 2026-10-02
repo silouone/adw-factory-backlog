@@ -1,12 +1,12 @@
 ---
 id: adw-gates-10-a-biome-lint-gate-prints-only-its-errors-894a0b
 type: chore
-status: blocked
+status: in-review
 priority: 2
 created: 2026-10-02
 caps: {minutes: 60, turns: 150}
 depends: []
-attempts: [{"runId":"adw-gates-10-a-biome-lint-gate-prints-only-its-errors-894a0b-1790968675723","branch":"adw/adw-gates-10-a-biome-lint-gate-prints-only-its-errors-894a0b","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-gates-10-a-biome-lint-gate-prints-only-its-errors-894a0b-1790968675723/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"},{"runId":"adw-gates-10-a-biome-lint-gate-prints-only-its-errors-894a0b-1790979182664","branch":"adw/adw-gates-10-a-biome-lint-gate-prints-only-its-errors-894a0b-2","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-gates-10-a-biome-lint-gate-prints-only-its-errors-894a0b-1790979182664/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"}]
+attempts: [{"runId":"adw-gates-10-a-biome-lint-gate-prints-only-its-errors-894a0b-1790968675723","branch":"adw/adw-gates-10-a-biome-lint-gate-prints-only-its-errors-894a0b","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-gates-10-a-biome-lint-gate-prints-only-its-errors-894a0b-1790968675723/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"},{"runId":"adw-gates-10-a-biome-lint-gate-prints-only-its-errors-894a0b-1790979182664","branch":"adw/adw-gates-10-a-biome-lint-gate-prints-only-its-errors-894a0b","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-gates-10-a-biome-lint-gate-prints-only-its-errors-894a0b-1790979182664/workspace","outcome":"in-review","provider":"claude","model":"claude-sonnet-5-5","pr":"https://github.com/silouone/adw-factory/pull/185"}]
 ---
 # A Biome lint gate prints only its errors, so repair can see the one that fails it
 
