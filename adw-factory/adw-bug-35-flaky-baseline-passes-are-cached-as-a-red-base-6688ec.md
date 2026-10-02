@@ -6,7 +6,7 @@ priority: 1
 created: 2026-10-01
 caps: {minutes: 150, turns: 300, stallMinutes: 25}
 depends: []
-attempts: []
+attempts: [{"runId":"adw-bug-35-flaky-baseline-passes-are-cached-as-a-red-base-6688ec-1790900320232","branch":"adw/adw-bug-35-flaky-baseline-passes-are-cached-as-a-red-base-6688ec","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-bug-35-flaky-baseline-passes-are-cached-as-a-red-base-6688ec-1790900320232/workspace","outcome":"in-review","pr":"https://github.com/silouone/adw-factory/pull/173","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # A baseline whose passes fail on different tests is cached as a red base, and every run on that commit is refused
 
