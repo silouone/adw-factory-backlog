@@ -1,7 +1,7 @@
 ---
 id: hq-18-small-canvas-and-read-fixes-90c1f9
 type: feat
-status: in-review
+status: done
 priority: 3
 created: 2026-10-02
 depends: [hq-17-repos-appear-on-zoom-or-select-474a82, hq-11-an-m1-scan-survives-a-missing-cache-933bf9]
