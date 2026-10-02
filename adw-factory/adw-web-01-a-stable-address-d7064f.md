@@ -5,7 +5,7 @@ status: in-progress
 priority: 2
 created: 2026-10-01
 depends: []
-attempts: [{"runId":"adw-web-01-a-stable-address-d7064f-1790883163351","branch":"adw/adw-web-01-a-stable-address-d7064f","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-web-01-a-stable-address-d7064f-1790883163351/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"},{"runId":"adw-web-01-a-stable-address-d7064f-1790891798135","branch":"adw/adw-web-01-a-stable-address-d7064f-2","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-web-01-a-stable-address-d7064f-1790891798135/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"}]
+attempts: [{"runId":"adw-web-01-a-stable-address-d7064f-1790883163351","branch":"adw/adw-web-01-a-stable-address-d7064f","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-web-01-a-stable-address-d7064f-1790883163351/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"},{"runId":"adw-web-01-a-stable-address-d7064f-1790891798135","branch":"adw/adw-web-01-a-stable-address-d7064f-2","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-web-01-a-stable-address-d7064f-1790891798135/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"},{"runId":"adw-web-01-a-stable-address-d7064f-1790936507526","branch":"adw/adw-web-01-a-stable-address-d7064f-3","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-web-01-a-stable-address-d7064f-1790936507526/workspace","outcome":"in-review","pr":"https://github.com/silouone/adw-factory/pull/180","provider":"claude","model":"claude-sonnet-5-5","rebased":"84a169d727f48ad6f0c0ae1e6d157d4d1f8f1f46"}]
 ---
 # adw web can keep the same address across restarts
 
