@@ -1,7 +1,7 @@
 ---
 id: hq-06-projects-progress-routines-and-skills-widgets-17c207
 type: feat
-status: in-review
+status: done
 priority: 2
 created: 2026-10-01
 caps: {minutes: 150, turns: 400}
