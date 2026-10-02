@@ -6,7 +6,7 @@ priority: 1
 created: 2026-10-02
 caps: {minutes: 150, turns: 400, stallMinutes: 25}
 depends: []
-attempts: []
+attempts: [{"runId":"adw-gates-08-live-infra-tests-gate-only-what-touches-them-3ab83e-1790899916500","branch":"adw/adw-gates-08-live-infra-tests-gate-only-what-touches-them-3ab83e","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-gates-08-live-infra-tests-gate-only-what-touches-them-3ab83e-1790899916500/workspace","outcome":"in-review","pr":"https://github.com/silouone/adw-factory/pull/175","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # The live Docker and E2B suites gate only the runs whose diff touches them
 
