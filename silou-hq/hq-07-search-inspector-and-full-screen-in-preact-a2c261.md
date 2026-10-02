@@ -1,12 +1,12 @@
 ---
 id: hq-07-search-inspector-and-full-screen-in-preact-a2c261
 type: feat
-status: blocked
+status: in-review
 priority: 2
 created: 2026-10-01
 caps: {minutes: 150, turns: 400}
 depends: [hq-05-the-widget-frame-in-preact-d4bbf4]
-attempts: [{"runId":"hq-07-search-inspector-and-full-screen-in-preact-a2c261-1790900208265","branch":"adw/hq-07-search-inspector-and-full-screen-in-preact-a2c261","workspace":"/Users/silouane/personal_project/adw-factory/runs/hq-07-search-inspector-and-full-screen-in-preact-a2c261-1790900208265/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"},{"runId":"hq-07-search-inspector-and-full-screen-in-preact-a2c261-1790925359587","branch":"adw/hq-07-search-inspector-and-full-screen-in-preact-a2c261-2","workspace":"/Users/silouane/personal_project/adw-factory/runs/hq-07-search-inspector-and-full-screen-in-preact-a2c261-1790925359587/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"}]
+attempts: [{"runId":"hq-07-search-inspector-and-full-screen-in-preact-a2c261-1790900208265","branch":"adw/hq-07-search-inspector-and-full-screen-in-preact-a2c261","workspace":"/Users/silouane/personal_project/adw-factory/runs/hq-07-search-inspector-and-full-screen-in-preact-a2c261-1790900208265/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"},{"runId":"hq-07-search-inspector-and-full-screen-in-preact-a2c261-1790925359587","branch":"adw/hq-07-search-inspector-and-full-screen-in-preact-a2c261-2","workspace":"/Users/silouane/personal_project/adw-factory/runs/hq-07-search-inspector-and-full-screen-in-preact-a2c261-1790925359587/workspace","outcome":"in-review","provider":"claude","model":"claude-sonnet-5-5","pr":"https://github.com/silouone/silou-hq/pull/9"}]
 ---
 # Search, the inspector and full screen as components
 
