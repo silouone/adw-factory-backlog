@@ -1,12 +1,12 @@
 ---
 id: sabado-39-a-turn-that-read-untrusted-text-cannot-write-unconfirmed-3e8f09
 type: bug
-status: in-review
+status: blocked
 priority: 1
 created: 2026-10-01
 caps: {minutes: 150, turns: 500, stallMinutes: 25}
 depends: [sabado-37-the-tool-channel-marks-untrusted-content-35eb6a]
-attempts: [{"runId":"sabado-39-a-turn-that-read-untrusted-text-cannot-write-unconfirmed-3e8f09-1790925211826","branch":"adw/sabado-39-a-turn-that-read-untrusted-text-cannot-write-unconfirmed-3e8f09","workspace":"/Users/silouane/personal_project/adw-factory/runs/sabado-39-a-turn-that-read-untrusted-text-cannot-write-unconfirmed-3e8f09-1790925211826/workspace","outcome":"in-review","provider":"claude","model":"claude-sonnet-5-5","pr":"https://github.com/App-sabado/sabado/pull/1337","ciRounds":1}]
+attempts: [{"runId":"sabado-39-a-turn-that-read-untrusted-text-cannot-write-unconfirmed-3e8f09-1790925211826","branch":"adw/sabado-39-a-turn-that-read-untrusted-text-cannot-write-unconfirmed-3e8f09","workspace":"/Users/silouane/personal_project/adw-factory/runs/sabado-39-a-turn-that-read-untrusted-text-cannot-write-unconfirmed-3e8f09-1790925211826/workspace","outcome":"in-review","provider":"claude","model":"claude-sonnet-5-5","pr":"https://github.com/App-sabado/sabado/pull/1337","ciRounds":1},{"runId":"sabado-39-a-turn-that-read-untrusted-text-cannot-write-unconfirmed-3e8f09-ci-1790977866092","branch":"adw/sabado-39-a-turn-that-read-untrusted-text-cannot-write-unconfirmed-3e8f09","workspace":"/Users/silouane/personal_project/adw-factory/runs/sabado-39-a-turn-that-read-untrusted-text-cannot-write-unconfirmed-3e8f09-1790925211826/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # fix(chat): a turn that read a document cannot write to the household without a confirmation
 
