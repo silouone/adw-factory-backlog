@@ -7,7 +7,7 @@ review: false
 created: 2026-10-02
 caps: {minutes: 120, turns: 250, stallMinutes: 20}
 depends: []
-attempts: []
+attempts: [{"runId":"adw-bug-38-a-dropped-field-in-a-verdict-kills-a-green-run-7d6735-1790896921582","branch":"adw/adw-bug-38-a-dropped-field-in-a-verdict-kills-a-green-run-7d6735","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-bug-38-a-dropped-field-in-a-verdict-kills-a-green-run-7d6735-1790896921582/workspace","outcome":"in-review","pr":"https://github.com/silouone/adw-factory/pull/171","provider":"claude","model":"claude-sonnet-5-5","rebased":"d1ecb7378c7844cf583be903b6d0648fc6356507"}]
 ---
 # A reviewer that drops one required field kills a green run instantly, and the retry loop built for exactly this never runs
 
