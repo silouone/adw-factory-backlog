@@ -1,12 +1,12 @@
 ---
 id: adw-perf-08-cli-suites-share-their-runs-9bac88
 type: feat
-status: in-review
+status: blocked
 priority: 1
 created: 2026-10-02
 caps: {minutes: 150, turns: 400, stallMinutes: 25}
 depends: []
-attempts: [{"runId":"adw-perf-08-cli-suites-share-their-runs-9bac88-1790898806919","branch":"adw/adw-perf-08-cli-suites-share-their-runs-9bac88","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-perf-08-cli-suites-share-their-runs-9bac88-1790898806919/workspace","outcome":"in-review","pr":"https://github.com/silouone/adw-factory/pull/176","provider":"claude","model":"claude-sonnet-5-5","rebased":"d1ecb7378c7844cf583be903b6d0648fc6356507","ciRounds":1}]
+attempts: [{"runId":"adw-perf-08-cli-suites-share-their-runs-9bac88-1790898806919","branch":"adw/adw-perf-08-cli-suites-share-their-runs-9bac88","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-perf-08-cli-suites-share-their-runs-9bac88-1790898806919/workspace","outcome":"in-review","pr":"https://github.com/silouone/adw-factory/pull/176","provider":"claude","model":"claude-sonnet-5-5","rebased":"d1ecb7378c7844cf583be903b6d0648fc6356507","ciRounds":1},{"runId":"adw-perf-08-cli-suites-share-their-runs-9bac88-1790898806919","branch":"adw/adw-perf-08-cli-suites-share-their-runs-9bac88","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-perf-08-cli-suites-share-their-runs-9bac88-1790898806919/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # The cli.* suites run the same end-to-end ticket up to 11 times; one run should serve every assertion about it
 
