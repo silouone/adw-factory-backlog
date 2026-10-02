@@ -5,7 +5,7 @@ status: in-progress
 priority: 2
 created: 2026-10-01
 depends: [hq-04-the-landing-answers-in-under-a-second-6ded62]
-attempts: []
+attempts: [{"runId":"hq-08-hq-keeps-running-under-launchd-dbc60a-1790900220621","branch":"adw/hq-08-hq-keeps-running-under-launchd-dbc60a","workspace":"/Users/silouane/personal_project/adw-factory/runs/hq-08-hq-keeps-running-under-launchd-dbc60a-1790900220621/workspace","outcome":"in-review","pr":"https://github.com/silouone/silou-hq/pull/7","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # HQ keeps running under launchd
 
