@@ -5,7 +5,7 @@ status: in-progress
 priority: 2
 created: 2026-10-02
 depends: []
-attempts: []
+attempts: [{"runId":"adw-bug-39-three-tests-assert-nothing-c5e640-1790898820600","branch":"adw/adw-bug-39-three-tests-assert-nothing-c5e640","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-bug-39-three-tests-assert-nothing-c5e640-1790898820600/workspace","outcome":"in-review","pr":"https://github.com/silouone/adw-factory/pull/172","provider":"claude","model":"claude-sonnet-5-5","rebased":"d1ecb7378c7844cf583be903b6d0648fc6356507"}]
 ---
 # Three tests pass no matter what the code does
 
