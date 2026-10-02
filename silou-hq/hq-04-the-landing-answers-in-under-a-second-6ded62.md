@@ -5,7 +5,7 @@ status: in-progress
 priority: 2
 created: 2026-10-01
 depends: [hq-02-the-read-only-http-surface-is-tested-72e739]
-attempts: []
+attempts: [{"runId":"hq-04-the-landing-answers-in-under-a-second-6ded62-1790898726950","branch":"adw/hq-04-the-landing-answers-in-under-a-second-6ded62","workspace":"/Users/silouane/personal_project/adw-factory/runs/hq-04-the-landing-answers-in-under-a-second-6ded62-1790898726950/workspace","outcome":"in-review","pr":"https://github.com/silouone/silou-hq/pull/6","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # The landing answers in under a second, whatever the slow sources do
 
