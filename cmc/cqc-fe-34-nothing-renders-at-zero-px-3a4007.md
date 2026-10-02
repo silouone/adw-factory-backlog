@@ -1,13 +1,13 @@
 ---
 id: cqc-fe-34-nothing-renders-at-zero-px-3a4007
 type: bug
-status: in-progress
+status: blocked
 priority: 1
 created: 2026-10-02
 model: gpt-5.6-sol
 caps: {minutes: 240, turns: 900, stallMinutes: 30}
 depends: []
-attempts: []
+attempts: [{"runId":"cqc-fe-34-nothing-renders-at-zero-px-3a4007-1790968330204","branch":"adw/cqc-fe-34-nothing-renders-at-zero-px-3a4007","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-34-nothing-renders-at-zero-px-3a4007-1790968330204/workspace","outcome":"blocked","provider":"codex","model":"gpt-6-sol"}]
 ---
 # Nothing renders at 0 px
 
