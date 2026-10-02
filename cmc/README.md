@@ -104,6 +104,33 @@ deliberately reverse fe-18's five columns and fe-20's trigger-at-the-bottom, to 
 prototype. Backend half: `cqc-be-46` (gateway-error + bucket CORS) in the `cqc` backlog;
 `cqc-be-41` (handler CORS) is already in progress.
 
+## Design review, 2026-10-02
+
+The operator found the drawer "super messy": unstructured data, no clear separation between
+tabs, compacted text, and the snapshot viewer squeezed at the top of a mostly empty screen. Full
+review (82 items, diagnosis, wireframe): CMC `docs/cqc/design-review-2026-10-02.md` (overlaid in
+every worktree). Operator decisions: **D-R1** the run report becomes a page `/quality/:loId`
+and the drawer a peek; **D-R2** every N/A stays visible, rendered quiet (subtle, `fontSize={1}`).
+
+```
+34 nothing-renders-at-zero-px          (bug,    P1) Go1d fontSize={0} is 0 px: summary labels, strip states
+35 the-go1d-primary-button-is-readable  (manual, P2) 2.3:1 contrast, Go1d accent, design-system call
+36 each-count-says-what-it-counts       (chore,  P2) "Snapshot count 36" vs "Snapshot 9 of 52"
+37 the-run-report-is-a-page             (feat,   P1) /quality/:loId + peek drawer           [needs 34]
+38 the-journey-track-is-the-navigation  (feat,   P1) signature: 6 numbered stations         [needs 37]
+39 the-header-says-the-verdict...       (feat,   P1) 270px header -> one verdict sentence   [needs 37]
+40 checks-come-before-limitations...    (feat,   P1) order + plain words for field names    [needs 38]
+41 the-evidence-viewer-fills-the-height (feat,   P1) no 320px caps, one scroll region       [needs 37]
+42 the-scorm-trace-is-readable          (feat,   P2) +0.000s, writes-only, no N/A for n/a   [needs 41]
+43 snapshots-are-a-tree-...             (feat,   P2) mono collapsible tree, step pairing    [needs 41]
+44 technical-values-are-mono-...        (chore,  P3) hashes, chips, tabular figures         [needs 36]
+45 the-list-fits-its-data               (feat,   P2) one width, stat band filters, headers
+46 one-status-vocabulary-and-quiet-na   (chore,  P2) one vocabulary, quiet N/A renderer     [needs 38 39 40 44 45]
+```
+
+Frontier now: 34, 36, 45 (and 35 for the operator). Lanes after 37: header (39), track then
+checks (38 -> 40), evidence (41 -> 42, 43). 46 sweeps last.
+
 ## Before the first dispatch (operator)
 
 1. Land `docs/cqc/` (without `docs/cqc/prototype/`), `.agents/skills/cqc-frontend/`,
