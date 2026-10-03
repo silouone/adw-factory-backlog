@@ -6,7 +6,7 @@ priority: 2
 created: 2026-10-02
 caps: {minutes: 240, turns: 800, stallMinutes: 25}
 depends: []
-attempts: [{"runId":"sabado-55-the-loop-is-driven-from-tests-not-only-through-the-route-977550-1790978632068","branch":"adw/sabado-55-the-loop-is-driven-from-tests-not-only-through-the-route-977550","workspace":"/Users/silouane/personal_project/adw-factory/runs/sabado-55-the-loop-is-driven-from-tests-not-only-through-the-route-977550-1790978632068/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"}]
+attempts: [{"runId":"sabado-55-the-loop-is-driven-from-tests-not-only-through-the-route-977550-1790978632068","branch":"adw/sabado-55-the-loop-is-driven-from-tests-not-only-through-the-route-977550","workspace":"/Users/silouane/personal_project/adw-factory/runs/sabado-55-the-loop-is-driven-from-tests-not-only-through-the-route-977550-1790978632068/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"},{"runId":"sabado-55-the-loop-is-driven-from-tests-not-only-through-the-route-977550-1790988087080","branch":"adw/sabado-55-the-loop-is-driven-from-tests-not-only-through-the-route-977550-3","workspace":"/Users/silouane/personal_project/adw-factory/runs/sabado-55-the-loop-is-driven-from-tests-not-only-through-the-route-977550-1790988087080/workspace","outcome":"in-review","pr":"https://github.com/App-sabado/sabado/pull/1356","provider":"claude","model":"claude-sonnet-5-5","rebased":"68929f8bd00a00db747dac4388e00e4cbb4d7cc7"}]
 ---
 # test(chat): the loop is driven directly, so the rules that decide a turn stop being untested
 
