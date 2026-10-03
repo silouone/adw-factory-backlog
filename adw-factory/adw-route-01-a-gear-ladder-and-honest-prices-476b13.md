@@ -6,7 +6,7 @@ priority: 1
 created: 2026-10-03
 depends: []
 caps: {minutes: 150, turns: 700}
-attempts: []
+attempts: [{"runId":"adw-route-01-a-gear-ladder-and-honest-prices-476b13-1791018926955","branch":"adw/adw-route-01-a-gear-ladder-and-honest-prices-476b13","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-route-01-a-gear-ladder-and-honest-prices-476b13-1791018926955/workspace","outcome":"in-review","pr":"https://github.com/silouone/adw-factory/pull/189","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # One gear ladder for both providers, priced at today's rates
 
