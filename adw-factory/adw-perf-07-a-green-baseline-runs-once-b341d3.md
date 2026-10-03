@@ -5,7 +5,7 @@ status: blocked
 priority: 1
 created: 2026-10-01
 depends: []
-attempts: [{"runId":"adw-perf-07-a-green-baseline-runs-once-b341d3-1790892320853","branch":"adw/adw-perf-07-a-green-baseline-runs-once-b341d3","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-perf-07-a-green-baseline-runs-once-b341d3-1790892320853/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"}]
+attempts: [{"runId":"adw-perf-07-a-green-baseline-runs-once-b341d3-1790892320853","branch":"adw/adw-perf-07-a-green-baseline-runs-once-b341d3","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-perf-07-a-green-baseline-runs-once-b341d3-1790892320853/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"},{"runId":"adw-perf-07-a-green-baseline-runs-once-b341d3-1790892320853","branch":"adw/adw-perf-07-a-green-baseline-runs-once-b341d3","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-perf-07-a-green-baseline-runs-once-b341d3-1790892320853/workspace","outcome":"in-review","pr":"https://github.com/silouone/adw-factory/pull/202","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # A green baseline runs once: the second pass only exists to classify a red one
 
