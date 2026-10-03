@@ -5,7 +5,7 @@ status: in-progress
 priority: 2
 created: 2026-10-03
 depends: []
-attempts: []
+attempts: [{"runId":"adw-web-03-pr-chips-show-conflicts-behind-and-parked-f5cd54-1791033594523","branch":"adw/adw-web-03-pr-chips-show-conflicts-behind-and-parked-f5cd54","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-web-03-pr-chips-show-conflicts-behind-and-parked-f5cd54-1791033594523/workspace","outcome":"in-review","pr":"https://github.com/silouone/adw-factory/pull/195","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # The board's PR chips show conflicts, behind and parked before the operator clicks
 
