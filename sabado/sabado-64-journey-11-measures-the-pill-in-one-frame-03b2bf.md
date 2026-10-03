@@ -1,7 +1,7 @@
 ---
 id: sabado-64-journey-11-measures-the-pill-in-one-frame-03b2bf
 type: bug
-status: queued
+status: in-progress
 priority: 1
 created: 2026-10-03
 depends: []
