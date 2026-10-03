@@ -1,11 +1,11 @@
 ---
 id: sabado-64-journey-11-measures-the-pill-in-one-frame-03b2bf
 type: bug
-status: in-progress
+status: blocked
 priority: 1
 created: 2026-10-03
 depends: []
-attempts: []
+attempts: [{"runId":"sabado-64-journey-11-measures-the-pill-in-one-frame-03b2bf-1791036982545","branch":"adw/sabado-64-journey-11-measures-the-pill-in-one-frame-03b2bf","workspace":"/Users/silouane/personal_project/adw-factory/runs/sabado-64-journey-11-measures-the-pill-in-one-frame-03b2bf-1791036982545/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # test(e2e): journey 11 measures the pill and the title once they have settled, so it stops failing PRs that never touched the calendar
 
