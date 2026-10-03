@@ -1,7 +1,7 @@
 ---
 id: hq-13-m1-routines-report-their-failures-too-eb305c
 type: feat
-status: in-review
+status: done
 priority: 3
 created: 2026-10-02
 depends: [hq-12-a-failed-routine-is-flagged-the-day-it-fails-cb38c0, hq-11-an-m1-scan-survives-a-missing-cache-933bf9]
