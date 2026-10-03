@@ -1,7 +1,7 @@
 ---
 id: adw-gates-11-repair-sees-every-failing-gate-in-one-round-559fba
 type: feat
-status: in-progress
+status: in-review
 priority: 2
 created: 2026-10-02
 caps: {minutes: 150, turns: 400}
