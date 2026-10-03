@@ -1,7 +1,7 @@
 ---
 id: hq-35-today-shows-perso-and-pro-calendars-fbb29b
 type: feat
-status: in-review
+status: done
 priority: 1
 created: 2026-10-03
 caps: {minutes: 150, turns: 400}
