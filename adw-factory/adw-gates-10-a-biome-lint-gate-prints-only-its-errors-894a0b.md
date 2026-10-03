@@ -1,7 +1,7 @@
 ---
 id: adw-gates-10-a-biome-lint-gate-prints-only-its-errors-894a0b
 type: chore
-status: in-review
+status: done
 priority: 2
 created: 2026-10-02
 caps: {minutes: 60, turns: 150}
