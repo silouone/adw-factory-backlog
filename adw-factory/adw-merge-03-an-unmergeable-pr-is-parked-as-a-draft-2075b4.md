@@ -1,7 +1,7 @@
 ---
 id: adw-merge-03-an-unmergeable-pr-is-parked-as-a-draft-2075b4
 type: feat
-status: queued
+status: in-progress
 priority: 1
 created: 2026-10-03
 caps: {minutes: 150, turns: 300, stallMinutes: 25}
