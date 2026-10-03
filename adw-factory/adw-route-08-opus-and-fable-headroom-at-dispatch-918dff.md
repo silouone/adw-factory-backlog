@@ -1,7 +1,7 @@
 ---
 id: adw-route-08-opus-and-fable-headroom-at-dispatch-918dff
 type: feat
-status: in-progress
+status: in-review
 priority: 3
 created: 2026-10-03
 depends: [adw-route-01-a-gear-ladder-and-honest-prices-476b13]
