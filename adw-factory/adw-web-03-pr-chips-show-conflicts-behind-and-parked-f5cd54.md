@@ -1,7 +1,7 @@
 ---
 id: adw-web-03-pr-chips-show-conflicts-behind-and-parked-f5cd54
 type: feat
-status: queued
+status: in-progress
 priority: 2
 created: 2026-10-03
 depends: []
