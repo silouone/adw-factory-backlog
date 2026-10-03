@@ -6,7 +6,7 @@ priority: 1
 created: 2026-10-03
 caps: {minutes: 120, turns: 300}
 depends: []
-attempts: [{"branch":"adw-bug-43-one-red-pass-after-rebase-throws-away-the-run-27bcc8","outcome":"in-review","pr":"https://github.com/silouone/adw-factory/pull/192","provider":"claude","model":"claude-opus-5-5","note":"built in-session"}]
+attempts: [{"branch":"adw-bug-43-one-red-pass-after-rebase-throws-away-the-run-27bcc8","outcome":"in-review","pr":"https://github.com/silouone/adw-factory/pull/192","provider":"claude","model":"claude-opus-5-5","note":"built in-session","runId":"hand-built-in-session","workspace":"in-session"}]
 ---
 # One red gate pass after the rebase throws away the whole run, and nothing says what failed
 
