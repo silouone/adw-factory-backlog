@@ -10,7 +10,7 @@ attempts: []
 ---
 # The approval classifier: deletions and secret reads are flagged, everything else passes
 
-> Spec: `~/personal_project/silou-hq/docs/spec-v4-companion.md` (binding; it amends rule #1 of `CLAUDE.md`, and `docs/spec-v1.md` + `docs/spec-v2.md` incl. amendment v2.1 still bind otherwise). Rules: `CLAUDE.md`. Claude-specific code lives ONLY in `src/agent/runtime/claude.ts`. No test spawns the real `claude` binary.
+> Spec: `~/personal_project/silou-hq/docs/spec-v4-companion.md` (binding; it amends rule #1 of `CLAUDE.md`, and `docs/spec-v1.md` + `docs/spec-v2.md` (incl. amendment v2.1) + `docs/spec-v3-mail-calendar.md` still bind otherwise). Rules: `CLAUDE.md`. Claude-specific code lives ONLY in `src/agent/runtime/claude.ts`. No test spawns the real `claude` binary.
 
 ## What to build
 

@@ -2,7 +2,8 @@
 
 > **Status:** decisions taken by the operator 2026-10-03.
 > **Amends:** rule #1 of `CLAUDE.md` (see Amendment). Everything in `docs/spec-v1.md`, as amended by
-> `docs/spec-v2.md` (including amendment v2.1, `GET /speech`), that this spec does not amend still binds.
+> `docs/spec-v2.md` (including amendment v2.1, `GET /speech`) and `docs/spec-v3-mail-calendar.md`, that
+> this spec does not amend still binds.
 > It fills the "ASK HQ agent backend" item that spec-v2's Out of Scope deferred to "its own spec".
 > **Labels:** `ready-for-agent` once it is on `main`.
 > **Sources:**
@@ -51,6 +52,9 @@ Probe facts this design rests on (2026-10-03):
 - `stream_event` / `content_block_delta` / `text_delta` carries the token stream (use
   `includePartialMessages`). `assistant` messages carry `tool_use` blocks, and `result` carries
   `session_id`, `is_error`, `result` and `total_cost_usd`.
+- **Subagents are gated too.** When the companion delegated `rm` to an `Agent` subagent, the same
+  callback saw the `Agent` call and then the subagent's `Bash` call (with `agent_id` set), denied it,
+  and the file survived.
 - With user MCP servers loaded, a reply can end with notes about servers that failed to connect.
   That is accepted (D3); it's the operator's setup.
 
@@ -96,7 +100,10 @@ It is replaced by:
 >    the operator's decision (spec-v4 D2). Deletions and secret reads wait for the operator's Allow.
 >    Every ask, tool call and approval is appended to `cache/ask-ledger.jsonl`. [rest of rule #1 unchanged]
 
-In spec-v2's Out of Scope, the "ASK HQ agent backend" item is struck except for speech-to-text.
+This spec supersedes spec-v2's Out of Scope item "ASK HQ agent backend", except for speech-to-text.
+spec-v2's text is left as written, and `CLAUDE.md`'s binding line lists v4 after v2.
+
+The `CLAUDE.md` edit is committed with this spec (`spec-v4-companion` PR), not by a ticket.
 
 `CLAUDE.md` "Any LLM is a tool" is kept: Claude-specific code lives only in `src/agent/runtime/claude.ts`.
 
@@ -148,9 +155,16 @@ In spec-v2's Out of Scope, the "ASK HQ agent backend" item is struck except for 
     `extraArgs.settings = {"outputStyle":"default","disableAllHooks":true}`,
     `includePartialMessages: true`, `resume`, `model` when set, `env` with `PATH`, and
     `appendSystemPrompt` from `src/agent/companion-prompt.md`;
-  - **pure `mapMessages`**, which turns SDK messages into `AgentEvent`s. Text deltas accumulate into
-    a cumulative `markdown`. A `tool_use` block becomes `activity`. `init` and `result` become
-    `session`. `result` becomes `done` (`is_error` → `ok: false` with the result text);
+  - **pure `mapMessages`**, which turns SDK messages into `AgentEvent`s. Each message type has one
+    source, so nothing is counted twice:
+    - `markdown` comes **only** from `stream_event` `text_delta`s, accumulated. A new text block
+      after a tool call is joined with `\n\n`.
+    - `activity` comes **only** from the `tool_use` blocks of `assistant` messages. Their text blocks
+      are ignored, because the deltas already carried them.
+    - Messages with a non-null `parent_tool_use_id` (a subagent's own stream) produce no
+      `markdown`; their `tool_use` blocks still produce `activity`.
+    - `init` and `result` become `session`. `result` becomes `done` (`is_error` → `ok: false` with
+      the result text).
   - the edge: `query()` with a `PreToolUse` callback (timeout 600 s) that awaits `gate` and returns
     `permissionDecision: "deny"` with the reason on refusal. `signal` aborts the SDK's
     `abortController`.
@@ -183,7 +197,12 @@ In spec-v2's Out of Scope, the "ASK HQ agent backend" item is struck except for 
     one to three sentences, then details;
   - HQ's read routes are on `http://127.0.0.1:<port>` (`/graph.json`, `/factory.json`,
     `/ledger.json`), and the factory's web is at `$ADW_WEB`;
-  - deletions and secret reads go through an operator approval, and a refusal is final for this ask.
+  - deletions and secret reads go through an operator approval, and a refusal is final for this ask;
+  - factory writes (dispatching, flipping ticket status, merging PRs) happen only when the operator
+    asks for them in this ask (see O1).
+
+- **The SDK is pinned** to `@anthropic-ai/claude-agent-sdk@0.3.287`, the version the probes ran on.
+  Bumping it means re-capturing the fixture.
 
 ### Routes
 
@@ -291,6 +310,15 @@ hooks speak too. Both are forced off for the companion (`outputStyle: "default"`
   `launchctl`). That is a later amendment if the operator wants it.
 - Remote access: HQ stays on `127.0.0.1`.
 - Cost caps beyond `maxMinutes`. The cost is ledgered per ask.
+
+## Open decisions
+
+- **O1 — the companion and the supervisor's single-writer rule.** The supervisor direction
+  (`adw-factory/ai_docs/2026-10-01-supervisor-and-hq-continuation.md`) makes single-writer a hard
+  rule for factory state. The companion can write that state through Bash (the `adw` CLI, the ticket
+  store, `gh`). v4 bounds this only through the prompt: factory writes happen when the operator asks
+  in the ask. When the supervisor lands, a later amendment decides whether the companion goes
+  through it or becomes it.
 
 ## Further Notes
 

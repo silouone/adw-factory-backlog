@@ -10,11 +10,11 @@ attempts: []
 ---
 # `POST /ask` streams the companion, `POST /ask/approve` answers its gate, and every step is ledgered
 
-> Spec: `~/personal_project/silou-hq/docs/spec-v4-companion.md` (binding; it amends rule #1 of `CLAUDE.md`, and `docs/spec-v1.md` + `docs/spec-v2.md` incl. amendment v2.1 still bind otherwise). Rules: `CLAUDE.md`. Claude-specific code lives ONLY in `src/agent/runtime/claude.ts`. No test spawns the real `claude` binary.
+> Spec: `~/personal_project/silou-hq/docs/spec-v4-companion.md` (binding; it amends rule #1 of `CLAUDE.md`, and `docs/spec-v1.md` + `docs/spec-v2.md` (incl. amendment v2.1) + `docs/spec-v3-mail-calendar.md` still bind otherwise). Rules: `CLAUDE.md`. Claude-specific code lives ONLY in `src/agent/runtime/claude.ts`. No test spawns the real `claude` binary.
 
 ## What to build
 
-Stories 2, 5, 7, 12–17 (spec-v4 → `run.ts`, Routes, Ledger), plus the rule #1 amendment in `CLAUDE.md` and the `serve.ts` header comment:
+Stories 2, 5, 7, 12–17 (spec-v4 → `run.ts`, Routes, Ledger), plus the `serve.ts` header comment (the `CLAUDE.md` rule #1 amendment already landed with the spec):
 - **`src/agent/run.ts`** (side effects injected: the runtime, the clock, ledger append, the attachment writer, the id generator):
   - one run at a time;
   - the approval registry: `gate` runs `classify`; `allow` passes; `confirm` emits an `approval` event and awaits `respond(id, allow)`, auto-refused after `approvalTimeoutMin`;
@@ -30,7 +30,6 @@ Stories 2, 5, 7, 12–17 (spec-v4 → `run.ts`, Routes, Ledger), plus the rule #
 - **Read routes:** `GET /ask.json` → `{ runtime: string | null }`; `GET /ask-ledger.json` → the newest 200.
 - **`cache/ask-ledger.jsonl`:** `ask`, `tool` (`decision: allow | confirmed | refused | timeout`) and `done` lines. Guard refusals are ledgered too. No reply text or attachment bytes.
 - **Wire it in `server.ts`:** the registry runtime from config, and `agent.path` passed explicitly.
-- **`CLAUDE.md` rule #1** gets the spec's replacement text verbatim.
 
 ## Red first
 
