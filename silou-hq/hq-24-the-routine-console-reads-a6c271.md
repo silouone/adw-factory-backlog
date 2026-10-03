@@ -6,7 +6,7 @@ priority: 1
 depends: [hq-21-the-bezel-opens-on-click-b71d05]
 created: 2026-10-03
 caps: {minutes: 150, turns: 400}
-attempts: []
+attempts: [{"runId":"hq-24-the-routine-console-reads-a6c271-1791019319001","branch":"adw/hq-24-the-routine-console-reads-a6c271","workspace":"/Users/silouane/personal_project/adw-factory/runs/hq-24-the-routine-console-reads-a6c271-1791019319001/workspace","outcome":"in-review","pr":"https://github.com/silouone/silou-hq/pull/24","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # The routine console: a read-only deep view of every routine
 
