@@ -1,12 +1,12 @@
 ---
 id: sabado-43-the-chats-release-claim-states-what-it-ships-9e5a14
 type: chore
-status: in-progress
+status: blocked
 priority: 2
 created: 2026-10-02
 caps: {minutes: 120, turns: 400, stallMinutes: 25}
 depends: []
-attempts: []
+attempts: [{"runId":"sabado-43-the-chats-release-claim-states-what-it-ships-9e5a14-1791032703997","branch":"adw/sabado-43-the-chats-release-claim-states-what-it-ships-9e5a14","workspace":"/Users/silouane/personal_project/adw-factory/runs/sabado-43-the-chats-release-claim-states-what-it-ships-9e5a14-1791032703997/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # chore(chat): the chat's quality claim names the release it actually ships
 
