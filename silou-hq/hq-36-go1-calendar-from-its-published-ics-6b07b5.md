@@ -1,7 +1,7 @@
 ---
 id: hq-36-go1-calendar-from-its-published-ics-6b07b5
 type: feat
-status: in-review
+status: done
 priority: 2
 created: 2026-10-03
 caps: {minutes: 150, turns: 400}
