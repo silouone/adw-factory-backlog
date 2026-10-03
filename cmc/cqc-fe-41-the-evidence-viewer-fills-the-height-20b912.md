@@ -7,7 +7,7 @@ created: 2026-10-02
 model: gpt-5.6-sol
 caps: {minutes: 240, turns: 900, stallMinutes: 30}
 depends: [cqc-fe-37-the-run-report-is-a-page-994cbb]
-attempts: []
+attempts: [{"runId":"cqc-fe-41-the-evidence-viewer-fills-the-height-20b912-1791011568019","branch":"adw/cqc-fe-41-the-evidence-viewer-fills-the-height-20b912","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-41-the-evidence-viewer-fills-the-height-20b912-1791011568019/workspace","outcome":"in-review","pr":"https://github.com/go1com/domain-content-content-management-console/pull/173","provider":"codex","model":"gpt-6-sol"}]
 ---
 # The evidence viewer fills the height
 
