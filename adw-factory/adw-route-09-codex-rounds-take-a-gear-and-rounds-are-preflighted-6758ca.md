@@ -1,7 +1,7 @@
 ---
 id: adw-route-09-codex-rounds-take-a-gear-and-rounds-are-preflighted-6758ca
 type: feat
-status: queued
+status: in-progress
 priority: 2
 created: 2026-10-03
 depends: [adw-route-02-every-agent-node-is-routable-5d55f8]
