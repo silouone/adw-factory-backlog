@@ -5,7 +5,7 @@ status: in-progress
 priority: 1
 created: 2026-10-03
 depends: [adw-route-01-a-gear-ladder-and-honest-prices-476b13]
-attempts: []
+attempts: [{"runId":"adw-route-04-an-ab-report-for-one-ticket-d9fec2-1791039810708","branch":"adw/adw-route-04-an-ab-report-for-one-ticket-d9fec2","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-route-04-an-ab-report-for-one-ticket-d9fec2-1791039810708/workspace","outcome":"in-review","pr":"https://github.com/silouone/adw-factory/pull/201","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # Compare two runs of the same ticket on turns, tokens, cost, wall-clock and outcome
 
