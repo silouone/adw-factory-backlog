@@ -6,7 +6,7 @@ priority: 1
 depends: [hq-26-edit-a-routine-schedule-c94d2a]
 created: 2026-10-03
 caps: {minutes: 150, turns: 400}
-attempts: []
+attempts: [{"runId":"hq-27-edit-and-recreate-a-routine-script-5e07b3-1791030627974","branch":"adw/hq-27-edit-and-recreate-a-routine-script-5e07b3","workspace":"/Users/silouane/personal_project/adw-factory/runs/hq-27-edit-and-recreate-a-routine-script-5e07b3-1791030627974/workspace","outcome":"in-review","pr":"https://github.com/silouone/silou-hq/pull/31","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # Edit a routine's script, or recreate a missing one, with a live diff
 
