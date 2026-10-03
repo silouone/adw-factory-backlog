@@ -1,7 +1,7 @@
 ---
 id: adw-route-05-the-router-plans-every-node-6d2cdb
 type: feat
-status: queued
+status: in-progress
 priority: 1
 created: 2026-10-03
 depends: [adw-route-02-every-agent-node-is-routable-5d55f8, adw-route-03-codex-runs-a-gear-per-stage-a1f747]
