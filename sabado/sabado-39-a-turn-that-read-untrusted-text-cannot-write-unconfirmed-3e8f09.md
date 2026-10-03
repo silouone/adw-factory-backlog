@@ -1,7 +1,7 @@
 ---
 id: sabado-39-a-turn-that-read-untrusted-text-cannot-write-unconfirmed-3e8f09
 type: bug
-status: in-review
+status: done
 priority: 1
 created: 2026-10-01
 caps: {minutes: 150, turns: 500, stallMinutes: 25}
