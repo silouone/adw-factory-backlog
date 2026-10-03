@@ -54,4 +54,4 @@ Story 18, plus the runtime half of stories 1–4 and 6 (spec-v4 → Config; Serv
 
 ## Blocked (operator flips to `queued`)
 
-Waiting for two merges to `main`: the voice PR (`hq-ask-voice-amy`, amendment v2.1, same `serve.ts`/`server.ts` regions) and the spec-v4 PR (`docs/spec-v4-companion.md` + `test/fixtures/agent/claude-stream.jsonl`).
+Waiting for the spec-v4 PR (branch `spec-v4-companion`: `docs/spec-v4-companion.md`, the `CLAUDE.md` rule #1 amendment, `test/fixtures/agent/claude-stream.jsonl`) to merge to `main`. The voice PR (#26) is already merged.
