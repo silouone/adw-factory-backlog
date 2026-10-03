@@ -6,7 +6,7 @@ priority: 2
 created: 2026-10-03
 depends: [adw-skills-02-the-agent-can-actually-invoke-a-repo-skill-bc9431]
 caps: {minutes: 120, turns: 600}
-attempts: []
+attempts: [{"runId":"adw-skills-04-claude-sees-a-repo-s-agents-skills-bc071f-1791045382095","branch":"adw/adw-skills-04-claude-sees-a-repo-s-agents-skills-bc071f","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-skills-04-claude-sees-a-repo-s-agents-skills-bc071f-1791045382095/workspace","outcome":"in-review","pr":"https://github.com/silouone/adw-factory/pull/206","provider":"claude","model":"claude-sonnet-5-5","rebased":"c6091e0ad47ba0610dc52e9a01dc31c0e2a16a2a"}]
 ---
 # Claude sees a repo's `.agents/skills/`
 
