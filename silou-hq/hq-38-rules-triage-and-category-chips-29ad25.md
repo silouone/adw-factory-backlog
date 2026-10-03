@@ -1,7 +1,7 @@
 ---
 id: hq-38-rules-triage-and-category-chips-29ad25
 type: feat
-status: in-progress
+status: in-review
 priority: 1
 created: 2026-10-03
 caps: {minutes: 150, turns: 400}
