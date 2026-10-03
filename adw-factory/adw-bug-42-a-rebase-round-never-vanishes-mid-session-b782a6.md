@@ -1,7 +1,7 @@
 ---
 id: adw-bug-42-a-rebase-round-never-vanishes-mid-session-b782a6
 type: bug
-status: queued
+status: in-progress
 priority: 1
 created: 2026-10-03
 caps: {minutes: 150, turns: 300, stallMinutes: 25}
