@@ -6,7 +6,7 @@ priority: 2
 created: 2026-10-03
 caps: {minutes: 150, turns: 400}
 depends: [hq-35-today-shows-perso-and-pro-calendars-fbb29b]
-attempts: []
+attempts: [{"runId":"hq-36-go1-calendar-from-its-published-ics-6b07b5-1791039657417","branch":"adw/hq-36-go1-calendar-from-its-published-ics-6b07b5","workspace":"/Users/silouane/personal_project/adw-factory/runs/hq-36-go1-calendar-from-its-published-ics-6b07b5-1791039657417/workspace","outcome":"in-review","pr":"https://github.com/silouone/silou-hq/pull/41","provider":"claude","model":"claude-sonnet-5-5","rebased":"39b62fef6eb9be7b56d49e1a155184190f09f216"}]
 ---
 # The pro lens reads the Go1 Outlook calendar from its published ICS link, and says how fresh it is
 
