@@ -6,7 +6,7 @@ priority: 1
 created: 2026-10-03
 depends: []
 caps: {minutes: 150, turns: 700}
-attempts: []
+attempts: [{"runId":"adw-skills-02-the-agent-can-actually-invoke-a-repo-skill-bc9431-1791033577628","branch":"adw/adw-skills-02-the-agent-can-actually-invoke-a-repo-skill-bc9431","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-skills-02-the-agent-can-actually-invoke-a-repo-skill-bc9431-1791033577628/workspace","outcome":"in-review","pr":"https://github.com/silouone/adw-factory/pull/197","provider":"claude","model":"claude-sonnet-5-5","rebased":"110a720d5eeede9315aea86cb73ec2911c445380"}]
 ---
 # The agent can actually invoke a repo skill
 
