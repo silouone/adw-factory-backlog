@@ -7,7 +7,7 @@ created: 2026-10-02
 model: gpt-5.6-sol
 caps: {minutes: 240, turns: 900, stallMinutes: 30}
 depends: [cqc-fe-37-the-run-report-is-a-page-994cbb]
-attempts: []
+attempts: [{"runId":"cqc-fe-39-the-header-says-the-verdict-in-one-sentence-c7d658-1791011559882","branch":"adw/cqc-fe-39-the-header-says-the-verdict-in-one-sentence-c7d658","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-39-the-header-says-the-verdict-in-one-sentence-c7d658-1791011559882/workspace","outcome":"in-review","pr":"https://github.com/go1com/domain-content-content-management-console/pull/174","provider":"codex","model":"gpt-6-sol"}]
 ---
 # The header says the verdict in one sentence
 
