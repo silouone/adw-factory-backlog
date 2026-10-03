@@ -1,7 +1,7 @@
 ---
 id: adw-skills-02-the-agent-can-actually-invoke-a-repo-skill-bc9431
 type: feat
-status: queued
+status: in-progress
 priority: 1
 created: 2026-10-03
 depends: []
