@@ -6,7 +6,7 @@ priority: 1
 created: 2026-10-03
 caps: {minutes: 45, turns: 120}
 depends: []
-attempts: []
+attempts: [{"runId":"adw-gates-12-sabado-runs-the-size-ratchet-before-it-pushes-3b3b0d-1791035254221","branch":"adw/adw-gates-12-sabado-runs-the-size-ratchet-before-it-pushes-3b3b0d","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-gates-12-sabado-runs-the-size-ratchet-before-it-pushes-3b3b0d-1791035254221/workspace","outcome":"in-review","pr":"https://github.com/silouone/adw-factory/pull/194","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # sabado runs the size ratchet as a gate, so a factory PR stops poisoning main
 
