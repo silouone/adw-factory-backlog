@@ -1,7 +1,7 @@
 ---
 id: sabado-57-history-is-reconstructed-server-side-not-trusted-from-the-browser-b3bcf8
 type: bug
-status: queued
+status: in-progress
 priority: 1
 created: 2026-10-02
 caps: {minutes: 180, turns: 600, stallMinutes: 25}
