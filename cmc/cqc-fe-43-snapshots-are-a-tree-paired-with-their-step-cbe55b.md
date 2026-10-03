@@ -1,7 +1,7 @@
 ---
 id: cqc-fe-43-snapshots-are-a-tree-paired-with-their-step-cbe55b
 type: feat
-status: queued
+status: in-progress
 priority: 2
 created: 2026-10-02
 model: gpt-5.6-sol
