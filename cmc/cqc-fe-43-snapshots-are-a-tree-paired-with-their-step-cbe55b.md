@@ -7,7 +7,7 @@ created: 2026-10-02
 model: gpt-5.6-sol
 caps: {minutes: 240, turns: 900, stallMinutes: 30}
 depends: [cqc-fe-41-the-evidence-viewer-fills-the-height-20b912]
-attempts: []
+attempts: [{"runId":"cqc-fe-43-snapshots-are-a-tree-paired-with-their-step-cbe55b-1791024785523","branch":"adw/cqc-fe-43-snapshots-are-a-tree-paired-with-their-step-cbe55b","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-43-snapshots-are-a-tree-paired-with-their-step-cbe55b-1791024785523/workspace","outcome":"in-review","pr":"https://github.com/go1com/domain-content-content-management-console/pull/177","provider":"codex","model":"gpt-6-sol","rebased":"47856b37966774d071acf24bd8821207ef04fef2"}]
 ---
 # Snapshots are a tree, paired with their step
 
