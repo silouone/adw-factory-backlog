@@ -6,7 +6,7 @@ priority: 2
 depends: [hq-27-edit-and-recreate-a-routine-script-5e07b3]
 created: 2026-10-03
 caps: {minutes: 150, turns: 400}
-attempts: []
+attempts: [{"runId":"hq-29-create-a-routine-07ad5e-1791033488324","branch":"adw/hq-29-create-a-routine-07ad5e","workspace":"/Users/silouane/personal_project/adw-factory/runs/hq-29-create-a-routine-07ad5e-1791033488324/workspace","outcome":"in-review","pr":"https://github.com/silouone/silou-hq/pull/33","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # Create a new routine from the console
 
