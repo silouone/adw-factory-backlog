@@ -1,7 +1,7 @@
 ---
 id: adw-bug-45-a-stray-empty-key-in-a-verdict-kills-a-green-run-2c0438
 type: bug
-status: queued
+status: in-progress
 priority: 1
 created: 2026-10-03
 depends: []
