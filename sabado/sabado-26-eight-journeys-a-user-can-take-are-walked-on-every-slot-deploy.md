@@ -1,7 +1,7 @@
 ---
 id: sabado-26-eight-journeys-a-user-can-take-are-walked-on-every-slot-deploy
 type: feat
-status: in-review
+status: done
 priority: 3
 created: 2026-09-20
 caps: {minutes: 180, turns: 600, stallMinutes: 25}
