@@ -6,7 +6,7 @@ priority: 1
 depends: [hq-25-run-pause-resume-and-stop-a-routine-1b8e64]
 created: 2026-10-03
 caps: {minutes: 150, turns: 400}
-attempts: []
+attempts: [{"runId":"hq-26-edit-a-routine-schedule-c94d2a-1791027731635","branch":"adw/hq-26-edit-a-routine-schedule-c94d2a","workspace":"/Users/silouane/personal_project/adw-factory/runs/hq-26-edit-a-routine-schedule-c94d2a-1791027731635/workspace","outcome":"in-review","pr":"https://github.com/silouone/silou-hq/pull/29","provider":"claude","model":"claude-sonnet-5-5","rebased":"92dd4fb871056f70c6f80ea69b559b42398aed2e"}]
 ---
 # Edit a routine's schedule with the 24 h dial, saved with a snapshot
 
