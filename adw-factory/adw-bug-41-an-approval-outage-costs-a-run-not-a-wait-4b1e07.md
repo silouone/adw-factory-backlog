@@ -6,7 +6,7 @@ priority: 1
 created: 2026-10-03
 caps: {minutes: 120, turns: 300}
 depends: []
-attempts: []
+attempts: [{"runId":"adw-bug-41-an-approval-outage-costs-a-run-not-a-wait-4b1e07-1790989655951","branch":"adw/adw-bug-41-an-approval-outage-costs-a-run-not-a-wait-4b1e07","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-bug-41-an-approval-outage-costs-a-run-not-a-wait-4b1e07-1790989655951/workspace","outcome":"in-review","pr":"https://github.com/silouone/adw-factory/pull/188","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # An approval outage still costs a whole run: the retry doesn't wait, and the ticket lands `blocked`
 
