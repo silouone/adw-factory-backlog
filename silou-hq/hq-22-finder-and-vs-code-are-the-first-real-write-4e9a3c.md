@@ -1,7 +1,7 @@
 ---
 id: hq-22-finder-and-vs-code-are-the-first-real-write-4e9a3c
 type: feat
-status: queued
+status: in-progress
 priority: 1
 depends: [hq-21-the-bezel-opens-on-click-b71d05]
 created: 2026-10-03
