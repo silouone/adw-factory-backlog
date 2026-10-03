@@ -1,7 +1,7 @@
 ---
 id: hq-37-mail-widget-shows-gmail-c2631c
 type: feat
-status: in-progress
+status: in-review
 priority: 1
 created: 2026-10-03
 caps: {minutes: 150, turns: 400}
