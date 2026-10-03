@@ -1,7 +1,7 @@
 ---
 id: hq-28-remove-and-restore-a-routine-92f4c8
 type: feat
-status: in-progress
+status: in-review
 priority: 2
 depends: [hq-26-edit-a-routine-schedule-c94d2a]
 created: 2026-10-03
