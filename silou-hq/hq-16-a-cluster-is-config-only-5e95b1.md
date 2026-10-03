@@ -5,7 +5,7 @@ status: in-progress
 priority: 3
 created: 2026-10-02
 depends: [hq-13-m1-routines-report-their-failures-too-eb305c]
-attempts: []
+attempts: [{"runId":"hq-16-a-cluster-is-config-only-5e95b1-1790989631743","branch":"adw/hq-16-a-cluster-is-config-only-5e95b1","workspace":"/Users/silouane/personal_project/adw-factory/runs/hq-16-a-cluster-is-config-only-5e95b1-1790989631743/workspace","outcome":"in-review","pr":"https://github.com/silouone/silou-hq/pull/18","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # Adding a cluster in `hq.config.json` alone gives it routines, a colour and its repos
 
