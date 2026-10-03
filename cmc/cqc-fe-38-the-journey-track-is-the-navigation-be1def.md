@@ -1,7 +1,7 @@
 ---
 id: cqc-fe-38-the-journey-track-is-the-navigation-be1def
 type: feat
-status: in-progress
+status: in-review
 priority: 1
 created: 2026-10-02
 model: gpt-5.6-sol
