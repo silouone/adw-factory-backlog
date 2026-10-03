@@ -5,7 +5,7 @@ status: in-review
 priority: 1
 created: 2026-10-03
 depends: []
-attempts: [{"branch":"adw-bug-44-a-large-hunk-kills-the-run-with-e2big-3f5abf","outcome":"in-review","pr":"https://github.com/silouone/adw-factory/pull/191","provider":"claude","model":"claude-opus-5-5"}]
+attempts: [{"branch":"adw-bug-44-a-large-hunk-kills-the-run-with-e2big-3f5abf","outcome":"in-review","pr":"https://github.com/silouone/adw-factory/pull/191","provider":"claude","model":"claude-opus-5-5","runId":"hand-built-in-session","workspace":"in-session"}]
 ---
 # A large hunk kills the run with E2BIG: hunk content travels in one shell argument
 
