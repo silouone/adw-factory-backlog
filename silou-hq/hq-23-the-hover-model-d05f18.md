@@ -6,7 +6,7 @@ priority: 2
 depends: [hq-21-the-bezel-opens-on-click-b71d05]
 created: 2026-10-03
 caps: {minutes: 150, turns: 400}
-attempts: []
+attempts: [{"runId":"hq-23-the-hover-model-d05f18-1791019344917","branch":"adw/hq-23-the-hover-model-d05f18","workspace":"/Users/silouane/personal_project/adw-factory/runs/hq-23-the-hover-model-d05f18-1791019344917/workspace","outcome":"in-review","pr":"https://github.com/silouone/silou-hq/pull/23","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # The hover model: magnet, swell, ghost, promote
 
