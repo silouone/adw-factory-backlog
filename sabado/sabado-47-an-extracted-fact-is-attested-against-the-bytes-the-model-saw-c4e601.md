@@ -1,7 +1,7 @@
 ---
 id: sabado-47-an-extracted-fact-is-attested-against-the-bytes-the-model-saw-c4e601
 type: feat
-status: in-review
+status: done
 priority: 2
 created: 2026-10-02
 caps: {minutes: 240, turns: 800, stallMinutes: 25}
