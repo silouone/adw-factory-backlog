@@ -1,7 +1,7 @@
 ---
 id: adw-perf-07-a-green-baseline-runs-once-b341d3
 type: feat
-status: in-review
+status: done
 priority: 1
 created: 2026-10-01
 depends: []
