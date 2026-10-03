@@ -1,7 +1,7 @@
 ---
 id: hq-26-edit-a-routine-schedule-c94d2a
 type: feat
-status: queued
+status: in-progress
 priority: 1
 depends: [hq-25-run-pause-resume-and-stop-a-routine-1b8e64]
 created: 2026-10-03
