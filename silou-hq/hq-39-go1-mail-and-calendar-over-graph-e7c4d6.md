@@ -29,7 +29,7 @@ Spec → Connecting (Microsoft), Calendar, Mail (Graph):
 
 ## Red first
 
-- OAuth with a fake `fetch`: rotation written back, `invalid_grant` → `needs-reconnect`, `AADSTS65001` (consent required) → `not-connected` with a reason naming admin consent.
+- OAuth with a fake `fetch`: rotation written back, `invalid_grant` → `needs-reconnect`, `AADSTS65001` (consent required) → `not-connected` with a reason naming admin consent; `interaction_required` / `AADSTS50076` / `50079` / `70043` / `700082` (Conditional Access re-auth, MFA) → `needs-reconnect` (D9: a daily morning re-login is acceptable), with the last good data kept and marked stale.
 - Mail fixtures: focused/other, high importance, flagged, `bodyPreview` truncation, paging via `@odata.nextLink`.
 - Calendar fixtures: a recurring occurrence, all-day (date kept), the timezone header honoured.
 - `rules-v1` with Graph signals (`outlook:focused` + `outlook:importance-high` → important).

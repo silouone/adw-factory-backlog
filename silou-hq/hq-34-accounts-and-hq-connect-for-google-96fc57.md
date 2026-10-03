@@ -23,6 +23,7 @@ Stories 1–4 (spec → Accounts and config; Connecting):
   - refresh, where `invalid_grant` maps to `needs-reconnect`;
   - revoke.
 - **`bun run hq:connect <accountId>`** starts a one-shot loopback listener on an ephemeral port, opens the browser, checks `state`, exchanges the code and writes the refresh token to the Keychain, then exits. **No refresh token in the answer → exit non-zero** and name the account. For an `ics` account it prompts for the URL instead and stores that.
+- **`bun run hq:connect --expired`** (story 4b, D9) reconnects every account currently `needs-reconnect`, one after another, and prints a one-line summary. With none expired, it says so and exits 0.
 - **`bun run hq:disconnect <accountId>`** revokes at Google, deletes the Keychain item and deletes the account's `cache/` files.
 - **The server stays as it is:** no OAuth route. An account-status reader (`accountId → AccountState`) exists for hq-35 and hq-37 to use.
 
@@ -31,6 +32,7 @@ Stories 1–4 (spec → Accounts and config; Connecting):
 - Config parsing: valid, and each invalid case, with the error naming the id.
 - OAuth with a fake `fetch`: auth URL params including the S256 challenge, the exchange body, refresh, `invalid_grant` → `needs-reconnect`, revoke, and a missing refresh_token → error.
 - Keychain with a fake `security` runner: argv shape for each operation; not-found → `not-connected`.
+- `--expired` with a fake account-state reader: it visits only the expired accounts, in config order.
 - The leak guard: no token or secret appears in any log line the CLI prints (assert on captured output).
 - The existing guard test still finds exactly one write route.
 
