@@ -1,6 +1,8 @@
 # Amendment v1.15 — a target's own skills reach the agent that builds it
 
 Status: **approved** by the operator, 2026-09-27.
+**Partly superseded by `adw-v1.18-skill-routing.md`** (2026-10-03): D1, D5, D6 and D8's
+`.agents/skills` claim are reversed there. D5 was false, and the feature shipped inert.
 Source note: `ai_docs/2026-09-27-skills-in-the-factory.md` (measured from the code, the
 SDK type definitions, the Codex binary and banked run journals on this machine).
 
