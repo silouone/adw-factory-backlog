@@ -1,7 +1,7 @@
 ---
 id: adw-bug-41-an-approval-outage-costs-a-run-not-a-wait-4b1e07
 type: bug
-status: in-progress
+status: in-review
 priority: 1
 created: 2026-10-03
 caps: {minutes: 120, turns: 300}
