@@ -7,7 +7,7 @@ created: 2026-10-02
 model: gpt-5.6-sol
 caps: {minutes: 240, turns: 900, stallMinutes: 30}
 depends: [cqc-fe-41-the-evidence-viewer-fills-the-height-20b912]
-attempts: []
+attempts: [{"runId":"cqc-fe-42-the-scorm-trace-is-readable-90a14e-1791027702729","branch":"adw/cqc-fe-42-the-scorm-trace-is-readable-90a14e-2","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-42-the-scorm-trace-is-readable-90a14e-1791027702729/workspace","outcome":"in-review","pr":"https://github.com/go1com/domain-content-content-management-console/pull/178","provider":"codex","model":"gpt-6-sol","rebased":"c9e95d1a50165a0f32d305edb13e816e2096eb39"}]
 ---
 # The SCORM trace is readable
 
