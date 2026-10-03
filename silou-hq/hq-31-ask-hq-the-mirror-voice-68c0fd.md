@@ -1,7 +1,7 @@
 ---
 id: hq-31-ask-hq-the-mirror-voice-68c0fd
 type: feat
-status: in-progress
+status: in-review
 priority: 3
 depends: [hq-30-ask-hq-the-cone-and-the-modal-e3b916]
 created: 2026-10-03
