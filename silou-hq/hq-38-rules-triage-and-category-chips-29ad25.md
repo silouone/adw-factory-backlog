@@ -6,7 +6,7 @@ priority: 1
 created: 2026-10-03
 caps: {minutes: 150, turns: 400}
 depends: [hq-37-mail-widget-shows-gmail-c2631c]
-attempts: []
+attempts: [{"runId":"hq-38-rules-triage-and-category-chips-29ad25-1791045643422","branch":"adw/hq-38-rules-triage-and-category-chips-29ad25","workspace":"/Users/silouane/personal_project/adw-factory/runs/hq-38-rules-triage-and-category-chips-29ad25-1791045643422/workspace","outcome":"in-review","pr":"https://github.com/silouone/silou-hq/pull/43","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # Mail is triaged by rules into important / normal / noise, with category chips and a reason on every verdict
 
