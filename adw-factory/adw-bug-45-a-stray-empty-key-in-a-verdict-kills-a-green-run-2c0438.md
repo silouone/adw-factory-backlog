@@ -2,7 +2,7 @@
 attempts: [{"runId":"adw-bug-45-a-stray-empty-key-in-a-verdict-kills-a-green-run-2c0438-1791045758152","branch":"adw/adw-bug-45-a-stray-empty-key-in-a-verdict-kills-a-green-run-2c0438","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-bug-45-a-stray-empty-key-in-a-verdict-kills-a-green-run-2c0438-1791045758152/workspace","outcome":"in-review","pr":"https://github.com/silouone/adw-factory/pull/204","provider":"claude","model":"claude-sonnet-5-5","stages":{"plan":{"gear":"G2","provider":"claude","model":"claude-sonnet-5-5"},"build":{"gear":"G2","provider":"claude","model":"claude-sonnet-5-5"},"test":{"gear":"G2","provider":"claude","model":"claude-sonnet-5-5"},"build-test-only":{"gear":"G2","provider":"claude","model":"claude-sonnet-5-5"},"build-fix":{"gear":"G2","provider":"claude","model":"claude-sonnet-5-5"},"revise-test-only":{"gear":"G2","provider":"claude","model":"claude-sonnet-5-5"},"repair":{"gear":"G2","provider":"claude","model":"claude-sonnet-5-5"},"review-standards":{"gear":"G2","provider":"claude","model":"claude-sonnet-5-5"},"review-spec":{"gear":"G2","provider":"claude","model":"claude-sonnet-5-5"},"review-fix":{"gear":"G2","provider":"claude","model":"claude-sonnet-5-5"},"ci-repair":{"gear":"G2","provider":"claude","model":"claude-sonnet-5-5"},"rebase-resolve":{"gear":"G2","provider":"claude","model":"claude-sonnet-5-5"}}}]
 id: adw-bug-45-a-stray-empty-key-in-a-verdict-kills-a-green-run-2c0438
 type: bug
-status: in-review
+status: done
 priority: 1
 created: 2026-10-03
 depends: []
