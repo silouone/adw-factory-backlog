@@ -1,7 +1,7 @@
 ---
 id: hq-40-the-claude-runtime-maps-the-stream-f39531
 type: feat
-status: in-progress
+status: in-review
 priority: 2
 depends: []
 created: 2026-10-03
