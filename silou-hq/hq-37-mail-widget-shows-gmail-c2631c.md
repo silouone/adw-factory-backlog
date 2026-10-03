@@ -6,7 +6,7 @@ priority: 1
 created: 2026-10-03
 caps: {minutes: 150, turns: 400}
 depends: [hq-35-today-shows-perso-and-pro-calendars-fbb29b]
-attempts: []
+attempts: [{"runId":"hq-37-mail-widget-shows-gmail-c2631c-1791039650413","branch":"adw/hq-37-mail-widget-shows-gmail-c2631c","workspace":"/Users/silouane/personal_project/adw-factory/runs/hq-37-mail-widget-shows-gmail-c2631c-1791039650413/workspace","outcome":"in-review","pr":"https://github.com/silouone/silou-hq/pull/42","provider":"claude","model":"claude-sonnet-5-5","rebased":"39b62fef6eb9be7b56d49e1a155184190f09f216"}]
 ---
 # The Mail widget lists your Gmail metadata, important first, every row opening the thread in Gmail
 
