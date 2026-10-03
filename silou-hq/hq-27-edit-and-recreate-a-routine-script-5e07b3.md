@@ -1,7 +1,7 @@
 ---
 id: hq-27-edit-and-recreate-a-routine-script-5e07b3
 type: feat
-status: in-progress
+status: in-review
 priority: 1
 depends: [hq-26-edit-a-routine-schedule-c94d2a]
 created: 2026-10-03
