@@ -1,7 +1,7 @@
 ---
 id: hq-29-create-a-routine-07ad5e
 type: feat
-status: in-review
+status: done
 priority: 2
 depends: [hq-27-edit-and-recreate-a-routine-script-5e07b3]
 created: 2026-10-03
