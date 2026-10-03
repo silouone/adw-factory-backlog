@@ -1,7 +1,7 @@
 ---
 id: sabado-55-the-loop-is-driven-from-tests-not-only-through-the-route-977550
 type: feat
-status: in-review
+status: done
 priority: 2
 created: 2026-10-02
 caps: {minutes: 240, turns: 800, stallMinutes: 25}
