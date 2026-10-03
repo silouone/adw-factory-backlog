@@ -1,7 +1,7 @@
 ---
 id: sabado-45-an-edited-prompt-invalidates-the-ledger-it-wrote-305bf1
 type: bug
-status: in-progress
+status: in-review
 priority: 1
 created: 2026-10-02
 caps: {minutes: 180, turns: 600, stallMinutes: 25}
