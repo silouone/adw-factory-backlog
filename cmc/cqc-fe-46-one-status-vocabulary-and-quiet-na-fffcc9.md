@@ -1,7 +1,7 @@
 ---
 id: cqc-fe-46-one-status-vocabulary-and-quiet-na-fffcc9
 type: chore
-status: queued
+status: in-progress
 priority: 2
 created: 2026-10-02
 model: gpt-5.6-sol
