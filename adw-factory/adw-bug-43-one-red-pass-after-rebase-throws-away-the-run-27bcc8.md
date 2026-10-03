@@ -1,7 +1,7 @@
 ---
 id: adw-bug-43-one-red-pass-after-rebase-throws-away-the-run-27bcc8
 type: bug
-status: in-review
+status: done
 priority: 1
 created: 2026-10-03
 caps: {minutes: 120, turns: 300}
