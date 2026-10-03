@@ -16,7 +16,7 @@ Operator-executed. Nothing here is code. It unblocks the **live** checks of hq-3
 ## Steps
 
 - [ ] Create a GCP project dedicated to HQ (never sabado's). Enable the **Gmail API** and **Google Calendar API**.
-- [ ] OAuth consent screen: External, then **Publish → In production**. It stays unverified, and that is fine for personal use. **Never leave it in Testing**: that expires refresh tokens after 7 days (sabado #232).
+- [ ] Google Auth Platform: set the app name (no logo; a logo forces verification), audience **External**, status **Testing**. Add every Gmail account HQ will connect under **Audience → Test users**. The refresh token lasts 7 days, so re-login is weekly (spec v3 D9). Publishing would need homepage and privacy URLs and is optional.
 - [ ] Create an OAuth client of type **Desktop app**. Store its id and secret in the Keychain as `hq.google.client` (`security add-generic-password -s hq.google.client -a client_id -w …` and `-a client_secret`). The exact item names follow hq-34; adjust once it lands.
 - [ ] Ask your wife to share her Google calendar with your personal Gmail, set to **"See all event details"**. Note its calendar id (her address) for `hq.config.json` → `calendars`.
 - [ ] **Keychain under launchd (spec: Connecting → Keychain under launchd).**
