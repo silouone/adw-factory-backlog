@@ -1,7 +1,7 @@
 ---
 id: cqc-fe-41-the-evidence-viewer-fills-the-height-20b912
 type: feat
-status: queued
+status: in-progress
 priority: 1
 created: 2026-10-02
 model: gpt-5.6-sol
