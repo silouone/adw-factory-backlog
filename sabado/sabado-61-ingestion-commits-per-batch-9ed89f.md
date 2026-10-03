@@ -1,12 +1,12 @@
 ---
 id: sabado-61-ingestion-commits-per-batch-9ed89f
 type: feat
-status: blocked
+status: in-review
 priority: 2
 created: 2026-10-02
 caps: {minutes: 300, turns: 1000, stallMinutes: 30}
 depends: [sabado-32-the-extraction-stage-says-how-long-it-took-b1c44c]
-attempts: [{"runId":"sabado-61-ingestion-commits-per-batch-9ed89f-1790978608205","branch":"adw/sabado-61-ingestion-commits-per-batch-9ed89f","workspace":"/Users/silouane/personal_project/adw-factory/runs/sabado-61-ingestion-commits-per-batch-9ed89f-1790978608205/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"},{"runId":"sabado-61-ingestion-commits-per-batch-9ed89f-1790996408477","branch":"adw/sabado-61-ingestion-commits-per-batch-9ed89f-4","workspace":"/Users/silouane/personal_project/adw-factory/runs/sabado-61-ingestion-commits-per-batch-9ed89f-1790996408477/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"}]
+attempts: [{"runId":"sabado-61-ingestion-commits-per-batch-9ed89f-1790978608205","branch":"adw/sabado-61-ingestion-commits-per-batch-9ed89f","workspace":"/Users/silouane/personal_project/adw-factory/runs/sabado-61-ingestion-commits-per-batch-9ed89f-1790978608205/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"},{"runId":"sabado-61-ingestion-commits-per-batch-9ed89f-1790996408477","branch":"adw/sabado-61-ingestion-commits-per-batch-9ed89f-4","workspace":"/Users/silouane/personal_project/adw-factory/runs/sabado-61-ingestion-commits-per-batch-9ed89f-1790996408477/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"},{"runId":"sabado-61-ingestion-commits-per-batch-9ed89f-1790988089832","branch":"adw/sabado-61-ingestion-commits-per-batch-9ed89f-3","workspace":"/Users/silouane/personal_project/adw-factory/runs/sabado-61-ingestion-commits-per-batch-9ed89f-1790988089832/workspace","outcome":"in-review","provider":"claude","model":"claude-sonnet-5-5","pr":"https://github.com/App-sabado/sabado/pull/1362"}]
 ---
 # feat(extraction): a read commits as it goes, so a stop costs a batch instead of the whole mailbox
 
