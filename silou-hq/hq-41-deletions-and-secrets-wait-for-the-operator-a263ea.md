@@ -6,7 +6,7 @@ priority: 2
 depends: []
 created: 2026-10-03
 caps: {minutes: 120, turns: 300}
-attempts: []
+attempts: [{"runId":"hq-41-deletions-and-secrets-wait-for-the-operator-a263ea-1791039677858","branch":"adw/hq-41-deletions-and-secrets-wait-for-the-operator-a263ea","workspace":"/Users/silouane/personal_project/adw-factory/runs/hq-41-deletions-and-secrets-wait-for-the-operator-a263ea-1791039677858/workspace","outcome":"in-review","pr":"https://github.com/silouone/silou-hq/pull/39","provider":"claude","model":"claude-sonnet-5-5","rebased":"39b62fef6eb9be7b56d49e1a155184190f09f216"}]
 ---
 # The approval classifier: deletions and secret reads are flagged, everything else passes
 
