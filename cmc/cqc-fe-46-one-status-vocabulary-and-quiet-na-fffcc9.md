@@ -7,7 +7,7 @@ created: 2026-10-02
 model: gpt-5.6-sol
 caps: {minutes: 240, turns: 900, stallMinutes: 30}
 depends: [cqc-fe-38-the-journey-track-is-the-navigation-be1def, cqc-fe-39-the-header-says-the-verdict-in-one-sentence-c7d658, cqc-fe-40-checks-come-before-limitations-in-plain-words-192e22, cqc-fe-44-technical-values-are-mono-and-copyable-28f7e0, cqc-fe-45-the-list-fits-its-data-a43230]
-attempts: []
+attempts: [{"runId":"cqc-fe-46-one-status-vocabulary-and-quiet-na-fffcc9-1791033503305","branch":"adw/cqc-fe-46-one-status-vocabulary-and-quiet-na-fffcc9","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-46-one-status-vocabulary-and-quiet-na-fffcc9-1791033503305/workspace","outcome":"in-review","pr":"https://github.com/go1com/domain-content-content-management-console/pull/179","provider":"codex","model":"gpt-6-sol"}]
 ---
 # One status vocabulary, and N/A is quiet everywhere
 
