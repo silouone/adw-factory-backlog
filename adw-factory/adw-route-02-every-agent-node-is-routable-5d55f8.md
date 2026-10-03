@@ -5,7 +5,7 @@ status: blocked
 priority: 1
 created: 2026-10-03
 depends: [adw-route-01-a-gear-ladder-and-honest-prices-476b13]
-attempts: [{"runId":"adw-route-02-every-agent-node-is-routable-5d55f8-1791027763132","branch":"adw/adw-route-02-every-agent-node-is-routable-5d55f8","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-route-02-every-agent-node-is-routable-5d55f8-1791027763132/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"}]
+attempts: [{"runId":"adw-route-02-every-agent-node-is-routable-5d55f8-1791027763132","branch":"adw/adw-route-02-every-agent-node-is-routable-5d55f8","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-route-02-every-agent-node-is-routable-5d55f8-1791027763132/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"},{"runId":"adw-route-02-every-agent-node-is-routable-5d55f8-1791027763132","branch":"adw/adw-route-02-every-agent-node-is-routable-5d55f8","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-route-02-every-agent-node-is-routable-5d55f8-1791027763132/workspace","outcome":"in-review","pr":"https://github.com/silouone/adw-factory/pull/200","provider":"claude","model":"claude-sonnet-5-5","note":"hand salvage after review-standards unknown-field verdict; merged onto route-03"}]
 ---
 # No agent node bypasses the gear system, and dispatch refuses a gear the CLI can't run
 
