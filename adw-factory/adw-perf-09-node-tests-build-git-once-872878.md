@@ -6,7 +6,7 @@ priority: 2
 created: 2026-10-02
 caps: {minutes: 150, turns: 400, stallMinutes: 25}
 depends: [adw-bug-36-rebase-tests-time-out-under-load-538e90]
-attempts: []
+attempts: [{"runId":"adw-perf-09-node-tests-build-git-once-872878-1790989678834","branch":"adw/adw-perf-09-node-tests-build-git-once-872878","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-perf-09-node-tests-build-git-once-872878-1790989678834/workspace","outcome":"in-review","pr":"https://github.com/silouone/adw-factory/pull/187","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # The node tests rebuild real git repos per test, including where git is incidental to what they assert
 
