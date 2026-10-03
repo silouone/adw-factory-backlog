@@ -5,7 +5,7 @@ status: in-progress
 priority: 3
 created: 2026-10-03
 depends: [adw-route-01-a-gear-ladder-and-honest-prices-476b13]
-attempts: []
+attempts: [{"runId":"adw-route-08-opus-and-fable-headroom-at-dispatch-918dff-1791045397913","branch":"adw/adw-route-08-opus-and-fable-headroom-at-dispatch-918dff","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-route-08-opus-and-fable-headroom-at-dispatch-918dff-1791045397913/workspace","outcome":"in-review","pr":"https://github.com/silouone/adw-factory/pull/205","provider":"claude","model":"claude-sonnet-5-5","rebased":"c6091e0ad47ba0610dc52e9a01dc31c0e2a16a2a"}]
 ---
 # The operator sees Opus and Fable weekly usage before dispatching a routed run
 
