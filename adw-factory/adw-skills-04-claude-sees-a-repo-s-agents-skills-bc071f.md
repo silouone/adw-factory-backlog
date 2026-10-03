@@ -1,7 +1,7 @@
 ---
 id: adw-skills-04-claude-sees-a-repo-s-agents-skills-bc071f
 type: feat
-status: queued
+status: in-progress
 priority: 2
 created: 2026-10-03
 depends: [adw-skills-02-the-agent-can-actually-invoke-a-repo-skill-bc9431]
