@@ -6,7 +6,7 @@ priority: 1
 created: 2026-10-03
 caps: {minutes: 150, turns: 300, stallMinutes: 25}
 depends: []
-attempts: []
+attempts: [{"runId":"adw-spec-01-the-plan-stage-reads-the-specs-its-ticket-cites-5f63a6-1791035339518","branch":"adw/adw-spec-01-the-plan-stage-reads-the-specs-its-ticket-cites-5f63a6","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-spec-01-the-plan-stage-reads-the-specs-its-ticket-cites-5f63a6-1791035339518/workspace","outcome":"in-review","pr":"https://github.com/silouone/adw-factory/pull/199","provider":"claude","model":"claude-sonnet-5-5","rebased":"68f9d5a3e29a436e145c3b50d51bd65c8b7e1202"}]
 ---
 # The plan stage reads the specs its ticket cites, and only the plan stage
 
