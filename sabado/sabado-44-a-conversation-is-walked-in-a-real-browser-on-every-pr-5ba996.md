@@ -1,12 +1,12 @@
 ---
 id: sabado-44-a-conversation-is-walked-in-a-real-browser-on-every-pr-5ba996
 type: feat
-status: in-review
+status: blocked
 priority: 1
 created: 2026-10-02
 caps: {minutes: 240, turns: 800, stallMinutes: 25}
 depends: [sabado-29-every-pr-walks-a-real-browser-through-a-real-backend-a98ee9]
-attempts: [{"runId":"sabado-44-a-conversation-is-walked-in-a-real-browser-on-every-pr-5ba996-1791012492958","branch":"adw/sabado-44-a-conversation-is-walked-in-a-real-browser-on-every-pr-5ba996","workspace":"/Users/silouane/personal_project/adw-factory/runs/sabado-44-a-conversation-is-walked-in-a-real-browser-on-every-pr-5ba996-1791012492958/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5","ciRounds":3},{"runId":"sabado-44-a-conversation-is-walked-in-a-real-browser-on-every-pr-5ba996-1791012492958","branch":"adw/sabado-44-a-conversation-is-walked-in-a-real-browser-on-every-pr-5ba996","workspace":"/Users/silouane/personal_project/adw-factory/runs/sabado-44-a-conversation-is-walked-in-a-real-browser-on-every-pr-5ba996-1791012492958/workspace","outcome":"in-review","provider":"claude","model":"claude-sonnet-5-5","pr":"https://github.com/App-sabado/sabado/pull/1360"}]
+attempts: [{"runId":"sabado-44-a-conversation-is-walked-in-a-real-browser-on-every-pr-5ba996-1791012492958","branch":"adw/sabado-44-a-conversation-is-walked-in-a-real-browser-on-every-pr-5ba996","workspace":"/Users/silouane/personal_project/adw-factory/runs/sabado-44-a-conversation-is-walked-in-a-real-browser-on-every-pr-5ba996-1791012492958/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5","ciRounds":3},{"runId":"sabado-44-a-conversation-is-walked-in-a-real-browser-on-every-pr-5ba996-1791012492958","branch":"adw/sabado-44-a-conversation-is-walked-in-a-real-browser-on-every-pr-5ba996","workspace":"/Users/silouane/personal_project/adw-factory/runs/sabado-44-a-conversation-is-walked-in-a-real-browser-on-every-pr-5ba996-1791012492958/workspace","outcome":"in-review","provider":"claude","model":"claude-sonnet-5-5","pr":"https://github.com/App-sabado/sabado/pull/1360"},{"runId":"sabado-44-a-conversation-is-walked-in-a-real-browser-on-every-pr-5ba996-ci-1791035282535","branch":"adw/sabado-44-a-conversation-is-walked-in-a-real-browser-on-every-pr-5ba996","workspace":"/Users/silouane/personal_project/adw-factory/runs/sabado-44-a-conversation-is-walked-in-a-real-browser-on-every-pr-5ba996-1791012492958/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # test(e2e): a conversation is walked in a real browser on every PR, so the chat stops being the one surface nothing protects
 
