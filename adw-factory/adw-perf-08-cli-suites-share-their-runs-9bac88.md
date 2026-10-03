@@ -1,7 +1,7 @@
 ---
 id: adw-perf-08-cli-suites-share-their-runs-9bac88
 type: feat
-status: blocked
+status: in-review
 priority: 1
 created: 2026-10-02
 caps: {minutes: 150, turns: 400, stallMinutes: 25}
