@@ -1,7 +1,7 @@
 ---
 id: hq-20-ring-focus-header-tuck-and-trackpad-8c2e47
 type: feat
-status: queued
+status: in-progress
 priority: 1
 depends: [hq-19-the-rings-make-room-3f1a92]
 created: 2026-10-03
