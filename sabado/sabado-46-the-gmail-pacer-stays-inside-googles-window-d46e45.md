@@ -1,7 +1,7 @@
 ---
 id: sabado-46-the-gmail-pacer-stays-inside-googles-window-d46e45
 type: chore
-status: in-review
+status: done
 priority: 3
 created: 2026-10-02
 caps: {minutes: 90, turns: 300, stallMinutes: 25}
