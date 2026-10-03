@@ -1,7 +1,7 @@
 ---
 id: hq-41-deletions-and-secrets-wait-for-the-operator-a263ea
 type: feat
-status: blocked
+status: queued
 priority: 2
 depends: []
 created: 2026-10-03
@@ -45,7 +45,3 @@ A table of **≥ 40 rows**, covering:
 
 - [ ] `classify` is pure: no fs, no env, `home` is an argument.
 - [ ] `bun run lint && bunx tsc --noEmit && bun test` green.
-
-## Blocked (operator flips to `queued`)
-
-Waiting for the spec-v4 PR (branch `spec-v4-companion`: `docs/spec-v4-companion.md`, the `CLAUDE.md` rule #1 amendment, `test/fixtures/agent/claude-stream.jsonl`) to merge to `main`. The voice PR (#26) is already merged.

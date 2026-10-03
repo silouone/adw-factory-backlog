@@ -1,7 +1,7 @@
 ---
 id: hq-43-the-cone-talks-to-the-companion-8f9c7b
 type: feat
-status: blocked
+status: queued
 priority: 2
 depends: [hq-42-ask-is-a-guarded-streaming-route-7370f6]
 created: 2026-10-03
@@ -63,7 +63,3 @@ Stories 2–8 and 11 on the client (spec-v4 → Client):
 - [ ] Esc mid-run stops it (no new `tool` ledger lines).
 - [ ] 🔊 speaks once, in your voice.
 - [ ] `claude --resume <id>` in a terminal continues it.
-
-## Blocked (operator flips to `queued`)
-
-Waiting for the spec-v4 PR (branch `spec-v4-companion`: `docs/spec-v4-companion.md`, the `CLAUDE.md` rule #1 amendment, `test/fixtures/agent/claude-stream.jsonl`) to merge to `main`. The voice PR (#26) is already merged.

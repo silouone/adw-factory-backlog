@@ -1,7 +1,7 @@
 ---
 id: hq-42-ask-is-a-guarded-streaming-route-7370f6
 type: feat
-status: blocked
+status: queued
 priority: 2
 depends: [hq-40-the-claude-runtime-maps-the-stream-f39531, hq-41-deletions-and-secrets-wait-for-the-operator-a263ea]
 created: 2026-10-03
@@ -55,7 +55,3 @@ Stories 2, 5, 7, 12–17 (spec-v4 → `run.ts`, Routes, Ledger), plus the `serve
 
 - [ ] Under the `com.silou.hq` LaunchAgent, a real ask answers. If launchd can't reach the login, the stream's `done` carries an honest error naming the binary.
 - [ ] `curl` with no Origin gets a refusal, and a ledger line.
-
-## Blocked (operator flips to `queued`)
-
-Waiting for the spec-v4 PR (branch `spec-v4-companion`: `docs/spec-v4-companion.md`, the `CLAUDE.md` rule #1 amendment, `test/fixtures/agent/claude-stream.jsonl`) to merge to `main`. The voice PR (#26) is already merged.
