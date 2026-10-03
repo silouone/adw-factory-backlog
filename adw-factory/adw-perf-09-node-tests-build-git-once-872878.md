@@ -1,7 +1,7 @@
 ---
 id: adw-perf-09-node-tests-build-git-once-872878
 type: feat
-status: in-review
+status: done
 priority: 2
 created: 2026-10-02
 caps: {minutes: 150, turns: 400, stallMinutes: 25}
