@@ -6,7 +6,7 @@ priority: 2
 created: 2026-10-02
 caps: {minutes: 150, turns: 400}
 depends: []
-attempts: []
+attempts: [{"runId":"adw-gates-11-repair-sees-every-failing-gate-in-one-round-559fba-1790989666352","branch":"adw/adw-gates-11-repair-sees-every-failing-gate-in-one-round-559fba","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-gates-11-repair-sees-every-failing-gate-in-one-round-559fba-1790989666352/workspace","outcome":"in-review","pr":"https://github.com/silouone/adw-factory/pull/186","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # Repair sees every failing gate in one round, not one gate per round
 
