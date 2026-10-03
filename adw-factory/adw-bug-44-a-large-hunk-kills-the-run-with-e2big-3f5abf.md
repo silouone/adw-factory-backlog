@@ -1,7 +1,7 @@
 ---
 id: adw-bug-44-a-large-hunk-kills-the-run-with-e2big-3f5abf
 type: bug
-status: in-review
+status: done
 priority: 1
 created: 2026-10-03
 depends: []
