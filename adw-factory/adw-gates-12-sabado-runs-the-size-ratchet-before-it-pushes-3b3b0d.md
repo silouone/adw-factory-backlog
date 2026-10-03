@@ -1,7 +1,7 @@
 ---
 id: adw-gates-12-sabado-runs-the-size-ratchet-before-it-pushes-3b3b0d
 type: chore
-status: in-progress
+status: in-review
 priority: 1
 created: 2026-10-03
 caps: {minutes: 45, turns: 120}
