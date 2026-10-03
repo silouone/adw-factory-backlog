@@ -1,12 +1,12 @@
 ---
 id: hq-22-finder-and-vs-code-are-the-first-real-write-4e9a3c
 type: feat
-status: blocked
+status: in-review
 priority: 1
 depends: [hq-21-the-bezel-opens-on-click-b71d05]
 created: 2026-10-03
 caps: {minutes: 150, turns: 400}
-attempts: [{"runId":"hq-22-finder-and-vs-code-are-the-first-real-write-4e9a3c-1791019309910","branch":"adw/hq-22-finder-and-vs-code-are-the-first-real-write-4e9a3c","workspace":"/Users/silouane/personal_project/adw-factory/runs/hq-22-finder-and-vs-code-are-the-first-real-write-4e9a3c-1791019309910/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"}]
+attempts: [{"runId":"hq-22-finder-and-vs-code-are-the-first-real-write-4e9a3c-1791019309910","branch":"adw/hq-22-finder-and-vs-code-are-the-first-real-write-4e9a3c","workspace":"/Users/silouane/personal_project/adw-factory/runs/hq-22-finder-and-vs-code-are-the-first-real-write-4e9a3c-1791019309910/workspace","outcome":"in-review","pr":"https://github.com/silouone/silou-hq/pull/25","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # Show in Finder and Open in VS Code: the first real write, ledgered
 
