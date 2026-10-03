@@ -1,7 +1,7 @@
 ---
 id: hq-42-ask-is-a-guarded-streaming-route-7370f6
 type: feat
-status: queued
+status: in-progress
 priority: 2
 depends: [hq-40-the-claude-runtime-maps-the-stream-f39531, hq-41-deletions-and-secrets-wait-for-the-operator-a263ea]
 created: 2026-10-03
