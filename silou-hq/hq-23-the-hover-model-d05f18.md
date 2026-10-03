@@ -1,7 +1,7 @@
 ---
 id: hq-23-the-hover-model-d05f18
 type: feat
-status: queued
+status: in-progress
 priority: 2
 depends: [hq-21-the-bezel-opens-on-click-b71d05]
 created: 2026-10-03
