@@ -6,7 +6,7 @@ priority: 1
 created: 2026-10-03
 caps: {minutes: 150, turns: 400}
 depends: []
-attempts: []
+attempts: [{"runId":"hq-34-accounts-and-hq-connect-for-google-96fc57-1791030667036","branch":"adw/hq-34-accounts-and-hq-connect-for-google-96fc57-3","workspace":"/Users/silouane/personal_project/adw-factory/runs/hq-34-accounts-and-hq-connect-for-google-96fc57-1791030667036/workspace","outcome":"in-review","pr":"https://github.com/silouone/silou-hq/pull/32","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # Accounts are declared in config, and `hq:connect` links a Google account into the Keychain
 
