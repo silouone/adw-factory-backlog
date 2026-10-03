@@ -1,7 +1,7 @@
 ---
 id: hq-21-the-bezel-opens-on-click-b71d05
 type: feat
-status: in-review
+status: done
 priority: 1
 depends: [hq-20-ring-focus-header-tuck-and-trackpad-8c2e47]
 created: 2026-10-03
