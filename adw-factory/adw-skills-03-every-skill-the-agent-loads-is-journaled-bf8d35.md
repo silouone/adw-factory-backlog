@@ -6,7 +6,7 @@ priority: 1
 created: 2026-10-03
 depends: [adw-skills-02-the-agent-can-actually-invoke-a-repo-skill-bc9431]
 caps: {minutes: 120, turns: 600}
-attempts: []
+attempts: [{"runId":"adw-skills-03-every-skill-the-agent-loads-is-journaled-bf8d35-1791045377642","branch":"adw/adw-skills-03-every-skill-the-agent-loads-is-journaled-bf8d35","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-skills-03-every-skill-the-agent-loads-is-journaled-bf8d35-1791045377642/workspace","outcome":"in-review","pr":"https://github.com/silouone/adw-factory/pull/207","provider":"claude","model":"claude-sonnet-5-5","rebased":"c6091e0ad47ba0610dc52e9a01dc31c0e2a16a2a"}]
 ---
 # Every skill the agent loads is journaled
 
