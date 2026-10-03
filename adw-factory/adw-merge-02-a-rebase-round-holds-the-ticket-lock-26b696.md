@@ -6,7 +6,7 @@ priority: 1
 created: 2026-10-03
 caps: {minutes: 150, turns: 300, stallMinutes: 25}
 depends: [adw-bug-42-a-rebase-round-never-vanishes-mid-session-b782a6]
-attempts: []
+attempts: [{"runId":"adw-merge-02-a-rebase-round-holds-the-ticket-lock-26b696-1791033525527","branch":"adw/adw-merge-02-a-rebase-round-holds-the-ticket-lock-26b696","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-merge-02-a-rebase-round-holds-the-ticket-lock-26b696-1791033525527/workspace","outcome":"in-review","pr":"https://github.com/silouone/adw-factory/pull/198","provider":"claude","model":"claude-sonnet-5-5","rebased":"110a720d5eeede9315aea86cb73ec2911c445380"}]
 ---
 # A rebase round holds the ticket's lock, and a crashed round is reconciled
 
