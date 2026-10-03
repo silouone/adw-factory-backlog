@@ -22,3 +22,11 @@ Not backfilled:
 - `adw-factory`: `adw-readme-visuals`, `adw-v1-tasks`, `adw-v1.6-ghost-chain` and
   `adw-v1.12-epic-drain` (no ticket cites them).
 - `clens`: `specs/codex-rollout-import.md` is cited by 2 tickets but **exists nowhere**.
+
+## Removing the originals (operator decision 2026-10-03)
+
+Once `adw-spec-01` lands, delete the originals: one pass per repo (adw-factory,
+silou-hq, cqc; cmc's file is untracked there), then repoint the ticket spec
+lines. **`adw-factory/specs/constitution.md` stays in the repo**, because its
+`CLAUDE.md` binds to that path. Until then, edit a spec in its repo and re-copy
+it here.
