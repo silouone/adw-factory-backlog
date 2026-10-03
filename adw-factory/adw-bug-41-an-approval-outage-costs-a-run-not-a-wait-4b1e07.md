@@ -10,6 +10,28 @@ attempts: []
 ---
 # An approval outage still costs a whole run: the retry doesn't wait, and the ticket lands `blocked`
 
+## Root cause update (2026-10-03, after filing)
+
+The "outage" was **ours**. The factory spawns the Claude Code binary bundled in
+`node_modules/@anthropic-ai/claude-agent-sdk-darwin-arm64`. It was **2.1.209**
+(SDK 0.3.209, installed 2026-09-15), while `package.json` and `bun.lock` had pinned
+0.3.287 since #182. The same probe, run at the same minute, was **denied** by
+bundled 2.1.209 every time ("claude-sonnet-5-5 is temporarily unavailable") and
+**approved** by CLI 2.1.288 and by bundled 2.1.287 after
+`bun install --frozen-lockfile`. Only commands that need the classifier fail.
+Read-only compound commands are auto-approved, which made it look intermittent.
+
+So **item 0 below is the P1 fix**. Items 1–3 still hold, since a real outage would
+burn runs the same way, but they are secondary.
+
+**0. Preflight: refuse to dispatch on a stale install.** Before dispatch,
+`adw run` compares the installed `@anthropic-ai/claude-agent-sdk` version
+(`node_modules/.../package.json`) with the version `bun.lock` resolves. On a
+mismatch it refuses with exit 2 and names both versions and the fix
+(`bun install --frozen-lockfile`). The comparison is a pure function over the two
+parsed strings. `just doctor` reports the same check. Tests: match → proceed;
+mismatch → exit 2 with both versions in the message; a missing install → exit 2.
+
 ## Why
 
 adw-bug-40 (#181) stopped agents from coding blind during an auto-mode
