@@ -1,7 +1,7 @@
 ---
 id: hq-30-ask-hq-the-cone-and-the-modal-e3b916
 type: feat
-status: queued
+status: in-progress
 priority: 2
 depends: [hq-19-the-rings-make-room-3f1a92]
 created: 2026-10-03
