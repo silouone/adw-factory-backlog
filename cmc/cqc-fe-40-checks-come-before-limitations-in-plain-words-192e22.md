@@ -1,7 +1,7 @@
 ---
 id: cqc-fe-40-checks-come-before-limitations-in-plain-words-192e22
 type: feat
-status: queued
+status: in-progress
 priority: 1
 created: 2026-10-02
 model: gpt-5.6-sol
