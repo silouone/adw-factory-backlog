@@ -1,12 +1,12 @@
 ---
 id: sabado-56-a-tool-refuses-another-households-row-proven-per-family-cff226
 type: feat
-status: in-progress
+status: blocked
 priority: 2
 created: 2026-10-02
 caps: {minutes: 180, turns: 600, stallMinutes: 25}
 depends: []
-attempts: [{"runId":"sabado-56-a-tool-refuses-another-households-row-proven-per-family-cff226-1790977929218","branch":"adw/sabado-56-a-tool-refuses-another-households-row-proven-per-family-cff226","workspace":"/Users/silouane/personal_project/adw-factory/runs/sabado-56-a-tool-refuses-another-households-row-proven-per-family-cff226-1790977929218/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"}]
+attempts: [{"runId":"sabado-56-a-tool-refuses-another-households-row-proven-per-family-cff226-1790977929218","branch":"adw/sabado-56-a-tool-refuses-another-households-row-proven-per-family-cff226","workspace":"/Users/silouane/personal_project/adw-factory/runs/sabado-56-a-tool-refuses-another-households-row-proven-per-family-cff226-1790977929218/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"},{"runId":"sabado-56-a-tool-refuses-another-households-row-proven-per-family-cff226-1790984602305","branch":"adw/sabado-56-a-tool-refuses-another-households-row-proven-per-family-cff226-2","workspace":"/Users/silouane/personal_project/adw-factory/runs/sabado-56-a-tool-refuses-another-households-row-proven-per-family-cff226-1790984602305/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # test(chat): a tool handed another household's row refuses it, proven once per family
 
