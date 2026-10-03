@@ -7,7 +7,7 @@ created: 2026-10-02
 model: gpt-5.6-sol
 caps: {minutes: 240, turns: 900, stallMinutes: 30}
 depends: [cqc-fe-37-the-run-report-is-a-page-994cbb]
-attempts: []
+attempts: [{"runId":"cqc-fe-38-the-journey-track-is-the-navigation-be1def-1791011551558","branch":"adw/cqc-fe-38-the-journey-track-is-the-navigation-be1def","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-38-the-journey-track-is-the-navigation-be1def-1791011551558/workspace","outcome":"in-review","pr":"https://github.com/go1com/domain-content-content-management-console/pull/175","provider":"codex","model":"gpt-6-sol"}]
 ---
 # The journey track is the navigation
 
