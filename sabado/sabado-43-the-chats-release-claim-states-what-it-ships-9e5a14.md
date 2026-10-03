@@ -1,7 +1,7 @@
 ---
 id: sabado-43-the-chats-release-claim-states-what-it-ships-9e5a14
 type: chore
-status: queued
+status: in-progress
 priority: 2
 created: 2026-10-02
 caps: {minutes: 120, turns: 400, stallMinutes: 25}
