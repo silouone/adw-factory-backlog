@@ -1,7 +1,7 @@
 ---
 id: hq-34-accounts-and-hq-connect-for-google-96fc57
 type: feat
-status: in-progress
+status: queued
 priority: 1
 created: 2026-10-03
 caps: {minutes: 150, turns: 400}
