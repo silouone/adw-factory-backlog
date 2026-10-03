@@ -6,7 +6,7 @@ priority: 2
 created: 2026-10-02
 caps: {minutes: 240, turns: 800, stallMinutes: 25}
 depends: []
-attempts: []
+attempts: [{"runId":"sabado-47-an-extracted-fact-is-attested-against-the-bytes-the-model-saw-c4e601-1791017020461","branch":"adw/sabado-47-an-extracted-fact-is-attested-against-the-bytes-the-model-saw-c4e601","workspace":"/Users/silouane/personal_project/adw-factory/runs/sabado-47-an-extracted-fact-is-attested-against-the-bytes-the-model-saw-c4e601-1791017020461/workspace","outcome":"in-review","pr":"https://github.com/App-sabado/sabado/pull/1358","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # feat(extraction): an extracted fact is re-located in the bytes the model was shown, with no model and no golden set
 
