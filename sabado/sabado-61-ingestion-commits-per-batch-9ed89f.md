@@ -1,7 +1,7 @@
 ---
 id: sabado-61-ingestion-commits-per-batch-9ed89f
 type: feat
-status: blocked
+status: in-review
 priority: 2
 created: 2026-10-02
 caps: {minutes: 300, turns: 1000, stallMinutes: 30}
