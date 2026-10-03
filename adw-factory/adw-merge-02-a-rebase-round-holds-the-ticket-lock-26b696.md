@@ -1,7 +1,7 @@
 ---
 id: adw-merge-02-a-rebase-round-holds-the-ticket-lock-26b696
 type: feat
-status: in-progress
+status: in-review
 priority: 1
 created: 2026-10-03
 caps: {minutes: 150, turns: 300, stallMinutes: 25}
