@@ -6,7 +6,7 @@ priority: 1
 created: 2026-10-03
 caps: {minutes: 150, turns: 300, stallMinutes: 25}
 depends: []
-attempts: []
+attempts: [{"runId":"adw-bug-42-a-rebase-round-never-vanishes-mid-session-b782a6-1791027753111","branch":"adw/adw-bug-42-a-rebase-round-never-vanishes-mid-session-b782a6","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-bug-42-a-rebase-round-never-vanishes-mid-session-b782a6-1791027753111/workspace","outcome":"in-review","pr":"https://github.com/silouone/adw-factory/pull/193","provider":"claude","model":"claude-sonnet-5-5","rebased":"122b314f8605f82ccce92df3b9d2b771a5f0b629"}]
 ---
 # A rebase round never vanishes mid-session: it always ends with a run-end and a clean workspace
 
