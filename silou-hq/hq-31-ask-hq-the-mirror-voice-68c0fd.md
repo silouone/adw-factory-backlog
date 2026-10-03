@@ -6,7 +6,7 @@ priority: 3
 depends: [hq-30-ask-hq-the-cone-and-the-modal-e3b916]
 created: 2026-10-03
 caps: {minutes: 150, turns: 400}
-attempts: []
+attempts: [{"runId":"hq-31-ask-hq-the-mirror-voice-68c0fd-1791011521539","branch":"adw/hq-31-ask-hq-the-mirror-voice-68c0fd","workspace":"/Users/silouane/personal_project/adw-factory/runs/hq-31-ask-hq-the-mirror-voice-68c0fd-1791011521539/workspace","outcome":"in-review","pr":"https://github.com/silouone/silou-hq/pull/21","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # ASK HQ: the Mirror voice spectrum that speaks and listens
 
