@@ -1,7 +1,7 @@
 ---
 id: hq-16-a-cluster-is-config-only-5e95b1
 type: feat
-status: in-review
+status: done
 priority: 3
 created: 2026-10-02
 depends: [hq-13-m1-routines-report-their-failures-too-eb305c]
