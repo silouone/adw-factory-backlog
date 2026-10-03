@@ -1,12 +1,12 @@
 ---
 id: hq-35-today-shows-perso-and-pro-calendars-fbb29b
 type: feat
-status: in-progress
+status: blocked
 priority: 1
 created: 2026-10-03
 caps: {minutes: 150, turns: 400}
 depends: [hq-34-accounts-and-hq-connect-for-google-96fc57]
-attempts: []
+attempts: [{"runId":"hq-35-today-shows-perso-and-pro-calendars-fbb29b-1791033481915","branch":"adw/hq-35-today-shows-perso-and-pro-calendars-fbb29b","workspace":"/Users/silouane/personal_project/adw-factory/runs/hq-35-today-shows-perso-and-pro-calendars-fbb29b-1791033481915/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # Today shows the day's Google events under a perso / pro lens you flip left and right
 
