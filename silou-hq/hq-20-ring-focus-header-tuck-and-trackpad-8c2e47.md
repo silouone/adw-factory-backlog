@@ -6,7 +6,7 @@ priority: 1
 depends: [hq-19-the-rings-make-room-3f1a92]
 created: 2026-10-03
 caps: {minutes: 150, turns: 400}
-attempts: []
+attempts: [{"runId":"hq-20-ring-focus-header-tuck-and-trackpad-8c2e47-1790989619153","branch":"adw/hq-20-ring-focus-header-tuck-and-trackpad-8c2e47","workspace":"/Users/silouane/personal_project/adw-factory/runs/hq-20-ring-focus-header-tuck-and-trackpad-8c2e47-1790989619153/workspace","outcome":"in-review","pr":"https://github.com/silouone/silou-hq/pull/19","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # Focus a ring, tuck the header, and move like a Mac trackpad
 
