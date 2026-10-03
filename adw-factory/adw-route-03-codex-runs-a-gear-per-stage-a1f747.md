@@ -5,7 +5,7 @@ status: in-progress
 priority: 1
 created: 2026-10-03
 depends: [adw-route-01-a-gear-ladder-and-honest-prices-476b13]
-attempts: []
+attempts: [{"runId":"adw-route-03-codex-runs-a-gear-per-stage-a1f747-1791033542847","branch":"adw/adw-route-03-codex-runs-a-gear-per-stage-a1f747","workspace":"/Users/silouane/personal_project/adw-factory/runs/adw-route-03-codex-runs-a-gear-per-stage-a1f747-1791033542847/workspace","outcome":"in-review","pr":"https://github.com/silouone/adw-factory/pull/196","provider":"claude","model":"claude-sonnet-5-5","rebased":"110a720d5eeede9315aea86cb73ec2911c445380"}]
 ---
 # Codex runs a gear per stage, not one model at one effort
 
