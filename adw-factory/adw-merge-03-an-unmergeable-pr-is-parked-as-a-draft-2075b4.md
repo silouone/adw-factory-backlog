@@ -10,7 +10,7 @@ attempts: []
 ---
 # A PR the factory can't make mergeable is parked as a draft, not blocked
 
-> Spec: `specs/adw-v1.17-mergeable-prs.md`, D7, stories 35–39 and 42. The
+> Spec: `specs/adw-v1.17-mergeable-prs.md` (operator-local, NOT in the repo — this ticket is self-contained; do not look for it), D7, stories 35–39 and 42. The
 > operator chose "open as draft + label" on 2026-10-03.
 
 ## Context

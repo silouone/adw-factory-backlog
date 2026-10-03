@@ -10,7 +10,7 @@ attempts: []
 ---
 # A launchd job runs the rebase sweep every 10 minutes, 08:00–24:00
 
-> Spec: `specs/adw-v1.17-mergeable-prs.md`, D8, stories 22–27. This
+> Spec: `specs/adw-v1.17-mergeable-prs.md` (operator-local, NOT in the repo — this ticket is self-contained; do not look for it), D8, stories 22–27. This
 > **narrows the README's "no scheduled runs"**: exactly one scheduled job
 > exists, and it never dispatches.
 

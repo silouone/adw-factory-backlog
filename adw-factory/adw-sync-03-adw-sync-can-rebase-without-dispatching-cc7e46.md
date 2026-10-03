@@ -10,7 +10,7 @@ attempts: []
 ---
 # `adw sync --rebase` keeps the review queue shippable without dispatching a ticket
 
-> Spec: `specs/adw-v1.17-mergeable-prs.md`, D3, stories 15–21. This
+> Spec: `specs/adw-v1.17-mergeable-prs.md` (operator-local, NOT in the repo — this ticket is self-contained; do not look for it), D3, stories 15–21. This
 > **narrows adw-sync-01**: sync still never dispatches, but with `--rebase` it
 > may run the rebase maintenance round.
 

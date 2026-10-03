@@ -9,7 +9,7 @@ attempts: []
 ---
 # The board's PR chips show conflicts, behind and parked before the operator clicks
 
-> Spec: `specs/adw-v1.17-mergeable-prs.md`, D9, stories 40–43.
+> Spec: `specs/adw-v1.17-mergeable-prs.md` (operator-local, NOT in the repo — this ticket is self-contained; do not look for it), D9, stories 40–43.
 
 ## Context
 

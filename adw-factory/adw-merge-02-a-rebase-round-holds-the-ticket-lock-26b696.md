@@ -10,7 +10,7 @@ attempts: []
 ---
 # A rebase round holds the ticket's lock, and a crashed round is reconciled
 
-> Spec: `specs/adw-v1.17-mergeable-prs.md`, D5 and D6, stories 28–33.
+> Spec: `specs/adw-v1.17-mergeable-prs.md` (operator-local, NOT in the repo — this ticket is self-contained; do not look for it), D5 and D6, stories 28–33.
 
 ## Context
 

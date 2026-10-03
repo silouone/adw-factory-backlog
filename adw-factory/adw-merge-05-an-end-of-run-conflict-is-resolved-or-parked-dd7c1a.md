@@ -10,7 +10,7 @@ attempts: []
 ---
 # An end-of-run rebase conflict is resolved before push, or the PR opens parked
 
-> Spec: `specs/adw-v1.17-mergeable-prs.md`, D1, stories 1–9. This **lifts
+> Spec: `specs/adw-v1.17-mergeable-prs.md` (operator-local, NOT in the repo — this ticket is self-contained; do not look for it), D1, stories 1–9. This **lifts
 > adw-merge-01 D3** ("a conflict in the lane spawns no agent").
 
 ## Evidence

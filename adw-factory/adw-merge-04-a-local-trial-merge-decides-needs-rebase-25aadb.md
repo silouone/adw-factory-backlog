@@ -10,7 +10,7 @@ attempts: []
 ---
 # "Needs rebase" is decided by a local trial merge, and merges are reconciled first
 
-> Spec: `specs/adw-v1.17-mergeable-prs.md`, D2 and D4, stories 10–14 and 18.
+> Spec: `specs/adw-v1.17-mergeable-prs.md` (operator-local, NOT in the repo — this ticket is self-contained; do not look for it), D2 and D4, stories 10–14 and 18.
 > The operator chose "rebase only on conflict" on 2026-10-03.
 
 ## Context

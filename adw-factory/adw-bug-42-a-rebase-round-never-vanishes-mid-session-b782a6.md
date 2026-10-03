@@ -10,7 +10,7 @@ attempts: []
 ---
 # A rebase round never vanishes mid-session: it always ends with a run-end and a clean workspace
 
-> Spec: `specs/adw-v1.17-mergeable-prs.md`, story 34. It blocks the schedule
+> Spec: `specs/adw-v1.17-mergeable-prs.md` (operator-local, NOT in the repo — this ticket is self-contained; do not look for it), story 34. It blocks the schedule
 > (adw-sync-04), because polling multiplies whatever makes a round disappear.
 
 ## Evidence
