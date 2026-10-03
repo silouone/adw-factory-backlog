@@ -1,7 +1,7 @@
 ---
 id: sabado-44-a-conversation-is-walked-in-a-real-browser-on-every-pr-5ba996
 type: feat
-status: blocked
+status: in-review
 priority: 1
 created: 2026-10-02
 caps: {minutes: 240, turns: 800, stallMinutes: 25}
