@@ -6,7 +6,7 @@ priority: 2
 depends: [hq-40-the-claude-runtime-maps-the-stream-f39531, hq-41-deletions-and-secrets-wait-for-the-operator-a263ea]
 created: 2026-10-03
 caps: {minutes: 180, turns: 450}
-attempts: []
+attempts: [{"runId":"hq-42-ask-is-a-guarded-streaming-route-7370f6-1791046273635","branch":"adw/hq-42-ask-is-a-guarded-streaming-route-7370f6","workspace":"/Users/silouane/personal_project/adw-factory/runs/hq-42-ask-is-a-guarded-streaming-route-7370f6-1791046273635/workspace","outcome":"in-review","pr":"https://github.com/silouone/silou-hq/pull/44","provider":"claude","model":"claude-sonnet-5-5","stages":{"plan":{"gear":"G2","provider":"claude","model":"claude-sonnet-5-5"},"build":{"gear":"G2","provider":"claude","model":"claude-sonnet-5-5"},"test":{"gear":"G2","provider":"claude","model":"claude-sonnet-5-5"},"build-test-only":{"gear":"G2","provider":"claude","model":"claude-sonnet-5-5"},"build-fix":{"gear":"G2","provider":"claude","model":"claude-sonnet-5-5"},"revise-test-only":{"gear":"G2","provider":"claude","model":"claude-sonnet-5-5"},"repair":{"gear":"G2","provider":"claude","model":"claude-sonnet-5-5"},"review-standards":{"gear":"G2","provider":"claude","model":"claude-sonnet-5-5"},"review-spec":{"gear":"G2","provider":"claude","model":"claude-sonnet-5-5"},"review-fix":{"gear":"G2","provider":"claude","model":"claude-sonnet-5-5"},"ci-repair":{"gear":"G2","provider":"claude","model":"claude-sonnet-5-5"},"rebase-resolve":{"gear":"G2","provider":"claude","model":"claude-sonnet-5-5"}},"rebased":"596057dce52c1a619a024af2e0758dc5e64c6610"}]
 ---
 # `POST /ask` streams the companion, `POST /ask/approve` answers its gate, and every step is ledgered
 
