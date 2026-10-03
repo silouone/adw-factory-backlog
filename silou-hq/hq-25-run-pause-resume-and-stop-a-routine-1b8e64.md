@@ -6,7 +6,7 @@ priority: 1
 depends: [hq-22-finder-and-vs-code-are-the-first-real-write-4e9a3c, hq-24-the-routine-console-reads-a6c271]
 created: 2026-10-03
 caps: {minutes: 150, turns: 400}
-attempts: []
+attempts: [{"runId":"hq-25-run-pause-resume-and-stop-a-routine-1b8e64-1791024745620","branch":"adw/hq-25-run-pause-resume-and-stop-a-routine-1b8e64","workspace":"/Users/silouane/personal_project/adw-factory/runs/hq-25-run-pause-resume-and-stop-a-routine-1b8e64-1791024745620/workspace","outcome":"in-review","pr":"https://github.com/silouone/silou-hq/pull/27","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # Run, pause, resume and stop a routine on this Mac
 
