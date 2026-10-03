@@ -1,7 +1,7 @@
 ---
 id: hq-24-the-routine-console-reads-a6c271
 type: feat
-status: queued
+status: in-progress
 priority: 1
 depends: [hq-21-the-bezel-opens-on-click-b71d05]
 created: 2026-10-03
