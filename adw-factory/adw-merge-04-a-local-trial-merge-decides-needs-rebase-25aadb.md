@@ -1,7 +1,7 @@
 ---
 id: adw-merge-04-a-local-trial-merge-decides-needs-rebase-25aadb
 type: feat
-status: queued
+status: in-progress
 priority: 1
 created: 2026-10-03
 caps: {minutes: 150, turns: 300, stallMinutes: 25}
