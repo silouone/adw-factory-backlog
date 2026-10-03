@@ -6,7 +6,7 @@ priority: 2
 depends: [hq-19-the-rings-make-room-3f1a92]
 created: 2026-10-03
 caps: {minutes: 150, turns: 400}
-attempts: []
+attempts: [{"runId":"hq-30-ask-hq-the-cone-and-the-modal-e3b916-1790989625477","branch":"adw/hq-30-ask-hq-the-cone-and-the-modal-e3b916","workspace":"/Users/silouane/personal_project/adw-factory/runs/hq-30-ask-hq-the-cone-and-the-modal-e3b916-1790989625477/workspace","outcome":"in-review","pr":"https://github.com/silouone/silou-hq/pull/20","provider":"claude","model":"claude-sonnet-5-5","rebased":"60c496312df6d71a1b995e592a97811803565d94"}]
 ---
 # ASK HQ: the speaker cone at the centre and its modal shell
 
