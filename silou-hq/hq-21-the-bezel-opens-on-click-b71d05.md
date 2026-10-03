@@ -6,7 +6,7 @@ priority: 1
 depends: [hq-20-ring-focus-header-tuck-and-trackpad-8c2e47]
 created: 2026-10-03
 caps: {minutes: 150, turns: 400}
-attempts: []
+attempts: [{"runId":"hq-21-the-bezel-opens-on-click-b71d05-1791011509045","branch":"adw/hq-21-the-bezel-opens-on-click-b71d05","workspace":"/Users/silouane/personal_project/adw-factory/runs/hq-21-the-bezel-opens-on-click-b71d05-1791011509045/workspace","outcome":"in-review","pr":"https://github.com/silouone/silou-hq/pull/22","provider":"claude","model":"claude-sonnet-5-5","rebased":"81a1631266efaaa06b236cf3031da17785506efb"}]
 ---
 # Clicking a node opens its action bezel at the centre (READ and LINKS)
 
