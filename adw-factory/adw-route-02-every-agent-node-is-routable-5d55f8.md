@@ -1,7 +1,7 @@
 ---
 id: adw-route-02-every-agent-node-is-routable-5d55f8
 type: feat
-status: in-review
+status: done
 priority: 1
 created: 2026-10-03
 depends: [adw-route-01-a-gear-ladder-and-honest-prices-476b13]
