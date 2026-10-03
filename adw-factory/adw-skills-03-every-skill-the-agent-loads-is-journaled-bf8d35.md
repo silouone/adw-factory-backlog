@@ -1,7 +1,7 @@
 ---
 id: adw-skills-03-every-skill-the-agent-loads-is-journaled-bf8d35
 type: feat
-status: in-progress
+status: in-review
 priority: 1
 created: 2026-10-03
 depends: [adw-skills-02-the-agent-can-actually-invoke-a-repo-skill-bc9431]
