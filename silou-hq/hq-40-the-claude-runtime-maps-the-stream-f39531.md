@@ -6,7 +6,7 @@ priority: 2
 depends: []
 created: 2026-10-03
 caps: {minutes: 150, turns: 400}
-attempts: []
+attempts: [{"runId":"hq-40-the-claude-runtime-maps-the-stream-f39531-1791039668555","branch":"adw/hq-40-the-claude-runtime-maps-the-stream-f39531","workspace":"/Users/silouane/personal_project/adw-factory/runs/hq-40-the-claude-runtime-maps-the-stream-f39531-1791039668555/workspace","outcome":"in-review","pr":"https://github.com/silouone/silou-hq/pull/40","provider":"claude","model":"claude-sonnet-5-5","rebased":"39b62fef6eb9be7b56d49e1a155184190f09f216"}]
 ---
 # The companion's Claude runtime: config, SDK options and the message stream, pure and tested
 
