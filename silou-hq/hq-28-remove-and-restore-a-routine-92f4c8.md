@@ -6,7 +6,7 @@ priority: 2
 depends: [hq-26-edit-a-routine-schedule-c94d2a]
 created: 2026-10-03
 caps: {minutes: 150, turns: 400}
-attempts: []
+attempts: [{"runId":"hq-28-remove-and-restore-a-routine-92f4c8-1791030675559","branch":"adw/hq-28-remove-and-restore-a-routine-92f4c8","workspace":"/Users/silouane/personal_project/adw-factory/runs/hq-28-remove-and-restore-a-routine-92f4c8-1791030675559/workspace","outcome":"in-review","pr":"https://github.com/silouone/silou-hq/pull/30","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # Remove a routine, and restore any routine HQ changed
 
