@@ -1,7 +1,7 @@
 ---
 id: sabado-49-a-prompt-change-is-scored-against-311-real-key-rows-828c2e
 type: feat
-status: blocked
+status: in-review
 priority: 2
 created: 2026-10-02
 caps: {minutes: 300, turns: 1000, stallMinutes: 30}
