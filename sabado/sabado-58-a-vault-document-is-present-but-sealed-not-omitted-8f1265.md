@@ -1,7 +1,7 @@
 ---
 id: sabado-58-a-vault-document-is-present-but-sealed-not-omitted-8f1265
 type: bug
-status: queued
+status: in-progress
 priority: 1
 created: 2026-10-02
 caps: {minutes: 150, turns: 500, stallMinutes: 25}
