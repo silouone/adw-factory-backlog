@@ -1,7 +1,7 @@
 ---
 id: sabado-62-the-chat-god-files-split-back-under-1000-lines-56ee70
 type: chore
-status: queued
+status: in-progress
 priority: 1
 created: 2026-10-03
 depends: [sabado-39-a-turn-that-read-untrusted-text-cannot-write-unconfirmed-3e8f09]
