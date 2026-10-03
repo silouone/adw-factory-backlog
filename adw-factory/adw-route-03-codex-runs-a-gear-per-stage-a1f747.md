@@ -1,7 +1,7 @@
 ---
 id: adw-route-03-codex-runs-a-gear-per-stage-a1f747
 type: feat
-status: in-progress
+status: in-review
 priority: 1
 created: 2026-10-03
 depends: [adw-route-01-a-gear-ladder-and-honest-prices-476b13]
