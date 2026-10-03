@@ -1,7 +1,7 @@
 ---
 id: hq-41-deletions-and-secrets-wait-for-the-operator-a263ea
 type: feat
-status: in-progress
+status: in-review
 priority: 2
 depends: []
 created: 2026-10-03
