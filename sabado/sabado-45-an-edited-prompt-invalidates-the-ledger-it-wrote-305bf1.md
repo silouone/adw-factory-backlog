@@ -1,12 +1,12 @@
 ---
 id: sabado-45-an-edited-prompt-invalidates-the-ledger-it-wrote-305bf1
 type: bug
-status: in-review
+status: blocked
 priority: 1
 created: 2026-10-02
 caps: {minutes: 180, turns: 600, stallMinutes: 25}
 depends: []
-attempts: [{"runId":"sabado-45-an-edited-prompt-invalidates-the-ledger-it-wrote-305bf1-1791035444405","branch":"adw/sabado-45-an-edited-prompt-invalidates-the-ledger-it-wrote-305bf1","workspace":"/Users/silouane/personal_project/adw-factory/runs/sabado-45-an-edited-prompt-invalidates-the-ledger-it-wrote-305bf1-1791035444405/workspace","outcome":"in-review","pr":"https://github.com/App-sabado/sabado/pull/1383","provider":"claude","model":"claude-sonnet-5-5","rebased":"e88b13c792c07e67fb39657b15f14a8b6d57c154","ciRounds":1}]
+attempts: [{"runId":"sabado-45-an-edited-prompt-invalidates-the-ledger-it-wrote-305bf1-1791035444405","branch":"adw/sabado-45-an-edited-prompt-invalidates-the-ledger-it-wrote-305bf1","workspace":"/Users/silouane/personal_project/adw-factory/runs/sabado-45-an-edited-prompt-invalidates-the-ledger-it-wrote-305bf1-1791035444405/workspace","outcome":"in-review","pr":"https://github.com/App-sabado/sabado/pull/1383","provider":"claude","model":"claude-sonnet-5-5","rebased":"e88b13c792c07e67fb39657b15f14a8b6d57c154","ciRounds":1},{"runId":"sabado-45-an-edited-prompt-invalidates-the-ledger-it-wrote-305bf1-1791035444405","branch":"adw/sabado-45-an-edited-prompt-invalidates-the-ledger-it-wrote-305bf1","workspace":"/Users/silouane/personal_project/adw-factory/runs/sabado-45-an-edited-prompt-invalidates-the-ledger-it-wrote-305bf1-1791035444405/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5","blockedAt":{"node":"ci-repair","reason":"second CI failure — the single repair round is spent (S2.4)"}}]
 ---
 # fix(extraction): an edited prompt mints a new extractor version, so the ledger stops mixing six readings as one
 
