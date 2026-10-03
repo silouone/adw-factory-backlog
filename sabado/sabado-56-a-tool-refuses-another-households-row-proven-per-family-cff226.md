@@ -1,7 +1,7 @@
 ---
 id: sabado-56-a-tool-refuses-another-households-row-proven-per-family-cff226
 type: feat
-status: in-progress
+status: in-review
 priority: 2
 created: 2026-10-02
 caps: {minutes: 180, turns: 600, stallMinutes: 25}
