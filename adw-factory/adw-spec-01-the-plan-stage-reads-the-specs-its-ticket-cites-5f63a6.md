@@ -35,11 +35,17 @@ attempts: []
 - [ ] **R1 — store layout.** Specs live at `<backlog root>/specs/<target>/<name>.md`,
   where the backlog root is the parent of the target's ticket-store dir. A target
   with no central store (`ticketsDir` unset) gets none: a no-op, never an error.
-- [ ] **R2 — cited specs only (pure).** A pure function extracts the spec
-  references from the ticket body (`specs/<name>.md` tokens), deduplicated in
-  order of first appearance. A reference that resolves to neither the central
-  store nor the target repo's own `specs/` is listed as **missing** in the plan
-  prompt, never silently dropped.
+- [ ] **R2 — cited specs only (pure).** A pure function extracts spec citations
+  from the ticket body: any `.md` path whose file name contains `spec`, or that
+  sits under a `specs/` directory. That includes repo-relative paths
+  (`docs/cqc/spec-cqc-fe-release-1.md`), absolute paths
+  (`/…/silou-hq/docs/spec-v1.md`) and `specs/<name>.md`. Results are
+  deduplicated by **file name**, in order of first appearance. Resolution is by
+  file name: first `specs/<this target>/`, then any other `specs/<target>/`
+  (tickets cite across targets: cmc cites the cqc backend spec), then the
+  target repo's own tree. A citation that resolves nowhere is listed as
+  **missing** in the plan prompt, never silently dropped. An ambiguous file
+  name (the same name in two other targets) is listed with both candidates.
 - [ ] **R3 — staging.** Before the plan stage's assemble, every cited spec found
   in the central store is copied into the workspace at
   `.adw/artifacts/specs/<name>.md`. Specs already in the target repo are pointed
