@@ -1,7 +1,7 @@
 ---
 id: hq-25-run-pause-resume-and-stop-a-routine-1b8e64
 type: feat
-status: in-review
+status: done
 priority: 1
 depends: [hq-22-finder-and-vs-code-are-the-first-real-write-4e9a3c, hq-24-the-routine-console-reads-a6c271]
 created: 2026-10-03
