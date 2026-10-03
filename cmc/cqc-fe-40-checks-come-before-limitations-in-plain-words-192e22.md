@@ -7,7 +7,7 @@ created: 2026-10-02
 model: gpt-5.6-sol
 caps: {minutes: 240, turns: 900, stallMinutes: 30}
 depends: [cqc-fe-38-the-journey-track-is-the-navigation-be1def]
-attempts: []
+attempts: [{"runId":"cqc-fe-40-checks-come-before-limitations-in-plain-words-192e22-1791024776087","branch":"adw/cqc-fe-40-checks-come-before-limitations-in-plain-words-192e22","workspace":"/Users/silouane/personal_project/adw-factory/runs/cqc-fe-40-checks-come-before-limitations-in-plain-words-192e22-1791024776087/workspace","outcome":"in-review","pr":"https://github.com/go1com/domain-content-content-management-console/pull/176","provider":"codex","model":"gpt-6-sol"}]
 ---
 # Checks come before limitations, in plain words
 
