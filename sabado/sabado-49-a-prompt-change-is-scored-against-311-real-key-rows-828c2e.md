@@ -1,12 +1,12 @@
 ---
 id: sabado-49-a-prompt-change-is-scored-against-311-real-key-rows-828c2e
 type: feat
-status: in-progress
+status: blocked
 priority: 2
 created: 2026-10-02
 caps: {minutes: 300, turns: 1000, stallMinutes: 30}
 depends: []
-attempts: []
+attempts: [{"runId":"sabado-49-a-prompt-change-is-scored-against-311-real-key-rows-828c2e-1791012552844","branch":"adw/sabado-49-a-prompt-change-is-scored-against-311-real-key-rows-828c2e","workspace":"/Users/silouane/personal_project/adw-factory/runs/sabado-49-a-prompt-change-is-scored-against-311-real-key-rows-828c2e-1791012552844/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"}]
 ---
 # feat(extraction): a prompt change is scored against 311 real key rows before it ships
 
