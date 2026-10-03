@@ -6,7 +6,7 @@ priority: 1
 created: 2026-10-03
 caps: {minutes: 150, turns: 400}
 depends: [hq-34-accounts-and-hq-connect-for-google-96fc57]
-attempts: [{"runId":"hq-35-today-shows-perso-and-pro-calendars-fbb29b-1791033481915","branch":"adw/hq-35-today-shows-perso-and-pro-calendars-fbb29b","workspace":"/Users/silouane/personal_project/adw-factory/runs/hq-35-today-shows-perso-and-pro-calendars-fbb29b-1791033481915/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"}]
+attempts: [{"runId":"hq-35-today-shows-perso-and-pro-calendars-fbb29b-1791033481915","branch":"adw/hq-35-today-shows-perso-and-pro-calendars-fbb29b","workspace":"/Users/silouane/personal_project/adw-factory/runs/hq-35-today-shows-perso-and-pro-calendars-fbb29b-1791033481915/workspace","outcome":"blocked","provider":"claude","model":"claude-sonnet-5-5"},{"runId":"hq-35-today-shows-perso-and-pro-calendars-fbb29b-1791033481915","branch":"adw/hq-35-today-shows-perso-and-pro-calendars-fbb29b","workspace":"/Users/silouane/personal_project/adw-factory/runs/hq-35-today-shows-perso-and-pro-calendars-fbb29b-1791033481915/workspace","outcome":"in-review","pr":"https://github.com/silouone/silou-hq/pull/37","provider":"claude","model":"claude-sonnet-5-5","note":"hand salvage after gates-rebased TS2741 (ActionDeps.rebuild)"}]
 ---
 # Today shows the day's Google events under a perso / pro lens you flip left and right
 
